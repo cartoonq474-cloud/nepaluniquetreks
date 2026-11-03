@@ -2,6 +2,14 @@
  * Interactive Trek Finder & Search Filter (Pixel-Perfect Reference Card Design)
  */
 
+const resolveImageUrl = (image) => {
+  if (/^https?:\/\//i.test(image)) return image;
+  const assetPath = image.replace(/^(?:\.\.\/)*images\//, "");
+  const imageDirectory = new URL(import.meta.url);
+  imageDirectory.pathname = imageDirectory.pathname.replace(/\/(?:js|assets)\/[^/]+$/, "/images/");
+  return new URL(assetPath, imageDirectory).href;
+};
+
 export const sampleTreks = [
   {
     id: "dhaulagiri-circuit-trek",
@@ -149,7 +157,7 @@ export function initTrekFinder(containerId, treks = sampleTreks) {
         
         <!-- Image Banner with Duration Badge & Glassmorphism Hover Info Overlay -->
         <div class="exotic-img-wrapper">
-          <img src="${t.image}" alt="${t.title}" loading="lazy">
+          <img src="${resolveImageUrl(t.image)}" alt="${t.title}" loading="lazy">
           <span class="duration-badge-top">${t.durationDays} DAYS</span>
 
           <!-- Glassmorphism Hover Overlay -->

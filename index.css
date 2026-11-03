@@ -1231,7 +1231,7 @@ textarea {
    ========================================================================== */
 
 .site-footer {
-  background: linear-gradient(180deg, rgba(16, 39, 31 , 0.4) 0%, rgba(16, 39, 31 , 0.92) 55%, #030A14 100%), url('/images/back.jpg') center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(16, 39, 31 , 0.4) 0%, rgba(16, 39, 31 , 0.92) 55%, #030A14 100%), url('images/back.jpg') center/cover no-repeat;
   color: var(--color-neutral-300);
   padding: 100px 0 0 0;
   position: relative;
@@ -1445,7 +1445,7 @@ textarea {
    ========================================================================== */
 
 .hero-container-light {
-  background: linear-gradient(180deg, rgba(16, 39, 31 , 0.5) 0%, rgba(16, 39, 31 , 0.75) 100%), url('/images/back.jpg') center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(16, 39, 31 , 0.5) 0%, rgba(16, 39, 31 , 0.75) 100%), url('images/back.jpg') center/cover no-repeat;
   color: var(--color-white);
   padding: 85px 0 110px 0;
   text-align: center;
@@ -2712,7 +2712,7 @@ textarea {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(180deg, rgba(16, 39, 31 , 0.45) 0%, rgba(16, 39, 31 , 0.8) 100%), url('/images/back.jpg') center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(16, 39, 31 , 0.45) 0%, rgba(16, 39, 31 , 0.8) 100%), url('images/back.jpg') center/cover no-repeat;
   box-shadow: 0 20px 50px rgba(16, 39, 31 , 0.12);
   padding: 60px 24px;
 }
@@ -3038,7 +3038,7 @@ textarea {
   position: relative;
   background-image: 
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
-    url('images/himalayan-bg.jpg');
+    url('images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -3460,7 +3460,7 @@ textarea {
   position: relative;
   background-image: 
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
-    url('images/himalayan-bg.jpg');
+    url('images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -4882,7 +4882,7 @@ textarea {
   position: relative;
   background-image: 
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
-    url('images/himalayan-bg.jpg');
+    url('images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -5546,7 +5546,7 @@ textarea {
   position: relative;
   background-image: 
     linear-gradient(to bottom, rgba(241, 245, 249, 0.92) 0%, rgba(241, 245, 249, 0.88) 50%, rgba(241, 245, 249, 0.94) 100%),
-    url('images/himalayan-bg.jpg');
+    url('images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -10109,7 +10109,7 @@ textarea {
 
 /* =======================================================
    TREK DETAIL PAGE — MOBILE RESPONSIVE
-   Applies to trek/*/index.html pages
+   Applies to trek detail pages
    ======================================================= */
 
 /* Floating mobile Book CTA — hidden on desktop */
@@ -10835,7 +10835,7 @@ textarea {
 .reviews-hero-section {
   position: relative;
   background: linear-gradient(135deg, rgba(16, 39, 31 , 0.95) 0%, rgba(27, 41, 33, 0.98) 100%), 
-              url('images/himalayan-bg.jpg') center/cover no-repeat;
+              url('images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg') center/cover no-repeat;
   color: #FFFFFF;
   padding: 80px 0 75px 0;
 }
@@ -11639,7 +11639,7 @@ textarea {
 .guide-hero-section {
   position: relative;
   background: linear-gradient(135deg, rgba(16, 39, 31 , 0.94) 0%, rgba(27, 41, 33, 0.97) 100%),
-              url('images/himalayan-bg.jpg') center/cover no-repeat;
+              url('images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg') center/cover no-repeat;
   color: #FFFFFF;
   padding: 80px 0 75px 0;
   text-align: center;
