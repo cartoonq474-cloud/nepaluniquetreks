@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 880" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated trekking guide portrait</title>
+  <desc id="desc">Original vector illustration of a Himalayan guide in technical mountain clothing.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8eb8c7"/><stop offset="1" stop-color="#e8d8ba"/></linearGradient>
+    <linearGradient id="jacket" x2="1" y2="1"><stop stop-color="#e0a044"/><stop offset="1" stop-color="#a9632f"/></linearGradient>
+    <linearGradient id="shade" x2="0" y2="1"><stop stop-color="#152737" stop-opacity="0"/><stop offset="1" stop-color="#152737" stop-opacity=".28"/></linearGradient>
+  </defs>
+  <rect width="640" height="880" fill="url(#sky)"/>
+  <path d="m0 415 153-198 95 130 127-207 161 248 104-119v300H0z" fill="#668493"/>
+  <path d="m107 276 46-59 42 55-27-12-17 17-18-13zM319 259l56-119 69 117-37-23-23 16-25-18-17 19zM508 337l28-38 39 41-25-11-14 13-16-11z" fill="#f4f0e4"/>
+  <path d="m0 527 166-126 109 137 105-177 155 177 105-97v277H0z" fill="#647b6c"/>
+  <path d="M0 630q148-78 301-9t339-18v277H0z" fill="#334e4c"/>
+  <path d="M137 880q21-174 122-239l56-30 52 24q100 51 115 245z" fill="url(#jacket)"/>
+  <path d="m268 651 54 74 68-81 41 22-63 105h-96l-48-93z" fill="#eee7d9"/>
+  <path d="m318 720 18 2 22 158h-59z" fill="#d0d5d0"/>
+  <path d="M263 483q8-75 64-85 66-9 87 49l5 86q-17 85-88 97-62-8-72-90z" fill="#a8674a"/>
+  <path d="M258 497q-2-75 60-101 70-26 101 34l-4 22q-41-17-87-8-26 30-67 43z" fill="#2b2725"/>
+  <path d="M256 499q-15 7-13 42l22 4v-42zM410 494q17 7 15 38l-18 7z" fill="#292a28"/>
+  <path d="M285 554q11-7 22 0M352 552q11-7 22 0" fill="none" stroke="#3b2c26" stroke-width="7" stroke-linecap="round"/>
+  <path d="M320 559q-6 25 4 29" fill="none" stroke="#784b37" stroke-width="5" stroke-linecap="round"/>
+  <path d="M300 615q27 13 52-2" fill="none" stroke="#5d302b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M289 633q31 27 73 1v48l-39 34-37-38z" fill="#965a40"/>
+  <path d="m211 880 49-194 51 20-20 174zM428 880l-42-185 49-13 44 198z" fill="#c48235"/>
+  <path d="M0 0h640v880H0z" fill="url(#shade)"/>
+</svg>

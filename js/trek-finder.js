@@ -4,10 +4,10 @@
 
 const resolveImageUrl = (image) => {
   if (/^https?:\/\//i.test(image)) return image;
-  const assetPath = image.replace(/^(?:\.\.\/)*images\//, "");
-  const imageDirectory = new URL(import.meta.url);
-  imageDirectory.pathname = imageDirectory.pathname.replace(/\/(?:js|assets)\/[^/]+$/, "/images/");
-  return new URL(assetPath, imageDirectory).href;
+  const cleanPath = image.replace(/^(?:\.\.\/)+/, '').replace(/^\/+/, '');
+  const rootUrl = new URL(import.meta.url);
+  rootUrl.pathname = rootUrl.pathname.replace(/\/(?:js|assets)\/[^/]+$/, '/');
+  return new URL(cleanPath, rootUrl).href;
 };
 
 export const sampleTreks = [
@@ -23,7 +23,7 @@ export const sampleTreks = [
     basePriceUSD: 1999,
     summary: "Wilderness high-altitude expedition circuit crossing French Pass (5,360m) and Dhampus Pass (5,250m) with supported camping at Dhaulagiri Base Camp and Hidden Valley.",
     bestSeason: ["spring", "autumn"],
-    image: "../../images/hero-himalayas.jpg",
+    image: "uploads/dhawalagiri-base-camp-with-dhampus-peak.jpg",
     tags: ["EXPEDITION CAMPING", "HIGH PASSES", "REMOTE WILDERNESS", "CHALLENGING"],  },
   {
     id: "pikey-peak-trek",
@@ -37,7 +37,7 @@ export const sampleTreks = [
     basePriceUSD: 890,
     summary: "Overland Himalayan trek via Dhap to Pikey Peak (4,065m) for sunrise views of Everest, Kanchenjunga & Makalu, visiting ancient Sherpa villages & monasteries.",
     bestSeason: ["spring", "autumn"],
-    image: "../../images/hero-himalayas.jpg",
+    image: "images/treks/pikey-peak/pikey-peak-himalayan-sunrise-01.jpg",
     tags: ["PANORAMA", "SHERPA CULTURE", "OVERLAND", "EASY-MODERATE"],  },
   {
     id: "ebc-trek",
@@ -51,7 +51,7 @@ export const sampleTreks = [
     basePriceUSD: 1399,
     summary: "Full teahouse trek to Everest Base Camp (5,364m) and Kala Patthar (5,545m) via Namche Bazaar & Tengboche monastery.",
     bestSeason: ["spring", "autumn"],
-    image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+    image: "images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg",
     tags: ["CLASSIC", "HIGH ALTITUDE", "TEAHOUSE"],  },
   {
     id: "abc-trek",
@@ -65,7 +65,7 @@ export const sampleTreks = [
     basePriceUSD: 980,
     summary: "Spectacular journey through rhododendron forests into the heart of Annapurna Sanctuary and natural Jhinu hot springs.",
     bestSeason: ["spring", "autumn", "winter"],
-    image: "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=800&q=80",
+    image: "images/treks/annapurna-base-camp/annapurna-base-camp-annapurna-range-sunrise-03.jpg",
     tags: ["HOT SPRINGS", "SANCTUARY", "POPULAR"],  },
   {
     id: "manaslu-circuit",
@@ -79,7 +79,7 @@ export const sampleTreks = [
     basePriceUSD: 1250,
     summary: "Pristine restricted circuit around Mount Manaslu (8,163m) crossing snow-covered Larke La Pass.",
     bestSeason: ["spring", "autumn"],
-    image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+    image: "images/treks/manaslu-circuit/manaslu-circuit-village-prayer-flags-13.jpg",
     tags: ["RESTRICTED AREA", "CULTURE", "REMOTE"],  },
   {
     id: "mardi-himal",
@@ -93,7 +93,7 @@ export const sampleTreks = [
     basePriceUSD: 650,
     summary: "Hidden gem ridge trail offering face-to-face vistas of Mount Fishtail (Machhapuchhre) and Annapurna South.",
     bestSeason: ["spring", "autumn", "winter"],
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    image: "images/treks/mardi-himal/mardi-himal-high-camp-sunrise-06.jpg",
     tags: ["SHORT TREK", "RIDGE VIEW", "BEGINNER"],  },
   {
     id: "gokyo-lakes",
@@ -107,7 +107,7 @@ export const sampleTreks = [
     basePriceUSD: 1490,
     summary: "Breathtaking turquoise high-altitude lakes, Ngozumpa glacier, and technical Cho La pass crossing.",
     bestSeason: ["spring", "autumn"],
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    image: "images/treks/gokyo-lakes/gokyo-trek-turquoise-lake-panorama-13.jpg",
     tags: ["TURQUOISE LAKES", "HIGH PASS", "GLACIER"],  },
   {
     id: "langtang-gosaikunda",
@@ -121,7 +121,7 @@ export const sampleTreks = [
     basePriceUSD: 890,
     summary: "Combines the glacial valley of Langtang, sacred alpine lakes at Gosaikunda (4,380m), and scenic Laurebina Pass (4,610m).",
     bestSeason: ["spring", "autumn"],
-    image: "../../images/treks/langtang-valley/langtang-trek-trekkers-mountain-view-01.jpg",
+    image: "images/treks/langtang-gosaikunda/langtang-gosaikunda-sacred-alpine-lake-panoramic-view-01.jpg",
     tags: ["HOLY LAKES", "HIGH PASS", "TAMANG CULTURE"],  },
   {
     id: "langtang-valley",
@@ -135,7 +135,7 @@ export const sampleTreks = [
     basePriceUSD: 750,
     summary: "Valley of glaciers close to Kathmandu featuring rich Tamang heritage, yak cheese factories, and Kyanjin Gompa.",
     bestSeason: ["spring", "autumn"],
-    image: "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80",
+    image: "images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg",
     tags: ["TAMANG CULTURE", "VALLEY", "SCENIC"],  }
 ];
 

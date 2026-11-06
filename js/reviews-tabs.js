@@ -12,14 +12,36 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => {
       const targetId = btn.getAttribute('data-tab');
 
-      tabBtns.forEach(b => b.classList.remove('active'));
-      tabPanels.forEach(p => p.classList.remove('active'));
+      tabBtns.forEach(b => {
+        const isSelected = b === btn;
+        b.classList.toggle('active', isSelected);
+        b.setAttribute('aria-selected', String(isSelected));
+        b.tabIndex = isSelected ? 0 : -1;
+      });
+      tabPanels.forEach(panel => {
+        const isSelected = panel.id === targetId;
+        panel.classList.toggle('active', isSelected);
+        panel.setAttribute('aria-hidden', String(!isSelected));
+      });
 
-      btn.classList.add('active');
       const targetPanel = document.getElementById(targetId);
       if (targetPanel) {
-        targetPanel.classList.add('active');
+        targetPanel.setAttribute('aria-hidden', 'false');
       }
+    });
+
+    btn.addEventListener('keydown', event => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+      event.preventDefault();
+      const tabs = [...tabBtns];
+      const currentIndex = tabs.indexOf(btn);
+      const nextIndex = event.key === 'Home'
+        ? 0
+        : event.key === 'End'
+          ? tabs.length - 1
+          : (currentIndex + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+      tabs[nextIndex].focus();
+      tabs[nextIndex].click();
     });
   });
 
@@ -31,15 +53,73 @@ document.addEventListener('DOMContentLoaded', () => {
     subBtn.addEventListener('click', () => {
       const platformKey = subBtn.getAttribute('data-platform');
 
-      subtabBtns.forEach(b => b.classList.remove('active'));
-      platformContents.forEach(c => c.classList.remove('active'));
-
-      subBtn.classList.add('active');
+      subtabBtns.forEach(b => {
+        const isSelected = b === subBtn;
+        b.classList.toggle('active', isSelected);
+        b.setAttribute('aria-selected', String(isSelected));
+        b.tabIndex = isSelected ? 0 : -1;
+      });
+      platformContents.forEach(content => {
+        const isSelected = content.getAttribute('data-platform') === platformKey;
+        content.classList.toggle('active', isSelected);
+        content.setAttribute('aria-hidden', String(!isSelected));
+      });
       const targetContent = document.querySelector(`.platform-reviews-content[data-platform="${platformKey}"]`);
       if (targetContent) {
-        targetContent.classList.add('active');
+        targetContent.setAttribute('aria-hidden', 'false');
       }
     });
+
+    subBtn.addEventListener('keydown', event => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+      event.preventDefault();
+      const tabs = [...subtabBtns];
+      const currentIndex = tabs.indexOf(subBtn);
+      const nextIndex = event.key === 'Home'
+        ? 0
+        : event.key === 'End'
+          ? tabs.length - 1
+          : (currentIndex + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+      tabs[nextIndex].focus();
+      tabs[nextIndex].click();
+    });
+  });
+
+  const videoDialog = document.querySelector('.home-review-video-dialog');
+  const reviewVideo = videoDialog?.querySelector('video');
+  const videoStatus = videoDialog?.querySelector('.home-review-video-status');
+  document.querySelectorAll('[data-review-video]').forEach(button => {
+    button.addEventListener('click', () => {
+      if (!videoDialog || !reviewVideo) return;
+      reviewVideo.src = button.getAttribute('data-review-video');
+      if (videoStatus) {
+        videoStatus.hidden = true;
+        videoStatus.textContent = '';
+      }
+      videoDialog.showModal();
+      reviewVideo.play().catch(() => {
+        if (videoStatus) {
+          videoStatus.textContent = 'Press play to start this trekking film.';
+          videoStatus.hidden = false;
+        }
+      });
+    });
+  });
+
+  reviewVideo?.addEventListener('play', () => {
+    if (videoStatus) videoStatus.hidden = true;
+  });
+
+  videoDialog?.addEventListener('close', () => {
+    reviewVideo?.pause();
+    if (reviewVideo) {
+      reviewVideo.removeAttribute('src');
+      reviewVideo.load();
+    }
+  });
+
+  videoDialog?.addEventListener('click', event => {
+    if (event.target === videoDialog) videoDialog.close();
   });
 
   // FAQ Category Pill Switcher
@@ -89,43 +169,43 @@ document.addEventListener('DOMContentLoaded', () => {
     webinars: [
       {
         title: "Everest Base Camp High-Altitude Trekking: Safety and Gear",
-        img: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+        img: "images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg"
       },
       {
         title: "Revealing Altitude Tactics You Already Know To Pass Thorong La In Annapurna Circuit",
-        img: "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=800&q=80"
+        img: "images/treks/annapurna-circuit/annapurna-circuit-tilicho-lake-trekking-group-tilicho-lake-11.jpg"
       },
       {
         title: "Nepal Trekking Playbook: Exact Steps We Followed to Keep Our Trekkers Safe & Hydrated",
-        img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+        img: "images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-04.jpg"
       }
     ],
     blogs: [
       {
         title: "Top 10 Essential Teahouse Etiquette Tips Every First-Time Everest Trekker Must Know",
-        img: "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80"
+        img: "images/treks/everest-base-camp/everest-base-camp-yak-mountain-view-15.jpg"
       },
       {
         title: "Autumn vs Spring in Nepal: How to Pick the Perfect Trekking Season for Clear Mountain Views",
-        img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+        img: "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-clouds-22.jpg"
       },
       {
         title: "Manaslu Circuit vs Annapurna Circuit: Comprehensive Route Breakdown and Permit Guide",
-        img: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80"
+        img: "uploads/manaslu.jpg"
       }
     ],
     checklists: [
       {
         title: "Ultimate High-Altitude Gear & Packing Checklist for Everest Base Camp (Printable PDF)",
-        img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+        img: "images/treks/mardi-himal/mardi-himal-trekking-backpacks-mountain-view-12.jpg"
       },
       {
         title: "First-Aid Kit & Altitude Sickness Prevention Checklist for Himalayan Remote Expeditions",
-        img: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+        img: "uploads/everest-base-camp-trek-gear-listt.jpg"
       },
       {
         title: "Kathmandu Rental Guide: What Sleeping Bags & Down Jackets to Rent in Thamel",
-        img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+        img: "uploads/kathmandu-durbar-squire.jpg"
       }
     ]
   };

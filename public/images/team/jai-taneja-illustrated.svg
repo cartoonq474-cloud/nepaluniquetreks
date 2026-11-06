@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 880" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated expedition operations portrait</title>
+  <desc id="desc">Original vector illustration of a trip coordinator in outdoor clothing against a Himalayan landscape.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c5b9a2"/><stop offset="1" stop-color="#ead8b9"/></linearGradient>
+    <linearGradient id="jacket" x2="1" y2="1"><stop stop-color="#486e68"/><stop offset="1" stop-color="#294943"/></linearGradient>
+    <linearGradient id="shade" x2="0" y2="1"><stop stop-color="#152737" stop-opacity="0"/><stop offset="1" stop-color="#152737" stop-opacity=".28"/></linearGradient>
+  </defs>
+  <rect width="640" height="880" fill="url(#sky)"/>
+  <path d="m0 430 153-209 96 128 121-204 168 270 102-115v292H0z" fill="#78827f"/>
+  <path d="m110 279 43-58 42 55-27-12-17 16-17-12zM315 260l55-115 70 113-38-22-24 17-24-18-18 18zM502 354l36-43 39 47-27-12-15 14-15-12z" fill="#f2eee3"/>
+  <path d="m0 559 167-160 116 135 100-166 155 183 102-94v263H0z" fill="#75806d"/>
+  <path d="M0 667q154-88 309-6t331-21v240H0z" fill="#43594d"/>
+  <path d="M145 880q22-170 119-237l59-32 55 25q101 52 116 244z" fill="url(#jacket)"/>
+  <path d="m263 650 59 76 65-80 41 22-61 103h-95l-50-97z" fill="#ede7d7"/>
+  <path d="m318 722 18 1 22 157h-59z" fill="#ccd1c9"/>
+  <path d="M261 484q8-77 64-87 68-10 91 50l4 88q-19 83-89 95-64-7-74-90z" fill="#bb815e"/>
+  <path d="M257 498q2-72 60-101 65-29 102 29l-5 24q-44-13-87-8-28 34-68 44z" fill="#252729"/>
+  <path d="M256 499q-15 8-13 42l21 4v-42zM412 493q17 7 15 39l-19 8z" fill="#272927"/>
+  <path d="M285 554q11-7 22 0M353 552q11-7 22 0" fill="none" stroke="#45352d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M321 558q-7 27 4 30" fill="none" stroke="#8c6045" stroke-width="5" stroke-linecap="round"/>
+  <path d="M298 615q29 14 56-2" fill="none" stroke="#663d32" stroke-width="6" stroke-linecap="round"/>
+  <path d="M287 633q32 28 76 1v49l-39 33-38-38z" fill="#a66d51"/>
+  <path d="m214 880 47-194 52 20-19 174zM429 880l-43-185 50-13 44 198z" fill="#385e55"/>
+  <path d="M0 0h640v880H0z" fill="url(#shade)"/>
+</svg>
