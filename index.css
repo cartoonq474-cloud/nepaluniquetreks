@@ -2489,14 +2489,89 @@ textarea {
 }
 
 .proof-cta-pill {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 16px;
+  gap: 18px 24px;
   background: #FFFFFF;
-  padding: 6px 8px 6px 20px;
+  padding: 8px 10px 8px 22px;
   border-radius: var(--radius-full);
-  border: 1px solid #DDE6DF;
-  box-shadow: 0 10px 30px rgba(23, 60, 50, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+  max-width: 100%;
+}
+
+.proof-partner-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.proof-badge-logo {
+  height: 26px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.proof-logo-ntb {
+  height: 28px;
+}
+
+.proof-logo-taan {
+  height: 26px;
+}
+
+.proof-logo-vitof {
+  height: 24px;
+}
+
+.proof-trekker-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  margin-left: 2px;
+}
+
+.proof-pill-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #0E3458;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+
+.btn-cta-brand,
+.btn-cta-orange,
+.btn-cta-green {
+  background: var(--color-brand-green);
+  background: linear-gradient(135deg, #27966C 0%, #176B4B 100%);
+  color: #FFFFFF;
+  border-radius: var(--radius-full);
+  padding: 12px 30px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.02rem;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(34, 132, 95, 0.35);
+  transition: all var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-cta-brand:hover,
+.btn-cta-orange:hover,
+.btn-cta-green:hover {
+  background: linear-gradient(135deg, #2EA87A 0%, #12573C 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(34, 132, 95, 0.45);
 }
 
 .avatar-stack {
@@ -2615,6 +2690,27 @@ textarea {
   .hero-bottom-bar {
     gap: 12px;
   }
+
+  .proof-cta-pill {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px 18px;
+    border-radius: 26px;
+    gap: 12px 16px;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+  }
+
+  .proof-pill-title {
+    font-size: 0.98rem;
+  }
+
+  .btn-cta-brand,
+  .btn-cta-orange {
+    width: 100%;
+    padding: 11px 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2628,13 +2724,32 @@ textarea {
   .proof-cta-pill {
     flex-direction: column;
     padding: 14px 16px;
-    border-radius: 20px;
+    border-radius: 22px;
     width: 100%;
-    max-width: 320px;
+    max-width: 340px;
     text-align: center;
     gap: 10px;
   }
 
+  .proof-partner-badges {
+    gap: 6px;
+  }
+
+  .proof-badge-logo {
+    height: 22px;
+  }
+
+  .proof-trekker-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .proof-pill-title {
+    font-size: 0.92rem;
+  }
+
+  .btn-cta-brand,
+  .btn-cta-orange,
   .proof-cta-pill .btn-cta-green {
     width: 100%;
   }
