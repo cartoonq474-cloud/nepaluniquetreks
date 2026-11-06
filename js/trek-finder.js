@@ -83,7 +83,7 @@ export const sampleTreks = [
     tags: ["RESTRICTED AREA", "CULTURE", "REMOTE"],  },
   {
     id: "mardi-himal",
-    slug: null,
+    slug: "mardi-himal-trek",
     title: "Mardi Himal Ridge Trek",
     region: "annapurna",
     subregion: "Kaski, Annapurna Region",
@@ -196,7 +196,7 @@ export function initTrekFinder(containerId, treks = sampleTreks) {
             <button class="btn-inquire-orange open-inquiry-btn" data-trek-title="${t.title}" onclick="document.getElementById('inquiry-modal').classList.add('active'); document.body.style.overflow='hidden';">
               Inquire Now
             </button>
-            ${isTreksPage && t.slug ? `<a href="${linkPrefix}trek/${t.slug}/" class="btn-inquire-orange" style="text-decoration:none; text-align:center;">View Itinerary</a>` : ''}
+            ${t.slug ? `<a href="${linkPrefix}trek/${t.slug}/" class="btn-inquire-orange" style="text-decoration:none; text-align:center;">View Itinerary</a>` : ''}
           </div>
 
         </div>
