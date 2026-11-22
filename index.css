@@ -297,7 +297,7 @@ textarea {
   padding: 0;
 }
 
-.nav-menu > li {
+.nav-menu > li:not(.mobile-nav-drawer-actions) {
   height: 100%;
   display: flex;
   align-items: center;
@@ -373,7 +373,7 @@ textarea {
 }
 
 .mobile-nav-drawer-actions {
-  display: none;
+  display: none !important;
 }
 
 .nav-item-dropdown {
@@ -1180,8 +1180,8 @@ body.mobile-nav-lock {
   }
 
   /* Sticky Drawer Action Strip at Bottom */
-  .mobile-nav-drawer-actions {
-    display: flex;
+    .mobile-nav-drawer-actions {
+    display: flex !important;
     flex-direction: column;
     gap: 9px;
     width: 100%;

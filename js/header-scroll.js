@@ -1,6 +1,6 @@
 /**
- * Header Scroll & Mobile Navigation Menu Controller
- * Himalayan Gold Standard: Seamless slide drawer, backdrop, accordions, and scroll states
+ * Header Scroll & Navigation Menu Controller
+ * Himalayan Gold Standard: Seamless slide drawer, backdrop, accordions, desktop pin states, and scroll thresholds
  */
 (function () {
   // 1. Scroll Effect
@@ -67,47 +67,74 @@
       });
     }
 
-    // Mobile Accordion Expansion
+    // Navigation Dropdown & Accordion Expansion
     const dropdownItems = navMenu.querySelectorAll('.nav-item-dropdown');
 
     dropdownItems.forEach(item => {
       const arrowBtn = item.querySelector('.mobile-dropdown-arrow');
       const navLink = item.querySelector('.nav-link');
 
-      // Tapping arrow button toggles submenu accordion
-      if (arrowBtn) {
-        arrowBtn.addEventListener('click', (e) => {
+      function toggleMobileAccordion(e) {
+        if (e) {
           e.preventDefault();
           e.stopPropagation();
-          const isOpen = item.classList.contains('dropdown-open');
+        }
+        const isOpen = item.classList.contains('dropdown-open');
 
-          // Close other open accordions on mobile
-          dropdownItems.forEach(other => {
-            if (other !== item) other.classList.remove('dropdown-open');
-          });
+        // Close other open accordions on mobile
+        dropdownItems.forEach(other => {
+          if (other !== item) other.classList.remove('dropdown-open');
+        });
 
-          item.classList.toggle('dropdown-open', !isOpen);
+        item.classList.toggle('dropdown-open', !isOpen);
+      }
+
+      function toggleDesktopDropdown(e) {
+        if (e) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+        const isOpen = item.classList.contains('is-open');
+
+        // Close other open dropdowns on desktop
+        dropdownItems.forEach(other => {
+          if (other !== item) other.classList.remove('is-open');
+        });
+
+        item.classList.toggle('is-open', !isOpen);
+      }
+
+      // Tapping arrow button toggles submenu accordion on mobile
+      if (arrowBtn) {
+        arrowBtn.addEventListener('click', (e) => {
+          if (window.innerWidth <= 1024) {
+            toggleMobileAccordion(e);
+          }
         });
       }
 
-      // If Company Info (span trigger with no href), clicking label also toggles accordion
-      if (navLink && navLink.tagName.toLowerCase() === 'span') {
+      // Tapping navLink row toggles accordion on mobile, and toggles pinned dropdown on desktop!
+      if (navLink) {
         navLink.addEventListener('click', (e) => {
           if (window.innerWidth <= 1024) {
-            e.preventDefault();
-            e.stopPropagation();
-            const isOpen = item.classList.contains('dropdown-open');
-            dropdownItems.forEach(other => {
-              if (other !== item) other.classList.remove('dropdown-open');
-            });
-            item.classList.toggle('dropdown-open', !isOpen);
+            toggleMobileAccordion(e);
+          } else {
+            toggleDesktopDropdown(e);
           }
         });
       }
     });
 
-    // Close menu when clicking outside
+    // Close desktop dropdowns and mobile menu when clicking outside
     document.addEventListener('click', (e) => {
+      // Close desktop pinned dropdowns
+      if (!e.target.closest('.nav-item-dropdown')) {
+        dropdownItems.forEach(item => {
+          item.classList.remove('is-open');
+        });
+      }
+
+      // Close mobile menu
       if (
         navMenu.classList.contains('active') &&
         !navMenu.contains(e.target) &&
@@ -118,11 +145,17 @@
       }
     });
 
-    // Close menu when clicking leaf links
+    // Close menu or pinned dropdown when clicking leaf links
     navMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', (e) => {
-        // If it's a mobile accordion toggle, don't close
+        // If it's a dropdown toggle trigger, don't close
         if (link.classList.contains('mobile-dropdown-arrow')) return;
+        if (link.classList.contains('nav-link') && link.closest('.nav-item-dropdown')) return;
+
+        // Close desktop pinned dropdowns
+        dropdownItems.forEach(item => {
+          item.classList.remove('is-open');
+        });
 
         // Close mobile drawer on navigation
         if (window.innerWidth <= 1024) {
@@ -134,6 +167,9 @@
     // Close drawer when an inquiry modal button is clicked
     navMenu.querySelectorAll('.open-inquiry-btn').forEach(btn => {
       btn.addEventListener('click', () => {
+        dropdownItems.forEach(item => {
+          item.classList.remove('is-open');
+        });
         if (window.innerWidth <= 1024) {
           closeMobileMenu();
         }
@@ -142,15 +178,26 @@
 
     // Close on escape key
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && navMenu.classList.contains('active')) {
-        closeMobileMenu();
+      if (e.key === 'Escape') {
+        dropdownItems.forEach(item => {
+          item.classList.remove('is-open');
+        });
+        if (navMenu.classList.contains('active')) {
+          closeMobileMenu();
+        }
       }
     });
 
-    // Auto-close on viewport resize to desktop
+    // Auto-close mobile drawer on viewport resize to desktop
     window.addEventListener('resize', () => {
-      if (window.innerWidth > 1024 && navMenu.classList.contains('active')) {
-        closeMobileMenu();
+      if (window.innerWidth > 1024) {
+        if (navMenu.classList.contains('active')) {
+          closeMobileMenu();
+        }
+      } else {
+        dropdownItems.forEach(item => {
+          item.classList.remove('is-open');
+        });
       }
     });
   }
