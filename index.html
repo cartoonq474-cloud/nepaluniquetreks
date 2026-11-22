@@ -128,7 +128,7 @@
     rel="stylesheet">
 
   <!-- Core Stylesheet -->
-  <link rel="stylesheet" href="index.css?v=73">
+  <link rel="stylesheet" href="index.css?v=77">
 </head>
 
 <body>
@@ -148,12 +148,23 @@
         <img src="images/logo.png" alt="Nepal Unique Treks Logo">
       </a>
 
-      <!-- Hamburger Menu Button -->
-      <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-      </button>
+      <!-- Mobile Header Quick Actions & Hamburger -->
+      <div class="mobile-header-actions">
+        <a href="https://wa.me/9779851023285" target="_blank" class="mobile-header-wa-btn" aria-label="Chat on WhatsApp">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824z" />
+          </svg>
+          <span class="mobile-header-wa-label">WhatsApp</span>
+        </a>
+        <button type="button" class="mobile-header-book-btn open-inquiry-btn" aria-label="Book Your Trek">
+          <span>Book</span>
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
 
       <!-- Navigation Links -->
       <nav>
@@ -163,7 +174,7 @@
             <div class="nav-link-row">
               <a href="nepal-trekking-packages/" class="nav-link">All Treks <span
                   class="nav-link-arrow-desktop">▾</span></a>
-              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle All Treks submenu">▾</button>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle All Treks submenu"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
             <!-- Mobile Accordion Menu for All Treks -->
             <div class="mobile-accordion-menu">
@@ -218,7 +229,11 @@
                 <!-- Right Content Area -->
                 <div class="mega-menu-content-wrap">
                   <div class="mega-top-bar">
-                    <button class="mega-talk-pill open-inquiry-btn">Confused? Let's Talk ↗</button>
+                    <a href="nepal-trekking-packages/" class="mega-top-overview-link">
+                      <span>Explore All 34+ Himalayan Treks</span>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <button type="button" class="mega-talk-pill open-inquiry-btn" data-inquiry-type="Trek Advisory Consultation">Confused? Let's Talk ↗</button>
                   </div>
 
                   <!-- Tab 1: Popular Treks in Nepal (Default 4-Column Grid) -->
@@ -275,10 +290,8 @@
                     <div class="mega-content-grid">
                       <div class="mega-col">
                         <div class="mega-col-title">Classic Treks</div>
-                        <a href="trek/annapurna-base-camp-luxury-trek/" class="mega-trek-link"
-                          style="color: var(--color-copper-orange); font-weight: 700;"><span>Annapurna Base Camp Luxury
-                            Trek</span> <span class="days-badge"
-                            style="background: var(--color-copper-orange); color: white;">15 DAYS</span></a>
+                        <a href="trek/annapurna-base-camp-luxury-trek/" class="mega-trek-link"><span>Annapurna Base Camp Luxury
+                            Trek</span> <span class="days-badge">15 DAYS</span></a>
                         <a href="trek/annapurna-base-camp-trek/" class="mega-trek-link"><span>Annapurna Base Camp
                             Trek</span> <span class="days-badge">12 DAYS</span></a>
                         <a href="trek/annapurna-circuit-trek/" class="mega-trek-link"><span>Annapurna Circuit
@@ -302,10 +315,9 @@
                   <div class="mega-tab-content" id="tab-everest">
                     <div class="mega-content-grid">
                       <div class="mega-col">
-                        <div class="mega-col-title">High Expedition
-                          <a href="trek/mera-peak-climbing/" class="mega-trek-link"><span>Mera Peak Climbing</span>
-                            <span class="days-badge">18 DAYS</span></a>
-                        </div>
+                        <div class="mega-col-title">High Expedition</div>
+                        <a href="trek/mera-peak-climbing/" class="mega-trek-link"><span>Mera Peak Climbing</span>
+                          <span class="days-badge">18 DAYS</span></a>
                         <a href="trek/everest-base-camp-trek/" class="mega-trek-link"><span>Everest Base Camp
                             Trek</span> <span class="days-badge">14 DAYS</span></a>
                         <a href="trek/everest-base-camp-luxury-trek/" class="mega-trek-link"><span>Everest Base Camp
@@ -365,7 +377,7 @@
                     </div>
                   </div>
 
-                  <!-- Tab 6: Kanchenjunga -->
+                                    <!-- Tab 6: Kanchenjunga -->
                   <div class="mega-tab-content" id="tab-kanchenjunga">
                     <div class="mega-content-grid">
                       <div class="mega-col">
@@ -375,10 +387,19 @@
                         <a href="kanchenjunga-region-treks/" class="mega-trek-link"><span>Kanchenjunga North &
                             South</span> <span class="days-badge">22 DAYS</span></a>
                       </div>
+                      <div class="mega-col mega-col-featured">
+                        <div class="mega-col-title">Region Guide & Custom Route</div>
+                        <a href="kanchenjunga-region-treks/" class="mega-trek-link"><span>Kanchenjunga Region Guide</span> <span class="days-badge">OVERVIEW</span></a>
+                        <div class="mega-custom-promo">
+                          <div class="mega-promo-heading">Planning a Remote Expedition?</div>
+                          <p class="mega-promo-desc">Custom itineraries, restricted permits & wilderness Sherpa crew.</p>
+                          <button type="button" class="mega-promo-btn open-inquiry-btn" data-inquiry-type="Custom Kanchenjunga Expedition">Inquire Custom Itinerary ↗</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
-                  <!-- Tab 7: Dolpo -->
+                                    <!-- Tab 7: Dolpo -->
                   <div class="mega-tab-content" id="tab-dolpo">
                     <div class="mega-content-grid">
                       <div class="mega-col">
@@ -388,32 +409,63 @@
                         <a href="dolpo-region-treks/" class="mega-trek-link"><span>Lower Dolpo & Phoksundo Lake</span>
                           <span class="days-badge">15 DAYS</span></a>
                       </div>
+                      <div class="mega-col mega-col-featured">
+                        <div class="mega-col-title">Region Guide & Custom Route</div>
+                        <a href="dolpo-region-treks/" class="mega-trek-link"><span>Dolpo Region Complete Guide</span> <span class="days-badge">OVERVIEW</span></a>
+                        <div class="mega-custom-promo">
+                          <div class="mega-promo-heading">Explore Shey Phoksundo & Beyond</div>
+                          <p class="mega-promo-desc">Restricted area permits, yak caravan support & custom routing.</p>
+                          <button type="button" class="mega-promo-btn open-inquiry-btn" data-inquiry-type="Custom Dolpo Trek">Inquire Custom Itinerary ↗</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
-                  <!-- Tab 8: Makalu -->
+                                    <!-- Tab 8: Makalu -->
                   <div class="mega-tab-content" id="tab-makalu">
                     <div class="mega-content-grid">
                       <div class="mega-col">
                         <div class="mega-col-title">High Alpine Sanctuary</div>
                         <a href="trek/makalu-base-camp-trek/" class="mega-trek-link"><span>Makalu Base Camp Trek</span>
                           <span class="days-badge">16 DAYS</span></a>
+                        <a href="makalu-region-treks/" class="mega-trek-link"><span>Arun Valley to Makalu Trail</span>
+                          <span class="days-badge">18 DAYS</span></a>
+                      </div>
+                      <div class="mega-col mega-col-featured">
+                        <div class="mega-col-title">Region Guide & Custom Route</div>
+                        <a href="makalu-region-treks/" class="mega-trek-link"><span>Makalu Region Complete Guide</span> <span class="days-badge">OVERVIEW</span></a>
+                        <div class="mega-custom-promo">
+                          <div class="mega-promo-heading">Technical Passes & Barun Valley</div>
+                          <p class="mega-promo-desc">Private departures with expert climbing Sherpas & glacier guides.</p>
+                          <button type="button" class="mega-promo-btn open-inquiry-btn" data-inquiry-type="Custom Makalu Expedition">Inquire Custom Itinerary ↗</button>
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 9: Rolwaling -->
+                                    <!-- Tab 9: Rolwaling -->
                   <div class="mega-tab-content" id="tab-rolwaling">
                     <div class="mega-content-grid">
                       <div class="mega-col">
                         <div class="mega-col-title">Glacial Pass Expedition</div>
                         <a href="trek/rolwaling-valley-trek/" class="mega-trek-link"><span>Rolwaling & Tashi Lapcha
                             Pass</span> <span class="days-badge">19 DAYS</span></a>
+                        <a href="trek/rolwaling-valley-trek/" class="mega-trek-link"><span>Rolwaling Valley Trek</span>
+                          <span class="days-badge">15 DAYS</span></a>
+                      </div>
+                      <div class="mega-col mega-col-featured">
+                        <div class="mega-col-title">Region Guide & Custom Route</div>
+                        <a href="rolwaling-region-treks/" class="mega-trek-link"><span>Rolwaling Region Guide</span> <span class="days-badge">OVERVIEW</span></a>
+                        <div class="mega-custom-promo">
+                          <div class="mega-promo-heading">Tso Rolpa Lake & Glacier Trek</div>
+                          <p class="mega-promo-desc">Off-the-beaten-path glaciated valleys and high technical crossings.</p>
+                          <button type="button" class="mega-promo-btn open-inquiry-btn" data-inquiry-type="Custom Rolwaling Trek">Inquire Custom Itinerary ↗</button>
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 10: Far West & Mustang -->
+                                    <!-- Tab 10: Far West & Mustang -->
                   <div class="mega-tab-content" id="tab-farwest">
                     <div class="mega-content-grid">
                       <div class="mega-col">
@@ -422,17 +474,39 @@
                             Trek</span> <span class="days-badge">14 DAYS</span></a>
                         <a href="trek/rara-lake-trek/" class="mega-trek-link"><span>Rara Lake Wilderness Trek</span>
                           <span class="days-badge">10 DAYS</span></a>
+                        <a href="trek/lower-mustang-trek/" class="mega-trek-link"><span>Lower Mustang Cultural Trek</span>
+                          <span class="days-badge">8 DAYS</span></a>
+                      </div>
+                      <div class="mega-col mega-col-featured">
+                        <div class="mega-col-title">Region Guide & Custom Route</div>
+                        <a href="mustang-region-treks/" class="mega-trek-link"><span>Mustang Region Complete Guide</span> <span class="days-badge">OVERVIEW</span></a>
+                        <div class="mega-custom-promo">
+                          <div class="mega-promo-heading">Lo Manthang Cave & Jeep Treks</div>
+                          <p class="mega-promo-desc">Walled city culture, ancient Tibetan monasteries & tailored private 4WD.</p>
+                          <button type="button" class="mega-promo-btn open-inquiry-btn" data-inquiry-type="Custom Mustang Expedition">Inquire Custom Itinerary ↗</button>
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 11: Ganesh Himal -->
+                                    <!-- Tab 11: Ganesh Himal -->
                   <div class="mega-tab-content" id="tab-ganesh">
                     <div class="mega-content-grid">
                       <div class="mega-col">
                         <div class="mega-col-title">Ruby Valley & Foothills</div>
                         <a href="trek/ruby-valley-trek/" class="mega-trek-link"><span>Ganesh Himal Ruby Valley
                             Trek</span> <span class="days-badge">11 DAYS</span></a>
+                        <a href="ganesh-himal-region-treks/" class="mega-trek-link"><span>Singla Pass Panorama Trail</span>
+                          <span class="days-badge">14 DAYS</span></a>
+                      </div>
+                      <div class="mega-col mega-col-featured">
+                        <div class="mega-col-title">Region Guide & Custom Route</div>
+                        <a href="ganesh-himal-region-treks/" class="mega-trek-link"><span>Ganesh Himal Region Guide</span> <span class="days-badge">OVERVIEW</span></a>
+                        <div class="mega-custom-promo">
+                          <div class="mega-promo-heading">Homestay & Pristine Valleys</div>
+                          <p class="mega-promo-desc">Authentic Tamang culture, hot springs, and uncrowded alpine trails.</p>
+                          <button type="button" class="mega-promo-btn open-inquiry-btn" data-inquiry-type="Custom Ganesh Himal Trek">Inquire Custom Itinerary ↗</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -447,17 +521,16 @@
             <div class="nav-link-row">
               <a href="nepal-tour-packages/" class="nav-link">Nepal Tours <span
                   class="nav-link-arrow-desktop">▾</span></a>
-              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Nepal Tours submenu">▾</button>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Nepal Tours submenu"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
             <div class="nav-dropdown-menu">
-              <a href="tour/kathmandu-pokhara-chitwan-tour/" class="nav-dropdown-link">Best of Nepal (8 Days)</a>
-              <a href="tour/kathmandu-cultural-heritage-tour/" class="nav-dropdown-link">Kathmandu Heritage (4 Days)</a>
-              <a href="tour/pokhara-valley-nature-tour/" class="nav-dropdown-link">Pokhara Scenic (4 Days)</a>
-              <a href="tour/chitwan-national-park-safari/" class="nav-dropdown-link">Chitwan Jungle Safari (3 Days)</a>
-              <a href="tour/nagarkot-sunrise-bhaktapur-tour/" class="nav-dropdown-link">Nagarkot Sunrise (3 Days)</a>
-              <a href="tour/lumbini-birthplace-of-buddha-tour/" class="nav-dropdown-link">Lumbini Buddhist Tour (4
-                Days)</a>
-              <a href="tour/nepal-luxury-helicopter-tour/" class="nav-dropdown-link">Luxury Helicopter Tour (5 Days)</a>
+              <a href="tour/kathmandu-pokhara-chitwan-tour/" class="nav-dropdown-link"><span>Best of Nepal</span> <span class="days-badge">8 DAYS</span></a>
+              <a href="tour/kathmandu-cultural-heritage-tour/" class="nav-dropdown-link"><span>Kathmandu Heritage</span> <span class="days-badge">4 DAYS</span></a>
+              <a href="tour/pokhara-valley-nature-tour/" class="nav-dropdown-link"><span>Pokhara Scenic</span> <span class="days-badge">4 DAYS</span></a>
+              <a href="tour/chitwan-national-park-safari/" class="nav-dropdown-link"><span>Chitwan Jungle Safari</span> <span class="days-badge">3 DAYS</span></a>
+              <a href="tour/nagarkot-sunrise-bhaktapur-tour/" class="nav-dropdown-link"><span>Nagarkot Sunrise</span> <span class="days-badge">3 DAYS</span></a>
+              <a href="tour/lumbini-birthplace-of-buddha-tour/" class="nav-dropdown-link"><span>Lumbini Buddhist Tour</span> <span class="days-badge">4 DAYS</span></a>
+              <a href="tour/nepal-luxury-helicopter-tour/" class="nav-dropdown-link"><span>Luxury Helicopter Tour</span> <span class="days-badge">5 DAYS</span></a>
             </div>
           </li>
 
@@ -467,7 +540,7 @@
               <a href="trekking-regions-nepal/" class="nav-link">Trekking Regions <span
                   class="nav-link-arrow-desktop">▾</span></a>
               <button type="button" class="mobile-dropdown-arrow"
-                aria-label="Toggle Trekking Regions submenu">▾</button>
+                aria-label="Toggle Trekking Regions submenu"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
             <div class="nav-dropdown-menu">
               <a href="everest-region-treks/" class="nav-dropdown-link">Everest Region Treks</a>
@@ -491,7 +564,7 @@
             <div class="nav-link-row">
               <a href="nepal-travel-guide/" class="nav-link">Travel Guide <span
                   class="nav-link-arrow-desktop">▾</span></a>
-              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Travel Guide submenu">▾</button>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Travel Guide submenu"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
             <div class="nav-dropdown-menu">
               <a href="nepal-visa/" class="nav-dropdown-link">Nepal Visa</a>
@@ -504,7 +577,7 @@
           <li class="nav-item-dropdown">
             <div class="nav-link-row">
               <span class="nav-link">Company Info <span class="nav-link-arrow-desktop">▾</span></span>
-              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Company Info submenu">▾</button>
+              <button type="button" class="mobile-dropdown-arrow" aria-label="Toggle Company Info submenu"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
             </div>
             <div class="nav-dropdown-menu">
               <a href="about.html" class="nav-dropdown-link">About Us</a>
@@ -529,6 +602,9 @@
               </svg>
               <span>Chat on WhatsApp</span>
             </a>
+            <div class="mobile-drawer-trust-note">
+              <span>⭐ 4.9/5 Rated</span> • <span>15+ Yrs Guiding</span> • <span>Direct Sherpa Care</span>
+            </div>
           </li>
         </ul>
       </nav>
@@ -538,6 +614,9 @@
       </div>
     </div>
   </header>
+
+  <!-- Mobile Navigation Backdrop Overlay -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop" aria-hidden="true"></div>
 
   <!-- Main Content Structural Skeleton -->
   <main>
@@ -574,8 +653,11 @@
 
           <!-- Main Headline -->
           <h1 class="hero-title">
-            <span class="hero-pill-highlight">Local Trekking Agency:</span>
-            <span class="hero-title-subtitle">Explore Himalaya with nepal unique treks</span>
+            <span class="hero-title-line">
+              <span class="hero-pill-highlight">Local Trekking Agency:</span>
+              <span class="hero-title-lead">Explore Himalaya with</span>
+            </span>
+            <span class="hero-title-brand">Nepal Unique Treks</span>
           </h1>
 
           <!-- Subheading Paragraph (Extendable Inline) -->
@@ -810,10 +892,12 @@
                 <div class="founder-left-col">
                   <div class="founder-header-block text-left" style="margin-bottom: 12px;">
                     <span class="pill pill-alpine founder-note-pill" style="margin-bottom: 8px;">Founder's Note</span>
-                    <h3 class="section-title founder-main-title" style="font-size: 1.6rem; line-height: 1.25; margin-bottom: 8px;">
+                    <h3 class="section-title founder-main-title"
+                      style="font-size: 1.6rem; line-height: 1.25; margin-bottom: 8px;">
                       Message from <span class="badge-emerald-highlight">Our Founder</span>
                     </h3>
-                    <p class="section-desc founder-desc-text" style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 14px;">
+                    <p class="section-desc founder-desc-text"
+                      style="font-size: 0.85rem; line-height: 1.4; margin-bottom: 14px;">
                       A personal note from Dil Gurung, Founder &amp; Managing Director of Nepal Unique Treks.
                     </p>
                   </div>
@@ -838,9 +922,11 @@
                   <!-- Promise Box -->
                   <div class="founder-letter-promise text-left">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1A96C8" stroke-width="2.5"
-                      stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; flex-shrink: 0;">
+                      stroke-linecap="round" stroke-linejoin="round"
+                      style="display:inline-block; vertical-align:middle; flex-shrink: 0;">
                       <polyline points="20 6 9 17 4 12" />
-                    </svg> <em>From mountain porter in 2008 to expedition founder — 380+ trips completed with an unwavering commitment to safety &amp; ethical porter welfare.</em>
+                    </svg> <em>From mountain porter in 2008 to expedition founder — 380+ trips completed with an
+                      unwavering commitment to safety &amp; ethical porter welfare.</em>
                   </div>
                 </div>
 
@@ -853,9 +939,12 @@
                   <p class="founder-letter-text">
                     In 2008, I took my very first steps on the mountain trails not as an executive or a guide, but as a
                     hardworking <span class="pill-highlight-green">mountain porter carrying loads</span> across the high
-                    Himalayan passes. Over the next two decades, guiding more than <span class="pill-highlight-yellow">380
-                      expeditions</span> across Everest, Annapurna, Manaslu, Langtang, and Upper Mustang, I saw firsthand
-                    what truly matters: real mountain expertise, complete honesty, and deep respect for every human on the
+                    Himalayan passes. Over the next two decades, guiding more than <span
+                      class="pill-highlight-yellow">380
+                      expeditions</span> across Everest, Annapurna, Manaslu, Langtang, and Upper Mustang, I saw
+                    firsthand
+                    what truly matters: real mountain expertise, complete honesty, and deep respect for every human on
+                    the
                     trail.
                   </p>
 
@@ -881,8 +970,8 @@
                       onclick="document.getElementById('inquiry-modal').classList.add('active'); document.body.style.overflow='hidden';"
                       style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.86rem; color: #1A96C8; font-weight: 700; text-decoration: none; cursor: pointer;">
                       <span>Read Dil Gurung's Full Biography &amp; Expedition Story</span>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                        stroke-linecap="round" stroke-linejoin="round">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14M12 5l7 7-7 7" />
                       </svg>
                     </a>
@@ -1813,25 +1902,24 @@
       </section>
 
       <!-- Section 1.5: Himalayan Activity Packages & Pricing Panel (Interactive Category Selector) -->
-      <section id="activity-packages" class="activity-packages-section">
+      <section id="activity-packages" class="activity-packages-section" aria-labelledby="activity-packages-heading">
         <div class="container">
 
           <!-- Header & Subtitle -->
-          <div class="text-center">
-            <h2 class="act-title-main">
-              Himalayan Adventure <span class="highlight-emerald">Services & Packages</span>
+          <div class="section-header text-center" style="margin-bottom: 26px;">
+            <span class="pill pill-alpine">HIMALAYAN EXPERIENCES</span>
+            <h2 id="activity-packages-heading" class="section-title">
+              Himalayan Adventure <span>Services & Packages</span>
             </h2>
-            <p class="act-subtitle-text">
-              Explore trekking, tours, and peak climbing experiences in Nepal with Nepal Unique Treks.
+            <p class="section-desc">
+              Explore handpicked trekking, peak climbing, cultural tours, and helicopter expeditions with transparent pricing and certified Sherpa leadership.
             </p>
           </div>
 
-          <!-- Interactive Layout: Left Sidebar + Right 3-Card Panel -->
-          <div class="act-panel-layout">
-
-            <!-- Left Activity Category Sidebar -->
-            <div class="act-category-sidebar">
-              <button class="act-category-btn active" data-act-cat="trekking">
+          <!-- Activity Category Selector Bar -->
+          <div class="act-category-bar-wrapper">
+            <div class="act-category-sidebar" role="tablist" aria-label="Activity Categories">
+              <button class="act-category-btn active" data-act-cat="trekking" role="tab" aria-selected="true" aria-controls="act-packages-grid">
                 <span class="act-cat-icon">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -1839,10 +1927,11 @@
                     <path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19" />
                   </svg>
                 </span>
-                <span>Himalayan Trekking</span>
+                <span class="act-cat-label">Himalayan Trekking</span>
+                <span class="act-cat-badge">40+ Treks</span>
               </button>
 
-              <button class="act-category-btn" data-act-cat="climbing">
+              <button class="act-category-btn" data-act-cat="climbing" role="tab" aria-selected="false" aria-controls="act-packages-grid">
                 <span class="act-cat-icon">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -1850,10 +1939,11 @@
                     <path d="M12 11V3l4 2-4 2" />
                   </svg>
                 </span>
-                <span>Peak Climbing</span>
+                <span class="act-cat-label">Peak Climbing</span>
+                <span class="act-cat-badge">Expeditions</span>
               </button>
 
-              <button class="act-category-btn" data-act-cat="tours">
+              <button class="act-category-btn" data-act-cat="tours" role="tab" aria-selected="false" aria-controls="act-packages-grid">
                 <span class="act-cat-icon">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -1865,10 +1955,11 @@
                     <polygon points="12 3 2 11 22 11 12 3" />
                   </svg>
                 </span>
-                <span>Cultural Tours</span>
+                <span class="act-cat-label">Cultural Tours</span>
+                <span class="act-cat-badge">Heritage</span>
               </button>
 
-              <button class="act-category-btn" data-act-cat="hikes">
+              <button class="act-category-btn" data-act-cat="hikes" role="tab" aria-selected="false" aria-controls="act-packages-grid">
                 <span class="act-cat-icon">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -1880,10 +1971,11 @@
                     <circle cx="12" cy="12" r="4" />
                   </svg>
                 </span>
-                <span>Day Hikes</span>
+                <span class="act-cat-label">Day Hikes</span>
+                <span class="act-cat-badge">Day Trips</span>
               </button>
 
-              <button class="act-category-btn" data-act-cat="heli">
+              <button class="act-category-btn" data-act-cat="heli" role="tab" aria-selected="false" aria-controls="act-packages-grid">
                 <span class="act-cat-icon">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -1895,241 +1987,309 @@
                     <path d="M7 19h10" />
                   </svg>
                 </span>
-                <span>Helicopter Activities</span>
+                <span class="act-cat-label">Helicopter Tours</span>
+                <span class="act-cat-badge">Scenic</span>
               </button>
             </div>
+          </div>
 
-            <!-- Right 3-Column Packages Container -->
-            <div>
-              <div id="act-packages-grid" class="act-packages-grid">
-
-                <!-- Card 1 -->
-                <div class="act-package-card">
-                  <div class="act-card-img-wrapper">
-                    <img loading="lazy"
-                      src="images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg"
-                      alt="Everest Base Camp Trek Team Celebration with Nepal Unique Treks" class="act-card-img">
-                    <div class="act-card-duration-badge">14 DAYS</div>
-                    <div class="act-img-hover-overlay">
-                      <div class="act-hover-tags">
-                        <span class="act-hover-tag-pill">CLASSIC</span>
-                        <span class="act-hover-tag-pill">HIGH ALTITUDE</span>
-                        <span class="act-hover-tag-pill">TEAHOUSE</span>
+          <!-- Interactive Layout: 3-Card Grid Panel -->
+          <div class="act-panel-layout">
+            <div id="act-packages-grid" class="act-packages-grid">
+              <!-- Card 1 -->
+              <div class="act-package-card">
+                <div class="act-card-img-wrapper">
+                  <img loading="lazy"
+                    src="images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg"
+                    alt="Everest Base Camp Trek Team Celebration with Nepal Unique Treks" class="act-card-img">
+                  <div class="act-card-duration-badge">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>14 DAYS</span>
+                  </div>
+                  <span class="act-card-feature-badge">CLASSIC</span>
+                  <div class="act-img-hover-overlay">
+                    <div class="act-hover-tags">
+                      <span class="act-hover-tag-pill">CLASSIC</span>
+                      <span class="act-hover-tag-pill">HIGH ALTITUDE</span>
+                      <span class="act-hover-tag-pill">TEAHOUSE</span>
+                    </div>
+                    <div class="act-hover-meta">
+                      <div class="act-hover-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5">
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                          <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Max: <strong>5545 m</strong></span>
                       </div>
-                      <div class="act-hover-meta">
-                        <div class="act-hover-meta-item">
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#EF4444"
-                            stroke-width="2.5">
-                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                            <circle cx="12" cy="10" r="3" />
-                          </svg>
-                          <span>Max: <strong>5545 m</strong></span>
-                        </div>
-                        <div class="act-hover-meta-item">
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F2A623"
-                            stroke-width="2.5">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                          </svg>
-                          <span>challenging</span>
-                        </div>
+                      <div class="act-hover-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F2A623" stroke-width="2.5">
+                          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                        </svg>
+                        <span>challenging</span>
                       </div>
-                      <p class="act-hover-summary">Trek to the foot of Mt. Everest through Sherpa villages, Tengboche
-                        Monastery, and Kala Patthar viewpoint.</p>
+                    </div>
+                    <p class="act-hover-summary">Trek to the foot of Mt. Everest through Sherpa villages, Tengboche Monastery, and Kala Patthar viewpoint.</p>
+                    <a href="trek/everest-base-camp-trek/" class="act-hover-explore-btn">
+                      <span>View Full Itinerary</span>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="act-card-content">
+                  <div class="act-card-top-content">
+                    <div class="package-rating-row">
+                      <div class="act-stars-group">
+                        <span class="stars-gold">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        </span>
+                        <span class="rating-score">5.0</span>
+                        <span class="reviews-count">(142)</span>
+                      </div>
+                      <span class="act-guaranteed-badge">Guaranteed</span>
+                    </div>
+                    <h3 class="act-card-title">
+                      <a href="trek/everest-base-camp-trek/" class="act-title-link">Everest Base Camp Trek</a>
+                    </h3>
+                    <div class="act-card-subregion">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22845F" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                      <span>Khumbu Region, Nepal</span>
+                    </div>
+                    <div class="act-chips-row">
+                      <span class="act-spec-chip">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                        5545 m
+                      </span>
+                      <span class="act-spec-chip act-grade-chip">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        challenging
+                      </span>
                     </div>
                   </div>
-                  <div class="act-card-content">
-                    <div>
-                      <div class="package-rating-row">
-                        <span class="stars-gold"><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52"
-                            stroke="none" style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg></span>
-                        <span class="reviews-count">(142 Reviews)</span>
-                      </div>
-                      <h3 class="act-card-title">Everest Base Camp Trek</h3>
-                      <div class="act-card-subregion">Khumbu Region, Nepal</div>
-                    </div>
-                    <div class="act-card-bottom-row">
-                      <div class="act-price-box">
-                        <span class="act-starting-label">Starting From</span>
+                  <div class="act-card-bottom-row">
+                    <div class="act-price-box">
+                      <span class="act-starting-label">Starting From</span>
+                      <div class="act-price-display">
                         <span class="act-price-val">$1399</span>
+                        <span class="act-price-period">/ pax</span>
                       </div>
-                      <button class="btn-inquire-now open-inquiry-btn">Inquire Now</button>
+                    </div>
+                    <div class="act-card-actions">
+                      <a href="trek/everest-base-camp-trek/" class="act-btn-details" title="View details of Everest Base Camp Trek">Details</a>
+                      <button class="btn-inquire-now open-inquiry-btn" data-trek-title="Everest Base Camp Trek">Inquire</button>
                     </div>
                   </div>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="act-package-card">
-                  <div class="act-card-img-wrapper">
-                    <img loading="lazy"
-                      src="images/treks/annapurna-circuit/annapurna-circuit-tilicho-lake-trekking-group-tilicho-lake-11.jpg"
-                      alt="Annapurna Circuit & Tilicho Lake Trekking Expedition" class="act-card-img">
-                    <div class="act-card-duration-badge">12 DAYS</div>
-                    <div class="act-img-hover-overlay">
-                      <div class="act-hover-tags">
-                        <span class="act-hover-tag-pill">SCENIC</span>
-                        <span class="act-hover-tag-pill">PASS CROSSING</span>
-                        <span class="act-hover-tag-pill">LODGE</span>
-                      </div>
-                      <div class="act-hover-meta">
-                        <div class="act-hover-meta-item">
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#EF4444"
-                            stroke-width="2.5">
-                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                            <circle cx="12" cy="10" r="3" />
-                          </svg>
-                          <span>Max: <strong>5416 m</strong></span>
-                        </div>
-                        <div class="act-hover-meta-item">
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F2A623"
-                            stroke-width="2.5">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                          </svg>
-                          <span>moderate</span>
-                        </div>
-                      </div>
-                      <p class="act-hover-summary">Traverse diverse eco-zones from lush rhododendron forests to the
-                        dramatic Thorong La Pass high-altitude desert.</p>
-                    </div>
-                  </div>
-                  <div class="act-card-content">
-                    <div>
-                      <div class="package-rating-row">
-                        <span class="stars-gold"><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52"
-                            stroke="none" style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg></span>
-                        <span class="reviews-count">(118 Reviews)</span>
-                      </div>
-                      <h3 class="act-card-title">Annapurna Circuit Expedition</h3>
-                      <div class="act-card-subregion">Annapurna Massif, Nepal</div>
-                    </div>
-                    <div class="act-card-bottom-row">
-                      <div class="act-price-box">
-                        <span class="act-starting-label">Starting From</span>
-                        <span class="act-price-val">$1150</span>
-                      </div>
-                      <button class="btn-inquire-now open-inquiry-btn">Inquire Now</button>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="act-package-card">
-                  <div class="act-card-img-wrapper">
-                    <img loading="lazy" src="images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-04.jpg"
-                      alt="Manaslu Circuit & Larke Pass Sunrise Vista" class="act-card-img">
-                    <div class="act-card-duration-badge">16 DAYS</div>
-                    <div class="act-img-hover-overlay">
-                      <div class="act-hover-tags">
-                        <span class="act-hover-tag-pill">RESTRICTED</span>
-                        <span class="act-hover-tag-pill">REMOTE</span>
-                        <span class="act-hover-tag-pill">CULTURE</span>
-                      </div>
-                      <div class="act-hover-meta">
-                        <div class="act-hover-meta-item">
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#EF4444"
-                            stroke-width="2.5">
-                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                            <circle cx="12" cy="10" r="3" />
-                          </svg>
-                          <span>Max: <strong>5106 m</strong></span>
-                        </div>
-                        <div class="act-hover-meta-item">
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F2A623"
-                            stroke-width="2.5">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                          </svg>
-                          <span>challenging</span>
-                        </div>
-                      </div>
-                      <p class="act-hover-summary">Unspoiled Tibetan Buddhist culture around Mt. Manaslu (8,163m) with
-                        crossing of snow-bound Larke La Pass.</p>
-                    </div>
-                  </div>
-                  <div class="act-card-content">
-                    <div>
-                      <div class="package-rating-row">
-                        <span class="stars-gold"><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52"
-                            stroke="none" style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg><svg width="15" height="15" viewBox="0 0 24 24" fill="#087F52" stroke="none"
-                            style="display:inline-block; vertical-align:middle;">
-                            <polygon
-                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                          </svg></span>
-                        <span class="reviews-count">(64 Reviews)</span>
-                      </div>
-                      <h3 class="act-card-title">Manaslu Circuit & Larke Pass</h3>
-                      <div class="act-card-subregion">Manaslu Conservation Area</div>
-                    </div>
-                    <div class="act-card-bottom-row">
-                      <div class="act-price-box">
-                        <span class="act-starting-label">Starting From</span>
-                        <span class="act-price-val">$1399</span>
-                      </div>
-                      <button class="btn-inquire-now open-inquiry-btn">Inquire Now</button>
-                    </div>
-                  </div>
-                </div>
-
               </div>
 
-              <!-- Bottom Progress Indicator Bar (Matching Screenshot) -->
-              <div class="act-progress-bar-wrapper">
-                <span class="act-progress-dot active"></span>
-                <span class="act-progress-dot"></span>
-                <span class="act-progress-dot"></span>
-                <span class="act-progress-dot"></span>
-                <span class="act-progress-dot"></span>
+              <!-- Card 2 -->
+              <div class="act-package-card">
+                <div class="act-card-img-wrapper">
+                  <img loading="lazy"
+                    src="images/treks/annapurna-circuit/annapurna-circuit-tilicho-lake-trekking-group-tilicho-lake-11.jpg"
+                    alt="Annapurna Circuit & Tilicho Lake Trekking Expedition" class="act-card-img">
+                  <div class="act-card-duration-badge">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>12 DAYS</span>
+                  </div>
+                  <span class="act-card-feature-badge">SCENIC</span>
+                  <div class="act-img-hover-overlay">
+                    <div class="act-hover-tags">
+                      <span class="act-hover-tag-pill">SCENIC</span>
+                      <span class="act-hover-tag-pill">PASS CROSSING</span>
+                      <span class="act-hover-tag-pill">LODGE</span>
+                    </div>
+                    <div class="act-hover-meta">
+                      <div class="act-hover-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5">
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                          <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Max: <strong>5416 m</strong></span>
+                      </div>
+                      <div class="act-hover-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F2A623" stroke-width="2.5">
+                          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                        </svg>
+                        <span>moderate</span>
+                      </div>
+                    </div>
+                    <p class="act-hover-summary">Traverse diverse eco-zones from lush rhododendron forests to the dramatic Thorong La Pass high-altitude desert.</p>
+                    <a href="trek/annapurna-circuit-trek/" class="act-hover-explore-btn">
+                      <span>View Full Itinerary</span>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="act-card-content">
+                  <div class="act-card-top-content">
+                    <div class="package-rating-row">
+                      <div class="act-stars-group">
+                        <span class="stars-gold">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        </span>
+                        <span class="rating-score">5.0</span>
+                        <span class="reviews-count">(118)</span>
+                      </div>
+                      <span class="act-guaranteed-badge">Guaranteed</span>
+                    </div>
+                    <h3 class="act-card-title">
+                      <a href="trek/annapurna-circuit-trek/" class="act-title-link">Annapurna Circuit Expedition</a>
+                    </h3>
+                    <div class="act-card-subregion">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22845F" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                      <span>Annapurna Massif, Nepal</span>
+                    </div>
+                    <div class="act-chips-row">
+                      <span class="act-spec-chip">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                        5416 m
+                      </span>
+                      <span class="act-spec-chip act-grade-chip">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        moderate
+                      </span>
+                    </div>
+                  </div>
+                  <div class="act-card-bottom-row">
+                    <div class="act-price-box">
+                      <span class="act-starting-label">Starting From</span>
+                      <div class="act-price-display">
+                        <span class="act-price-val">$1150</span>
+                        <span class="act-price-period">/ pax</span>
+                      </div>
+                    </div>
+                    <div class="act-card-actions">
+                      <a href="trek/annapurna-circuit-trek/" class="act-btn-details" title="View details of Annapurna Circuit Expedition">Details</a>
+                      <button class="btn-inquire-now open-inquiry-btn" data-trek-title="Annapurna Circuit Expedition">Inquire</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="act-package-card">
+                <div class="act-card-img-wrapper">
+                  <img loading="lazy" src="images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-04.jpg"
+                    alt="Manaslu Circuit & Larke Pass Sunrise Vista" class="act-card-img">
+                  <div class="act-card-duration-badge">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>16 DAYS</span>
+                  </div>
+                  <span class="act-card-feature-badge">RESTRICTED</span>
+                  <div class="act-img-hover-overlay">
+                    <div class="act-hover-tags">
+                      <span class="act-hover-tag-pill">RESTRICTED</span>
+                      <span class="act-hover-tag-pill">REMOTE</span>
+                      <span class="act-hover-tag-pill">CULTURE</span>
+                    </div>
+                    <div class="act-hover-meta">
+                      <div class="act-hover-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5">
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                          <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Max: <strong>5106 m</strong></span>
+                      </div>
+                      <div class="act-hover-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F2A623" stroke-width="2.5">
+                          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                        </svg>
+                        <span>challenging</span>
+                      </div>
+                    </div>
+                    <p class="act-hover-summary">Unspoiled Tibetan Buddhist culture around Mt. Manaslu (8,163m) with crossing of snow-bound Larke La Pass.</p>
+                    <a href="trek/manaslu-circuit-trek/" class="act-hover-explore-btn">
+                      <span>View Full Itinerary</span>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="act-card-content">
+                  <div class="act-card-top-content">
+                    <div class="package-rating-row">
+                      <div class="act-stars-group">
+                        <span class="stars-gold">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F59E0B"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        </span>
+                        <span class="rating-score">5.0</span>
+                        <span class="reviews-count">(64)</span>
+                      </div>
+                      <span class="act-guaranteed-badge">Guaranteed</span>
+                    </div>
+                    <h3 class="act-card-title">
+                      <a href="trek/manaslu-circuit-trek/" class="act-title-link">Manaslu Circuit & Larke Pass</a>
+                    </h3>
+                    <div class="act-card-subregion">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22845F" stroke-width="2.2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                      <span>Manaslu Conservation Area</span>
+                    </div>
+                    <div class="act-chips-row">
+                      <span class="act-spec-chip">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                        5106 m
+                      </span>
+                      <span class="act-spec-chip act-grade-chip">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        challenging
+                      </span>
+                    </div>
+                  </div>
+                  <div class="act-card-bottom-row">
+                    <div class="act-price-box">
+                      <span class="act-starting-label">Starting From</span>
+                      <div class="act-price-display">
+                        <span class="act-price-val">$1399</span>
+                        <span class="act-price-period">/ pax</span>
+                      </div>
+                    </div>
+                    <div class="act-card-actions">
+                      <a href="trek/manaslu-circuit-trek/" class="act-btn-details" title="View details of Manaslu Circuit & Larke Pass">Details</a>
+                      <button class="btn-inquire-now open-inquiry-btn" data-trek-title="Manaslu Circuit & Larke Pass">Inquire</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Bottom Trust & Explore All Strip -->
+            <div class="act-bottom-footer-bar">
+              <div class="act-trust-indicators">
+                <div class="act-trust-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22845F" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Guaranteed Departures</span>
+                </div>
+                <div class="act-trust-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22845F" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Licensed Sherpa Guides</span>
+                </div>
+                <div class="act-trust-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22845F" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Transparent Pricing</span>
+                </div>
+                <div class="act-trust-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22845F" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Customizable Itineraries</span>
+                </div>
+              </div>
+
+              <div class="act-explore-all-cta">
+                <a id="act-category-all-link" href="nepal-trekking-packages/" class="act-explore-all-btn">
+                  <span id="act-explore-link-text">Explore All 40+ Himalayan Trekking Packages</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
               </div>
             </div>
 
@@ -3825,6 +3985,164 @@
         </div>
       </section>
 
+      <!-- How It Works Section (Redesigned Dark Glassmorphism & Mountain Background) -->
+      <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+
+          <!-- Section Header -->
+          <div class="how-works-header text-center">
+            <div class="how-works-subtitle-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+              </svg>
+              How It Works
+            </div>
+            <h2 class="how-works-title">
+              How does <span class="badge-emerald-highlight">Nepal Unique Treks</span> Work?
+            </h2>
+            <p class="how-works-desc">
+              Booking your Himalayan adventure is seamless and transparent. Choose your route, customize your itinerary
+              with local Sherpa experts, and embark on your dream journey with complete confidence.
+              <a href="custom-plan.html" class="how-works-link">Learn More →</a>
+            </p>
+
+            <!-- Centered Video Preview Button -->
+            <div class="how-works-video-wrapper open-inquiry-btn" title="Watch How Booking Works">
+              <div class="video-preview-thumb">
+                <img loading="lazy" src="images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg"
+                  alt="How Booking Works Video Preview">
+                <div class="video-play-btn-pulse">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="#FFFFFF">
+                    <polygon points="5 3 19 12 5 21 5 3" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 Step Cards Carousel (4 visible at a time) -->
+          <div class="how-works-cards-grid grid-5">
+            <div class="how-works-cards-track">
+
+              <!-- Step 1 -->
+              <div class="how-step-card" data-step="1">
+                <div class="how-step-icon-bg">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+                  </svg>
+                </div>
+                <span class="how-step-badge">Step 01</span>
+                <h3 class="how-step-title">Choose Your Trail</h3>
+                <p class="how-step-desc">
+                  Browse by region, difficulty level, or altitude profile.
+                </p>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="how-step-card" data-step="2">
+                <div class="how-step-icon-bg">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="21" x2="4" y2="14" />
+                    <line x1="4" y1="10" x2="4" y2="3" />
+                    <line x1="12" y1="21" x2="12" y2="12" />
+                    <line x1="12" y1="8" x2="12" y2="3" />
+                    <line x1="20" y1="21" x2="20" y2="16" />
+                    <line x1="20" y1="12" x2="20" y2="3" />
+                    <line x1="1" y1="14" x2="7" y2="14" />
+                    <line x1="9" y1="8" x2="15" y2="8" />
+                    <line x1="17" y1="16" x2="23" y2="16" />
+                  </svg>
+                </div>
+                <span class="how-step-badge">Step 02</span>
+                <h3 class="how-step-title">Customize Package</h3>
+                <p class="how-step-desc">
+                  Select group size, private guides, or upgraded lodge/glamping accommodations.
+                </p>
+              </div>
+
+              <!-- Step 3 -->
+              <div class="how-step-card" data-step="3">
+                <div class="how-step-icon-bg">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                    <polyline points="10 9 9 9 8 9" />
+                  </svg>
+                </div>
+                <span class="how-step-badge">Step 03</span>
+                <h3 class="how-step-title">Get Prepared</h3>
+                <p class="how-step-desc">
+                  Receive our comprehensive gear list, fitness regimen, & pre-trip guide.
+                </p>
+              </div>
+
+              <!-- Step 4 -->
+              <div class="how-step-card" data-step="4">
+                <div class="how-step-icon-bg">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                </div>
+                <span class="how-step-badge">Step 04</span>
+                <h3 class="how-step-title">Meet Your Crew</h3>
+                <p class="how-step-desc">
+                  Arrival pickup, safety briefing, and gear check with your lead guide.
+                </p>
+              </div>
+
+              <!-- Step 5 -->
+              <div class="how-step-card" data-step="5">
+                <div class="how-step-icon-bg">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+                  </svg>
+                </div>
+                <span class="how-step-badge">Step 05</span>
+                <h3 class="how-step-title">Embark & Summit</h3>
+                <p class="how-step-desc">
+                  Hike with confidence supported by expert guides, porters, & fresh meals.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Bottom Controls & Progress Track -->
+          <div class="how-works-bottom-bar">
+            <div class="how-nav-btns">
+              <button class="how-nav-btn prev-btn" aria-label="Previous Step">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m15 18-6-6 6-6" />
+                </svg>
+              </button>
+              <button class="how-nav-btn next-btn" aria-label="Next Step">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </button>
+            </div>
+            <div class="how-progress-line-track">
+              <div class="how-progress-line-fill" style="width: 100%;"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       <!-- Section 9: Traveler Reviews -->
       <section id="reviews-section" class="review-section homepage-reviews-section"
         aria-labelledby="home-reviews-title">
@@ -4357,164 +4675,6 @@
               </path>
             </svg>
           </button>
-        </div>
-      </section>
-
-      <!-- How It Works Section (Redesigned Dark Glassmorphism & Mountain Background) -->
-      <section id="how-it-works" class="how-it-works-section">
-        <div class="container">
-
-          <!-- Section Header -->
-          <div class="how-works-header text-center">
-            <div class="how-works-subtitle-pill">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-              </svg>
-              How It Works
-            </div>
-            <h2 class="how-works-title">
-              How does <span class="badge-emerald-highlight">Nepal Unique Treks</span> Work?
-            </h2>
-            <p class="how-works-desc">
-              Booking your Himalayan adventure is seamless and transparent. Choose your route, customize your itinerary
-              with local Sherpa experts, and embark on your dream journey with complete confidence.
-              <a href="custom-plan.html" class="how-works-link">Learn More →</a>
-            </p>
-
-            <!-- Centered Video Preview Button -->
-            <div class="how-works-video-wrapper open-inquiry-btn" title="Watch How Booking Works">
-              <div class="video-preview-thumb">
-                <img loading="lazy" src="images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg"
-                  alt="How Booking Works Video Preview">
-                <div class="video-play-btn-pulse">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="#FFFFFF">
-                    <polygon points="5 3 19 12 5 21 5 3" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 5 Step Cards Carousel (4 visible at a time) -->
-          <div class="how-works-cards-grid grid-5">
-            <div class="how-works-cards-track">
-
-              <!-- Step 1 -->
-              <div class="how-step-card" data-step="1">
-                <div class="how-step-icon-bg">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10" />
-                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
-                  </svg>
-                </div>
-                <span class="how-step-badge">Step 01</span>
-                <h3 class="how-step-title">Choose Your Trail</h3>
-                <p class="how-step-desc">
-                  Browse by region, difficulty level, or altitude profile.
-                </p>
-              </div>
-
-              <!-- Step 2 -->
-              <div class="how-step-card" data-step="2">
-                <div class="how-step-icon-bg">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="4" y1="21" x2="4" y2="14" />
-                    <line x1="4" y1="10" x2="4" y2="3" />
-                    <line x1="12" y1="21" x2="12" y2="12" />
-                    <line x1="12" y1="8" x2="12" y2="3" />
-                    <line x1="20" y1="21" x2="20" y2="16" />
-                    <line x1="20" y1="12" x2="20" y2="3" />
-                    <line x1="1" y1="14" x2="7" y2="14" />
-                    <line x1="9" y1="8" x2="15" y2="8" />
-                    <line x1="17" y1="16" x2="23" y2="16" />
-                  </svg>
-                </div>
-                <span class="how-step-badge">Step 02</span>
-                <h3 class="how-step-title">Customize Package</h3>
-                <p class="how-step-desc">
-                  Select group size, private guides, or upgraded lodge/glamping accommodations.
-                </p>
-              </div>
-
-              <!-- Step 3 -->
-              <div class="how-step-card" data-step="3">
-                <div class="how-step-icon-bg">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                    <polyline points="14 2 14 8 20 8" />
-                    <line x1="16" y1="13" x2="8" y2="13" />
-                    <line x1="16" y1="17" x2="8" y2="17" />
-                    <polyline points="10 9 9 9 8 9" />
-                  </svg>
-                </div>
-                <span class="how-step-badge">Step 03</span>
-                <h3 class="how-step-title">Get Prepared</h3>
-                <p class="how-step-desc">
-                  Receive our comprehensive gear list, fitness regimen, & pre-trip guide.
-                </p>
-              </div>
-
-              <!-- Step 4 -->
-              <div class="how-step-card" data-step="4">
-                <div class="how-step-icon-bg">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                </div>
-                <span class="how-step-badge">Step 04</span>
-                <h3 class="how-step-title">Meet Your Crew</h3>
-                <p class="how-step-desc">
-                  Arrival pickup, safety briefing, and gear check with your lead guide.
-                </p>
-              </div>
-
-              <!-- Step 5 -->
-              <div class="how-step-card" data-step="5">
-                <div class="how-step-icon-bg">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-                  </svg>
-                </div>
-                <span class="how-step-badge">Step 05</span>
-                <h3 class="how-step-title">Embark & Summit</h3>
-                <p class="how-step-desc">
-                  Hike with confidence supported by expert guides, porters, & fresh meals.
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Bottom Controls & Progress Track -->
-          <div class="how-works-bottom-bar">
-            <div class="how-nav-btns">
-              <button class="how-nav-btn prev-btn" aria-label="Previous Step">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <path d="m15 18-6-6 6-6" />
-                </svg>
-              </button>
-              <button class="how-nav-btn next-btn" aria-label="Next Step">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <path d="m9 18 6-6-6-6" />
-                </svg>
-              </button>
-            </div>
-            <div class="how-progress-line-track">
-              <div class="how-progress-line-fill" style="width: 100%;"></div>
-            </div>
-          </div>
-
         </div>
       </section>
 

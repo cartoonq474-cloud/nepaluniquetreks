@@ -1,13 +1,13 @@
 /**
  * Header Scroll & Mobile Navigation Menu Controller
- * Seamless mobile drawer, accordions, and scroll states
+ * Himalayan Gold Standard: Seamless slide drawer, backdrop, accordions, and scroll states
  */
 (function () {
   // 1. Scroll Effect
   const header = document.querySelector('.main-header');
   if (!header) return;
 
-  const SCROLL_THRESHOLD = 40;
+  const SCROLL_THRESHOLD = 30;
 
   function onScroll() {
     if (window.scrollY > SCROLL_THRESHOLD) {
@@ -25,10 +25,21 @@
   const navMenu = document.querySelector('.nav-menu');
 
   if (toggleBtn && navMenu) {
+    // Ensure Backdrop Element Exists
+    let backdrop = document.querySelector('.mobile-nav-backdrop');
+    if (!backdrop) {
+      backdrop = document.createElement('div');
+      backdrop.className = 'mobile-nav-backdrop';
+      backdrop.id = 'mobile-nav-backdrop';
+      backdrop.setAttribute('aria-hidden', 'true');
+      document.body.appendChild(backdrop);
+    }
+
     function closeMobileMenu() {
       navMenu.classList.remove('active');
       toggleBtn.classList.remove('active');
       toggleBtn.setAttribute('aria-expanded', 'false');
+      if (backdrop) backdrop.classList.remove('active');
       document.body.classList.remove('mobile-nav-lock');
     }
 
@@ -36,6 +47,7 @@
       navMenu.classList.add('active');
       toggleBtn.classList.add('active');
       toggleBtn.setAttribute('aria-expanded', 'true');
+      if (backdrop) backdrop.classList.add('active');
       document.body.classList.add('mobile-nav-lock');
     }
 
@@ -47,6 +59,13 @@
         openMobileMenu();
       }
     });
+
+    // Close when tapping backdrop
+    if (backdrop) {
+      backdrop.addEventListener('click', () => {
+        closeMobileMenu();
+      });
+    }
 
     // Mobile Accordion Expansion
     const dropdownItems = navMenu.querySelectorAll('.nav-item-dropdown');
@@ -89,7 +108,12 @@
 
     // Close menu when clicking outside
     document.addEventListener('click', (e) => {
-      if (navMenu.classList.contains('active') && !navMenu.contains(e.target) && !toggleBtn.contains(e.target)) {
+      if (
+        navMenu.classList.contains('active') &&
+        !navMenu.contains(e.target) &&
+        !toggleBtn.contains(e.target) &&
+        (!backdrop || !backdrop.contains(e.target))
+      ) {
         closeMobileMenu();
       }
     });
@@ -107,9 +131,25 @@
       });
     });
 
+    // Close drawer when an inquiry modal button is clicked
+    navMenu.querySelectorAll('.open-inquiry-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (window.innerWidth <= 1024) {
+          closeMobileMenu();
+        }
+      });
+    });
+
     // Close on escape key
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+        closeMobileMenu();
+      }
+    });
+
+    // Auto-close on viewport resize to desktop
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 1024 && navMenu.classList.contains('active')) {
         closeMobileMenu();
       }
     });
