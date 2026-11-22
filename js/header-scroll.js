@@ -113,13 +113,21 @@
         });
       }
 
-      // Tapping navLink row toggles accordion on mobile, and toggles pinned dropdown on desktop!
+            // Tapping navLink row toggles accordion on mobile, and toggles pinned dropdown on desktop!
       if (navLink) {
         navLink.addEventListener('click', (e) => {
           if (window.innerWidth <= 1024) {
             toggleMobileAccordion(e);
           } else {
-            toggleDesktopDropdown(e);
+            // On desktop:
+            // If it's a span trigger (Company Info), toggle pinned dropdown
+            if (navLink.tagName.toLowerCase() === 'span') {
+              toggleDesktopDropdown(e);
+            } else if (e.target.closest('.nav-link-arrow-desktop')) {
+              // If user clicked specifically on the arrow chevron, toggle pinned dropdown
+              toggleDesktopDropdown(e);
+            }
+            // Otherwise, allow standard navigation to overview page!
           }
         });
       }

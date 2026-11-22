@@ -89,13 +89,17 @@ html {
 body {
   font-family: var(--font-body);
   color: var(--color-neutral-800);
-  background-color: var(--color-white);
+  background-color: #0b2219;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: visible;
   overflow-x: clip;
   max-width: 100vw;
+}
+
+main {
+  background-color: var(--color-white);
 }
 
 body.mobile-nav-lock {
@@ -412,6 +416,7 @@ textarea {
 
 .nav-item-dropdown:hover .nav-dropdown-menu,
 .nav-item-dropdown:focus-within .nav-dropdown-menu,
+.nav-item-dropdown.is-open .nav-dropdown-menu,
 .nav-item-dropdown.dropdown-open .nav-dropdown-menu {
   opacity: 1;
   visibility: visible;
@@ -984,11 +989,23 @@ body.mobile-nav-lock {
     pointer-events: auto;
   }
 
-  /* List Item rows */
+    /* List Item rows */
   .nav-menu > li:not(.mobile-nav-drawer-actions) {
     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     border-bottom: 1px solid rgba(226, 232, 240, 0.85);
     padding: 2px 0;
+  }
+
+  .nav-item-dropdown {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .nav-menu > li:nth-last-child(2) {
@@ -1179,16 +1196,18 @@ body.mobile-nav-lock {
     color: #FFFFFF;
   }
 
-  /* Sticky Drawer Action Strip at Bottom */
-    .mobile-nav-drawer-actions {
+    /* Sticky Drawer Action Strip at Bottom */
+  .mobile-nav-drawer-actions {
     display: flex !important;
     flex-direction: column;
     gap: 9px;
-    width: 100%;
+    width: calc(100% + 36px);
+    margin-left: -18px;
+    margin-right: -18px;
     margin-top: auto;
     position: sticky;
     bottom: 0;
-    padding: 14px 18px 18px 18px;
+    padding: 14px 18px calc(18px + env(safe-area-inset-bottom, 0px)) 18px;
     background: #FFFFFF;
     border-top: 1px solid #E2E8F0;
     box-shadow: 0 -4px 16px rgba(16, 39, 31, 0.06);
@@ -2797,10 +2816,10 @@ body.mobile-nav-lock {
     height: 38px;
   }
 
-  /* Bottom Bar Strip */
+    /* Bottom Bar Strip */
   .site-footer .footer-bottom-strip {
     display: block;
-    padding: 18px 0 22px;
+    padding: 18px 0 calc(22px + env(safe-area-inset-bottom, 0px));
     background: #0b2219;
     border-top: 1px solid rgba(255, 255, 255, 0.12);
     width: 100%;
