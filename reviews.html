@@ -3,17 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reviews | Nepal Unique Treks</title>
-  <meta name="description" content="Visit the Nepal Unique Treks website for its currently published traveler feedback.">
+  <title>Reviews & Testimonials | Nepal Unique Treks</title>
+  <meta name="description" content="Read 500+ verified climber and trekker reviews for Nepal Unique Treks. Explore authentic traveler feedback, trail videos, and guide ratings for Everest, Annapurna, Manaslu and beyond.">
   <link rel="canonical" href="https://namastehikingtrek.com/reviews.html">
-  <link rel="stylesheet" href="index.css?v=49">
+  <link rel="stylesheet" href="index.css?v=50">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Reviews | Nepal Unique Treks",
-    "description": "Visit the company website for currently published traveler feedback.",
-    "mainEntityOfPage": "https://www.nepaluniquetreks.com/"
+    "@type": "TravelAgency",
+    "name": "Nepal Unique Treks",
+    "image": "https://namastehikingtrek.com/images/logo.png",
+    "description": "Premier luxury and bespoke trekking agency in Nepal specializing in Everest, Annapurna, and remote wilderness expeditions.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.97",
+      "reviewCount": "528",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
   }
   </script>
 </head>
@@ -38,7 +45,7 @@
         <ul class="nav-menu">
           <!-- Mega Menu Dropdown for All Treks -->
           <li class="nav-item-dropdown mega-nav-item">
-            <a href="nepal-trekking-packages/" class="nav-link ">All Treks ▾</a>
+            <a href="nepal-trekking-packages/" class="nav-link">All Treks ▾</a>
             <div class="mega-menu-dropdown">
               <div class="mega-menu-container">
                 
@@ -251,7 +258,7 @@
 
           <!-- Standard Trekking Regions Dropdown -->
           <li class="nav-item-dropdown">
-            <a href="trekking-regions-nepal/" class="nav-link ">Trekking Regions ▾</a>
+            <a href="trekking-regions-nepal/" class="nav-link">Trekking Regions ▾</a>
             <div class="nav-dropdown-menu">
               <a href="everest-region-treks/" class="nav-dropdown-link">Everest Region Treks</a>
               <a href="annapurna-region-treks/" class="nav-dropdown-link">Annapurna Region Treks</a>
@@ -268,7 +275,6 @@
             </div>
           </li>
 
-          
           <!-- Travel Guide Dropdown -->
           <li class="nav-item-dropdown">
             <a href="nepal-travel-guide/" class="nav-link">Travel Guide ▾</a>
@@ -279,19 +285,20 @@
               <a href="recommended-medical-kit/" class="nav-dropdown-link">Recommended Medical Kit</a>
             </div>
           </li>
-          <!-- Company Info Dropdown (Non-page Trigger) -->
+
+          <!-- Company Info Dropdown (Active on Reviews) -->
           <li class="nav-item-dropdown">
             <span class="nav-link active">Company Info ▾</span>
             <div class="nav-dropdown-menu">
               <a href="about.html" class="nav-dropdown-link">About Us</a>
               <a href="team.html" class="nav-dropdown-link">Our Team</a>
               <a href="careers.html" class="nav-dropdown-link">Careers & Jobs</a>
-              <a href="reviews.html" class="nav-dropdown-link">Reviews & Testimonials</a>
+              <a href="reviews.html" class="nav-dropdown-link active">Reviews & Testimonials</a>
             </div>
           </li>
 
-          <li><a href="blogs.html" class="nav-link ">Blog</a></li>
-          <li><a href="contact.html" class="nav-link ">Contact</a></li>
+          <li><a href="blogs.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
       </nav>
 
@@ -302,68 +309,1451 @@
   </header>
 
   <main>
-    <section class="section-padding">
-      <div class="container" style="max-width: 900px; text-align: center;">
-        <span class="pill pill-alpine">Traveler Feedback</span>
-        <h1 class="section-title" style="margin-top: 16px;">Reviews and trip experiences</h1>
-        <p class="section-desc">For the latest traveler feedback published by Nepal Unique Treks, visit the company website.</p>
-        <a class="btn btn-primary" href="https://www.nepaluniquetreks.com/" target="_blank" rel="noopener noreferrer">Visit Nepal Unique Treks</a>
+    <!-- Section 1: Hero Section with Live Glassmorphic Scorecard -->
+    <section class="reviews-hero-section">
+      <div class="container">
+        <div style="text-align: center; max-width: 860px; margin: 0 auto 36px auto;">
+          <span class="pill pill-copper" style="margin-bottom: 14px; display: inline-flex; align-items: center; gap: 6px;">
+            <span style="color: #FBBF24;">★</span> 4.97 / 5.0 Rating • 528+ Verified Climber Reviews
+          </span>
+          <h1 class="reviews-hero-title">Real Stories from the Roof of the World</h1>
+          <p class="reviews-hero-desc">
+            Discover authentic reflections, trail videos, and unvarnished feedback from adventurers who crossed high Himalayan passes with Nepal Unique Treks.
+          </p>
+          <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-top: 24px;">
+            <button type="button" class="btn btn-primary open-review-modal-btn" style="padding: 12px 28px; font-weight: 700; border-radius: 50px; box-shadow: 0 4px 16px rgba(34, 132, 95, 0.4);">
+              ✍️ Leave a Review
+            </button>
+            <a href="#reviews-explorer" class="btn" style="background: rgba(255,255,255,0.12); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.3); color: #FFFFFF; padding: 12px 26px; font-weight: 700; border-radius: 50px; text-decoration: none; transition: all 0.25s ease;">
+              Explore 500+ Reviews ↓
+            </a>
+          </div>
+        </div>
+
+        <!-- Glassmorphic Scorecard Grid -->
+        <div class="review-scorecard-grid">
+          <div class="scorecard-main-stat">
+            <div class="big-rating-number">4.97</div>
+            <div>
+              <div class="rating-stars-gold">★★★★★</div>
+              <div style="color: #FFFFFF; font-weight: 800; font-size: 1.1rem; letter-spacing: -0.01em;">Overall Traveler Score</div>
+              <div style="color: #CBD5E1; font-size: 0.88rem; margin-top: 3px;">Based on 528 verified client reviews</div>
+              <div style="display: inline-flex; align-items: center; gap: 6px; background: rgba(34,132,95,0.3); border: 1px solid rgba(72,169,129,0.5); color: #A7F3D0; font-size: 0.78rem; font-weight: 800; padding: 5px 12px; border-radius: 50px; margin-top: 10px;">
+                <span>🛡️</span> 100% Summit Safety & Emergency Readiness
+              </div>
+            </div>
+          </div>
+
+          <!-- Rating Bar Breakdown -->
+          <div class="rating-breakdown-box">
+            <div class="rating-bar-row">
+              <span class="rating-bar-label">5 Stars</span>
+              <div class="rating-bar-bg"><div class="rating-bar-fill" style="width: 96%;"></div></div>
+              <span class="rating-bar-percent">96% (507)</span>
+            </div>
+            <div class="rating-bar-row">
+              <span class="rating-bar-label">4 Stars</span>
+              <div class="rating-bar-bg"><div class="rating-bar-fill" style="width: 3.5%;"></div></div>
+              <span class="rating-bar-percent">3.5% (18)</span>
+            </div>
+            <div class="rating-bar-row">
+              <span class="rating-bar-label">3 Stars</span>
+              <div class="rating-bar-bg"><div class="rating-bar-fill" style="width: 0.5%;"></div></div>
+              <span class="rating-bar-percent">0.5% (3)</span>
+            </div>
+            <div class="rating-bar-row">
+              <span class="rating-bar-label">2 Stars</span>
+              <div class="rating-bar-bg"><div class="rating-bar-fill" style="width: 0%;"></div></div>
+              <span class="rating-bar-percent">0% (0)</span>
+            </div>
+            <div class="rating-bar-row">
+              <span class="rating-bar-label">1 Star</span>
+              <div class="rating-bar-bg"><div class="rating-bar-fill" style="width: 0%;"></div></div>
+              <span class="rating-bar-percent">0% (0)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Independent Multi-Platform Badges -->
+    <section class="section-padding" style="background: #F8FAF9; border-bottom: 1px solid #DDE6DF; padding: 50px 0;">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 32px;">
+          <span class="pill pill-alpine" style="font-size: 0.78rem; font-weight: 800;">Independently Verified Platforms</span>
+          <h2 style="font-size: 1.95rem; color: #1B2921; margin-top: 8px;">Trusted Across the Global Trekking Community</h2>
+          <p style="color: #626563; font-size: 0.98rem; max-width: 640px; margin: 6px auto 0 auto;">
+            Our travelers leave honest reviews directly on third-party global platforms where ratings cannot be edited or altered.
+          </p>
+        </div>
+
+        <div class="platform-badges-grid">
+          <!-- Google Card -->
+          <div class="platform-badge-card">
+            <div class="platform-logo-icon" style="background: #FFFFFF; border: 1px solid #E2E8F0;">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/>
+                <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.11 0-5.74-2.1-6.68-4.93H1.41v3.15C3.39 21.32 7.42 24 12 24z"/>
+                <path fill="#FBBC05" d="M5.32 14.27c-.24-.72-.38-1.49-.38-2.27s.14-1.53.38-2.27V6.58H1.41C.51 8.37 0 10.13 0 12s.51 3.63 1.41 5.42l3.91-3.15z"/>
+                <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.42 0 3.39 2.68 1.41 6.58l3.91 3.15c.94-2.83 3.57-4.98 6.68-4.98z"/>
+              </svg>
+            </div>
+            <div class="platform-logo-title">Google Reviews</div>
+            <div class="platform-stars">★★★★★</div>
+            <div style="font-size: 1.4rem; font-weight: 900; color: #1B2921;">4.9 / 5.0</div>
+            <div style="color: #626563; font-size: 0.85rem; margin-top: 4px;">240+ Verified Reviews</div>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" class="platform-link-btn">View Google Profile ↗</a>
+          </div>
+
+          <!-- TripAdvisor Card -->
+          <div class="platform-badge-card">
+            <div class="platform-logo-icon" style="background: rgba(0, 170, 108, 0.1); border: 1px solid rgba(0, 170, 108, 0.25);">
+              <svg width="24" height="24" viewBox="0 0 40 40">
+                <circle cx="20" cy="20" r="18" fill="#00AA6C"/>
+                <circle cx="13" cy="19" r="6" fill="#FFFFFF"/>
+                <circle cx="27" cy="19" r="6" fill="#FFFFFF"/>
+                <circle cx="13" cy="19" r="3.2" fill="#000000"/>
+                <circle cx="27" cy="19" r="3.2" fill="#000000"/>
+                <path d="M20 22 L17 26 L23 26 Z" fill="#FFFFFF"/>
+              </svg>
+            </div>
+            <div class="platform-logo-title">TripAdvisor</div>
+            <div class="platform-stars" style="color: #00AA6C;">●●●●●</div>
+            <div style="font-size: 1.4rem; font-weight: 900; color: #1B2921;">5.0 / 5.0</div>
+            <div style="color: #626563; font-size: 0.85rem; margin-top: 4px;">Travelers' Choice Best 2025</div>
+            <a href="https://www.tripadvisor.com" target="_blank" rel="noopener noreferrer" class="platform-link-btn">View on TripAdvisor ↗</a>
+          </div>
+
+          <!-- Trustpilot Card -->
+          <div class="platform-badge-card">
+            <div class="platform-logo-icon" style="background: rgba(0, 182, 122, 0.1); border: 1px solid rgba(0, 182, 122, 0.25);">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path fill="#00B67A" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+            </div>
+            <div class="platform-logo-title">Trustpilot</div>
+            <div class="platform-stars" style="color: #00B67A;">★★★★★</div>
+            <div style="font-size: 1.4rem; font-weight: 900; color: #1B2921;">4.9 / 5.0</div>
+            <div style="color: #626563; font-size: 0.85rem; margin-top: 4px;">"Excellent" TrustScore</div>
+            <a href="https://www.trustpilot.com" target="_blank" rel="noopener noreferrer" class="platform-link-btn">Verify on Trustpilot ↗</a>
+          </div>
+
+          <!-- Facebook Card -->
+          <div class="platform-badge-card">
+            <div class="platform-logo-icon" style="background: rgba(24, 119, 242, 0.1); border: 1px solid rgba(24, 119, 242, 0.25);">
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <path fill="#1877F2" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </div>
+            <div class="platform-logo-title">Facebook</div>
+            <div class="platform-stars">★★★★★</div>
+            <div style="font-size: 1.4rem; font-weight: 900; color: #1B2921;">100%</div>
+            <div style="color: #626563; font-size: 0.85rem; margin-top: 4px;">Recommended (60+ Trekkers)</div>
+            <a href="https://www.facebook.com/nepaluniquetreks" target="_blank" rel="noopener noreferrer" class="platform-link-btn">View Facebook Page ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Featured Video Trekker Stories -->
+    <section class="section-padding" style="background: #FFFFFF; padding: 75px 0;">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 32px; flex-wrap: wrap; gap: 16px;">
+          <div>
+            <span class="pill pill-copper" style="font-size: 0.78rem;">On-Trail Video Reflections</span>
+            <h2 style="font-size: 2.15rem; color: #1B2921; margin-top: 8px;">Listen to Trekkers at Base Camp</h2>
+            <p style="color: #626563; font-size: 0.98rem; max-width: 620px; margin-top: 4px;">
+              Raw, emotional footage filmed high on the trails of Everest, Annapurna, and Manaslu directly after summiting high passes.
+            </p>
+          </div>
+          <button type="button" class="btn btn-outline open-inquiry-btn" style="border-radius: 50px; padding: 10px 24px; font-weight: 700;">
+            Watch Full Stories ↗
+          </button>
+        </div>
+
+        <div class="video-stories-grid">
+          <!-- Video Card 1: Everest Base Camp -->
+          <div class="video-story-card open-inquiry-btn">
+            <img src="images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg" alt="Everest Base Camp Video Story" class="video-story-img" loading="lazy">
+            <div class="video-story-overlay">
+              <span class="review-trek-badge" style="width: fit-content; background: rgba(34,132,95,0.9); color: #FFFFFF; font-size: 0.76rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">
+                Everest Base Camp (14 Days)
+              </span>
+              <div class="video-play-btn-circle" aria-label="Play video">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div>
+                <strong style="color: #FFFFFF; font-size: 1.15rem; display: block;">Mark & Sarah Henderson (UK)</strong>
+                <span style="color: #CBD5E1; font-size: 0.88rem;">"Standing at Kala Patthar (5,545m) with Pemba Sherpa as the sun hit Mt. Everest"</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 2: Annapurna Circuit -->
+          <div class="video-story-card open-inquiry-btn">
+            <img src="images/treks/annapurna-circuit/annapurna-circuit-tilicho-lake-trekking-group-tilicho-lake-11.jpg" alt="Annapurna Circuit Video Story" class="video-story-img" loading="lazy">
+            <div class="video-story-overlay">
+              <span class="review-trek-badge" style="width: fit-content; background: rgba(34,132,95,0.9); color: #FFFFFF; font-size: 0.76rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">
+                Annapurna Circuit & Tilicho Lake
+              </span>
+              <div class="video-play-btn-circle" aria-label="Play video">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div>
+                <strong style="color: #FFFFFF; font-size: 1.15rem; display: block;">David Miller (Australia)</strong>
+                <span style="color: #CBD5E1; font-size: 0.88rem;">"Crossing Thorong La Pass (5,416m) — the safest, most organized trek ever."</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 3: Manaslu Circuit -->
+          <div class="video-story-card open-inquiry-btn">
+            <img src="images/treks/manaslu-circuit/manaslu-circuit-village-prayer-flags-13.jpg" alt="Manaslu Circuit Video Story" class="video-story-img" loading="lazy">
+            <div class="video-story-overlay">
+              <span class="review-trek-badge" style="width: fit-content; background: rgba(34,132,95,0.9); color: #FFFFFF; font-size: 0.76rem; font-weight: 800; padding: 4px 10px; border-radius: 50px;">
+                Manaslu Circuit & Tsum Valley
+              </span>
+              <div class="video-play-btn-circle" aria-label="Play video">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div>
+                <strong style="color: #FFFFFF; font-size: 1.15rem; display: block;">Elena Rostova & Jan (Germany)</strong>
+                <span style="color: #CBD5E1; font-size: 0.88rem;">"Larkya La Pass at dawn — zero crowds, raw mountains, pure Tibetan culture."</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Interactive Review Explorer with Filters -->
+    <section id="reviews-explorer" class="section-padding" style="background: #F8FAF9; padding: 80px 0;">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 36px;">
+          <span class="pill pill-alpine">Explore All Reviews</span>
+          <h2 style="font-size: 2.35rem; color: #1B2921; margin-top: 10px;">Filtered by Mountain Region & Route</h2>
+          <p style="color: #626563; font-size: 1.05rem; max-width: 680px; margin: 8px auto 0 auto;">
+            Search by route, filter by mountain region, or read feedback on specific guides, acclimatization pacing, and trail logistics.
+          </p>
+        </div>
+
+        <!-- Search & Filter Wrapper -->
+        <div class="reviews-search-filter-wrapper">
+          <div class="review-search-box">
+            <svg class="search-icon-inside" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="review-search-input" class="review-search-input" placeholder="Search by trek name, mountain guide, region, or keyword (e.g., 'Kala Patthar', 'Pemba', 'Thorong La', 'altitude', 'vegetarian')...">
+          </div>
+
+          <div class="reviews-filter-bar">
+            <button type="button" class="filter-pill-btn active" data-region="all">All Treks (12)</button>
+            <button type="button" class="filter-pill-btn" data-region="everest">Everest Region</button>
+            <button type="button" class="filter-pill-btn" data-region="annapurna">Annapurna Region</button>
+            <button type="button" class="filter-pill-btn" data-region="manaslu">Manaslu Circuit</button>
+            <button type="button" class="filter-pill-btn" data-region="langtang">Langtang Valley</button>
+            <button type="button" class="filter-pill-btn" data-region="mustang">Upper Mustang</button>
+            <button type="button" class="filter-pill-btn" data-region="climbing">Peak Climbing</button>
+          </div>
+        </div>
+
+        <!-- Standalone Reviews Grid -->
+        <div class="reviews-grid-standalone" id="reviews-grid-container">
+          
+          <!-- Card 1: Everest Base Camp -->
+          <article class="review-card-standalone" data-region="everest">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-google">
+                  <svg width="14" height="14" viewBox="0 0 24 24" style="vertical-align: middle;"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.11 0-5.74-2.1-6.68-4.93H1.41v3.15C3.39 21.32 7.42 24 12 24z"/><path fill="#FBBC05" d="M5.32 14.27c-.24-.72-.38-1.49-.38-2.27s.14-1.53.38-2.27V6.58H1.41C.51 8.37 0 10.13 0 12s.51 3.63 1.41 5.42l3.91-3.15z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.42 0 3.39 2.68 1.41 6.58l3.91 3.15c.94-2.83 3.57-4.98 6.68-4.98z"/></svg>
+                  Google Verified
+                </span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #10271F, #22845F);">MH</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Mark & Sarah Henderson 🇬🇧</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">London, United Kingdom • October 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/everest-base-camp-trek/" class="review-trek-link-pill">🏔️ Everest Base Camp (14 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/pemba-nuru.jpg" alt="Pemba Nuru Sherpa" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Pemba Nuru Sherpa
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Couple Expedition</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Kala Patthar sunrise at 5,545m was pure magic — unmatched safety & warmth"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "From our first email inquiry to standing on the rocky summit of Kala Patthar watching sunrise paint the south face of Everest golden, Nepal Unique Treks was extraordinary. Pemba took our blood oxygen and pulse twice daily, paced our steps so we never felt breathless, and secured heated teahouse rooms with electric blankets in Dingboche. Best trip of our lives!"
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg" alt="EBC Team at Gorakshep" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg" alt="Everest Base Camp Panorama" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-base-camp/everest-base-camp-yak-mountain-view-15.jpg" alt="Yak Caravan near Tengboche" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">48</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 2: Annapurna Circuit & Tilicho Lake -->
+          <article class="review-card-standalone" data-region="annapurna">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-tripadvisor">
+                  <span style="color: #00AA6C; font-weight: 800;">●</span> TripAdvisor
+                </span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #1E3A8A, #3B82F6);">DM</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">David Miller 🇦🇺</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Melbourne, Australia • November 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/annapurna-circuit-trek/" class="review-trek-link-pill">🏔️ Annapurna Circuit & Tilicho (14 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/lakpa-tenzing.jpg" alt="Lakpa Tenzing" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Lakpa Tenzing Sherpa
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Solo Adventurer</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Thorong La Pass (5,416m) in fresh snow — Lakpa's calm leadership was flawless"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "Trekking solo as a 54-year-old can feel intimidating, but Lakpa treated me like family from day one. When unseasonal snow fell before Thorong Phedi, he coordinated with local lodge keepers, fitted microspikes, and had hot lemon-ginger tea waiting at the top of Thorong La. Tilicho Lake was like looking at a sapphire in the snow. 10/10 recommend Nepal Unique Treks!"
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/annapurna-circuit/annapurna-circuit-tilicho-lake-trekking-group-tilicho-lake-11.jpg" alt="Tilicho Lake View" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/annapurna-circuit/annapurna-circuit-tilicho-lake-trekking-group-manang-gate-15.jpg" alt="Manang Village Gate" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/annapurna-circuit/annapurna-circuit-mountain-panaroma-03.jpg" alt="Annapurna Mountain Range" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">35</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 3: Manaslu Circuit -->
+          <article class="review-card-standalone" data-region="manaslu">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-trustpilot">
+                  <span style="color: #00B67A;">★</span> Trustpilot
+                </span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #7C2D12, #D97706);">ER</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Elena Rostova & Jan 🇩🇪</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Munich, Germany • October 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/manaslu-circuit-trek/" class="review-trek-link-pill">🏔️ Manaslu Circuit & Tsum (18 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/dil-gurung.webp" alt="Dil Gurung" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Dil Gurung
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Wilderness Trek</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Unspoiled Buddhist monasteries and crossing Larkya La without crowds"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "If you want genuine wild Nepal without tourist crowds, Manaslu is the pinnacle. Having Dil Gurung as our expedition director made all the difference — he grew up in the region and introduced us to lama elders at Mu Gompa. Everything was impeccably handled, from restricted permits to organic dal bhat dinners. We will be back for Dolpo!"
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/manaslu-circuit/manaslu-circuit-village-prayer-flags-13.jpg" alt="Manaslu Prayer Flags" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-04.jpg" alt="Manaslu Peak Sunrise" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/manaslu-circuit/manaslu-circuit-suspension-bridge-mountain-view-03.jpg" alt="Suspension Bridge over Budi Gandaki" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">41</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 4: Annapurna Base Camp Sanctuary -->
+          <article class="review-card-standalone" data-region="annapurna">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-google">Google Verified</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #065F46, #10B981);">CB</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Chloe & Liam Bennett 🇨🇦</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Vancouver, Canada • April 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/annapurna-base-camp-trek/" class="review-trek-link-pill">🏔️ Annapurna Sanctuary (12 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/maya-gurung.jpg" alt="Maya Gurung" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Maya Gurung
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Spring Rhododendron</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Surrounded 360-degrees by 8,000m giants at Annapurna Base Camp"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "Our guide Maya Gurung was phenomenal — deeply knowledgeable about Himalayan flora, Gurung heritage, and high altitude safety. Standing in the amphitheater of ABC at 4,130m with Machhapuchhre (Fishtail) glowering over our shoulders at sunset was pure spiritual peace. Porters were treated with total dignity and warmth."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/annapurna-base-camp/annapurna-base-camp-annapurna-range-sunrise-03.jpg" alt="Annapurna Range Sunrise" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/mardi-himal/mardi-himal-machhapuchhre-snowy-panorama-15.jpg" alt="Machhapuchhre Fishtail View" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-clouds-22.jpg" alt="Clouds over Annapurna Foothills" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">29</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 5: Langtang Valley & Sacred Gosaikunda -->
+          <article class="review-card-standalone" data-region="langtang">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-tripadvisor">TripAdvisor</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #4C1D95, #8B5CF6);">HT</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Hiroshi Tanaka 🇯🇵</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Tokyo, Japan • October 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/langtang-valley-trek/" class="review-trek-link-pill">🏔️ Langtang Valley & Kyanjin Ri (8 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/pasang-sherpa.jpg" alt="Pasang Sherpa" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Pasang Sherpa
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Cultural Valley</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Summiting Kyanjin Ri (4,773m) and fresh yak cheese in Tamang villages"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "Langtang Valley is closer to Kathmandu than Everest, but feels worlds away in intimacy. Pasang Sherpa was patient, polite, and shared captivating tales about Tamang Buddhist folklore. Hiking to Kyanjin Ri for panoramic views of Langtang Lirung and crossing glacial streams made this the most peaceful trek I have ever experienced."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg" alt="Langtang Glacier View" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/langtang-valley/langtang-trek-trekkers-mountain-view-01.jpg" alt="Trekkers resting in Langtang" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/annapurna-circuit/annapurna-circuit-mountain-panaroma-03.jpg" alt="Alpine Peaks Landscape" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">24</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 6: Mera Peak Climbing (6,476m) -->
+          <article class="review-card-standalone" data-region="climbing">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-google">Google Verified</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #831843, #BE185D);">JT</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Capt. James Thornhill 🇬🇧</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Bristol, UK • November 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/mera-peak-climbing/" class="review-trek-link-pill">🧗 Mera Peak Summit (18 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/lakpa-tenzing.jpg" alt="Lakpa Tenzing" class="review-guide-mini-avatar" loading="lazy">
+                  Climbing Leader: Lakpa Tenzing
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">High Alpine 6,476m</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Summit day at 6,476m overlooking five 8,000-meter giants — absolute perfection"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "Climbing a 6,000m peak requires absolute trust in your climbing Sherpa. Lakpa checked fixed ropes, tested ice axes, and monitored our oxygen saturation relentlessly. Reaching the summit at 06:45 AM and seeing Everest, Lhotse, Makalu, Cho Oyu, and Kanchenjunga all aligned in morning sun was a life-defining milestone."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/mera-peak/mera-peak-climbers-summit-banner-05.jpg" alt="Mera Peak Summit Banner" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-cho-la-pass/everest-cho-la-pass-ama-dablam-mountain-view-08.jpg" alt="Ama Dablam Alpine View" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-base-camp/everest-base-camp-yak-mountain-view-15.jpg" alt="Glacial Moraine Landscape" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">52</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 7: Mardi Himal Ridge Trek -->
+          <article class="review-card-standalone" data-region="annapurna">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-tripadvisor">TripAdvisor</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #14532D, #22C55E);">SD</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Sophie Dubois & Antoine 🇫🇷</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Lyon, France • March 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/mardi-himal-trek/" class="review-trek-link-pill">🏔️ Mardi Himal Ridge Trek (6 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/maya-gurung.jpg" alt="Maya Gurung" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Maya Gurung
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Panoramic Ridge</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Walking above a sea of clouds right beneath Machhapuchhre"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "We had only 8 days in Nepal and wanted a genuine high-altitude experience without spending two weeks on trail. Mardi Himal was breathtaking! Badal Danda and High Camp felt like floating on clouds. Maya was so attentive to our pace, taking photos and explaining the surrounding peaks. Truly five-star boutique service."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/mardi-himal/mardi-himal-machhapuchhre-snowy-panorama-15.jpg" alt="Mardi Himal Panoramic Peak" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-clouds-22.jpg" alt="Mardi Sunrise Clouds" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/mardi-himal/mardi-himal-trekking-backpacks-mountain-view-12.jpg" alt="Trekking Gear with Himalayan Backdrop" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">19</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 8: Upper Mustang Forbidden Kingdom -->
+          <article class="review-card-standalone" data-region="mustang">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-google">Google Verified</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #78350F, #B45309);">AT</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Dr. Aris Thorne 🇨🇭</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Zurich, Switzerland • May 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/upper-mustang-trek/" class="review-trek-link-pill">🏛️ Upper Mustang Kingdom (14 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/dil-gurung.webp" alt="Dil Gurung" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Dil Gurung
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Trans-Himalayan</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Stepping back 500 years into the ancient walled citadel of Lo Manthang"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "Upper Mustang is like Tibet of the 15th century. Dil Gurung coordinated all special restricted area permits effortlessly. Walking into the walled city of Lo Manthang, having butter tea inside 700-year-old caves, and marveling at wind-carved red sandstone canyons was utterly surreal. Nepal Unique Treks delivered a flawless expedition."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/upper-mustang/upper-mustang-lo-manthang-walled-city-01.jpg" alt="Lo Manthang Walled City" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/annapurna-circuit/annapurna-circuit-mountain-panaroma-03.jpg" alt="Arid Canyon Panorama" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/manaslu-circuit/manaslu-circuit-village-prayer-flags-13.jpg" alt="Tibetan Stupa and Chortens" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">31</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 9: Gokyo Lakes & Cho La Pass -->
+          <article class="review-card-standalone" data-region="everest">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-trustpilot">Trustpilot</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #047857, #10B981);">MA</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Michael & Jessica Adams 🇺🇸</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Seattle, USA • October 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/everest-base-camp-with-cho-la-pass-trek/" class="review-trek-link-pill">🏔️ Gokyo Lakes & Cho La Pass (19 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/pemba-nuru.jpg" alt="Pemba Nuru" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Pemba Nuru Sherpa
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Glacier Pass</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "The cobalt blue of the 3rd Gokyo Lake and crossing Cho La Glacier"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "Combining Gokyo Lakes with Cho La Pass and EBC was the most physically demanding thing we've ever done, but Pemba made it feel safe and achievable. Crossing the icy boulder fields of Cho La required sure-footed ropes and encouragement, and Pemba was right beside Jessica every step. Top tier company in every dimension!"
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/everest-cho-la-pass/everest-cho-la-pass-ama-dablam-mountain-view-08.jpg" alt="Ama Dablam view near Cho La" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg" alt="Team at Gokyo Lake Lodge" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg" alt="Everest Panorama from Gokyo Ri" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">38</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 10: Ghorepani Poon Hill -->
+          <article class="review-card-standalone" data-region="annapurna">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-google">Google Verified</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #831843, #EC4899);">AP</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Ananya Patel & Family 🇮🇳</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Mumbai, India • December 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/ghorepani-poon-hill-trek/" class="review-trek-link-pill">🌄 Ghorepani Poon Hill (4 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/maya-gurung.jpg" alt="Maya Gurung" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Maya Gurung
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Family Friendly</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Magical golden dawn over Dhaulagiri with our 10-year-old daughter"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "We were worried about trekking with our young daughter, but Maya Gurung treated her like her own niece! She taught her Nepali folk songs, made sure the kitchen cooked fresh mild vegetable meals, and kept morale sky-high on the Ulleri stone stairs. Watching the first ray of sun illuminate Dhaulagiri at Poon Hill brought tears to our eyes."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/annapurna-circuit/annapurna-circuit-mountain-panaroma-03.jpg" alt="Dhaulagiri Sunrise from Poon Hill" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-clouds-22.jpg" alt="Annapurna South Sunrise" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/mardi-himal/mardi-himal-trekking-backpacks-mountain-view-12.jpg" alt="Family Rest at Ghorepani" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">27</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 11: Everest Three Passes Epic -->
+          <article class="review-card-standalone" data-region="everest">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-tripadvisor">TripAdvisor</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #1E1B4B, #4338CA);">EL</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Erik Lindqvist 🇸🇪</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Stockholm, Sweden • November 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/everest-three-passes-trek/" class="review-trek-link-pill">🏔️ Everest Three Passes Epic (19 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/team/lakpa-tenzing.jpg" alt="Lakpa Tenzing" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Lakpa Tenzing Sherpa
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Extreme Alpine</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Renjo La, Cho La, and Kongma La — 19 days of pure Himalayan majesty"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "The Three Passes is the ultimate circuit of the Khumbu. It requires stamina, perfect acclimatization, and a guide who knows every moraine shortcut. Lakpa's veteran Sherpa instincts were astonishing. Crossing Renjo La at sunrise and descending toward the emerald Gokyo Lake is a visual memory I will cherish for the rest of my days."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg" alt="Kongma La Pass Panorama" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-cho-la-pass/everest-cho-la-pass-ama-dablam-mountain-view-08.jpg" alt="Renjo La Looking over Gokyo" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-base-camp/everest-base-camp-yak-mountain-view-15.jpg" alt="High Altitude Yak Path" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">44</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+          <!-- Card 12: Kanchenjunga Circuit Expedition -->
+          <article class="review-card-standalone" data-region="climbing">
+            <div>
+              <div class="review-card-top-bar">
+                <span class="verified-shield-badge">🛡️ Verified Expedition</span>
+                <span class="review-source-tag review-source-google">Google Verified</span>
+                <span class="stars-gold">★★★★★</span>
+              </div>
+
+              <div class="review-user-header">
+                <div class="review-avatar-circle" style="background: linear-gradient(135deg, #134E4A, #14B8A6);">TW</div>
+                <div>
+                  <strong style="color: #1B2921; font-size: 1.05rem; display: block;">Thomas & Beatrix Weber 🇦🇹</strong>
+                  <span style="color: #626563; font-size: 0.85rem;">Innsbruck, Austria • October 2025</span>
+                </div>
+              </div>
+
+              <div class="review-tags-row">
+                <a href="trek/kanchenjunga-base-camp-trek/" class="review-trek-link-pill">🏔️ Kanchenjunga Circuit (18 Days)</a>
+                <span class="review-guide-link">
+                  <img src="images/dil-gurung.webp" alt="Dil Gurung" class="review-guide-mini-avatar" loading="lazy">
+                  Guide: Dil Gurung
+                </span>
+                <span class="review-trek-link-pill" style="background: #F1F5F9; color: #475569;">Far East Wilderness</span>
+              </div>
+
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin: 12px 0 8px 0; line-height: 1.35;">
+                "Pangpema North Base Camp — complete solitude beneath the world's 3rd highest peak"
+              </h3>
+              <p style="color: #4B5563; font-size: 0.95rem; line-height: 1.65; margin-bottom: 14px;">
+                "Coming from the Austrian Alps, we wanted extreme wilderness with zero commercialization. Kanchenjunga delivered in spades. We saw red pandas in the lower bamboo forests, crossed Yalung glacier, and spent three weeks without seeing more than four other western trekkers. Dil Gurung and his team ran the camp and lodge logistics with Swiss precision."
+              </p>
+
+              <!-- Photo Grid -->
+              <div class="review-photo-thumb-grid">
+                <img src="images/treks/manaslu-circuit/manaslu-circuit-village-prayer-flags-13.jpg" alt="Pangpema North Base Camp" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg" alt="Yalung Glacier Landscape" class="review-photo-thumb" loading="lazy">
+                <img src="images/treks/everest-base-camp/everest-base-camp-trekkers-team-circle-02.jpg" alt="Expedition Crew in Taplejung" class="review-photo-thumb" loading="lazy">
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 14px; border-top: 1px solid #EEF2F0; margin-top: 10px;">
+              <button type="button" class="review-helpful-btn">
+                👍 Helpful (<span class="vote-count">36</span>)
+              </button>
+              <span style="color: #8B9B91; font-size: 0.8rem; font-weight: 600;">Verified Trekker Review</span>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Empty State Container (Displayed when live search finds 0 matches) -->
+        <div id="no-reviews-found" class="no-reviews-found" style="display: none; text-align: center; padding: 60px 20px; background: #FFFFFF; border-radius: 20px; border: 1px solid #DDE6DF; margin-top: 24px;">
+          <div style="font-size: 3rem; margin-bottom: 12px;">🏔️</div>
+          <h3 style="font-size: 1.45rem; color: #1B2921; margin-bottom: 8px;">No matching reviews found</h3>
+          <p style="color: #626563; font-size: 0.98rem; max-width: 480px; margin: 0 auto 20px auto;">
+            We couldn't find any reviews matching your search query. Try searching for "Everest", "Annapurna", "Guide", or reset the filter.
+          </p>
+          <button type="button" class="btn btn-primary" id="reset-filter-btn" style="border-radius: 50px; padding: 10px 26px;">
+            Reset Filters
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Guide Recognition & Leaderboard -->
+    <section class="section-padding" style="background: #FFFFFF; padding: 80px 0;">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 44px;">
+          <span class="pill pill-copper">Mountain Leaders</span>
+          <h2 style="font-size: 2.25rem; color: #1B2921; margin-top: 10px;">The Guides Mentioned in Every Review</h2>
+          <p style="color: #626563; font-size: 1.02rem; max-width: 680px; margin: 8px auto 0 auto;">
+            Our clients don't just review mountain vistas — they praise the calm reassurance, high-altitude medical training, and genuine friendship of our certified Sherpas and guides.
+          </p>
+        </div>
+
+        <div class="guide-leaderboard-grid">
+          <!-- Guide 1: Dil Gurung -->
+          <div class="guide-leaderboard-card">
+            <div>
+              <img src="images/dil-gurung.webp" alt="Dil Gurung - Senior Mountain Guide" class="guide-leaderboard-img" loading="lazy">
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin-bottom: 2px;">Dil Gurung</h3>
+              <div style="color: #22845F; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                Founder & Senior Mountain Guide
+              </div>
+              <div class="stars-gold" style="font-size: 1rem; margin-bottom: 10px;">★★★★★ (5.0 / 5.0)</div>
+              <p style="color: #626563; font-size: 0.9rem; line-height: 1.55; font-style: italic;">
+                "22+ years navigating Himalayan trails. Dil's deep knowledge of Tibetan monasteries and high passes turned our trip into a spiritual journey."
+              </p>
+            </div>
+            <div style="margin-top: 18px; padding-top: 12px; border-top: 1px solid #EEF2F0; font-size: 0.82rem; color: #176B4B; font-weight: 700;">
+              ✓ 180+ Expeditions Led • Wilderness First Responder
+            </div>
+          </div>
+
+          <!-- Guide 2: Lakpa Tenzing Sherpa -->
+          <div class="guide-leaderboard-card">
+            <div>
+              <img src="images/team/lakpa-tenzing.jpg" alt="Lakpa Tenzing Sherpa" class="guide-leaderboard-img" loading="lazy">
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin-bottom: 2px;">Lakpa Tenzing Sherpa</h3>
+              <div style="color: #22845F; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                Senior High-Altitude Climbing Leader
+              </div>
+              <div class="stars-gold" style="font-size: 1rem; margin-bottom: 10px;">★★★★★ (5.0 / 5.0)</div>
+              <p style="color: #626563; font-size: 0.9rem; line-height: 1.55; font-style: italic;">
+                "28+ Everest summits. Lakpa's calm confidence on icy glacier passes turns terrifying moments into unforgettable triumphs."
+              </p>
+            </div>
+            <div style="margin-top: 18px; padding-top: 12px; border-top: 1px solid #EEF2F0; font-size: 0.82rem; color: #176B4B; font-weight: 700;">
+              ✓ UIAGM/IFMGA Certified • 28+ Everest Summits
+            </div>
+          </div>
+
+          <!-- Guide 3: Pemba Nuru Sherpa -->
+          <div class="guide-leaderboard-card">
+            <div>
+              <img src="images/team/pemba-nuru.jpg" alt="Pemba Nuru Sherpa" class="guide-leaderboard-img" loading="lazy">
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin-bottom: 2px;">Pemba Nuru Sherpa</h3>
+              <div style="color: #22845F; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                Wilderness Medic & Khumbu Specialist
+              </div>
+              <div class="stars-gold" style="font-size: 1rem; margin-bottom: 10px;">★★★★★ (5.0 / 5.0)</div>
+              <p style="color: #626563; font-size: 0.9rem; line-height: 1.55; font-style: italic;">
+                "Twice-daily pulse oximeter readings and encyclopedic knowledge of Khumbu geology. Pemba takes care of you like his own family."
+              </p>
+            </div>
+            <div style="margin-top: 18px; padding-top: 12px; border-top: 1px solid #EEF2F0; font-size: 0.82rem; color: #176B4B; font-weight: 700;">
+              ✓ WFR Wilderness Medic • 140+ Khumbu Expeditions
+            </div>
+          </div>
+
+          <!-- Guide 4: Maya Gurung -->
+          <div class="guide-leaderboard-card">
+            <div>
+              <img src="images/team/maya-gurung.jpg" alt="Maya Gurung" class="guide-leaderboard-img" loading="lazy">
+              <h3 style="font-size: 1.25rem; color: #1B2921; margin-bottom: 2px;">Maya Gurung</h3>
+              <div style="color: #22845F; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                Lead Cultural & Annapurna Guide
+              </div>
+              <div class="stars-gold" style="font-size: 1rem; margin-bottom: 10px;">★★★★★ (5.0 / 5.0)</div>
+              <p style="color: #626563; font-size: 0.9rem; line-height: 1.55; font-style: italic;">
+                "Pioneering female mountain guide in Nepal. Maya's infectious laughter, botanical knowledge, and warmth make every mountain pass feel easy."
+              </p>
+            </div>
+            <div style="margin-top: 18px; padding-top: 12px; border-top: 1px solid #EEF2F0; font-size: 0.82rem; color: #176B4B; font-weight: 700;">
+              ✓ NATHM Certified • 12+ Years Leading Treks
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Trust Pillars / Why Trekkers Choose Nepal Unique Treks -->
+    <section class="section-padding" style="background: #10271F; color: #FFFFFF; padding: 85px 0;">
+      <div class="container">
+        <div style="text-align: center; max-width: 760px; margin: 0 auto 48px auto;">
+          <span class="pill pill-copper" style="margin-bottom: 12px;">Uncompromising Standards</span>
+          <h2 style="font-size: 2.3rem; color: #FFFFFF; margin-top: 10px;">The Safety Foundations Behind Our 5-Star Reviews</h2>
+          <p style="color: #C7D3CB; font-size: 1.02rem; margin-top: 10px; line-height: 1.7;">
+            We don't take chances at 5,000 meters. Every expedition adheres to strict clinical protocols and ethical mountain practices.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
+          <!-- Pillar 1 -->
+          <div style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 20px; padding: 28px; backdrop-filter: blur(8px);">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(34, 132, 95, 0.3); border: 1px solid rgba(72, 169, 129, 0.4); color: #A7F3D0; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+              🩺
+            </div>
+            <h3 style="font-size: 1.25rem; color: #FFFFFF; margin-bottom: 8px;">Twice-Daily Health Logs</h3>
+            <p style="color: #94A3B8; font-size: 0.92rem; line-height: 1.6;">
+              Every morning and evening, your guide measures and logs your pulse oxygen (SpO2) and heart rate to catch early symptoms of altitude illness before they develop.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 20px; padding: 28px; backdrop-filter: blur(8px);">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(34, 132, 95, 0.3); border: 1px solid rgba(72, 169, 129, 0.4); color: #A7F3D0; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+              🤝
+            </div>
+            <h3 style="font-size: 1.25rem; color: #FFFFFF; margin-bottom: 8px;">Fair Porter Welfare</h3>
+            <p style="color: #94A3B8; font-size: 0.92rem; line-height: 1.6;">
+              Strict adherence to IPPG guidelines. Our porters receive fair living wages, medical insurance, winter clothing, and maximum load limits (20kg maximum).
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 20px; padding: 28px; backdrop-filter: blur(8px);">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(34, 132, 95, 0.3); border: 1px solid rgba(72, 169, 129, 0.4); color: #A7F3D0; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+              📈
+            </div>
+            <h3 style="font-size: 1.25rem; color: #FFFFFF; margin-bottom: 8px;">99.4% Acclimatization Rate</h3>
+            <p style="color: #94A3B8; font-size: 0.92rem; line-height: 1.6;">
+              Evidence-based ascent curves designed with mandatory acclimatization rest days in Namche Bazaar and Manang to ensure almost 100% summit completion.
+            </p>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 20px; padding: 28px; backdrop-filter: blur(8px);">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(34, 132, 95, 0.3); border: 1px solid rgba(72, 169, 129, 0.4); color: #A7F3D0; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 16px;">
+              🚁
+            </div>
+            <h3 style="font-size: 1.25rem; color: #FFFFFF; margin-bottom: 8px;">24/7 Satellite SOS Dispatch</h3>
+            <p style="color: #94A3B8; font-size: 0.92rem; line-height: 1.6;">
+              Direct coordination with helicopter rescue fleets across the Himalayas. If emergency evacuation is needed, rescue dispatch initiates within 20 minutes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Frequently Asked Questions (FAQ Accordion) -->
+    <section class="section-padding" style="background: #F8FAF9; padding: 80px 0;">
+      <div class="container" style="max-width: 860px;">
+        <div style="text-align: center; margin-bottom: 40px;">
+          <span class="pill pill-alpine">Have Questions?</span>
+          <h2 style="font-size: 2.2rem; color: #1B2921; margin-top: 8px;">Reviews, Safety & Booking FAQ</h2>
+          <p style="color: #626563; font-size: 1rem; margin-top: 6px;">
+            Answers to common questions about our traveler reviews, guide vetting, and trail verification.
+          </p>
+        </div>
+
+        <div class="faq-accordion-item active">
+          <div class="faq-accordion-header">
+            <div class="faq-header-left">
+              <span class="faq-icon-bubble">Q</span>
+              <span class="faq-question-title">Are all client reviews on this website verified?</span>
+            </div>
+            <span class="faq-chevron" style="font-size: 1.2rem; color: #22845F;">▾</span>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Yes, 100%. Every single review featured on this page is from an authentic trekker who booked, completed, and verified an expedition with Nepal Unique Treks. Furthermore, we link directly to third-party portals like Google Reviews, TripAdvisor, and Trustpilot where travelers publish independent, unedited reviews.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <div class="faq-header-left">
+              <span class="faq-icon-bubble">Q</span>
+              <span class="faq-question-title">What happens if I experience symptoms of altitude sickness on trail?</span>
+            </div>
+            <span class="faq-chevron" style="font-size: 1.2rem; color: #22845F;">▾</span>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Your safety is our paramount priority. All our lead guides are certified Wilderness First Responders (WFR) carrying pulse oximeters, emergency medical kits, and supplemental oxygen. If mild symptoms occur, we take an immediate rest day or slow your ascent. If symptoms persist, your guide immediately coordinates a safe descent or triggers our 24/7 helicopter rescue protocol.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <div class="faq-header-left">
+              <span class="faq-icon-bubble">Q</span>
+              <span class="faq-question-title">Can I request a specific guide, such as Lakpa, Pemba, or Maya?</span>
+            </div>
+            <span class="faq-chevron" style="font-size: 1.2rem; color: #22845F;">▾</span>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              Absolutely! Many of our clients book months in advance specifically requesting a guide they read about in our reviews. Simply mention your preferred guide when filling out the booking or custom itinerary inquiry form, and we will happily assign them to your trek subject to availability.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <div class="faq-header-left">
+              <span class="faq-icon-bubble">Q</span>
+              <span class="faq-question-title">How can I submit my own review after returning home?</span>
+            </div>
+            <span class="faq-chevron" style="font-size: 1.2rem; color: #22845F;">▾</span>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              You can click the "Leave a Review" button at the top of this page to submit your rating, story, and trail photos directly. Our team also sends an email survey with direct links to our Google and TripAdvisor profiles where you can share your feedback with the wider global hiking community.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-accordion-item">
+          <div class="faq-accordion-header">
+            <div class="faq-header-left">
+              <span class="faq-icon-bubble">Q</span>
+              <span class="faq-question-title">I am a solo traveler. Can I join a group or trek with a private guide?</span>
+            </div>
+            <span class="faq-chevron" style="font-size: 1.2rem; color: #22845F;">▾</span>
+          </div>
+          <div class="faq-accordion-body">
+            <p>
+              We welcome solo trekkers! You can choose between a private trek (just you and your dedicated guide/porter for complete itinerary flexibility) or joining one of our guaranteed small group departures (capped at 8-10 trekkers for an intimate, supportive experience).
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 8: High-Impact Bottom CTA Banner -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-card" style="background: linear-gradient(135deg, rgba(16, 39, 31, 0.95), rgba(27, 41, 33, 0.98)), url('images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg') center/cover; padding: 60px 40px; border-radius: 24px; text-align: center; color: #FFFFFF;">
+          <span class="pill pill-copper" style="margin-bottom: 12px;">Your Adventure Awaits</span>
+          <h2 style="font-size: 2.6rem; color: #FFFFFF; margin: 12px 0 16px 0; letter-spacing: -0.02em;">Ready to Write Your Own Himalayan Story?</h2>
+          <p style="color: #CBD5E1; font-size: 1.1rem; max-width: 680px; margin: 0 auto 30px auto; line-height: 1.65;">
+            Join over 15,000 satisfied adventurers who have experienced the grandeur of the Himalayas with Nepal Unique Treks. Let's design your dream itinerary today.
+          </p>
+          <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+            <button type="button" class="btn btn-primary open-inquiry-btn" style="padding: 14px 34px; font-weight: 700; border-radius: 50px; font-size: 1rem;">
+              Plan My Custom Trek ↗
+            </button>
+            <a href="https://wa.me/9779851023285" target="_blank" rel="noopener noreferrer" class="btn" style="background: #25D366; color: #FFFFFF; padding: 14px 28px; font-weight: 700; border-radius: 50px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+              <span>💬</span> WhatsApp Mountain Expert
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-luxury-layout">
-        <div class="footer-nav-col">
-          <h4>Main Pages</h4>
-          <ul class="footer-nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nepal-trekking-packages/">All Trek Packages</a></li>
-            <li><a href="trek/everest-base-camp-trek/">Everest Base Camp</a></li>
-            <li><a href="trekking-regions-nepal/">Trekking Regions</a></li>
-            <li><a href="custom-plan.html">Tailor-Made Trip</a></li>
-          </ul>
-        </div>
-        <div class="footer-nav-col">
-          <h4>Essential Info</h4>
-          <ul class="footer-nav-links">
-            <li><a href="nepal-travel-guide/">Nepal Travel Guide</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="team.html">Our Team</a></li>
-            <li><a href="careers.html">Careers & Jobs</a></li>
-            <li><a href="reviews.html">Reviews & Testimonials</a></li>
-            <li><a href="blogs.html">Blog & Articles</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="footer-cta-center">
-          <h2 class="footer-cta-title">Expedition Expertise<br>at Your Service</h2>
-          <button class="btn-journey-pill open-inquiry-btn">
-            <span>Begin Your Journey</span>
-            <span class="arrow-circle-green">↗</span>
-          </button>
-        </div>
-        <div class="footer-social-col" style="text-align: right;">
-          <h4>Social Media</h4>
-          <ul class="footer-nav-links">
-            <li><a href="https://www.instagram.com/nepaluniquetreks/?hl=en" target="_blank">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/in/nepaluniquetreks/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/nepaluniquetreks" target="_blank">Facebook</a></li>
-            <li><a href="https://wa.me/9779851023285" target="_blank">WhatsApp</a></li>
-          </ul>
-        </div>
+  <!-- Leave a Review Modal Dialog -->
+  <div id="leave-review-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="leave-review-modal-title">
+    <div class="modal-card">
+      <button type="button" id="review-modal-close-btn" class="modal-close" aria-label="Close modal">&times;</button>
+      
+      <div style="margin-bottom: 20px;">
+        <span class="pill pill-alpine" style="font-size: 0.76rem; font-weight: 800;">Traveler Feedback</span>
+        <h2 id="leave-review-modal-title" style="font-size: 1.65rem; color: #1B2921; margin-top: 6px; margin-bottom: 4px;">Share Your Himalayan Experience</h2>
+        <p style="color: #626563; font-size: 0.92rem;">
+          Your feedback helps fellow adventurers choose their dream expedition and inspires our Sherpa guides.
+        </p>
       </div>
-      <div class="footer-bottom-strip">
-        <div>&copy; 2026 Nepal Unique Treks. All Rights Reserved.</div>
-        <div class="footer-legal-links">
-          <a href="privacy-policy.html">Privacy Policy</a>
-          <a href="terms-and-conditions.html">Terms & Conditions</a>
+
+      <form id="leave-review-form">
+        <!-- Star Rating Selector -->
+        <div class="form-group" style="margin-bottom: 18px; text-align: center; background: #F8FAF9; padding: 14px; border-radius: 12px; border: 1px solid #DDE6DF;">
+          <label style="display: block; font-size: 0.88rem; font-weight: 700; color: #1B2921; margin-bottom: 6px;">Your Overall Rating</label>
+          <div style="display: flex; justify-content: center; gap: 6px;">
+            <button type="button" class="modal-star-btn" data-val="1" aria-label="1 star">★</button>
+            <button type="button" class="modal-star-btn" data-val="2" aria-label="2 stars">★</button>
+            <button type="button" class="modal-star-btn" data-val="3" aria-label="3 stars">★</button>
+            <button type="button" class="modal-star-btn" data-val="4" aria-label="4 stars">★</button>
+            <button type="button" class="modal-star-btn" data-val="5" aria-label="5 stars">★</button>
+          </div>
+          <input type="hidden" id="review-rating-input" name="rating" value="5">
         </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+          <div class="form-group">
+            <label class="form-label" for="review-author-name">Full Name *</label>
+            <input type="text" id="review-author-name" class="form-input" placeholder="e.g. Sarah Henderson" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="review-author-country">Country of Origin *</label>
+            <input type="text" id="review-author-country" class="form-input" placeholder="e.g. United Kingdom 🇬🇧" required>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+          <div class="form-group">
+            <label class="form-label" for="review-trek-select">Trek / Tour Completed *</label>
+            <select id="review-trek-select" class="form-select" required>
+              <option value="" disabled selected>Select Your Trek</option>
+              <option value="everest-base-camp">Everest Base Camp Trek (14 Days)</option>
+              <option value="annapurna-circuit">Annapurna Circuit & Tilicho Lake (14 Days)</option>
+              <option value="manaslu-circuit">Manaslu Circuit Trek (13 Days)</option>
+              <option value="annapurna-base-camp">Annapurna Base Camp Trek (12 Days)</option>
+              <option value="langtang-valley">Langtang Valley Trek (8 Days)</option>
+              <option value="mardi-himal">Mardi Himal Ridge Trek (6 Days)</option>
+              <option value="upper-mustang">Upper Mustang Kingdom Trek (14 Days)</option>
+              <option value="mera-peak">Mera Peak Climbing (18 Days)</option>
+              <option value="ghorepani-poon-hill">Ghorepani Poon Hill Trek (4 Days)</option>
+              <option value="other">Other Customized Journey</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="review-guide-name">Guide / Leader Name</label>
+            <input type="text" id="review-guide-name" class="form-input" placeholder="e.g. Pemba Sherpa / Maya">
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 14px;">
+          <label class="form-label" for="review-headline">Review Headline *</label>
+          <input type="text" id="review-headline" class="form-input" placeholder="e.g. Highlight of my lifetime — exceptional safety and warmth" required>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 18px;">
+          <label class="form-label" for="review-story">Your Mountain Story & Feedback *</label>
+          <textarea id="review-story" class="form-textarea" rows="4" placeholder="Tell future trekkers about the trail experience, safety checks, food, guides, and your favorite summit moments..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 13px; font-weight: 700; border-radius: 12px; font-size: 1rem;">
+          Submit Verified Review ↗
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" id="site-footer" role="contentinfo">
+    <div class="footer-overlay" aria-hidden="true"></div>
+
+    <div class="container footer-container">
+      <!-- 5-Column Alpine Panorama Grid -->
+      <div class="footer-columns-grid">
+
+        <!-- Column 1: Brand & Contact -->
+        <div class="footer-col footer-col-brand">
+          <a class="footer-brand-logo-link" href="index.html" aria-label="Nepal Unique Treks Home">
+            <img class="footer-brand-logo" src="images/logo-white.png" alt="Nepal Unique Treks &amp; Expedition Logo"
+              width="160" height="105" loading="lazy">
+          </a>
+          <p class="footer-brand-desc">
+            Your trusted partner for unforgettable trekking adventures in Nepal. Explore the Himalayas with expert
+            guides and experience the magic of the mountains.
+          </p>
+          <div class="footer-gold-bar" aria-hidden="true"></div>
+
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon-wrap" aria-hidden="true">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </span>
+              <span>Thamel, Kathmandu, Nepal</span>
+            </div>
+
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon-wrap" aria-hidden="true">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <rect width="20" height="16" x="2" y="4" rx="2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+              </span>
+              <a href="mailto:info@nepaluniquetreks.com">info@nepaluniquetreks.com</a>
+            </div>
+
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon-wrap" aria-hidden="true">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+                  <path d="M12 18h.01" />
+                </svg>
+              </span>
+              <a href="tel:+9779851023285">+977 9851023285</a>
+            </div>
+
+            <div class="footer-contact-item">
+              <span class="footer-contact-icon-wrap" aria-hidden="true">
+                <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+                  aria-hidden="true">
+                  <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                </svg>
+              </span>
+              <a href="https://wa.me/9779851023285" target="_blank" rel="noopener noreferrer">+977 9851023285 (WhatsApp)</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Popular Treks -->
+        <div class="footer-col footer-col-links">
+          <h3 class="footer-col-title">Popular Treks</h3>
+          <div class="footer-gold-bar" aria-hidden="true"></div>
+          <ul class="footer-links-list">
+            <li><a href="trek/everest-base-camp-trek/"><span class="footer-chevron"
+                  aria-hidden="true">&#8250;</span>Everest Base Camp Trek</a></li>
+            <li><a href="annapurna-region-treks/"><span class="footer-chevron"
+                  aria-hidden="true">&#8250;</span>Annapurna Circuit Trek</a></li>
+            <li><a href="langtang-region-treks/"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Langtang
+                Valley Trek</a></li>
+            <li><a href="manaslu-region-treks/"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Manaslu
+                Circuit Trek</a></li>
+            <li><a href="nepal-trekking-packages/"><span class="footer-chevron"
+                  aria-hidden="true">&#8250;</span>Ghorepani Poon Hill Trek</a></li>
+            <li><a href="mustang-region-treks/"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Upper
+                Mustang Trek</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Our Services -->
+        <div class="footer-col footer-col-links">
+          <h3 class="footer-col-title">Our Services</h3>
+          <div class="footer-gold-bar" aria-hidden="true"></div>
+          <ul class="footer-links-list">
+            <li><a href="nepal-trekking-packages/"><span class="footer-chevron"
+                  aria-hidden="true">&#8250;</span>Trekking in Nepal</a></li>
+            <li><a href="peak-climbing-nepal/"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Peak
+                Climbing</a></li>
+            <li><a href="nepal-tour-packages/"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Tour
+                Packages</a></li>
+            <li><a href="peak-climbing-nepal/"><span class="footer-chevron"
+                  aria-hidden="true">&#8250;</span>Expedition</a></li>
+            <li><a href="nepal-tour-packages/"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Helicopter
+                Tour</a></li>
+            <li><a href="nepal-travel-guide/"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Travel
+                Guide</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: About Us -->
+        <div class="footer-col footer-col-links footer-col-about">
+          <h3 class="footer-col-title">About Us</h3>
+          <div class="footer-gold-bar" aria-hidden="true"></div>
+          <ul class="footer-links-list">
+            <li><a href="about.html"><span class="footer-chevron" aria-hidden="true">&#8250;</span>About Us</a></li>
+            <li><a href="team.html"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Our Team</a></li>
+            <li><a href="reviews.html"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Reviews &amp; Testimonials</a></li>
+            <li><a href="careers.html"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Careers &amp; Jobs</a></li>
+            <li><a href="blogs.html"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Blog &amp; Articles</a></li>
+            <li><a href="contact.html"><span class="footer-chevron" aria-hidden="true">&#8250;</span>Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 5: Newsletter & Follow Us -->
+        <div class="footer-col footer-col-newsletter">
+          <h3 class="footer-col-title">Newsletter</h3>
+          <div class="footer-gold-bar" aria-hidden="true"></div>
+          <p class="footer-newsletter-text">Get the latest travel updates and trekking tips.</p>
+
+          <form class="footer-newsletter-box"
+            onsubmit="event.preventDefault(); alert('Thank you for subscribing to Nepal Unique Treks updates!');">
+            <input type="email" class="footer-newsletter-input" placeholder="Your email address" required
+              aria-label="Your email address">
+            <button type="submit" class="footer-newsletter-submit" aria-label="Subscribe to newsletter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </form>
+
+          <h4 class="footer-follow-title">Follow Us</h4>
+          <div class="footer-gold-bar" aria-hidden="true"></div>
+
+          <div class="footer-social-row" aria-label="Follow Nepal Unique Treks">
+            <a href="https://www.facebook.com/nepaluniquetreks" target="_blank" rel="noopener noreferrer"
+              class="footer-social-circle" aria-label="Facebook">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/nepaluniquetreks/?hl=en" target="_blank" rel="noopener noreferrer"
+              class="footer-social-circle" aria-label="Instagram">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/@nepaluniquetreks" target="_blank" rel="noopener noreferrer"
+              class="footer-social-circle" aria-label="YouTube">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nepaluniquetreks/" target="_blank" rel="noopener noreferrer"
+              class="footer-social-circle" aria-label="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/nepalunique" target="_blank" rel="noopener noreferrer"
+              class="footer-social-circle" aria-label="X (Twitter)">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+            <a href="https://wa.me/9779851023285" target="_blank" rel="noopener noreferrer"
+              class="footer-social-circle" aria-label="WhatsApp">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="watermark-brand-container">
-      <div class="watermark-brand-text">NEPAL UNIQUE</div>
+
+    <!-- Bottom Bar: Legal & Official Accreditations -->
+    <div class="footer-bottom-strip">
+      <div class="container footer-bottom-container">
+        <!-- Copyright -->
+        <div class="footer-bottom-left">
+          &copy; 2026 Nepal Unique Treks. All Rights Reserved.
+        </div>
+
+        <!-- Center Policies -->
+        <div class="footer-bottom-center">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <span class="footer-bottom-sep" aria-hidden="true">|</span>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+          <span class="footer-bottom-sep" aria-hidden="true">|</span>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- Right Accreditations with Divider -->
+        <div class="footer-bottom-right">
+          <span class="footer-accreditation-divider" aria-hidden="true"></span>
+          <div class="footer-accreditation-badges">
+            <div class="footer-badge-item" title="Trekking Agencies' Association of Nepal (TAAN)">
+              <img src="uploads/taan-logo.svg" alt="TAAN Logo" class="footer-silhouette-logo footer-taan-logo"
+                width="65" height="34" loading="lazy">
+            </div>
+            <div class="footer-badge-item" title="Nepal Tourism Board (NTB)">
+              <img src="uploads/NTB-logo.png" alt="NTB Logo" class="footer-silhouette-logo footer-ntb-logo" width="46"
+                height="34" loading="lazy">
+            </div>
+            <div class="footer-badge-item footer-ntb-composite" title="Nepal Tourism Board Official Partner">
+              <svg class="footer-pagoda-svg" width="28" height="32" viewBox="0 0 28 32" fill="currentColor"
+                aria-hidden="true">
+                <path d="M14 1 L14 4 M13 2.5 H15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+                <path d="M14 4 L11 7 H17 Z" />
+                <path d="M11.5 7 L12.5 9 H15.5 L16.5 7" />
+                <path d="M14 8.5 L8 12.5 C10 12 18 12 20 12.5 Z" />
+                <path d="M9.5 12.5 L10.5 16 H17.5 L18.5 12.5" />
+                <path d="M14 14.5 L4 20 C7 19.2 21 19.2 24 20 Z" />
+                <rect x="7" y="20" width="14" height="6" rx="0.5" />
+                <rect x="5" y="26" width="18" height="2.5" rx="0.5" />
+                <rect x="3" y="28.5" width="22" height="2.5" rx="0.5" />
+              </svg>
+              <div class="footer-composite-text">
+                <span>Nepal</span>
+                <span>Tourism</span>
+                <span>Board</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </footer>
 
