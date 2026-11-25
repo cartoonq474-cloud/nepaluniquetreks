@@ -30,7 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Core Stylesheet -->
-  <link rel="stylesheet" href="../index.css?v=85">
+  <link rel="stylesheet" href="../index.css?v=86">
 
   <!-- Schema.org JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -158,23 +158,42 @@
       scroll-behavior: smooth;
     }
 
-    /* ==================== Hero Section ==================== */
+        /* ==========================================================================
+       All Nepal Trekking Packages — Hero Section Design System (Gold Standard)
+       ========================================================================== */
     .catalog-hero-section {
       position: relative;
-      background: linear-gradient(180deg, rgba(16, 39, 31, 0.82) 0%, rgba(16, 39, 31, 0.94) 100%),
-                  url('../images/hero-himalayas.jpg') center/cover no-repeat;
+      background: linear-gradient(180deg, rgba(13, 31, 24, 0.88) 0%, rgba(16, 39, 31, 0.94) 60%, rgba(13, 31, 24, 0.98) 100%),
+                  url('../images/hero-himalayas.jpg') center 25%/cover no-repeat;
       color: #FFFFFF;
-      padding: 85px 0 65px;
+      padding: 72px 0 68px 0;
       text-align: center;
       overflow: hidden;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     }
-
+    .catalog-hero-section.trek-hero-theme {
+      background: linear-gradient(180deg, rgba(13, 31, 24, 0.88) 0%, rgba(16, 39, 31, 0.94) 60%, rgba(13, 31, 24, 0.98) 100%),
+                  url('../images/hero-himalayas.jpg') center 25%/cover no-repeat;
+    }
+    .catalog-hero-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at 50% 25%, rgba(34, 132, 95, 0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
     .catalog-hero-inner {
-      max-width: 980px;
+      max-width: 1040px;
       margin: 0 auto;
       position: relative;
       z-index: 2;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     /* Breadcrumbs */
@@ -182,13 +201,14 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       color: #D7DEDA;
       margin-bottom: 20px;
       background: rgba(255, 255, 255, 0.08);
-      padding: 6px 16px;
+      padding: 6px 18px;
       border-radius: 9999px;
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
       border: 1px solid rgba(255, 255, 255, 0.15);
     }
     .catalog-breadcrumb a {
@@ -197,36 +217,47 @@
       transition: color 0.2s ease;
     }
     .catalog-breadcrumb a:hover {
-      color: var(--cat-brand-green);
+      color: #E9A544;
     }
     .catalog-breadcrumb .crumb-sep {
       opacity: 0.5;
     }
     .catalog-breadcrumb .crumb-current {
-      color: var(--cat-brand-green);
+      color: #E9A544;
       font-weight: 600;
     }
 
-    /* Trust Pill */
+    /* Trust Row */
+    .catalog-trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
     .catalog-trust-banner {
       display: inline-flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
       background: rgba(255, 255, 255, 0.12);
       backdrop-filter: blur(8px);
-      padding: 6px 18px;
+      -webkit-backdrop-filter: blur(8px);
+      padding: 7px 18px;
       border-radius: 9999px;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      margin-bottom: 22px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
       font-size: 0.88rem;
       font-weight: 600;
-      color: #FFFFFF;
+      color: #FFFFFF !important;
       text-decoration: none;
-      transition: background 0.25s ease, transform 0.25s ease;
+      transition: all 0.25s ease;
     }
     .catalog-trust-banner:hover {
-      background: rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.20);
+      border-color: rgba(233, 165, 68, 0.5);
       transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+      color: #FFFFFF !important;
     }
     .catalog-trust-stars {
       color: #FBBF24;
@@ -234,13 +265,43 @@
       font-size: 0.95rem;
     }
 
+    .catalog-gov-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(34, 132, 95, 0.28);
+      border: 1px solid rgba(52, 211, 153, 0.45);
+      padding: 7px 16px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #A7F3D0;
+      letter-spacing: 0.3px;
+    }
+    .gov-live-dot {
+      width: 7px;
+      height: 7px;
+      background: #10B981;
+      border-radius: 50%;
+      box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.35);
+      display: inline-block;
+      animation: govPulse 2s infinite;
+    }
+    @keyframes govPulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
     /* Super Badge */
     .catalog-hero-badge {
-      display: inline-block;
-      background: rgba(34, 132, 95, 0.25);
-      border: 1px solid rgba(72, 169, 129, 0.45);
-      color: #48A981;
-      font-size: 0.8rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(233, 165, 68, 0.15);
+      border: 1px solid rgba(233, 165, 68, 0.45);
+      color: #FCD34D;
+      font-size: 0.78rem;
       font-weight: 800;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -249,103 +310,181 @@
       margin-bottom: 16px;
     }
 
+    /* Hero Headline */
     .catalog-hero-title {
-      font-family: var(--font-heading);
-      font-size: 3.4rem;
+      font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: clamp(2.3rem, 4.6vw, 3.5rem);
       font-weight: 800;
       line-height: 1.15;
       color: #FFFFFF;
-      margin-bottom: 18px;
+      margin: 0 0 16px 0;
       letter-spacing: -0.02em;
+      max-width: 960px;
     }
-    .catalog-hero-title span {
-      background: linear-gradient(135deg, #FFFFFF 0%, #DDE6DF 100%);
+    .catalog-hero-title span.gold-accent {
+      background: linear-gradient(135deg, #FCD34D 0%, #F59E0B 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-
-    .catalog-hero-lead {
-      font-size: 1.18rem;
-      line-height: 1.7;
-      color: #D7DEDA;
-      max-width: 840px;
-      margin: 0 auto 34px auto;
+    .nepal-word,
+    .catalog-hero-title span.nepal-word {
+      color: #10B981;
     }
 
-    /* Hero Quick Search Box */
+    /* Lead Text */
+    .catalog-hero-lead {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #D7DEDA;
+      max-width: 860px;
+      margin: 0 auto 30px auto;
+    }
+
+    /* Quick Search Box */
     .hero-search-container {
       max-width: 680px;
-      margin: 0 auto 38px auto;
+      margin: 0 auto 22px auto;
       position: relative;
+      width: 100%;
     }
     .hero-search-box {
       display: flex;
       align-items: center;
       background: #FFFFFF;
       border-radius: 9999px;
-      padding: 6px 8px 6px 22px;
+      padding: 6px 8px 6px 20px;
       box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
-      border: 2px solid rgba(255, 255, 255, 0.8);
+      border: 2px solid rgba(255, 255, 255, 0.85);
       transition: all 0.3s ease;
     }
     .hero-search-box:focus-within {
-      border-color: var(--cat-brand-green);
+      border-color: #22845F;
       box-shadow: 0 14px 42px rgba(34, 132, 95, 0.3);
     }
     .hero-search-icon {
-      color: var(--cat-brand-green);
+      color: #22845F;
       display: flex;
       align-items: center;
       margin-right: 12px;
+      flex-shrink: 0;
     }
     .hero-search-input {
       flex: 1;
       border: none;
       outline: none;
-      font-family: var(--font-body);
-      font-size: 1.05rem;
-      color: #303332;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 0.98rem;
+      color: #1E293B;
       background: transparent;
+      padding: 6px 0;
+      min-width: 0;
     }
     .hero-search-input::placeholder {
-      color: #8B9B91;
+      color: #64748B;
     }
     .hero-search-btn {
-      background: var(--cat-brand-green);
+      background: #22845F;
       color: #FFFFFF;
       border: none;
       border-radius: 9999px;
-      padding: 12px 26px;
+      padding: 11px 24px;
       font-weight: 700;
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       cursor: pointer;
-      transition: background 0.25s ease, transform 0.2s ease;
       display: inline-flex;
       align-items: center;
       gap: 6px;
+      flex-shrink: 0;
+      transition: background 0.25s ease, transform 0.2s ease;
     }
     .hero-search-btn:hover {
-      background: var(--cat-brand-forest);
-      transform: scale(1.02);
+      background: #176B4B;
+      transform: translateY(-1px);
     }
 
-    /* 4-Item Hero Metrics Ribbon */
+    /* High-Converting CTA Group */
+    .tour-hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 4px;
+      margin-bottom: 30px;
+    }
+    .tour-cta-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #22845F;
+      color: #FFFFFF !important;
+      font-size: 0.96rem;
+      font-weight: 700;
+      padding: 13px 26px;
+      min-height: 48px;
+      border-radius: 9999px;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(34, 132, 95, 0.4);
+      transition: all 0.25s ease;
+      border: 1px solid #22845F;
+      box-sizing: border-box;
+      line-height: 1.3;
+    }
+    .tour-cta-primary:hover {
+      background: #176B4B;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(34, 132, 95, 0.5);
+      color: #FFFFFF !important;
+    }
+    .tour-cta-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: #FFFFFF !important;
+      font-size: 0.96rem;
+      font-weight: 700;
+      padding: 13px 24px;
+      min-height: 48px;
+      border-radius: 9999px;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      box-sizing: border-box;
+      line-height: 1.3;
+    }
+    .tour-cta-secondary:hover {
+      background: rgba(255, 255, 255, 0.22);
+      border-color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    /* 4-Column Frosted Key Metrics Ribbon */
     .catalog-hero-metrics {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 16px;
       background: rgba(255, 255, 255, 0.08);
       backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.16);
       border-radius: 18px;
       padding: 18px 24px;
-      max-width: 920px;
+      max-width: 940px;
+      width: 100%;
       margin: 0 auto;
     }
     .hero-metric-cell {
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: center;
       border-right: 1px solid rgba(255, 255, 255, 0.12);
       padding: 4px 10px;
     }
@@ -353,25 +492,34 @@
       border-right: none;
     }
     .metric-cell-num {
-      font-family: var(--font-heading);
-      font-size: 1.8rem;
+      font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+      font-size: 1.75rem;
       font-weight: 800;
-      color: #FFFFFF;
+      color: #FBBF24;
       line-height: 1.1;
       margin-bottom: 2px;
     }
     .metric-cell-num span {
-      color: var(--cat-brand-amber);
+      font-size: 1.1rem;
+      color: #FBBF24;
     }
     .metric-cell-lbl {
-      font-size: 0.8rem;
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 2px;
+    }
+    .metric-cell-sub {
+      font-size: 0.74rem;
       color: #D7DEDA;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
+      opacity: 0.85;
     }
 
-    /* ==================== Regional & Style Showcase ==================== */
+    #treks-catalog {
+      scroll-margin-top: 80px;
+    }
+    
+/* ==================== Regional & Style Showcase ==================== */
     .regional-showcase-section {
       background: #FFFFFF;
       padding: 55px 0 35px;
@@ -474,101 +622,138 @@
       padding: 50px 0 80px;
     }
 
+        /* ==========================================================================
+       Trekking Catalog Control Box & Command Center — Gold Standard Design
+       ========================================================================== */
     .catalog-control-box {
       background: #FFFFFF;
       border-radius: 20px;
-      padding: 28px;
-      box-shadow: 0 8px 30px rgba(16, 39, 31, 0.06);
+      padding: 24px 28px;
+      box-shadow: 0 10px 32px rgba(16, 39, 31, 0.05);
       border: 1px solid var(--cat-border-color);
-      margin-bottom: 32px;
+      margin-bottom: 34px;
     }
 
     /* Region Pills Bar */
     .region-pills-bar {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: wrap;
-      margin-bottom: 24px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid var(--cat-border-color);
+      margin-bottom: 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--cat-border-soft);
     }
     .region-pill-label {
-      font-size: 0.88rem;
-      font-weight: 700;
+      font-size: 0.84rem;
+      font-weight: 800;
       color: var(--cat-brand-dark);
-      margin-right: 4px;
+      margin-right: 6px;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
     }
     .region-pill {
-      background: #FFFFFF;
+      background: #F8FAF9;
       border: 1.5px solid var(--cat-border-color);
-      color: #535655;
-      font-size: 0.9rem;
+      color: #4B5563;
+      font-size: 0.88rem;
       font-weight: 600;
-      padding: 8px 18px;
+      padding: 8px 16px;
       border-radius: 9999px;
       cursor: pointer;
-      transition: all 0.25s ease;
+      transition: all 0.22s ease;
       display: inline-flex;
       align-items: center;
-      gap: 6px;
+      gap: 7px;
+    }
+    .region-pill .pill-svg {
+      color: var(--cat-brand-green);
+      flex-shrink: 0;
+      transition: color 0.2s ease;
     }
     .region-pill:hover {
+      background: #FFFFFF;
       border-color: var(--cat-brand-green);
-      color: var(--cat-brand-green);
+      color: var(--cat-brand-forest);
+      transform: translateY(-1px);
     }
     .region-pill.active {
       background: var(--cat-brand-dark);
       border-color: var(--cat-brand-dark);
       color: #FFFFFF;
-      box-shadow: 0 4px 14px rgba(16, 39, 31, 0.25);
+      box-shadow: 0 4px 16px rgba(16, 39, 31, 0.25);
+    }
+    .region-pill.active .pill-svg {
+      color: #34D399;
     }
     .region-pill .pill-count {
-      font-size: 0.76rem;
-      background: rgba(255, 255, 255, 0.25);
-      padding: 2px 7px;
+      font-size: 0.74rem;
+      background: #E5E7EB;
+      color: #4B5563;
+      padding: 2px 8px;
       border-radius: 9999px;
       font-weight: 700;
+      line-height: 1.2;
     }
-    .region-pill:not(.active) .pill-count {
-      background: #E2E8F0;
-      color: #535655;
+    .region-pill.active .pill-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: #FFFFFF;
     }
 
-    /* Controls Row: Search + 4 Selects + Reset */
+    /* Controls Grid: Search + 4 Selects + Reset */
     .controls-grid {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr 1fr auto;
-      gap: 14px;
+      grid-template-columns: 2.2fr 1.05fr 1.05fr 1.05fr 1.05fr auto;
+      gap: 12px;
       align-items: center;
     }
+
+    /* Search Input Item */
     .control-item-search {
       position: relative;
+      display: flex;
+      align-items: center;
     }
     .control-search-input {
       width: 100%;
-      padding: 12px 38px 12px 42px;
+      height: 46px;
+      padding: 0 46px 0 40px;
       border: 1.5px solid var(--cat-border-color);
       border-radius: 12px;
-      font-size: 0.95rem;
-      font-family: var(--font-body);
-      color: #303332;
-      background: #FFFFFF;
+      font-size: 0.9rem;
+      font-family: inherit;
+      color: var(--cat-text-main);
+      background: #FDFEFC;
       outline: none;
-      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
     }
     .control-search-input:focus {
+      background: #FFFFFF;
       border-color: var(--cat-brand-green);
-      box-shadow: 0 0 0 3px rgba(34, 132, 95, 0.15);
+      box-shadow: 0 0 0 3px rgba(34, 132, 95, 0.14);
     }
     .control-search-icon {
       position: absolute;
-      left: 14px;
+      left: 13px;
       top: 50%;
       transform: translateY(-50%);
       color: #727674;
+      pointer-events: none;
+    }
+    .control-search-kbd {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: monospace;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #9CA3AF;
+      background: #F3F4F6;
+      border: 1px solid #D1D5DB;
+      border-radius: 6px;
+      padding: 3px 6px;
+      line-height: 1;
       pointer-events: none;
     }
     .control-search-clear {
@@ -576,26 +761,56 @@
       right: 12px;
       top: 50%;
       transform: translateY(-50%);
-      background: none;
+      background: #E5E7EB;
       border: none;
-      color: #94A3B8;
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      color: #4B5563;
       cursor: pointer;
-      font-size: 1.1rem;
+      font-size: 14px;
+      line-height: 1;
       display: none;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
     }
     .control-search-clear.visible {
-      display: block;
+      display: inline-flex;
+    }
+    .control-search-clear:hover {
+      background: #D1D5DB;
+      color: #111827;
     }
 
+    /* Select Wrappers */
+    .control-select-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .control-select-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--cat-brand-green);
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+    }
     .control-select {
       width: 100%;
-      padding: 12px 32px 12px 14px;
+      height: 46px;
+      padding: 0 30px 0 36px;
       border: 1.5px solid var(--cat-border-color);
       border-radius: 12px;
-      font-size: 0.9rem;
-      font-family: var(--font-body);
-      color: #303332;
-      background: #FFFFFF url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23535655' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 14px center;
+      font-size: 0.88rem;
+      font-weight: 500;
+      font-family: inherit;
+      color: var(--cat-text-main);
+      background: #FFFFFF;
+      -webkit-appearance: none;
       appearance: none;
       outline: none;
       cursor: pointer;
@@ -603,27 +818,63 @@
     }
     .control-select:focus {
       border-color: var(--cat-brand-green);
-      box-shadow: 0 0 0 3px rgba(34, 132, 95, 0.15);
+      box-shadow: 0 0 0 3px rgba(34, 132, 95, 0.14);
+    }
+    .control-select-chevron {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #727674;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      transition: transform 0.2s ease;
+    }
+    .control-select:focus ~ .control-select-chevron {
+      color: var(--cat-brand-green);
+      transform: translateY(-50%) rotate(180deg);
     }
 
+    /* Reset Filters Button */
     .btn-reset-filters {
-      padding: 12px 20px;
-      background: #F1F5F9;
+      height: 46px;
+      padding: 0 18px;
+      background: #F3F8F5;
       border: 1.5px solid var(--cat-border-color);
       border-radius: 12px;
-      color: #475569;
-      font-size: 0.9rem;
-      font-weight: 700;
+      color: #4B5563;
+      font-size: 0.88rem;
+      font-weight: 600;
       cursor: pointer;
       white-space: nowrap;
       transition: all 0.2s ease;
       display: inline-flex;
       align-items: center;
-      gap: 6px;
+      gap: 7px;
     }
     .btn-reset-filters:hover {
-      background: #E2E8F0;
-      color: #0F172A;
+      background: #E8EFEA;
+      color: var(--cat-brand-dark);
+      border-color: var(--cat-brand-green);
+    }
+    .btn-reset-filters.has-active {
+      background: #ECFDF5;
+      border-color: #10B981;
+      color: #065F46;
+    }
+    .trek-filter-count-badge {
+      background: var(--cat-brand-green);
+      color: #FFFFFF;
+      font-size: 0.72rem;
+      font-weight: 700;
+      width: 18px;
+      height: 18px;
+      border-radius: 9999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
     }
 
     /* Results Summary Strip */
@@ -631,15 +882,52 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 18px;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
       padding-top: 18px;
       border-top: 1px dashed var(--cat-border-color);
-      font-size: 0.92rem;
+      font-size: 0.9rem;
       color: var(--cat-text-muted);
+    }
+    .results-count-text {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
     }
     .results-count-text strong {
       color: var(--cat-brand-dark);
-      font-size: 1.05rem;
+      font-weight: 700;
+      font-size: 1.02rem;
+    }
+    .trek-pulse-dot {
+      width: 8px;
+      height: 8px;
+      background: #10B981;
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+      animation: trekPulse 2s infinite;
+    }
+    @keyframes trekPulse {
+      0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+    .trek-trust-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--cat-brand-forest);
+      background: rgba(34, 132, 95, 0.08);
+      padding: 5px 12px;
+      border-radius: 9999px;
+    }
+    .trek-trust-pill svg {
+      color: var(--cat-brand-green);
     }
     .active-chips-wrap {
       display: flex;
@@ -648,28 +936,84 @@
       flex-wrap: wrap;
     }
     .active-chip {
-      background: rgba(34, 132, 95, 0.1);
-      border: 1px solid rgba(34, 132, 95, 0.3);
-      color: var(--cat-brand-green);
-      font-size: 0.8rem;
-      font-weight: 700;
-      padding: 4px 10px;
+      background: #F3F8F5;
+      border: 1px solid var(--cat-border-color);
+      color: var(--cat-brand-forest);
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 5px 12px;
       border-radius: 9999px;
       display: inline-flex;
       align-items: center;
       gap: 6px;
       cursor: pointer;
-      transition: background 0.2s ease;
+      transition: all 0.2s ease;
     }
     .active-chip:hover {
-      background: rgba(34, 132, 95, 0.2);
+      background: #FEE2E2;
+      border-color: #FCA5A5;
+      color: #DC2626;
     }
     .active-chip-remove {
-      font-size: 0.9rem;
+      font-size: 1rem;
       line-height: 1;
+      font-weight: 700;
     }
 
-    /* ==================== Trek Cards Grid ==================== */
+    /* Responsive Breakpoints for Command Center */
+    @media (max-width: 1200px) {
+      .controls-grid {
+        grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr auto;
+        gap: 10px;
+      }
+    }
+    @media (max-width: 992px) {
+      .controls-grid {
+        grid-template-columns: repeat(2, 1fr) auto;
+      }
+      .control-item-search {
+        grid-column: 1 / -1;
+      }
+    }
+    @media (max-width: 640px) {
+      .catalog-control-box {
+        padding: 18px 16px;
+        border-radius: 16px;
+      }
+      .region-pills-bar {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 12px;
+        margin-bottom: 16px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      .region-pills-bar::-webkit-scrollbar {
+        display: none;
+      }
+      .region-pill {
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .controls-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .btn-reset-filters {
+        width: 100%;
+        justify-content: center;
+      }
+      .results-summary-strip {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .trek-trust-pill {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
     .packages-catalog-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -1658,9 +2002,9 @@
 
   <main>
     <!-- Master Hero Banner Section -->
-    <section class="catalog-hero-section">
+            <!-- 1. HERO SECTION — Centered High-Impact Cinematic Himalayan Layout & Google EEAT -->
+    <section class="catalog-hero-section trek-hero-theme">
       <div class="container catalog-hero-inner">
-        
         <!-- Breadcrumb Navigation -->
         <nav class="catalog-breadcrumb" aria-label="Breadcrumb">
           <a href="../index.html">Home</a>
@@ -1668,230 +2012,67 @@
           <span class="crumb-current">All Trekking Packages</span>
         </nav>
 
-        <!-- Google Reviews Trust Pill -->
+        <!-- Official Super Badge -->
         <div>
-          <a href="https://www.google.com/search?q=Nepal+Unique+Treks+Google+reviews" target="_blank" rel="noopener noreferrer" class="catalog-trust-banner">
-            <span class="catalog-trust-stars">★★★★★</span>
-            <span>4.9 / 5 Rating on Google (150+ Verified Reviews)</span>
-          </a>
+          <span class="catalog-hero-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            OFFICIAL HIMALAYAN EXPEDITIONS 2026/2027
+          </span>
         </div>
 
-        <span class="catalog-hero-badge">OFFICIAL HIMALAYAN EXPEDITIONS 2026/2027</span>
-        
+        <!-- Main Headline -->
         <h1 class="catalog-hero-title">
-          <span>All Nepal Trekking Packages</span>
+          All <span class="nepal-word" style="color: #10B981;">Nepal</span> Trekking Packages &amp; <span class="gold-accent">Himalayan Routes</span>
         </h1>
 
+        <!-- Editorial Lead Text -->
         <p class="catalog-hero-lead">
           Explore 34 handcrafted Himalayan itineraries across Everest, Annapurna, Langtang, Manaslu, Mustang, and remote wilderness frontiers. Guided by licensed local Sherpa leaders with 100% financial protection and altitude-conscious safety.
         </p>
-
-        <!-- Hero Instant Search Box -->
-        <div class="hero-search-container">
-          <div class="hero-search-box">
-            <span class="hero-search-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            </span>
-            <input type="text" id="hero-search-input" class="hero-search-input" placeholder="Search by trek name, peak, pass, or region (e.g. 'Everest', 'Annapurna', 'Mardi', 'Gokyo')..." aria-label="Search trekking packages">
-            <button type="button" id="hero-search-submit" class="hero-search-btn">
-              <span>Find Treks</span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- 4-Column Key Metrics Ribbon -->
-        <div class="catalog-hero-metrics">
-          <div class="hero-metric-cell">
-            <span class="metric-cell-num">34<span>+</span></span>
-            <span class="metric-cell-lbl">Handcrafted Routes</span>
-          </div>
-          <div class="hero-metric-cell">
-            <span class="metric-cell-num">8</span>
-            <span class="metric-cell-lbl">Himalayan Regions</span>
-          </div>
-          <div class="hero-metric-cell">
-            <span class="metric-cell-num">100<span>%</span></span>
-            <span class="metric-cell-lbl">Guaranteed Safety</span>
-          </div>
-          <div class="hero-metric-cell">
-            <span class="metric-cell-num">15<span>+</span></span>
-            <span class="metric-cell-lbl">Yrs Sherpa Guiding</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Regional & Style Showcase Section -->
-    <section class="regional-showcase-section">
-      <div class="container">
-        <div class="showcase-header">
-          <h2>Browse by Himalayan Region & Style</h2>
-          <p>Jump directly to regional specialist guidebooks or filter all packages below.</p>
-        </div>
-
-        <div class="regional-showcase-grid">
-          
-          <!-- Hub 1: Everest -->
-          <div class="regional-hub-card" data-filter-region="everest">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
-                </div>
-                <span class="hub-card-count">7 Routes</span>
-              </div>
-              <h3 class="hub-card-title">Everest & Khumbu</h3>
-              <p class="hub-card-desc">Stand before 8,000m giants, explore Namche Bazaar, Kala Patthar, Gokyo Lakes, and Three Passes.</p>
-            </div>
-            <span class="hub-card-link-text">Filter Everest Treks ↓</span>
-          </div>
-
-          <!-- Hub 2: Annapurna -->
-          <div class="regional-hub-card" data-filter-region="annapurna">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15 8 22 9 17 14 18 21 12 17 6 21 7 14 2 9 9 8 12 2"/></svg>
-                </div>
-                <span class="hub-card-count">11 Routes</span>
-              </div>
-              <h3 class="hub-card-title">Annapurna Sanctuary</h3>
-              <p class="hub-card-desc">From Poon Hill sunrises to the 360° ABC sanctuary amphitheater, Mardi ridge, and Thorong La.</p>
-            </div>
-            <span class="hub-card-link-text">Filter Annapurna Treks ↓</span>
-          </div>
-
-          <!-- Hub 3: Langtang -->
-          <div class="regional-hub-card" data-filter-region="langtang">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-                </div>
-                <span class="hub-card-count">5 Routes</span>
-              </div>
-              <h3 class="hub-card-title">Langtang & Gosaikunda</h3>
-              <p class="hub-card-desc">Valley of glaciers, sacred alpine lakes at Gosaikunda (4,380m), and rich Tamang cultural trails.</p>
-            </div>
-            <span class="hub-card-link-text">Filter Langtang Treks ↓</span>
-          </div>
-
-          <!-- Hub 4: Manaslu -->
-          <div class="regional-hub-card" data-filter-region="manaslu">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg>
-                </div>
-                <span class="hub-card-count">3 Routes</span>
-              </div>
-              <h3 class="hub-card-title">Manaslu & Tsum Valley</h3>
-              <p class="hub-card-desc">Restricted area circuit around Mt. Manaslu (8,163m), Larkya La Pass (5,106m), and spiritual Tsum Valley.</p>
-            </div>
-            <span class="hub-card-link-text">Filter Manaslu Treks ↓</span>
-          </div>
-
-          <!-- Hub 5: Mustang -->
-          <div class="regional-hub-card" data-filter-region="mustang">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-                </div>
-                <span class="hub-card-count">2 Routes</span>
-              </div>
-              <h3 class="hub-card-title">Upper Mustang Kingdom</h3>
-              <p class="hub-card-desc">Walled kingdom of Lo Manthang, prehistoric sky caves, and rain-shadow monsoon-proof trails.</p>
-            </div>
-            <span class="hub-card-link-text">Filter Mustang Treks ↓</span>
-          </div>
-
-          <!-- Hub 6: Remote Wilderness -->
-          <div class="regional-hub-card" data-filter-region="remote">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
-                </div>
-                <span class="hub-card-count">6 Routes</span>
-              </div>
-              <h3 class="hub-card-title">Remote & Wild Passes</h3>
-              <p class="hub-card-desc">Untouched frontiers: Dhaulagiri Circuit, Kanchenjunga, Makalu Base Camp, Rolwaling, and Rara Lake.</p>
-            </div>
-            <span class="hub-card-link-text">Filter Remote Treks ↓</span>
-          </div>
-
-          <!-- Hub 7: Short Treks (< 7 Days) -->
-          <div class="regional-hub-card" data-filter-duration="short">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                </div>
-                <span class="hub-card-count">8 Routes</span>
-              </div>
-              <h3 class="hub-card-title">Short Escapes (< 7 Days)</h3>
-              <p class="hub-card-desc">Time-efficient panoramic treks: Poon Hill, Mardi Himal, Helambu, Pikey Peak, and Everest View.</p>
-            </div>
-            <span class="hub-card-link-text">Filter Short Treks ↓</span>
-          </div>
-
-          <!-- Hub 8: High Alpine Circuits -->
-          <div class="regional-hub-card" data-filter-difficulty="challenging">
-            <div>
-              <div class="hub-card-top">
-                <div class="hub-card-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                </div>
-                <span class="hub-card-count">Challenging</span>
-              </div>
-              <h3 class="hub-card-title">High Alpine Circuits</h3>
-              <p class="hub-card-desc">Demanding high-altitude circuits crossing passes above 5,000m with full Sherpa support logistics.</p>
-            </div>
-            <span class="hub-card-link-text">Filter High Passes ↓</span>
-          </div>
-
-        </div>
       </div>
     </section>
 
     <!-- Master Catalog Section with Control Center -->
     <section class="catalog-main-section" id="treks-catalog">
       <div class="container">
-        
         <!-- Filter & Search Control Center Box -->
-        <div class="catalog-control-box">
+        <div class="catalog-control-box" id="trek-filter-control-box">
           
           <!-- Quick Region Pills Bar -->
           <div class="region-pills-bar" role="group" aria-label="Filter by Himalayan Region">
             <span class="region-pill-label">Region:</span>
             <button type="button" class="region-pill active" data-region="all">
+              <svg class="pill-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
               <span>All Treks</span>
               <span class="pill-count">34</span>
             </button>
             <button type="button" class="region-pill" data-region="everest">
+              <svg class="pill-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
               <span>Everest</span>
               <span class="pill-count">7</span>
             </button>
             <button type="button" class="region-pill" data-region="annapurna">
+              <svg class="pill-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 14 5-7 4 4 3-3 6 6"/><path d="M2 17.5c2.5-1 5-1 8 0s5.5 1 8 0 2.5-.7 4 0"/></svg>
               <span>Annapurna</span>
               <span class="pill-count">11</span>
             </button>
             <button type="button" class="region-pill" data-region="langtang">
+              <svg class="pill-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
               <span>Langtang</span>
               <span class="pill-count">5</span>
             </button>
             <button type="button" class="region-pill" data-region="manaslu">
+              <svg class="pill-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 20 7-10 5 7 4-5 4 8H2z"/></svg>
               <span>Manaslu</span>
               <span class="pill-count">3</span>
             </button>
             <button type="button" class="region-pill" data-region="mustang">
+              <svg class="pill-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M3 10h18M5 10v11M9 10v11M15 10v11M19 10v11M12 2L2 7h20L12 2z"/></svg>
               <span>Mustang</span>
               <span class="pill-count">2</span>
             </button>
             <button type="button" class="region-pill" data-region="remote">
+              <svg class="pill-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
               <span>Remote Wilderness</span>
               <span class="pill-count">6</span>
             </button>
@@ -1903,35 +2084,51 @@
             <!-- Live Search Input -->
             <div class="control-item-search">
               <span class="control-search-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
               </span>
-              <input type="text" id="catalog-search-input" class="control-search-input" placeholder="Search by trek name, pass, or highlight..." aria-label="Search trekking routes">
+              <input type="text" id="catalog-search-input" class="control-search-input" placeholder="Search 34+ treks (e.g. Everest, Larkya La, 14 Days)..." aria-label="Search trekking routes">
+              <kbd class="control-search-kbd" title="Press / to search">/</kbd>
               <button type="button" id="catalog-search-clear" class="control-search-clear" aria-label="Clear search input">&times;</button>
             </div>
 
             <!-- Duration Filter -->
-            <div>
+            <div class="control-select-wrap">
+              <span class="control-select-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </span>
               <select id="filter-duration" class="control-select" aria-label="Filter by duration">
                 <option value="all">All Durations</option>
                 <option value="short">1 - 7 Days (Short)</option>
                 <option value="medium">8 - 12 Days (Medium)</option>
                 <option value="long">13+ Days (Extended)</option>
               </select>
+              <span class="control-select-chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
             </div>
 
             <!-- Difficulty Filter -->
-            <div>
+            <div class="control-select-wrap">
+              <span class="control-select-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+              </span>
               <select id="filter-difficulty" class="control-select" aria-label="Filter by difficulty">
                 <option value="all">All Difficulties</option>
                 <option value="easy-moderate">Easy to Moderate</option>
                 <option value="moderate">Moderate</option>
                 <option value="challenging">Challenging</option>
-                <option value="strenuous">Strenuous & Extreme</option>
+                <option value="strenuous">Strenuous &amp; Extreme</option>
               </select>
+              <span class="control-select-chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
             </div>
 
             <!-- Season Filter -->
-            <div>
+            <div class="control-select-wrap">
+              <span class="control-select-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+              </span>
               <select id="filter-season" class="control-select" aria-label="Filter by season">
                 <option value="all">All Seasons</option>
                 <option value="spring">Spring (Mar - May)</option>
@@ -1939,10 +2136,16 @@
                 <option value="winter">Winter (Dec - Feb)</option>
                 <option value="summer">Monsoon / Rain-Shadow</option>
               </select>
+              <span class="control-select-chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
             </div>
 
             <!-- Sort By -->
-            <div>
+            <div class="control-select-wrap">
+              <span class="control-select-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+              </span>
               <select id="filter-sort" class="control-select" aria-label="Sort trekking packages">
                 <option value="popularity">Sort: Most Popular</option>
                 <option value="duration-asc">Duration: Low to High</option>
@@ -1951,13 +2154,17 @@
                 <option value="price-desc">Price: High to Low</option>
                 <option value="altitude-desc">Elevation: High to Low</option>
               </select>
+              <span class="control-select-chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
             </div>
 
             <!-- Reset Filters Button -->
             <div>
-              <button type="button" id="reset-all-filters-btn" class="btn-reset-filters">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+              <button type="button" id="reset-all-filters-btn" class="btn-reset-filters" aria-label="Reset all filters">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
                 <span>Reset</span>
+                <span id="trek-active-filter-badge" class="trek-filter-count-badge" style="display: none;">0</span>
               </button>
             </div>
 
@@ -1966,10 +2173,15 @@
           <!-- Results Summary Strip & Active Filter Chips -->
           <div class="results-summary-strip">
             <div class="results-count-text">
+              <span class="trek-pulse-dot" aria-hidden="true"></span>
               Showing <strong id="results-count">34</strong> of 34 Himalayan Trekking Packages
             </div>
             <div class="active-chips-wrap" id="active-chips">
               <!-- Dynamically populated chips -->
+            </div>
+            <div class="trek-trust-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>100% Guaranteed Sherpa-Led Departures</span>
             </div>
           </div>
 
@@ -4907,8 +5119,67 @@
         <div class="cta-buttons-wrap">
           <a href="../custom-plan.html" class="btn-cta-plan">Plan A Custom Itinerary ↗</a>
           <a href="https://wa.me/9779851023285" target="_blank" rel="noopener noreferrer" class="btn-cta-wa">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.155.57 4.179 1.564 5.927l-1.658 6.069 6.223-1.632c1.7 1.01 3.684 1.597 5.812 1.597 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/></svg>
             <span>Chat on WhatsApp (+977 9851023285)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: ASSOCIATED WITH STRIP -->
+    <section class="associated-with-section" aria-labelledby="associated-with-heading">
+      <div class="container associated-with-container">
+        <h2 id="associated-with-heading" class="associated-with-title">WE'RE ASSOCIATED WITH</h2>
+
+        <div class="associated-with-grid">
+          <!-- 1. Government of Nepal -->
+          <a href="https://www.tourism.gov.np/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Government of Nepal - Ministry of Culture, Tourism &amp; Civil Aviation" aria-label="Official Website of Government of Nepal Ministry of Culture, Tourism and Civil Aviation">
+            <img src="../images/associations/nepal-government.svg" alt="Government of Nepal - Ministry of Culture, Tourism and Civil Aviation" width="44" height="37" loading="lazy">
+          </a>
+
+          <!-- 2. Nepal Tourism Board -->
+          <a href="https://ntb.gov.np/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Nepal Tourism Board" aria-label="Official Website of Nepal Tourism Board">
+            <img src="../images/associations/nepal-tourism-board.svg" alt="Nepal Tourism Board" width="80" height="37" loading="lazy">
+          </a>
+
+          <!-- 3. Travelife -->
+          <a href="https://travelife.info/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Travelife Certified - Sustainability in Tourism" aria-label="Official Website of Travelife Sustainability in Tourism">
+            <img src="../images/associations/travelife.svg" alt="Travelife Certified - Excellence in sustainability" width="83" height="34" loading="lazy">
+          </a>
+
+          <!-- 4. TAAN -->
+          <a href="https://www.taan.org.np/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Trekking Agencies' Association of Nepal (TAAN)" aria-label="Official Website of Trekking Agencies' Association of Nepal">
+            <img src="../images/associations/taan.svg" alt="Trekking Agencies' Association of Nepal (TAAN)" width="28" height="37" loading="lazy">
+          </a>
+
+          <!-- 5. NMA -->
+          <a href="https://www.nepalmountaineering.org/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Nepal Mountaineering Association (NMA)" aria-label="Official Website of Nepal Mountaineering Association">
+            <img src="../images/associations/nma.svg" alt="Nepal Mountaineering Association (NMA)" width="43" height="37" loading="lazy">
+          </a>
+
+          <!-- 6. ATTA -->
+          <a href="https://www.adventuretravel.biz/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Adventure Travel Trade Association Recognition" aria-label="Official Website of Adventure Travel Trade Association">
+            <img src="../images/associations/recognition.svg" alt="Adventure Travel Trade Recognition" width="35" height="37" loading="lazy">
+          </a>
+
+          <!-- 7. KEEP -->
+          <a href="https://keepnepal.org/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Kathmandu Environmental Education Project (KEEP)" aria-label="Official Website of Kathmandu Environmental Education Project">
+            <img src="../images/associations/keep.svg" alt="Kathmandu Environmental Education Project (KEEP)" width="28" height="37" loading="lazy">
+          </a>
+
+          <!-- 8. PATA -->
+          <a href="https://pata.org.np/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Pacific Asia Travel Association (PATA) Nepal Chapter" aria-label="Official Website of Pacific Asia Travel Association Nepal Chapter">
+            <img src="../images/associations/pata.svg" alt="Pacific Asia Travel Association (PATA) Nepal Chapter" width="52" height="34" loading="lazy">
+          </a>
+
+          <!-- 9. ATCF -->
+          <a href="https://www.atcfund.org/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Adventure Travel Conservation Fund (ATCF)" aria-label="Official Website of Adventure Travel Conservation Fund">
+            <img src="../images/associations/atcf.svg" alt="Adventure Travel Conservation Fund (ATCF)" width="83" height="16" loading="lazy">
+          </a>
+
+          <!-- 10. Sustainable Travel International -->
+          <a href="https://sustainabletravel.org/" target="_blank" rel="noopener noreferrer" class="associated-card" title="Sustainable Travel International" aria-label="Official Website of Sustainable Travel International">
+            <img src="../images/associations/sustainable-travel.svg" alt="Sustainable Travel International" width="83" height="16" loading="lazy">
           </a>
         </div>
       </div>

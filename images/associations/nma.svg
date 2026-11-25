@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 86" width="100" height="86">
+  <!-- Outer Blue Triangle with rounded corners -->
+  <polygon points="50,6 94,80 6,80" fill="#FFFFFF" stroke="#0058E0" stroke-width="4.5" stroke-linejoin="round"/>
+  <polygon points="50,11 90,77 10,77" fill="none" stroke="#0058E0" stroke-width="1.2" stroke-linejoin="round"/>
+  <!-- Nepal Pennant Flags inside -->
+  <g transform="translate(36, 17) scale(0.72)">
+    <!-- Upper Pennant -->
+    <polygon points="0,0 36,22 8,22" fill="#DC2626" stroke="#0038A8" stroke-width="2.5" stroke-linejoin="miter"/>
+    <!-- White Moon in upper flag -->
+    <path d="M11 10 A 5 5 0 0 0 21 10 A 4 4 0 0 1 13 8 Z" fill="#FFFFFF"/>
+    <!-- Lower Pennant -->
+    <polygon points="8,22 38,48 0,48 0,0" fill="#DC2626" stroke="#0038A8" stroke-width="2.5" stroke-linejoin="miter"/>
+    <!-- White 12-point Sun in lower flag -->
+    <circle cx="15" cy="35" r="4.5" fill="#FFFFFF"/>
+    <!-- Flagpole -->
+    <line x1="0" y1="0" x2="0" y2="52" stroke="#0038A8" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- N.M.A. Text Below Flag -->
+  <text x="50" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="900" fill="#0058E0" text-anchor="middle" letter-spacing="1.2">N.M.A.</text>
+</svg>

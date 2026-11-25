@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
   const resultsCount = document.getElementById('results-count');
   const activeChips = document.getElementById('active-chips');
+  const searchKbd = document.querySelector('.control-search-kbd');
+  const filterBadge = document.getElementById('trek-active-filter-badge');
   const emptyState = document.getElementById('catalog-empty-state');
   const treksContainer = document.getElementById('treks-container');
   const cards = Array.from(document.querySelectorAll('.trek-catalog-card'));
@@ -146,6 +148,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render Active Filter Chips
     renderActiveChips();
+    
+    // Update active filter count badge on Reset button
+    updateFilterBadge();
   }
 
   // Render removable active filter chips
@@ -222,6 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (heroSearchInput) heroSearchInput.value = '';
         state.search = '';
         if (catalogSearchClear) catalogSearchClear.classList.remove('visible');
+    if (searchKbd) searchKbd.style.display = 'block';
         applyFiltersAndSort();
       });
     }
@@ -362,6 +368,62 @@ document.addEventListener('DOMContentLoaded', () => {
     filterSort.addEventListener('change', (e) => {
       state.sort = e.target.value;
       applyFiltersAndSort();
+    });
+  }
+
+  // Dynamic active filter badge update
+  function updateFilterBadge() {
+    let count = 0;
+    if (state.region !== 'all') count++;
+    if (state.duration !== 'all') count++;
+    if (state.difficulty !== 'all') count++;
+    if (state.season !== 'all') count++;
+    if (state.search) count++;
+    if (state.sort !== 'popularity') count++;
+
+    if (filterBadge) {
+      if (count > 0) {
+        filterBadge.textContent = count;
+        filterBadge.style.display = 'inline-flex';
+      } else {
+        filterBadge.style.display = 'none';
+      }
+    }
+    if (resetBtn) {
+      if (count > 0) {
+        resetBtn.classList.add('has-active');
+      } else {
+        resetBtn.classList.remove('has-active');
+      }
+    }
+  }
+
+  // Keyboard shortcut: '/' to focus search, 'Escape' to clear and blur
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== catalogSearchInput && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+      e.preventDefault();
+      if (catalogSearchInput) {
+        catalogSearchInput.focus();
+        if (searchKbd) searchKbd.style.display = 'none';
+      }
+    } else if (e.key === 'Escape' && document.activeElement === catalogSearchInput) {
+      if (catalogSearchInput) {
+        catalogSearchInput.value = '';
+        state.search = '';
+        catalogSearchInput.blur();
+        if (catalogSearchClear) catalogSearchClear.classList.remove('visible');
+        if (searchKbd) searchKbd.style.display = 'block';
+        applyFiltersAndSort();
+      }
+    }
+  });
+
+  if (catalogSearchInput) {
+    catalogSearchInput.addEventListener('focus', () => {
+      if (searchKbd) searchKbd.style.display = 'none';
+    });
+    catalogSearchInput.addEventListener('blur', () => {
+      if (searchKbd && !catalogSearchInput.value) searchKbd.style.display = 'block';
     });
   }
 

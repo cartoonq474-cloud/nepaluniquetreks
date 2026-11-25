@@ -22881,60 +22881,363 @@ body.mobile-nav-lock {
   background: #FDFEFC;
 }
 
-/* FAQ Accordion */
-.tour-faq-container {
+/* Interactive FAQ Section — Luxury Redesign */
+.tour-faq-section {
+  background: linear-gradient(180deg, #F8FAF8 0%, #F1F6F3 100%);
+  border-top: 1px solid #E6ECE8;
+  border-bottom: 1px solid #E6ECE8;
+  position: relative;
+  overflow: hidden;
+}
+
+.tour-faq-header {
   max-width: 860px;
-  margin: 36px auto 0 auto;
+  margin: 0 auto 36px auto;
+}
+
+.tour-faq-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 9999px;
+  background: #EAF4EF;
+  color: #176B4B;
+  border: 1px solid #C8E3D5;
+  font-size: 0.82rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+}
+
+.tour-faq-kicker-icon {
+  color: #22845F;
+}
+
+.tour-faq-title {
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
+  font-weight: 850;
+  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  color: #10271F;
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+
+.tour-faq-title-highlight {
+  color: #22845F;
+  position: relative;
+  display: inline-block;
+}
+
+.tour-faq-subtitle {
+  font-size: 1.05rem;
+  color: #535655;
+  line-height: 1.65;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Quick Trust Strip */
+.tour-faq-trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px 22px;
+  margin-top: 24px;
+  padding: 12px 22px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid #E2EAE5;
+  border-radius: 9999px;
+  box-shadow: 0 2px 10px rgba(16, 39, 31, 0.03);
+}
+
+.tour-faq-trust-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: #303332;
+}
+
+.tour-faq-trust-icon {
+  color: #22845F;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Controls Toolbar */
+.tour-faq-toolbar {
+  max-width: 920px;
+  margin: 0 auto 28px auto;
+}
+
+.tour-faq-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.tour-faq-cat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  border-radius: 9999px;
+  border: 1px solid #D7DEDA;
+  background: #FFFFFF;
+  color: #444746;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tour-faq-cat-pill:hover {
+  border-color: #22845F;
+  color: #22845F;
+  background: #F3F8F5;
+  transform: translateY(-1px);
+}
+
+.tour-faq-cat-pill.active {
+  border-color: #22845F;
+  background: #22845F;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(34, 132, 95, 0.25);
+}
+
+.tour-faq-pill-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 9999px;
+  padding: 0 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #F3F8F5;
+  color: #535655;
+  transition: all 0.2s ease;
+}
+
+.tour-faq-cat-pill.active .tour-faq-pill-count {
+  background: rgba(255, 255, 255, 0.28);
+  color: #FFFFFF;
+}
+
+/* Search Row */
+.tour-faq-search-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tour-faq-search-wrap {
+  position: relative;
+  flex: 1;
+}
+
+.tour-faq-search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #727674;
+  pointer-events: none;
+}
+
+.tour-faq-search-input {
+  width: 100%;
+  padding: 13px 40px 13px 44px;
+  border: 1px solid #D7DEDA;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  background: #FFFFFF;
+  color: #10271F;
+  transition: all 0.2s ease;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(16, 39, 31, 0.02);
+}
+
+.tour-faq-search-input:focus {
+  border-color: #22845F;
+  box-shadow: 0 0 0 3px rgba(34, 132, 95, 0.15);
+}
+
+.tour-faq-search-clear {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #727674;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+}
+
+.tour-faq-search-clear:hover {
+  color: #10271F;
+}
+
+.tour-faq-expand-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border: 1px solid #D7DEDA;
+  border-radius: 12px;
+  background: #FFFFFF;
+  color: #444746;
+  font-size: 0.9rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.tour-faq-expand-btn:hover {
+  border-color: #22845F;
+  color: #22845F;
+  background: #F3F8F5;
+}
+
+/* Accordion Container & Cards */
+.tour-faq-container {
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .tour-faq-item {
   background: #FFFFFF;
-  border: 1px solid #DDE6DF;
-  border-radius: 14px;
-  margin-bottom: 14px;
+  border: 1px solid #E2EAE5;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(16, 39, 31, 0.03);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 3px 12px rgba(16, 39, 31, 0.03);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.tour-faq-item:hover {
+  border-color: #22845F;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(34, 132, 95, 0.08);
 }
 
 .tour-faq-item.active {
   border-color: #22845F;
-  box-shadow: 0 4px 16px rgba(34, 132, 95, 0.1);
+  border-left: 4px solid #22845F;
+  box-shadow: 0 10px 28px rgba(34, 132, 95, 0.12);
 }
 
 .tour-faq-btn {
   width: 100%;
-  padding: 18px 22px;
+  padding: 22px 26px;
   background: #FFFFFF;
   border: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 18px;
   text-align: left;
   cursor: pointer;
-  font-family: var(--font-heading);
-  font-size: 1.05rem;
+  transition: background 0.2s ease;
+}
+
+.tour-faq-btn-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.tour-faq-cat-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
   font-weight: 750;
-  color: #1B2921;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tour-faq-cat-badge.badge-green {
+  background: #EAF4EF;
+  color: #176B4B;
+  border: 1px solid #C8E3D5;
+}
+
+.tour-faq-cat-badge.badge-blue {
+  background: #EAF2F6;
+  color: #1F6B93;
+  border: 1px solid #C2DCED;
+}
+
+.tour-faq-cat-badge.badge-amber {
+  background: #FCF4E7;
+  color: #A86518;
+  border: 1px solid #F5DDB9;
+}
+
+.tour-faq-q-text {
+  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 1.12rem;
+  font-weight: 750;
+  color: #10271F;
+  line-height: 1.45;
   transition: color 0.2s ease;
 }
 
-.tour-faq-btn:hover {
+.tour-faq-btn:hover .tour-faq-q-text {
   color: #22845F;
+}
+
+.tour-faq-toggle-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 9999px;
+  background: #F3F8F5;
+  border: 1px solid #D7DEDA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+  color: #535655;
+}
+
+.tour-faq-btn:hover .tour-faq-toggle-circle {
+  border-color: #22845F;
+  color: #22845F;
+  background: #EAF4EF;
+}
+
+.tour-faq-item.active .tour-faq-toggle-circle {
+  background: #22845F;
+  border-color: #22845F;
+  color: #FFFFFF;
+  transform: rotate(180deg);
+  box-shadow: 0 4px 10px rgba(34, 132, 95, 0.25);
 }
 
 .tour-faq-chevron {
   width: 20px;
   height: 20px;
-  color: #727674;
-  transition: transform 0.3s ease;
-  flex-shrink: 0;
-  margin-left: 12px;
-}
-
-.tour-faq-item.active .tour-faq-chevron {
-  transform: rotate(180deg);
-  color: #22845F;
+  transition: transform 0.25s ease;
 }
 
 .tour-faq-answer {
@@ -22944,10 +23247,346 @@ body.mobile-nav-lock {
 }
 
 .tour-faq-answer-inner {
-  padding: 0 22px 20px 22px;
-  font-size: 0.92rem;
+  padding: 0 26px 24px 26px;
+  border-top: 1px solid #EDF3EF;
+  margin-top: 4px;
+  padding-top: 18px;
+  font-size: 0.98rem;
+  color: #444746;
+  line-height: 1.75;
+}
+
+/* Fast Takeaways Strip */
+.tour-faq-takeaways {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 10px;
+  margin: 18px 0 16px 0;
+}
+
+.tour-faq-takeaway-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #F8FAF8;
+  border: 1px solid #E2EAE5;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  color: #303332;
+}
+
+.tour-faq-takeaway-icon {
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+/* Feedback & Engagement Row */
+.tour-faq-feedback {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed #E2EAE5;
+  font-size: 0.86rem;
+  color: #626563;
+}
+
+.tour-faq-vote-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  border: 1px solid #D7DEDA;
+  background: #FFFFFF;
   color: #535655;
-  line-height: 1.65;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tour-faq-vote-btn:hover {
+  border-color: #22845F;
+  color: #22845F;
+  background: #F3F8F5;
+}
+
+.tour-faq-vote-btn.voted {
+  border-color: #22845F;
+  background: #EAF4EF;
+  color: #176B4B;
+  cursor: default;
+}
+
+.tour-faq-ask-link {
+  color: #176B4B;
+  font-weight: 650;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.86rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.tour-faq-ask-link:hover {
+  color: #22845F;
+  text-decoration: underline;
+}
+
+/* Empty Search State */
+.tour-faq-no-results {
+  text-align: center;
+  padding: 48px 24px;
+  background: #FFFFFF;
+  border: 1px dashed #D7DEDA;
+  border-radius: 16px;
+  margin: 10px 0;
+}
+
+.tour-faq-no-results-icon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.tour-faq-no-results-title {
+  font-size: 1.3rem;
+  font-weight: 750;
+  color: #10271F;
+  margin-bottom: 8px;
+}
+
+.tour-faq-no-results-text {
+  font-size: 0.95rem;
+  color: #626563;
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+}
+
+.tour-faq-no-results-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* High-Conversion Bottom CTA Card */
+.tour-faq-cta-card {
+  max-width: 920px;
+  margin: 48px auto 0 auto;
+  background: linear-gradient(135deg, #10271F 0%, #173E30 50%, #1F6B93 100%);
+  border-radius: 20px;
+  padding: 36px 40px;
+  color: #FFFFFF;
+  box-shadow: 0 16px 40px rgba(16, 39, 31, 0.16);
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 32px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  position: relative;
+  overflow: hidden;
+}
+
+.tour-faq-cta-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, rgba(34, 132, 95, 0.25) 0%, rgba(34, 132, 95, 0) 70%);
+  pointer-events: none;
+}
+
+.tour-faq-cta-content {
+  position: relative;
+  z-index: 2;
+}
+
+.tour-faq-cta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #EAF4EF;
+  margin-bottom: 12px;
+}
+
+.tour-faq-cta-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4ADE80;
+  box-shadow: 0 0 8px #4ADE80;
+}
+
+.tour-faq-cta-title {
+  font-size: 1.55rem;
+  font-weight: 800;
+  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  line-height: 1.3;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.tour-faq-cta-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #D1E5DB;
+  margin-bottom: 20px;
+}
+
+.tour-faq-expert-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tour-faq-expert-avatars {
+  position: relative;
+  display: inline-flex;
+}
+
+.tour-faq-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #FFFFFF;
+  padding: 4px;
+  border: 2px solid #22845F;
+}
+
+.tour-faq-expert-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.88rem;
+}
+
+.tour-faq-expert-info strong {
+  color: #FFFFFF;
+  font-size: 0.95rem;
+}
+
+.tour-faq-expert-info span {
+  color: #B4D6C6;
+  font-size: 0.82rem;
+}
+
+.tour-faq-cta-actions {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn-tour-faq-wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  border-radius: 12px;
+  background: #25D366;
+  color: #073318;
+  font-weight: 750;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-tour-faq-wa:hover {
+  background: #1EBE5D;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.45);
+  color: #052411;
+}
+
+.btn-tour-faq-custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 24px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.btn-tour-faq-custom:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.tour-faq-cta-trust-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: #B4D6C6;
+  margin-top: 4px;
+}
+
+@media (max-width: 900px) {
+  .tour-faq-cta-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 28px 22px;
+  }
+  .tour-faq-search-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .tour-faq-expand-btn {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .tour-faq-btn {
+    padding: 18px 18px;
+  }
+  .tour-faq-answer-inner {
+    padding: 0 18px 20px 18px;
+  }
+  .tour-faq-takeaways {
+    grid-template-columns: 1fr;
+  }
+  .tour-faq-trust-strip {
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
 
 /* Bespoke CTA Section */
@@ -28705,5 +29344,1386 @@ body.mobile-nav-lock {
   .insurance-pillar-card {
     flex-direction: column;
     gap: 12px;
+  }
+}
+
+
+/* ==========================================================================
+   3. FILTER & SEARCH COMMAND SECTION — Himalayan Luxury Aesthetic
+   ========================================================================== */
+
+.tour-filter-section {
+  position: relative;
+  background: #FFFFFF;
+  padding: 44px 0 20px 0;
+  border-bottom: 1px solid #F1F5F9;
+  overflow: hidden;
+}
+
+/* Background Snowy Mountain Silhouettes (Masked towards center) */
+.tour-bg-mountain {
+  position: absolute;
+  top: -10px;
+  width: 480px;
+  height: 270px;
+  pointer-events: none;
+  z-index: 1;
+  user-select: none;
+}
+
+.tour-bg-mountain-left {
+  left: -20px;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
+}
+
+.tour-bg-mountain-right {
+  right: -20px;
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0) 100%);
+}
+
+@media (max-width: 1200px) {
+  .tour-bg-mountain {
+    width: 360px;
+    height: 200px;
+    opacity: 0.55;
+  }
+}
+
+@media (max-width: 768px) {
+  .tour-bg-mountain {
+    display: none;
+  }
+}
+
+/* Section Header: Top Pill, Title with Swoosh, Subtitle */
+.tour-section-header {
+  max-width: 840px;
+  margin: 0 auto 28px auto;
+  text-align: center;
+  position: relative;
+}
+
+.tour-header-pill-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.tour-header-rule {
+  height: 1px;
+  width: 60px;
+  background: #E2E8F0;
+}
+
+.tour-official-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ECFDF5;
+  border: 1px solid #A7F3D0;
+  border-radius: 9999px;
+  padding: 5px 16px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #047857;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  box-shadow: 0 1px 3px rgba(16, 185, 129, 0.08);
+}
+
+.tour-pill-mountain-svg {
+  flex-shrink: 0;
+}
+
+.tour-main-heading {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: clamp(2rem, 3.8vw, 2.85rem);
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.2;
+  margin: 0 0 14px 0;
+  letter-spacing: -0.025em;
+}
+
+.tour-heading-nepal {
+  color: #059669;
+  position: relative;
+  display: inline-block;
+  padding: 0 2px;
+}
+
+.tour-swoosh-svg {
+  position: absolute;
+  left: -2px;
+  bottom: -6px;
+  width: calc(100% + 4px);
+  height: 14px;
+  pointer-events: none;
+  z-index: 1;
+  overflow: visible;
+}
+
+.tour-header-subtitle {
+  color: #475569;
+  font-size: 1.02rem;
+  line-height: 1.62;
+  max-width: 740px;
+  margin: 0 auto;
+  font-weight: 450;
+}
+
+/* ==========================================================================
+   Two-Tier Category Filter Pills (5 Top, 1 Centered Bottom)
+   ========================================================================== */
+.tour-category-pills-wrap {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.tour-category-pills-row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (min-width: 1024px) {
+  .tour-category-pills-row1 {
+    flex-wrap: nowrap;
+  }
+}
+
+.tour-category-pills-row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.tour-cat-pill {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  color: #1E293B;
+  font-family: inherit;
+  font-size: 0.84rem;
+  font-weight: 600;
+  padding: 6.5px 14px 6.5px 11px;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 7px -2px rgba(15, 23, 42, 0.05);
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  outline: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.tour-cat-pill .pill-icon-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #059669;
+  flex-shrink: 0;
+}
+
+.tour-cat-pill .pill-badge {
+  background: #F1F5F9;
+  color: #64748B;
+  font-size: 0.74rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 1.5px 6.5px;
+  min-width: 18px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.tour-cat-pill:hover:not(.active) {
+  border-color: #059669;
+  color: #059669;
+  transform: translateY(-1.5px);
+  box-shadow: 0 4px 12px -2px rgba(5, 150, 105, 0.15);
+}
+
+.tour-cat-pill.active {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  border-color: #F59E0B;
+  color: #FFFFFF;
+  box-shadow: 0 4px 16px -2px rgba(5, 150, 105, 0.35), 0 0 0 1.5px #F59E0B;
+  transform: translateY(-1px);
+}
+
+.tour-cat-pill.active .pill-icon-box {
+  color: #FFFFFF;
+}
+
+.tour-cat-pill.active .pill-icon-box svg {
+  stroke: #FFFFFF;
+}
+
+.tour-cat-pill.active[data-cat="wildlife"] .pill-icon-box svg {
+  fill: #FFFFFF;
+}
+
+.tour-cat-pill.active .pill-badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+}
+
+.tour-cat-pill:focus-visible {
+  outline: 2px solid #059669;
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Continuous Unified Floating Capsule Search & Filter Bar
+   ========================================================================== */
+.tour-filter-capsule-bar {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 9999px;
+  box-shadow: 0 4px 22px -3px rgba(15, 23, 42, 0.07), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+  padding: 6px 8px 6px 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1040px;
+  margin: 0 auto 16px auto;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.capsule-divider {
+  width: 1px;
+  height: 26px;
+  background: #E2E8F0;
+  margin: 0 14px;
+  flex-shrink: 0;
+}
+
+.capsule-search-segment {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1 1 360px;
+  min-width: 220px;
+  position: relative;
+}
+
+.capsule-icon-green {
+  flex-shrink: 0;
+}
+
+.capsule-search-input {
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  font-family: inherit;
+  font-size: 0.88rem;
+  color: #0F172A;
+  padding: 6px 0;
+}
+
+.capsule-search-input::placeholder {
+  color: #94A3B8;
+  font-weight: 400;
+}
+
+.capsule-clear-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #94A3B8;
+  padding: 4px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.capsule-clear-btn:hover {
+  color: #0F172A;
+  background: #F1F5F9;
+}
+
+.capsule-select-segment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.capsule-dropdown-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+select.capsule-select-dropdown {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background-color: transparent !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 2px center !important;
+  background-size: 11px !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: #0F172A !important;
+  cursor: pointer;
+  padding-right: 20px !important;
+  padding-left: 2px !important;
+  margin: 0 !important;
+}
+
+select.capsule-select-dropdown::-ms-expand {
+  display: none !important;
+}
+
+.capsule-action-segment {
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.capsule-reset-btn {
+  background: #FFFFFF;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 9999px;
+  padding: 7px 18px;
+  font-family: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: #0F172A;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.capsule-reset-btn:hover {
+  border-color: #059669;
+  color: #059669;
+  background: #F0FDF4;
+}
+
+.capsule-reset-icon {
+  flex-shrink: 0;
+}
+
+.capsule-reset-badge {
+  background: #059669;
+  color: #FFFFFF;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 1px 6px;
+  line-height: 1.2;
+}
+
+/* ==========================================================================
+   Trust & Status Badges Bar (Below Capsule)
+   ========================================================================== */
+.tour-trust-badges-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 14px;
+  margin-bottom: 22px;
+  font-size: 0.86rem;
+  color: #334155;
+  flex-wrap: wrap;
+}
+
+.tour-trust-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.tour-trust-divider {
+  width: 1px;
+  height: 16px;
+  background: #CBD5E1;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.tour-trust-guarantee {
+  color: #059669;
+  font-weight: 700;
+}
+
+.tour-star-lead {
+  flex-shrink: 0;
+}
+
+.tour-stars-cluster {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 4px;
+}
+
+.tour-active-chips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 0.82rem;
+}
+
+.tour-active-chips-label {
+  color: #64748B;
+  font-weight: 500;
+}
+
+.tour-chips-list {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.tour-chips-clear-all {
+  background: transparent;
+  border: none;
+  color: #059669;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .tour-filter-capsule-bar {
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+    gap: 12px;
+  }
+  
+  .capsule-search-segment {
+    flex: 1 1 100%;
+    border-bottom: 1px solid #F1F5F9;
+    padding-bottom: 8px;
+  }
+  
+  .capsule-divider {
+    display: none;
+  }
+  
+  .capsule-select-segment {
+    flex: 1 1 auto;
+  }
+  
+  .capsule-action-segment {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .tour-filter-section {
+    padding: 36px 0 20px 0;
+  }
+  
+  .tour-header-rule {
+    width: 30px;
+  }
+  
+  .tour-filter-capsule-bar {
+    border-radius: 16px;
+    padding: 12px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  
+  .capsule-select-segment {
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #F1F5F9;
+  }
+  
+  .capsule-action-segment {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .capsule-reset-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .tour-trust-badges-bar {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .tour-trust-divider {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   4. TOUR PACKAGES GRID & CARDS — Compact Luxury Design Spec
+   ========================================================================== */
+
+.tour-packages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.tour-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.07), 0 3px 8px -2px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.25s ease;
+  position: relative;
+}
+
+.tour-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px -6px rgba(15, 23, 42, 0.14), 0 6px 14px -3px rgba(0, 0, 0, 0.05);
+  border-color: #CBD5E1;
+}
+
+/* Media wrapper with image and bottom wave */
+.tour-card-media {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  background: #0F172A;
+}
+
+.tour-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.65s cubic-bezier(0.2, 0.8, 0.2, 1);
+  display: block;
+}
+
+.tour-card:hover .tour-card-img {
+  transform: scale(1.06);
+}
+
+/* Bottom wave mask cutting across the image */
+.tour-media-wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 38px;
+  pointer-events: none;
+  z-index: 2;
+  line-height: 0;
+}
+
+.tour-media-wave svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Top-Left Duration Badge */
+.tour-badge-duration {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 3;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #FFFFFF;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+/* Top-Right Green Price Pill Badge */
+.tour-badge-price-pill {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 3;
+  background: #15803D;
+  color: #FFFFFF;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 14px rgba(21, 128, 61, 0.45);
+}
+
+.tour-badge-price-pill svg {
+  transform: rotate(45deg);
+  opacity: 0.95;
+}
+
+.price-pill-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+  text-align: right;
+}
+
+.price-pill-from {
+  font-size: 0.58rem;
+  font-weight: 600;
+  opacity: 0.9;
+  text-transform: capitalize;
+}
+
+.price-pill-amount {
+  font-size: 0.95rem;
+  font-weight: 850;
+  letter-spacing: -0.02em;
+}
+
+/* Bottom-Left Gold Style Pill Badge */
+.tour-badge-gold {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  z-index: 3;
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  color: #111827;
+  padding: 4px 11px;
+  border-radius: 9999px;
+  font-size: 0.66rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 3px 10px rgba(217, 119, 6, 0.35);
+}
+
+/* Bottom-Right Floating Google Reviews Card */
+.tour-google-reviews-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  z-index: 3;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 6px 9px 5px 9px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 95px;
+  position: relative;
+}
+
+.google-sparkles {
+  position: absolute;
+  top: -6px;
+  right: -5px;
+  pointer-events: none;
+}
+
+.google-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2px;
+}
+
+.google-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.google-name {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: #1E293B;
+  letter-spacing: -0.01em;
+}
+
+.google-reviews-sub {
+  font-size: 0.52rem;
+  font-weight: 600;
+  color: #64748B;
+  letter-spacing: -0.01em;
+}
+
+.google-rating-line {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.google-score {
+  font-size: 0.72rem;
+  font-weight: 850;
+  color: #0F172A;
+}
+
+.google-stars {
+  display: flex;
+  gap: 1.5px;
+}
+
+.google-count-text {
+  font-size: 0.52rem;
+  color: #64748B;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+/* Card Body */
+.tour-card-body {
+  padding: 12px 18px 12px 18px;
+  position: relative;
+  flex: 1 1 auto;
+}
+
+/* Watermark Temple Silhouette */
+.tour-body-watermark {
+  position: absolute;
+  right: 6px;
+  top: 8px;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Location Tag */
+.tour-location-tag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: #0D7A57;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+}
+
+/* Title */
+.tour-card-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 750;
+  color: #0F172A;
+  line-height: 1.32;
+  margin: 0 0 6px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.tour-card-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.tour-card-title a:hover {
+  color: #15803D;
+}
+
+/* Green Title Accent Line */
+.tour-title-accent {
+  width: 32px;
+  height: 2.5px;
+  background: #15803D;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Description */
+.tour-desc {
+  font-size: 0.78rem;
+  color: #475569;
+  line-height: 1.48;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Feature Boxes Grid (2x2) */
+.tour-feat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-bottom: 6px;
+  position: relative;
+  z-index: 1;
+}
+
+.tour-feat-box {
+  background: #F0F6FA;
+  border: 1px solid #DCE7F0;
+  border-radius: 10px;
+  padding: 6px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.tour-feat-box:hover {
+  transform: translateY(-2px);
+  border-color: #93C5FD;
+}
+
+.tour-feat-icon {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour-feat-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tour-feat-label {
+  font-size: 0.64rem;
+  font-weight: 700;
+  color: #1E3A8A;
+  line-height: 1.15;
+}
+
+/* Floating Bottom Capsule Footer */
+.tour-card-footer-capsule {
+  margin: 0 14px 14px 14px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 9999px;
+  padding: 6px 8px 6px 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.tour-capsule-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.capsule-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.capsule-text-col {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.capsule-label {
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: #64748B;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.capsule-val {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #0F172A;
+  white-space: nowrap;
+}
+
+.capsule-divider {
+  width: 1px;
+  height: 24px;
+  background: #E2E8F0;
+  flex-shrink: 0;
+}
+
+.tour-btn-view-details {
+  background: #15803D;
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  font-weight: 750;
+  padding: 7px 13px;
+  border-radius: 9999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  box-shadow: 0 3px 10px rgba(21, 128, 61, 0.35);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.tour-btn-view-details:hover {
+  background: #166534;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 14px rgba(21, 128, 61, 0.45);
+}
+
+.btn-arrow-circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.btn-arrow-circle svg {
+  color: #15803D;
+}
+
+.tour-btn-view-details:hover .btn-arrow-circle {
+  transform: translateX(2px);
+}
+
+/* Responsive Grid */
+@media (max-width: 1120px) {
+  .tour-packages-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .tour-packages-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .tour-feat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+/* ==========================================================================
+   Trekking Packages Catalog Control Center — Gold Standard Global Styles
+   ========================================================================== */
+.catalog-control-box {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 24px 28px;
+  box-shadow: 0 10px 32px rgba(16, 39, 31, 0.05);
+  border: 1px solid #DDE6DF;
+  margin-bottom: 34px;
+}
+.region-pills-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #E8EFEA;
+}
+.region-pill-label {
+  font-size: 0.84rem;
+  font-weight: 800;
+  color: #10271F;
+  margin-right: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.region-pill {
+  background: #F8FAF9;
+  border: 1.5px solid #DDE6DF;
+  color: #4B5563;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.region-pill .pill-svg {
+  color: #22845F;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+.region-pill:hover {
+  background: #FFFFFF;
+  border-color: #22845F;
+  color: #176B4B;
+  transform: translateY(-1px);
+}
+.region-pill.active {
+  background: #10271F;
+  border-color: #10271F;
+  color: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(16, 39, 31, 0.25);
+}
+.region-pill.active .pill-svg {
+  color: #34D399;
+}
+.region-pill .pill-count {
+  font-size: 0.74rem;
+  background: #E5E7EB;
+  color: #4B5563;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.region-pill.active .pill-count {
+  background: rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+}
+.controls-grid {
+  display: grid;
+  grid-template-columns: 2.2fr 1.05fr 1.05fr 1.05fr 1.05fr auto;
+  gap: 12px;
+  align-items: center;
+}
+.control-item-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.control-search-input {
+  width: 100%;
+  height: 46px;
+  padding: 0 46px 0 40px;
+  border: 1.5px solid #DDE6DF;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: #1B2921;
+  background: #FDFEFC;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.control-search-input:focus {
+  background: #FFFFFF;
+  border-color: #22845F;
+  box-shadow: 0 0 0 3px rgba(34, 132, 95, 0.14);
+}
+.control-search-icon {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #727674;
+  pointer-events: none;
+}
+.control-search-kbd {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #9CA3AF;
+  background: #F3F4F6;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  padding: 3px 6px;
+  line-height: 1;
+  pointer-events: none;
+}
+.control-search-clear {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #E5E7EB;
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  color: #4B5563;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.control-search-clear.visible {
+  display: inline-flex;
+}
+.control-search-clear:hover {
+  background: #D1D5DB;
+  color: #111827;
+}
+.control-select-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.control-select-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #22845F;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+}
+.control-select {
+  width: 100%;
+  height: 46px;
+  padding: 0 30px 0 36px;
+  border: 1.5px solid #DDE6DF;
+  border-radius: 12px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: #1B2921;
+  background: #FFFFFF;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.control-select:focus {
+  border-color: #22845F;
+  box-shadow: 0 0 0 3px rgba(34, 132, 95, 0.14);
+}
+.control-select-chevron {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #727674;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+.control-select:focus ~ .control-select-chevron {
+  color: #22845F;
+  transform: translateY(-50%) rotate(180deg);
+}
+.btn-reset-filters {
+  height: 46px;
+  padding: 0 18px;
+  background: #F3F8F5;
+  border: 1.5px solid #DDE6DF;
+  border-radius: 12px;
+  color: #4B5563;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.btn-reset-filters:hover {
+  background: #E8EFEA;
+  color: #10271F;
+  border-color: #22845F;
+}
+.btn-reset-filters.has-active {
+  background: #ECFDF5;
+  border-color: #10B981;
+  color: #065F46;
+}
+.trek-filter-count-badge {
+  background: #22845F;
+  color: #FFFFFF;
+  font-size: 0.72rem;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.results-summary-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px dashed #DDE6DF;
+  font-size: 0.9rem;
+  color: #535655;
+}
+.results-count-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.results-count-text strong {
+  color: #10271F;
+  font-weight: 700;
+  font-size: 1.02rem;
+}
+.trek-pulse-dot {
+  width: 8px;
+  height: 8px;
+  background: #10B981;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  animation: trekPulse 2s infinite;
+}
+.trek-trust-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #176B4B;
+  background: rgba(34, 132, 95, 0.08);
+  padding: 5px 12px;
+  border-radius: 9999px;
+}
+.trek-trust-pill svg {
+  color: #22845F;
+}
+.active-chips-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.active-chip {
+  background: #F3F8F5;
+  border: 1px solid #DDE6DF;
+  color: #176B4B;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.active-chip:hover {
+  background: #FEE2E2;
+  border-color: #FCA5A5;
+  color: #DC2626;
+}
+.active-chip-remove {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  .controls-grid {
+    grid-template-columns: 1.8fr 1fr 1fr 1fr 1fr auto;
+    gap: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .controls-grid {
+    grid-template-columns: repeat(2, 1fr) auto;
+  }
+  .control-item-search {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 640px) {
+  .catalog-control-box {
+    padding: 18px 16px;
+    border-radius: 16px;
+  }
+  .region-pills-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .region-pills-bar::-webkit-scrollbar {
+    display: none;
+  }
+  .region-pill {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .controls-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .btn-reset-filters {
+    width: 100%;
+    justify-content: center;
+  }
+  .results-summary-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .trek-trust-pill {
+    width: 100%;
+    justify-content: center;
   }
 }

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 46" width="210" height="46">
+  <!-- Teal Spiral / Swirl Compass Icon on left -->
+  <g transform="translate(6, 5)">
+    <!-- Outer teal ring -->
+    <circle cx="18" cy="18" r="16" fill="none" stroke="#006874" stroke-width="3"/>
+    <!-- Inner Swirl Pin -->
+    <path d="M18 6 A 12 12 0 0 1 30 18 A 8 8 0 0 1 22 26 A 5 5 0 0 1 18 21 A 3 3 0 0 1 18 18" fill="none" stroke="#006874" stroke-width="2.8" stroke-linecap="round"/>
+    <circle cx="18" cy="18" r="3" fill="#006874"/>
+  </g>
+  <!-- Text on Right -->
+  <text x="46" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="800" fill="#006874" letter-spacing="1.2">SUSTAINABLE</text>
+  <text x="46" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#006874" letter-spacing="1">TRAVEL INTERNATIONAL</text>
+</svg>

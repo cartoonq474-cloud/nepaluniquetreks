@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 46" width="190" height="46">
+  <!-- Orange Abstract Icon on left -->
+  <g transform="translate(6, 7)">
+    <path d="M22 6 C28 12 28 20 20 26 C12 32 4 28 2 22 C0 14 12 0 22 6 Z" fill="#E85D22"/>
+    <path d="M8 24 C14 28 22 28 26 22 C30 16 26 10 20 12 C14 14 6 18 8 24 Z" fill="#F97316" opacity="0.85"/>
+    <circle cx="16" cy="17" r="4.5" fill="#FFFFFF"/>
+  </g>
+  <!-- Text on Right -->
+  <text x="44" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#1E293B" letter-spacing="0.2">Adventure Travel</text>
+  <text x="44" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#475569" letter-spacing="0.5">Conservation Fund</text>
+</svg>
