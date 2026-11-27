@@ -6602,24 +6602,6 @@ body.mobile-nav-lock {
   color: #34D399;
 }
 
-.act-cat-badge {
-  display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 9999px;
-  background: #F3F8F5;
-  color: #22845F;
-  border: 1px solid #DDE6DF;
-  transition: all 0.25s ease;
-}
-
-.act-category-btn.active .act-cat-badge {
-  background: rgba(255, 255, 255, 0.16);
-  color: #FFFFFF;
-  border-color: rgba(255, 255, 255, 0.25);
-}
-
 @media (max-width: 1150px) {
   .act-category-bar-wrapper {
     overflow-x: auto;
@@ -6680,10 +6662,6 @@ body.mobile-nav-lock {
   .act-category-btn .act-cat-icon svg {
     width: 14px;
     height: 14px;
-  }
-
-  .act-cat-badge {
-    display: none;
   }
 }
 

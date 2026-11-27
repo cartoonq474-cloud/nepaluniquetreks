@@ -1157,6 +1157,7 @@
     .tour-faq-cat-badge {
       display: inline-flex;
       align-items: center;
+      gap: 5px;
       padding: 3px 10px;
       border-radius: 9999px;
       font-size: 0.72rem;
@@ -1344,8 +1345,16 @@
     }
 
     .tour-faq-no-results-icon {
-      font-size: 2.2rem;
-      margin-bottom: 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 14px;
+      background: #EAF4EF;
+      color: #22845F;
+      border: 1px solid #C8E3D5;
+      margin: 0 auto 14px auto;
     }
 
     .tour-faq-no-results-title {
@@ -1538,12 +1547,18 @@
 
     .tour-faq-cta-trust-row {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: 8px;
+      gap: 8px 10px;
       font-size: 0.78rem;
       color: #B4D6C6;
       margin-top: 4px;
+    }
+    .tour-faq-cta-trust-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
     }
 
     @media (max-width: 900px) {
@@ -3490,34 +3505,6 @@
           <p class="tour-faq-subtitle">
             Essential information regarding private vehicle comfort, 4-star &amp; 5-star boutique hotels, custom itineraries, age suitability, and transparent all-inclusive pricing.
           </p>
-
-          <!-- Quick Trust / Value Highlights Strip -->
-          <div class="tour-faq-trust-strip">
-            <div class="tour-faq-trust-item">
-              <span class="tour-faq-trust-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
-              </span>
-              <span><strong>100% Inclusive</strong> · Zero Hidden Fees</span>
-            </div>
-            <div class="tour-faq-trust-item">
-              <span class="tour-faq-trust-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              </span>
-              <span><strong>All Ages</strong> · Seniors &amp; Kids Friendly</span>
-            </div>
-            <div class="tour-faq-trust-item">
-              <span class="tour-faq-trust-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-              </span>
-              <span><strong>Private Fleet</strong> · Modern A/C 4WD &amp; Vans</span>
-            </div>
-            <div class="tour-faq-trust-item">
-              <span class="tour-faq-trust-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-              </span>
-              <span><strong>24/7 Support</strong> · Direct Founder Line</span>
-            </div>
-          </div>
         </div>
 
         <!-- Interactive Control Bar: Category Pills + Search + Expand Toggle -->
@@ -3525,22 +3512,27 @@
           <!-- Category Pills -->
           <div class="tour-faq-pills" role="tablist" aria-label="FAQ Categories">
             <button type="button" class="tour-faq-cat-pill active" data-category="all" role="tab" aria-selected="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
               <span>All Questions</span>
               <span class="tour-faq-pill-count">8</span>
             </button>
             <button type="button" class="tour-faq-cat-pill" data-category="family" role="tab" aria-selected="false">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
               <span>Comfort &amp; Family</span>
               <span class="tour-faq-pill-count">2</span>
             </button>
             <button type="button" class="tour-faq-cat-pill" data-category="hotels" role="tab" aria-selected="false">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9h.01"/><path d="M9 13h.01"/><path d="M9 17h.01"/></svg>
               <span>Hotels &amp; Meals</span>
               <span class="tour-faq-pill-count">2</span>
             </button>
             <button type="button" class="tour-faq-cat-pill" data-category="customization" role="tab" aria-selected="false">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg>
               <span>Custom &amp; Booking</span>
               <span class="tour-faq-pill-count">2</span>
             </button>
             <button type="button" class="tour-faq-cat-pill" data-category="permits" role="tab" aria-selected="false">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
               <span>Permits &amp; Heli</span>
               <span class="tour-faq-pill-count">2</span>
             </button>
@@ -3567,7 +3559,10 @@
           <div class="tour-faq-item active" data-category="family" data-faq-id="faq-1">
             <button class="tour-faq-btn" aria-expanded="true" aria-controls="faq-ans-1" id="faq-btn-1">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-green">Comfort &amp; Family</span>
+                <span class="tour-faq-cat-badge badge-green">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  <span>Comfort &amp; Family</span>
+                </span>
                 <span class="tour-faq-q-text">Are these tours suitable for senior citizens and young children?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3579,25 +3574,6 @@
                 <p>
                   Yes, 100%. Unlike our high-altitude Himalayan treks which demand multiple consecutive days of strenuous uphill hiking, our Nepal tour packages are specifically engineered for effortless, comfortable sightseeing. You travel in private, air-conditioned vehicles, stay in 4-star and 5-star boutique heritage hotels equipped with modern elevators, walk-in showers, and en-suite heating, and discover ancient temples and scenic viewpoints at your own relaxed, unhurried pace.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🚶</span>
-                    <div><strong>Walking Level:</strong> Gentle strolling, fully adaptable pace</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🚗</span>
-                    <div><strong>Transport:</strong> Private A/C 4WD &amp; spacious Toyota vans</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🏨</span>
-                    <div><strong>Accommodations:</strong> Elevators, premium bedding &amp; heating</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <a href="https://wa.me/9779851023285?text=Hi%20Dil,%20I%20have%20questions%20about%20traveling%20with%20seniors/children." target="_blank" rel="noopener noreferrer" class="tour-faq-ask-link">Ask Dil Gurung on WhatsApp &rarr;</a>
-                </div>
               </div>
             </div>
           </div>
@@ -3606,7 +3582,10 @@
           <div class="tour-faq-item" data-category="customization" data-faq-id="faq-2">
             <button class="tour-faq-btn" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-blue">Custom Itinerary</span>
+                <span class="tour-faq-cat-badge badge-blue">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                  <span>Custom Itinerary</span>
+                </span>
                 <span class="tour-faq-q-text">Can I customize the itinerary or combine tours with a short trek?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3618,25 +3597,6 @@
                 <p>
                   Absolutely. Because all our tours are privately operated (no strangers merged into your group), every itinerary can be tailored 100% to your personal schedule, passions, and travel rhythm. You can add extra leisure days in Pokhara, arrange a sunrise yoga session overlooking Phewa Lake, include an Everest Scenic Mountain Flight or Helicopter tour, or seamlessly combine a 4-day cultural circuit with an introductory 3- to 4-day Poon Hill, Mardi Himal, or Chisapani-Nagarkot trek.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🎯</span>
-                    <div><strong>Bespoke Flexibility:</strong> Any start date, custom duration &amp; stops</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🏔️</span>
-                    <div><strong>Tour + Trek Combos:</strong> Add 3–5 day scenic Himalayan hikes</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">✨</span>
-                    <div><strong>Special Add-ons:</strong> Everest Heli, rafting, cooking classes</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <button type="button" class="tour-faq-ask-link open-inquiry-btn" data-trek-title="Custom Nepal Tour Itinerary">Request Custom Plan &rarr;</button>
-                </div>
               </div>
             </div>
           </div>
@@ -3645,7 +3605,10 @@
           <div class="tour-faq-item" data-category="hotels" data-faq-id="faq-3">
             <button class="tour-faq-btn" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-amber">Hotels &amp; Transport</span>
+                <span class="tour-faq-cat-badge badge-amber">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg>
+                  <span>Hotels &amp; Transport</span>
+                </span>
                 <span class="tour-faq-q-text">What hotels and vehicles are included in the package price?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3657,25 +3620,6 @@
                 <p>
                   Standard tour packages include handpicked 4-star boutique heritage hotels known for superb hygiene, warm hospitality, and central locations—such as <em>Hotel Traditional Comfort</em> or <em>Baber Mahal Vilas</em> in Kathmandu, <em>Temple Tree Resort &amp; Spa</em> or <em>Waterfront Resort</em> in Pokhara, and <em>Kasara</em> or <em>Tigerland Resort</em> in Chitwan. Luxury 5-star upgrades (including the world-famous <em>Dwarika's Hotel</em>) are readily available. Ground transport is operated solely in private, modern air-conditioned vehicles (Mahindra Scorpio 4WDs, Toyota HiAce luxury vans, or Toyota Prado SUVs) driven by seasoned, English-communicating licensed chauffeurs.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🏨</span>
-                    <div><strong>Hotel Tier:</strong> 4-Star boutique heritage standard (5-star upgrades available)</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🚙</span>
-                    <div><strong>Vehicle Fleet:</strong> Private A/C Mahindra 4WD, Toyota HiAce, or Prado</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">👨‍✈️</span>
-                    <div><strong>Chauffeur:</strong> Courteous, background-checked professional drivers</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <a href="https://wa.me/9779851023285?text=Hi%20Dil,%20can%20I%20see%20hotel%20options%20for%20my%20Nepal%20Tour?" target="_blank" rel="noopener noreferrer" class="tour-faq-ask-link">Ask about 5-Star Upgrades &rarr;</a>
-                </div>
               </div>
             </div>
           </div>
@@ -3684,7 +3628,10 @@
           <div class="tour-faq-item" data-category="permits" data-faq-id="faq-4">
             <button class="tour-faq-btn" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-green">Inclusions &amp; Pricing</span>
+                <span class="tour-faq-cat-badge badge-green">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                  <span>Inclusions &amp; Pricing</span>
+                </span>
                 <span class="tour-faq-q-text">Are monument entrance fees, national park permits, and safari tickets included?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3696,25 +3643,6 @@
                 <p>
                   Yes, entirely! All official entry tickets for UNESCO World Heritage Sites (Pashupatinath Temple, Boudhanath Stupa, Swayambhunath Monkey Temple, Patan Durbar Square, Bhaktapur Durbar Square, and Changu Narayan), Chitwan National Park conservation entry permits, government wildlife taxes, and Phewa Lake private boating permits are 100% pre-paid and covered in your total package price. You will never face surprise on-trail surcharges or unexpected gate fees.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🏛️</span>
-                    <div><strong>UNESCO Monuments:</strong> All 7 Kathmandu Valley World Heritage Sites included</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🦏</span>
-                    <div><strong>Chitwan Safari:</strong> Jeep safari, canoe permits &amp; park entry fully covered</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">💯</span>
-                    <div><strong>Zero Surprises:</strong> All government taxes &amp; VAT included in quote</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <a href="https://wa.me/9779851023285?text=Hi%20Dil,%20what%20items%20are%20excluded%20from%20the%20tour%20price?" target="_blank" rel="noopener noreferrer" class="tour-faq-ask-link">Ask about Inclusions &rarr;</a>
-                </div>
               </div>
             </div>
           </div>
@@ -3723,7 +3651,10 @@
           <div class="tour-faq-item" data-category="permits" data-faq-id="faq-5">
             <button class="tour-faq-btn" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-blue">Everest Helicopter</span>
+                <span class="tour-faq-cat-badge badge-blue">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h16"/><path d="M11 5v4"/><path d="M4 13h4l2-4h6a4 4 0 0 1 4 4v1a3 3 0 0 1-3 3H10a4 4 0 0 1-4-4Z"/><path d="M8 20h10"/></svg>
+                  <span>Everest Helicopter</span>
+                </span>
                 <span class="tour-faq-q-text">How does the private helicopter flight to Mount Everest work?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3735,25 +3666,6 @@
                 <p>
                   In our Luxury Helicopter Tour (available as a standalone day trip or an add-on to any tour package), you depart early morning from Kathmandu in a high-altitude Airbus H125 (AS350 B3e) helicopter. You soar through the Khumbu Valley above Namche Bazaar, Tengboche Monastery, and the Khumbu Icefall. Weather permitting, you touch down at Kala Patthar (5,545m) for world-class panoramic photographs directly in front of Mount Everest, Lhotse, and Nuptse, followed by a champagne breakfast on the open terrace of the world's highest luxury hotel, <em>Hotel Everest View</em> (3,880m). For passenger safety, supplemental medical oxygen systems are permanently installed on board.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🚁</span>
-                    <div><strong>Aircraft:</strong> Airbus H125 / AS350 B3e high-altitude helicopter</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🏔️</span>
-                    <div><strong>Scenic Landing:</strong> Kala Patthar (5,545m) &amp; Hotel Everest View (3,880m)</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🫁</span>
-                    <div><strong>Medical Safety:</strong> Supplemental oxygen carried on board</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <a href="https://wa.me/9779851023285?text=Hi%20Dil,%20I%20would%20like%20to%20know%20pricing%20for%20the%20Everest%20Helicopter%20Tour." target="_blank" rel="noopener noreferrer" class="tour-faq-ask-link">Inquire about Everest Heli Tour &rarr;</a>
-                </div>
               </div>
             </div>
           </div>
@@ -3762,7 +3674,10 @@
           <div class="tour-faq-item" data-category="hotels" data-faq-id="faq-6">
             <button class="tour-faq-btn" aria-expanded="false" aria-controls="faq-ans-6" id="faq-btn-6">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-amber">Dining &amp; Food</span>
+                <span class="tour-faq-cat-badge badge-amber">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+                  <span>Dining &amp; Food</span>
+                </span>
                 <span class="tour-faq-q-text">What meals are included during the tours, and can dietary needs be met?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3774,25 +3689,6 @@
                 <p>
                   A sumptuous daily buffet breakfast is included every morning at all your boutique and luxury hotels. In Chitwan National Park, all three daily gourmet meals (breakfast, lunch, and dinner) are fully included at your eco-luxury jungle resort. In Kathmandu and Pokhara, we intentionally leave lunches and dinners open so you have total freedom to dine at high-rated heritage restaurants, lakeside terraces, and rooftop gardens. Your private guide will recommend verified, hygienic establishments serving authentic Newari feasts, organic Nepali Dal Bhat, Italian wood-fired pizza, Continental, vegan, gluten-free, or Halal specialties.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🍳</span>
-                    <div><strong>Daily Breakfast:</strong> Full international buffet included at all hotels</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🌿</span>
-                    <div><strong>Chitwan Resort:</strong> Full board (breakfast, lunch &amp; dinner) included</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🥗</span>
-                    <div><strong>Dietary Care:</strong> Vegetarian, Vegan, Gluten-Free &amp; Halal accommodated</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <a href="https://wa.me/9779851023285?text=Hi%20Dil,%20I%20have%20specific%20dietary%20requirements%20for%20our%20Nepal%20Tour." target="_blank" rel="noopener noreferrer" class="tour-faq-ask-link">Inform us of Dietary Needs &rarr;</a>
-                </div>
               </div>
             </div>
           </div>
@@ -3801,7 +3697,10 @@
           <div class="tour-faq-item" data-category="family" data-faq-id="faq-7">
             <button class="tour-faq-btn" aria-expanded="false" aria-controls="faq-ans-7" id="faq-btn-7">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-green">Timing &amp; Weather</span>
+                <span class="tour-faq-cat-badge badge-green">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/></svg>
+                  <span>Timing &amp; Weather</span>
+                </span>
                 <span class="tour-faq-q-text">What is the best time of year to take a tour in Nepal?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3813,25 +3712,6 @@
                 <p>
                   Unlike high-pass treks which are restricted in winter and monsoon, Nepal cultural and wildlife tours can be comfortably enjoyed <strong>year-round</strong>. <strong>Autumn (September to November)</strong> offers crystal-clear Himalayan panoramas and festive Dashain/Tihar celebrations. <strong>Spring (March to May)</strong> brings warm sunshine, blooming rhododendron hillsides, and lush gardens. <strong>Winter (December to February)</strong> features crisp sunny days in Kathmandu and Pokhara (18°C to 21°C) and is the absolute best time for Chitwan wildlife safaris without tourist crowds. Even summer brings serene cultural sightseeing with significantly lower hotel rates.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🍁</span>
-                    <div><strong>Autumn (Sep–Nov):</strong> Clearest skies &amp; vibrant cultural festivals</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🌸</span>
-                    <div><strong>Spring (Mar–May):</strong> Pleasant warm weather &amp; mountain views</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🦏</span>
-                    <div><strong>Winter (Dec–Feb):</strong> Prime Chitwan wildlife spotting &amp; tranquil cities</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <a href="#best-seasons" class="tour-faq-ask-link">View Detailed Seasons Guide &rarr;</a>
-                </div>
               </div>
             </div>
           </div>
@@ -3840,7 +3720,10 @@
           <div class="tour-faq-item" data-category="customization" data-faq-id="faq-8">
             <button class="tour-faq-btn" aria-expanded="false" aria-controls="faq-ans-8" id="faq-btn-8">
               <div class="tour-faq-btn-left">
-                <span class="tour-faq-cat-badge badge-blue">Deposit &amp; Payment</span>
+                <span class="tour-faq-cat-badge badge-blue">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                  <span>Deposit &amp; Payment</span>
+                </span>
                 <span class="tour-faq-q-text">What is the deposit policy, and can I pay securely by credit card?</span>
               </div>
               <span class="tour-faq-toggle-circle" aria-hidden="true">
@@ -3852,32 +3735,15 @@
                 <p>
                   To secure your tour departure, boutique hotel reservations, and private vehicle booking, we require an advance deposit of only <strong>20% to 25%</strong> of the total trip cost. Deposits can be paid conveniently and securely online via Visa, MasterCard, American Express, or wire transfer through our official Himalayan Bank merchant gateway. The remaining balance can be settled upon arrival in Kathmandu via credit card, USD/EUR cash, or wire transfer before your tour departs. If your travel plans change, our flexible booking guarantee permits free date rescheduling with zero penalty.
                 </p>
-                <div class="tour-faq-takeaways">
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">💳</span>
-                    <div><strong>Payment Methods:</strong> Visa, MasterCard, Amex &amp; Bank Transfer</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🛡️</span>
-                    <div><strong>Low Deposit:</strong> Only 20% to 25% required to confirm dates</div>
-                  </div>
-                  <div class="tour-faq-takeaway-item">
-                    <span class="tour-faq-takeaway-icon">🔄</span>
-                    <div><strong>Flexibility:</strong> Free date changes if flight or plans adjust</div>
-                  </div>
-                </div>
-                <div class="tour-faq-feedback">
-                  <span class="tour-faq-feedback-label">Was this answer helpful?</span>
-                  <button type="button" class="tour-faq-vote-btn" data-vote="yes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg> Helpful</button>
-                  <a href="https://wa.me/9779851023285?text=Hi%20Dil,%20I%20would%20like%20to%20know%20more%20about%20booking%20deposit%20and%20payment." target="_blank" rel="noopener noreferrer" class="tour-faq-ask-link">Ask about Payment Terms &rarr;</a>
-                </div>
               </div>
             </div>
           </div>
 
           <!-- Empty search state -->
           <div id="tourFaqNoResults" class="tour-faq-no-results" style="display: none;">
-            <div class="tour-faq-no-results-icon">🔍</div>
+            <div class="tour-faq-no-results-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
             <h3 class="tour-faq-no-results-title">No Matching Questions Found</h3>
             <p class="tour-faq-no-results-text">We couldn't find an answer matching your search query. Ask Dil Gurung directly or clear your filters.</p>
             <div class="tour-faq-no-results-actions">
@@ -3923,11 +3789,20 @@
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
             </button>
             <div class="tour-faq-cta-trust-row">
-              <span>⭐ 4.9/5 TripAdvisor</span>
-              <span>•</span>
-              <span>🔒 100% Private Departures</span>
-              <span>•</span>
-              <span>🛡️ Zero Hidden Costs</span>
+              <span class="tour-faq-cta-trust-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="#FBBF24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <span>4.9/5 TripAdvisor</span>
+              </span>
+              <span aria-hidden="true">&bull;</span>
+              <span class="tour-faq-cta-trust-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                <span>100% Private Departures</span>
+              </span>
+              <span aria-hidden="true">&bull;</span>
+              <span class="tour-faq-cta-trust-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4ADE80" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                <span>Zero Hidden Costs</span>
+              </span>
             </div>
           </div>
         </div>
