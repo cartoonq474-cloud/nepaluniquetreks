@@ -104,7 +104,7 @@ main {
   background-color: var(--color-white);
 }
 
-body.mobile-nav-lock {
+html.mobile-nav-lock {
   overflow: hidden !important;
 }
 
@@ -1000,10 +1000,21 @@ textarea {
   }
 }
 
-/* Body lock when mobile drawer is open */
-body.mobile-nav-lock {
+/* Body lock when mobile drawer is open (lock on html so sticky header stays pinned) */
+html.mobile-nav-lock {
   overflow: hidden !important;
+}
+
+body.mobile-nav-lock {
   touch-action: none;
+}
+
+/* Disable backdrop-filter while drawer is open so fixed drawer stays relative to viewport */
+body.mobile-nav-lock .main-header,
+body.mobile-nav-lock .main-header.header-scrolled {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  background-color: #FFFFFF !important;
 }
 
 /* ==========================================================================
@@ -1054,12 +1065,21 @@ body.mobile-nav-lock {
     display: none !important;
   }
 
+  /* Collapse nav wrapper width on mobile so header actions stay flush-right */
+  .main-header nav {
+    width: 0;
+    min-width: 0;
+    flex: 0 0 0;
+    overflow: visible;
+  }
+
   /* Show mobile header action group (WhatsApp + Book + Toggle) */
   .mobile-header-actions {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     flex-shrink: 0;
+    margin-left: auto;
   }
 
   /* When drawer is open, keep header ultra clean: show only Logo + X close button */
@@ -1072,6 +1092,7 @@ body.mobile-nav-lock {
     display: inline-flex;
     align-items: center;
     gap: 5px;
+    min-height: 40px;
     background: #25D366;
     color: #FFFFFF;
     font-size: 0.78rem;
@@ -1099,6 +1120,7 @@ body.mobile-nav-lock {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    min-height: 40px;
     background: #22845F;
     color: #FFFFFF;
     font-size: 0.78rem;
@@ -1121,6 +1143,8 @@ body.mobile-nav-lock {
 
   .mobile-nav-toggle {
     display: flex;
+    width: 42px;
+    height: 42px;
   }
 
   /* Full-page Backdrop Dimming Overlay (z-index 990 below header 1000) */
@@ -1169,6 +1193,7 @@ body.mobile-nav-lock {
     z-index: 1001;
     transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
     overflow-y: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
     scrollbar-width: thin;
@@ -1264,8 +1289,8 @@ body.mobile-nav-lock {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: #F1F5F9;
     border: 1px solid #E2E8F0;
@@ -1292,10 +1317,12 @@ body.mobile-nav-lock {
 
   /* Modern Accordion Submenus */
   .nav-dropdown-menu,
+  .nav-dropdown-menu.dropdown-grid-2col,
   .mobile-accordion-menu {
     display: none;
     position: static;
     width: 100%;
+    min-width: 0 !important;
     background: #F8FAFC;
     border: 1px solid #E2E8F0;
     border-left: 3px solid #22845F;
@@ -1322,6 +1349,7 @@ body.mobile-nav-lock {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-height: 44px;
     padding: 9px 12px;
     margin-bottom: 4px;
     font-size: 0.86rem;
@@ -1352,13 +1380,13 @@ body.mobile-nav-lock {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 10px;
+    padding: 10px 10px;
     font-size: 0.88rem;
     font-weight: 600;
     color: #334155;
     border-radius: 8px;
     text-decoration: none;
-    min-height: 38px;
+    min-height: 44px;
     box-sizing: border-box;
     transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
     gap: 8px;
@@ -1466,7 +1494,7 @@ body.mobile-nav-lock {
   }
 
   .mobile-drawer-trust-note {
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     color: #64748B;
     text-align: center;
     margin-top: 2px;
@@ -1505,19 +1533,21 @@ body.mobile-nav-lock {
   }
 
   .mobile-header-wa-btn {
-    padding: 6px 10px;
-    font-size: 0.74rem;
+    min-height: 40px;
+    padding: 6px 11px;
+    font-size: 0.76rem;
   }
 
   .mobile-header-book-btn {
-    padding: 6px 11px;
-    font-size: 0.74rem;
+    min-height: 40px;
+    padding: 6px 12px;
+    font-size: 0.76rem;
   }
 
   .mobile-nav-toggle {
-    width: 36px;
-    height: 36px;
-    padding: 6px;
+    width: 42px;
+    height: 42px;
+    padding: 8px;
   }
 
   .mobile-nav-drawer-actions {
@@ -1532,13 +1562,18 @@ body.mobile-nav-lock {
   }
 
   .mobile-header-wa-btn {
-    padding: 7px;
+    width: 40px;
+    height: 40px;
+    min-height: 40px;
+    padding: 0;
+    justify-content: center;
     border-radius: 50%;
   }
 
   .mobile-header-book-btn {
-    padding: 5px 10px;
-    font-size: 0.72rem;
+    min-height: 40px;
+    padding: 6px 12px;
+    font-size: 0.75rem;
   }
 }
 
@@ -1702,6 +1737,22 @@ body.mobile-nav-lock {
 @media (max-width: 900px) {
   .filter-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .filter-grid>.filter-group:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 580px) {
+  .trek-finder-box {
+    padding: 22px 18px;
+    margin-bottom: 36px;
+  }
+
+  .filter-select {
+    min-height: 44px;
+    font-size: 16px;
   }
 }
 
@@ -1884,6 +1935,19 @@ body.mobile-nav-lock {
   opacity: 1;
   transform: translateY(0);
   margin-top: 4px;
+}
+
+@media (hover: none), (max-width: 768px) {
+  .gallery-card .gallery-card-overlay {
+    background: linear-gradient(180deg, rgba(27, 41, 33, 0.08) 20%, rgba(27, 41, 33, 0.92) 100%);
+  }
+
+  .gallery-card .gallery-card-desc {
+    max-height: 96px;
+    opacity: 1;
+    transform: translateY(0);
+    margin-top: 4px;
+  }
 }
 
 /* Custom Scrollbar */
@@ -2985,11 +3049,12 @@ body.mobile-nav-lock {
   }
 
   .footer-links-list a {
-    font-size: 0.84rem;
+    font-size: 0.86rem;
     line-height: 1.35;
     display: flex;
-    align-items: flex-start;
-    padding: 3px 0;
+    align-items: center;
+    min-height: 36px;
+    padding: 6px 0;
     color: rgba(255, 255, 255, 0.88);
   }
 
@@ -3050,8 +3115,8 @@ body.mobile-nav-lock {
   }
 
   .footer-newsletter-submit {
-    width: 36px;
-    height: 36px;
+    width: 42px;
+    height: 42px;
     flex-shrink: 0;
   }
 
@@ -3061,12 +3126,13 @@ body.mobile-nav-lock {
   }
 
   .footer-social-row {
-    gap: 12px;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   .footer-social-circle {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
   }
 
   /* Bottom Bar Strip */
@@ -3539,8 +3605,10 @@ body.mobile-nav-lock {
 }
 
 .google-reviews-brand img {
-  width: 22px;
-  height: 22px;
+  width: auto;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .google-reviews-brand-copy,
@@ -4046,7 +4114,8 @@ body.mobile-nav-lock {
   .google-reviews-banner {
     gap: 10px;
     margin-bottom: 15px;
-    padding: 4px 12px;
+    padding: 6px 12px;
+    min-height: 40px;
   }
 
   .google-reviews-brand {
@@ -4055,16 +4124,17 @@ body.mobile-nav-lock {
 
   .google-reviews-brand-copy,
   .google-reviews-score {
-    font-size: 0.70rem;
+    font-size: 0.75rem;
   }
 
   .google-reviews-brand img {
-    width: 18px;
-    height: 18px;
+    width: auto;
+    height: 16px;
+    object-fit: contain;
   }
 
   .google-reviews-mini-stars {
-    font-size: 0.60rem;
+    font-size: 0.68rem;
   }
 
   .google-reviews-divider {
@@ -4072,19 +4142,21 @@ body.mobile-nav-lock {
   }
 
   .google-reviews-stars {
-    font-size: 0.74rem;
-    letter-spacing: 0.8px;
+    font-size: 0.75rem;
+    letter-spacing: 0.6px;
   }
 
   .hero-title {
-    font-size: clamp(1.05rem, 4.2vw, 1.55rem);
-    line-height: 1.28;
+    font-size: clamp(1.5rem, 6vw, 2rem);
+    line-height: 1.22;
     margin-bottom: 16px;
     gap: 8px 10px;
   }
 
   .hero-title-line {
-    gap: 6px 8px;
+    flex-wrap: wrap;
+    white-space: normal;
+    gap: 6px 10px;
   }
 
   .hero-title-subtitle {
@@ -4092,18 +4164,24 @@ body.mobile-nav-lock {
   }
 
   .hero-pill-highlight {
-    font-size: inherit;
-    padding: 2px 8px;
+    font-size: clamp(0.82rem, 3.3vw, 1rem);
+    padding: 4px 12px;
+    line-height: 1.25;
     margin-bottom: 0;
     display: inline-flex;
     vertical-align: middle;
   }
 
   #hero-subheading-p {
-    font-size: 0.98rem !important;
+    font-size: 0.94rem !important;
     line-height: 1.58;
     margin-bottom: 20px !important;
     padding: 0 6px;
+  }
+
+  #hero-learn-more-btn {
+    min-height: 36px;
+    padding: 6px 2px;
   }
 
   .google-review-badge-light {
@@ -4139,18 +4217,19 @@ body.mobile-nav-lock {
   .btn-cta-brand,
   .btn-cta-orange {
     width: 100%;
+    min-height: 44px;
     padding: 11px 20px;
   }
 }
 
 @media (max-width: 480px) {
   .hero-title {
-    font-size: clamp(0.85rem, 3.6vw, 1.15rem);
+    font-size: clamp(1.35rem, 6vw, 1.75rem);
     gap: 6px 8px;
   }
 
   .hero-pill-highlight {
-    padding: 2px 6px;
+    padding: 4px 10px;
   }
 
   #hero-subheading-p {
@@ -4201,6 +4280,22 @@ body.mobile-nav-lock {
   .video-thumb-card {
     width: 120px;
     height: 52px;
+  }
+}
+
+@media (max-width: 360px) {
+  .google-reviews-banner {
+    gap: 8px;
+    padding: 5px 10px;
+  }
+
+  .google-reviews-brand img {
+    height: 14px;
+  }
+
+  .google-reviews-brand-copy,
+  .google-reviews-score {
+    font-size: 0.72rem;
   }
 }
 
@@ -5003,6 +5098,16 @@ body.mobile-nav-lock {
   box-shadow: 0 4px 14px rgba(27, 41, 33, 0.2);
 }
 
+@media (max-width: 768px) {
+  .dest-pill-btn {
+    min-height: 44px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* Card Container matching Screenshot */
 .exotic-trek-card {
   background: #FFFFFF;
@@ -5338,6 +5443,25 @@ body.mobile-nav-lock {
 
   .resources-section {
     padding: 60px 0;
+  }
+
+  .resources-tab-bar {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    padding: 5px;
+    border-radius: 18px;
+  }
+
+  .res-tab-btn {
+    flex: 1 1 auto;
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 0.86rem;
+    text-align: center;
   }
 }
 
@@ -5861,6 +5985,26 @@ body.mobile-nav-lock {
     border-radius: 20px;
   }
 
+  .res-blog-hero-badges {
+    top: 14px;
+    left: 14px;
+    right: 14px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .res-hero-badge-tag,
+  .res-hero-badge-read {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    white-space: nowrap;
+  }
+
+  .res-blog-meta {
+    flex-wrap: wrap;
+    gap: 4px 6px;
+  }
+
   .res-blog-stack-card {
     flex-direction: column;
     align-items: flex-start;
@@ -6106,6 +6250,65 @@ body.mobile-nav-lock {
     top: 0;
     transform: none;
     width: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .newsletter-cta-section {
+    background-attachment: scroll;
+    padding: 46px 0 56px 0;
+  }
+
+  .newsletter-card {
+    padding: 28px 20px;
+    border-radius: 20px;
+  }
+
+  .newsletter-left-content {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .newsletter-title {
+    font-size: 1.75rem;
+  }
+
+  .newsletter-form-pill {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    border-radius: 18px;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .newsletter-input {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+    min-height: 44px;
+    padding: 12px 20px;
+    text-align: center;
+  }
+
+  .newsletter-right-graphic {
+    height: auto;
+    padding-top: 8px;
+  }
+
+  .laptop-container {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .laptop-screen {
+    height: 175px;
   }
 }
 
@@ -7361,6 +7564,16 @@ body.mobile-nav-lock {
   box-shadow: 0 6px 18px rgba(34, 132, 95, 0.4);
 }
 
+@media (max-width: 768px) {
+  .btn-inquire-orange {
+    min-height: 44px;
+    padding: 11px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* Destination Section Tickers (Dual-Row Infinite Auto-Scroll) */
 .dest-ticker-wrapper {
   overflow: hidden;
@@ -8222,12 +8435,18 @@ body.mobile-nav-lock {
 }
 
 @media (max-width: 768px) {
+  .peak-carousel-arrow {
+    top: 146px;
+    width: 44px;
+    height: 44px;
+  }
+
   .peak-carousel-arrow.arrow-left {
-    left: 4px;
+    left: 12px;
   }
 
   .peak-carousel-arrow.arrow-right {
-    right: 4px;
+    right: 12px;
   }
 }
 
@@ -16134,16 +16353,23 @@ body.mobile-nav-lock {
   }
 
   .faq-reference-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
     width: 100%;
-    justify-content: flex-start;
+    overflow: visible;
+    padding: 6px;
     margin-bottom: 24px;
     border-radius: 18px;
   }
 
   .faq-reference-tab {
     min-height: 44px;
-    padding: 0 15px;
+    padding: 8px 10px;
     font-size: 0.84rem;
+    line-height: 1.25;
+    white-space: normal;
+    text-align: center;
   }
 
   .faq-reference-frame {
@@ -19455,11 +19681,13 @@ body.mobile-nav-lock {
   }
 
   .homepage-reviews-section .home-reviews-tablist .review-tab-btn {
+    flex-direction: column;
     justify-content: center;
+    gap: 4px;
     min-width: 0;
-    min-height: 42px;
-    padding: 8px 3px;
-    font-size: 0.68rem;
+    min-height: 48px;
+    padding: 8px 4px;
+    font-size: 0.75rem;
     line-height: 1.2;
     white-space: normal;
     text-align: center;
@@ -20219,6 +20447,11 @@ body.mobile-nav-lock {
     border-radius: 15px;
   }
 
+  .home-specialist-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    aspect-ratio: 1.5;
+  }
+
   .home-specialist-card-copy {
     padding: 16px 13px 18px;
   }
@@ -20272,7 +20505,7 @@ body.mobile-nav-lock {
 
   .home-specialist-card-copy>span {
     padding-left: 11px;
-    font-size: 0.69rem;
+    font-size: 0.75rem;
     line-height: 1.35;
   }
 }
@@ -20282,7 +20515,9 @@ body.mobile-nav-lock {
     grid-template-columns: 1fr;
   }
 
-  .home-specialist-card {
+  .home-specialist-card,
+  .home-specialist-card:last-child:nth-child(odd) {
+    grid-column: auto;
     aspect-ratio: 0.76;
   }
 }
@@ -20861,7 +21096,7 @@ body.mobile-nav-lock {
 
   .company-profile-stat-badge {
     top: 12px;
-    left: 8px;
+    left: 10px;
     padding: 8px 12px;
   }
 
@@ -20873,7 +21108,7 @@ body.mobile-nav-lock {
 
   .company-profile-location {
     top: 12px;
-    right: 8px;
+    right: 10px;
     padding: 8px 12px;
   }
 
@@ -20887,6 +21122,14 @@ body.mobile-nav-lock {
     right: 14px;
     bottom: 16px;
     left: 14px;
+  }
+}
+
+@media (max-width: 520px) {
+  .company-profile-location {
+    top: 70px;
+    left: 10px;
+    right: auto;
   }
 }
 

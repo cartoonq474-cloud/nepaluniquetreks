@@ -8,6 +8,20 @@
 
     if (!video1 || !video2) return;
 
+    const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    const saveData = !!(conn && conn.saveData);
+    const slowConn = !!(conn && ['slow-2g', '2g', '3g'].includes(conn.effectiveType));
+
+    // Preserve static poster on reduced motion, Data Saver, or slow cellular networks
+    if (prefersReducedMotion || saveData || slowConn) {
+      video1.removeAttribute('autoplay');
+      video1.classList.add('active');
+      return;
+    }
+
+    const isMobileViewport = window.innerWidth <= 768;
+
     const playlist = [
       'video/Clip%20Video%20First.mp4',
       'video/Clip%20Video%20Second.mp4',
@@ -55,7 +69,13 @@
 
     safePlay(video1);
 
-    // Preload next clip into standby slot
+    // On mobile, loop the primary clip rather than preloading 185MB across 5 clips
+    if (isMobileViewport) {
+      video1.loop = true;
+      return;
+    }
+
+    // Preload next clip into standby slot on larger screens
     const firstPreloadIdx = (currentIndex + 1) % playlist.length;
     nextVideo.src = playlist[firstPreloadIdx];
     nextVideo.load();

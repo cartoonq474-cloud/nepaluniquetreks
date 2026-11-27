@@ -41,6 +41,7 @@
       toggleBtn.setAttribute('aria-expanded', 'false');
       if (backdrop) backdrop.classList.remove('active');
       document.body.classList.remove('mobile-nav-lock');
+      document.documentElement.classList.remove('mobile-nav-lock');
     }
 
     function openMobileMenu() {
@@ -49,6 +50,7 @@
       toggleBtn.setAttribute('aria-expanded', 'true');
       if (backdrop) backdrop.classList.add('active');
       document.body.classList.add('mobile-nav-lock');
+      document.documentElement.classList.add('mobile-nav-lock');
     }
 
     toggleBtn.addEventListener('click', (e) => {

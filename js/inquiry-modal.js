@@ -389,11 +389,9 @@ export function setupInquiryModal() {
 
       if (!title) {
         const pageH1 = document.querySelector('h1');
-        if (pageH1 && pageH1.textContent.trim()) {
-          title = pageH1.textContent.trim();
-        } else {
-          title = "Everest Base Camp Trek";
-        }
+        const h1Text = pageH1 ? pageH1.textContent.trim().replace(/\s+/g, ' ') : '';
+        const isGenericHeroH1 = !h1Text || h1Text.length > 55 || /local trekking agency/i.test(h1Text);
+        title = isGenericHeroH1 ? "Tailor-Made Custom Himalayan Itinerary" : h1Text;
       }
 
       const inquiryMessage = btn.getAttribute('data-inquiry-message');
