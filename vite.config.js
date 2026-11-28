@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 function getHtmlEntries(dir = __dirname, entryMap = {}) {
   const files = fs.readdirSync(dir);
   for (const file of files) {
-    if (file === 'node_modules' || file === '.git' || file === 'dist' || file === 'scratch' || file === 'public' || file === '.cursor' || file === 'content' || file === 'templates') continue;
+    if (file === 'node_modules' || file === '.git' || file === 'dist' || file === 'scratch' || file === 'public' || file === '.cursor' || file === 'content' || file === 'templates' || file === 'site-media-archive') continue;
     const fullPath = resolve(dir, file);
     const stat = fs.statSync(fullPath);
     if (stat.isDirectory()) {
