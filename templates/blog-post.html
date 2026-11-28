@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" href="{{ROOT}}images/logo.png">
 
   <!-- Core Stylesheet -->
-  <link rel="stylesheet" href="{{ROOT}}index.css?v=151">
+  <link rel="stylesheet" href="{{ROOT}}index.css?v=152">
 </head>
 <body>
 
@@ -412,9 +412,9 @@
           <h1 class="blog-post-title">{{TITLE}}</h1>
 
           <div class="blog-post-meta-row">
-            <span class="blog-post-meta-item">📅 {{DATE}}</span>
+            {{HERO_AUTHOR_PILL}}
             <span>&bull;</span>
-            <span class="blog-post-meta-item">✍️ By {{AUTHOR}}</span>
+            <span class="blog-post-meta-item">📅 {{DATE}}</span>
             <span>&bull;</span>
             <span class="blog-post-meta-item">⏱️ {{READ_TIME}}</span>
           </div>
@@ -436,6 +436,8 @@
             <article class="blog-article-prose" id="article-prose-body">
 {{BODY_HTML}}
             </article>
+
+            {{AUTHOR_SECTION_BLOCK}}
 
             {{PREV_NEXT_BLOCK}}
           </div>

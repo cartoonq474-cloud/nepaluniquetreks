@@ -1,0 +1,92 @@
+{
+  "defaultAuthor": "dil-gurung",
+  "authors": {
+    "dil-gurung": {
+      "id": "dil-gurung",
+      "name": "Dil Gurung",
+      "shortName": "Dil",
+      "role": "Founder & Managing Director",
+      "avatar": "images/dil-gurung.jpg",
+      "bio": "Founder of Nepal Unique Treks who began on the Himalayan trails in 2008 as a porter and has since guided 380+ expeditions across Everest, Annapurna, Manaslu, Langtang, and Upper Mustang.",
+      "badges": ["380+ Expeditions Led", "15+ Yrs Leadership", "NATHM Lic. #4289"],
+      "inquiryTitle": "Direct Inquiry with Dil Gurung"
+    },
+    "pasang-sherpa": {
+      "id": "pasang-sherpa",
+      "name": "Pasang Sherpa",
+      "shortName": "Pasang",
+      "role": "Co-Founder & Senior Lead Guide",
+      "avatar": "images/team/pasang-sherpa.jpg",
+      "bio": "TAAN-licensed Khumbu and Everest specialist with 14+ years of field leadership and 210+ treks led across Everest Three Passes, Cho La, Gokyo, and Manaslu.",
+      "badges": ["TAAN Licensed", "14+ Yrs Experience", "210+ Treks Led"],
+      "inquiryTitle": "Trek with Pasang Sherpa"
+    },
+    "lakpa-tenzing": {
+      "id": "lakpa-tenzing",
+      "name": "Lakpa Tenzing",
+      "shortName": "Lakpa",
+      "role": "Safety & Heli Rescue Manager",
+      "avatar": "images/team/lakpa-tenzing.jpg",
+      "bio": "Wilderness First Responder (WFR) certified specialist with 12+ years managing high-altitude AMS protocols, expedition gear checklists, permits, and 24/7 helicopter rescue dispatch.",
+      "badges": ["WFR Certified", "12+ Yrs Safety Ops", "24/7 Rescue Desk"],
+      "inquiryTitle": "Safety Consultation with Lakpa Tenzing"
+    },
+    "maya-gurung": {
+      "id": "maya-gurung",
+      "name": "Maya Gurung",
+      "shortName": "Maya",
+      "role": "Custom Trip & Cultural Specialist",
+      "avatar": "images/team/maya-gurung.jpg",
+      "bio": "Cultural & private route specialist with 9+ years curating 160+ custom itineraries across Lumbini Buddhist pilgrimages, Upper Mustang festivals, Kathmandu heritage, and family tours.",
+      "badges": ["9+ Yrs Experience", "160+ Custom Routes", "Cultural Specialist"],
+      "inquiryTitle": "Custom Trip with Maya Gurung"
+    },
+    "pemba-nuru": {
+      "id": "pemba-nuru",
+      "name": "Pemba Nuru",
+      "shortName": "Pemba",
+      "role": "Senior IFMGA Mountain Guide",
+      "avatar": "images/team/pemba-nuru.jpg",
+      "bio": "Internationally accredited UIAGM/IFMGA mountain guide with 16 years of alpine experience and 15+ major Himalayan summits including Mount Everest (8,848m), Manaslu, and Mera Peak.",
+      "badges": ["IFMGA / UIAGM", "16 Yrs Alpine Master", "8,000m Leader"],
+      "inquiryTitle": "Peak Climbing with Pemba Nuru"
+    }
+  },
+  "slugToAuthor": {
+    "lumbini-nepal-buddhist-spiritual-journey-from-vietnam-tour": "maya-gurung",
+    "lumbini-nepal-birth-place-of-buddha": "maya-gurung",
+    "annapurna-base-camp-trek-altitude": "lakpa-tenzing",
+    "everest-base-camp-trek-altitude-complete-elevation-guide": "lakpa-tenzing",
+    "where-is-mount-everest-located": "dil-gurung",
+    "everest-base-camp-trekking-gear-list": "lakpa-tenzing",
+    "best-time-to-do-manaslu-circuit-trek": "pasang-sherpa",
+    "tourist-vehicle-rental-in-nepal": "maya-gurung",
+    "shinta-mani-mustang-luxury-hotels": "maya-gurung",
+    "best-time-for-everest-base-camp-trek": "pasang-sherpa",
+    "best-time-for-gokyo-valley-trek": "pasang-sherpa",
+    "peak-climbing-in-nepal-the-complete-guide-to-permits-costs-best-seasons-top-himalayan-peaks": "pemba-nuru",
+    "upper-mustang-tiji-festival-2027": "maya-gurung",
+    "nepal-scraps-the-500-flat-fee-for-upper-mustang-trekking-permit": "dil-gurung",
+    "best-winter-treks-in-nepal": "pasang-sherpa",
+    "best-treks-in-nepal-for-beginners": "dil-gurung",
+    "best-trekking-agency-in-nepal": "dil-gurung",
+    "annapurna-base-camp-trek-in-november": "pasang-sherpa",
+    "local-trekking-guide-nepal": "dil-gurung",
+    "nepal-trekking-trips": "dil-gurung",
+    "trekking-in-nepal": "dil-gurung",
+    "drone-camera-is-prohibited-in-nepal": "lakpa-tenzing",
+    "mardi-himal-trek-in-spring-session": "pasang-sherpa",
+    "top-5-summer-holidays-in-nepal": "maya-gurung",
+    "a-complete-guide-for-everest-base-camp-trek": "dil-gurung",
+    "lets-go-nepal": "dil-gurung",
+    "all-about-upper-mustang-trek": "pasang-sherpa",
+    "best-short-trek-around-kathmandu": "dil-gurung",
+    "nepali-food": "maya-gurung",
+    "why-annapurna-circuit-trek-is-famous": "pasang-sherpa",
+    "peak-climbing-in-nepal": "pemba-nuru",
+    "best-selling-treks-package-in-nepal": "dil-gurung",
+    "nepal-trekking-permit": "lakpa-tenzing",
+    "nepal-trekking-grades": "lakpa-tenzing",
+    "nepal-trekking-session": "pasang-sherpa"
+  }
+}
