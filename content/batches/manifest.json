@@ -1,0 +1,48 @@
+{
+  "source": "https://www.nepaluniquetreks.com/blog/",
+  "totalPosts": 35,
+  "batches": 7,
+  "posts": [
+    { "order": 1, "batch": 1, "slug": "lumbini-nepal-buddhist-spiritual-journey-from-vietnam-tour", "title": "A Buddhist Spiritual Journey from Vietnam to the Birthplace of Lord Buddha", "date": "November 07, 2026", "category": "Travel Information", "thumb": "lumbini-nepal.jpg" },
+    { "order": 2, "batch": 1, "slug": "lumbini-nepal-birth-place-of-buddha", "title": "Lumbini Nepal Birth Place of Buddha", "date": "October 09, 2026", "category": "Travel Information", "thumb": "lumbini-nepal-birth-place-of-buddha.jpg" },
+    { "order": 3, "batch": 1, "slug": "annapurna-base-camp-trek-altitude", "title": "Annapurna Base Camp Trek Altitude and Acclimatization Guide", "date": "October 06, 2026", "category": "Travel Information", "thumb": "annapurna-base-camp-trek-altitude.webp" },
+    { "order": 4, "batch": 1, "slug": "everest-base-camp-trek-altitude-complete-elevation-guide", "title": "Everest Base Camp Trek Altitude - Complete Elevation Guide", "date": "September 29, 2026", "category": "Travel Information", "thumb": "everest-base-camp-trek-altitude-1.webp" },
+    { "order": 5, "batch": 1, "slug": "where-is-mount-everest-located", "title": "Where Is Mount Everest Located?", "date": "September 22, 2026", "category": "Travel Information", "thumb": "everest-peak-where-is-mount-everest.webp" },
+
+    { "order": 6, "batch": 2, "slug": "everest-base-camp-trekking-gear-list", "title": "Everest Base Camp Trekking Gear List", "date": "September 02, 2026", "category": "Travel Information", "thumb": "everest-base-camp-trek-gear-listt.jpg" },
+    { "order": 7, "batch": 2, "slug": "best-time-to-do-manaslu-circuit-trek", "title": "Best Time to do Manaslu Circuit Trek", "date": "August 15, 2026", "category": "Travel Information", "thumb": "best-time-to-do-manaslu-circuit-trek.jpg" },
+    { "order": 8, "batch": 2, "slug": "tourist-vehicle-rental-in-nepal", "title": "Tourist Vehicle Rental in Nepal", "date": "August 01, 2026", "category": "Tourist Vehicle", "thumb": "tourist-vhicle-in-nepal.jpeg" },
+    { "order": 9, "batch": 2, "slug": "shinta-mani-mustang-luxury-hotels", "title": "Shinta Mani Mustang Luxury Hotels", "date": "July 28, 2026", "category": "Hotel in Nepal", "thumb": "shinta-mani-mustang-luxury-hotel.jpg" },
+    { "order": 10, "batch": 2, "slug": "best-time-for-everest-base-camp-trek", "title": "Best Time for Everest Base Camp Trek", "date": "July 26, 2026", "category": "Travel Information", "thumb": "best-time-for-everest-base-camp-trek.jpg" },
+
+    { "order": 11, "batch": 3, "slug": "best-time-for-gokyo-valley-trek", "title": "Best Time for Gokyo Valley Trek", "date": "July 14, 2026", "category": "Travel Information", "thumb": "best-time-to-do-gokyo-valey-trek.jpg" },
+    { "order": 12, "batch": 3, "slug": "peak-climbing-in-nepal-the-complete-guide-to-permits-costs-best-seasons-top-himalayan-peaks", "title": "Peak Climbing in Nepal: The Complete Guide to Permits, Costs, Best Seasons & Top Himalayan Peaks", "date": "July 07, 2026", "category": "Travel Information", "thumb": "peak-climbing-in-nepal.jpg" },
+    { "order": 13, "batch": 3, "slug": "upper-mustang-tiji-festival-2027", "title": "Upper Mustang Tiji Festival Trek 2027: Dates, Cost, and Everything You Need to Know", "date": "December 01, 2025", "category": "Travel Information", "thumb": "tiji mustang-1.jpg" },
+    { "order": 14, "batch": 3, "slug": "nepal-scraps-the-500-flat-fee-for-upper-mustang-trekking-permit", "title": "Nepal Scraps the $500 Flat Fee for Upper Mustang Trekking Permit", "date": "November 22, 2025", "category": "Travel Information", "thumb": "buddhist-stupa-in-mustang.jpg" },
+    { "order": 15, "batch": 3, "slug": "best-winter-treks-in-nepal", "title": "Best Winter Treks in Nepal", "date": "October 26, 2025", "category": "Travel Information", "thumb": "WhatsApp Image 2025-10-26 at 20.41.17_0bc12571.jpg" },
+
+    { "order": 16, "batch": 4, "slug": "best-treks-in-nepal-for-beginners", "title": "Best Treks in Nepal for Beginners", "date": "September 07, 2025", "category": "Travel Information", "thumb": "IMG_7374-1.JPG" },
+    { "order": 17, "batch": 4, "slug": "best-trekking-agency-in-nepal", "title": "Best Trekking Agency in Nepal", "date": "August 25, 2025", "category": "Travel Information", "thumb": "IMG_8748.JPG" },
+    { "order": 18, "batch": 4, "slug": "annapurna-base-camp-trek-in-november", "title": "Annapurna Base Camp Trek in November", "date": "August 10, 2025", "category": "Travel Information", "thumb": "2e543658843203de12bc5342161129aa.jpeg" },
+    { "order": 19, "batch": 4, "slug": "local-trekking-guide-nepal", "title": "Local Trekking Guide Nepal", "date": "July 04, 2025", "category": "Travel Information", "thumb": "local trekking guide nepal.jpg" },
+    { "order": 20, "batch": 4, "slug": "nepal-trekking-trips", "title": "Nepal Trekking Trips", "date": "June 13, 2025", "category": "Travel Information", "thumb": "IMG_2934.JPG" },
+
+    { "order": 21, "batch": 5, "slug": "trekking-in-nepal", "title": "Trekking in Nepal", "date": "March 19, 2025", "category": "Travel Information", "thumb": "IMG_8173-1.JPG" },
+    { "order": 22, "batch": 5, "slug": "drone-camera-is-prohibited-in-nepal", "title": "Drone Permits in Nepal: Rules, Costs, and Application Process", "date": "February 25, 2025", "category": "Travel Information", "thumb": "dron camera.jpg" },
+    { "order": 23, "batch": 5, "slug": "mardi-himal-trek-in-spring-session", "title": "Mardi Himal Trek in Spring Session", "date": "February 25, 2025", "category": "Travel Information", "thumb": "MARDI HIMAL TREK 0.jpg" },
+    { "order": 24, "batch": 5, "slug": "top-5-summer-holidays-in-nepal", "title": "Top 5 Summer Holidays In Nepal", "date": "March 17, 2024", "category": "Travel Information", "thumb": "IMG_E1206-2.JPG" },
+    { "order": 25, "batch": 5, "slug": "a-complete-guide-for-everest-base-camp-trek", "title": "A Complete Guide for Everest Base Camp Trek", "date": "March 10, 2024", "category": "Travel Information", "thumb": "IMG_8153.JPG" },
+
+    { "order": 26, "batch": 6, "slug": "lets-go-nepal", "title": "Lets go Nepal", "date": "July 18, 2023", "category": "Travel Information", "thumb": "Blue Red and White Modern Travel Agency Instagram Post (1).jpg" },
+    { "order": 27, "batch": 6, "slug": "all-about-upper-mustang-trek", "title": "All about Upper Mustang Trek", "date": "April 01, 2023", "category": "Travel Information", "thumb": "1662599216_koralanaka-1200x560_20230926115448.jpg" },
+    { "order": 28, "batch": 6, "slug": "best-short-trek-around-kathmandu", "title": "Best Short Trek Around Kathmandu", "date": "March 30, 2023", "category": "Travel Information", "thumb": "Travel (3).jpg" },
+    { "order": 29, "batch": 6, "slug": "nepali-food", "title": "Nepali food", "date": "March 25, 2023", "category": "Travel Information", "thumb": "nepali tradisnael food.jpg" },
+    { "order": 30, "batch": 6, "slug": "why-annapurna-circuit-trek-is-famous", "title": "Why Annapurna Circuit Trek is Famous", "date": "March 18, 2023", "category": "Travel Information", "thumb": "Travel (4).jpg" },
+
+    { "order": 31, "batch": 7, "slug": "peak-climbing-in-nepal", "title": "Peak Climbing in Nepal", "date": "March 14, 2023", "category": "Travel Information", "thumb": "climbing in nepal.jpg" },
+    { "order": 32, "batch": 7, "slug": "best-selling-treks-package-in-nepal", "title": "Best Selling Treks Package in Nepal", "date": "January 13, 2023", "category": "Travel Information", "thumb": "IMG_6026 (1).jpg" },
+    { "order": 33, "batch": 7, "slug": "nepal-trekking-permit", "title": "Nepal Trekking Permit", "date": "September 11, 2022", "category": "Travel Information", "thumb": "Travel.jpg" },
+    { "order": 34, "batch": 7, "slug": "nepal-trekking-grades", "title": "Nepal Trekking Grades", "date": "September 11, 2022", "category": "Travel Information", "thumb": "Travel (1).jpg" },
+    { "order": 35, "batch": 7, "slug": "nepal-trekking-session", "title": "Nepal Trekking Session", "date": "September 11, 2022", "category": "Travel Information", "thumb": "03.JPG" }
+  ]
+}

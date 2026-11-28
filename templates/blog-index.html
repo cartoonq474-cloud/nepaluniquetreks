@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nepal Trekking Blog &amp; Travel Guides — Nepal Unique Treks</title>
+  <meta name="description" content="Travel articles, altitude guides, gear lists, seasonal advice, and Nepal travel information from Nepal Unique Treks.">
+
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/png" href="{{ROOT}}images/logo.png">
+  <link rel="apple-touch-icon" href="{{ROOT}}images/logo.png">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="{{ROOT}}index.css?v=151">
+</head>
+<body>
+
+  <noscript>
+    <div style="background:#FEF3C7;color:#92400E;padding:12px 20px;text-align:center;font-size:0.9rem;">
+      Search and category filter tabs require JavaScript. All blog article links below remain directly accessible without it.
+    </div>
+  </noscript>
+
+  {{SITE_HEADER}}
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="blog-hero-section">
+      <div class="container">
+        <div class="blog-hero-inner">
+          <div class="blog-breadcrumbs">
+            <a href="{{ROOT}}index.html">Home</a>
+            <span class="blog-breadcrumbs-sep">&#8250;</span>
+            <span>Blog &amp; Travel Information</span>
+          </div>
+
+          <div class="blog-hero-rating-pill">
+            <span class="blog-hero-stars">★★★★★</span>
+            <span>4.9 / 5 from 420+ Verified Trekkers &bull; Nepal Unique Treks Field Dispatch</span>
+          </div>
+
+          <h1 class="blog-hero-title">
+            Himalayan Trekking Blogs &amp; <span class="gold-accent">Travel Information</span>
+          </h1>
+
+          <p class="blog-hero-desc">
+            Explore all {{TOTAL_COUNT}} migrated articles covering Himalayan altitude guides, seasonal trekking windows, packing checklists, permits, hotels, and Nepal travel advice.
+          </p>
+
+          <div class="blog-hero-actions">
+            <a href="#all-articles" class="btn btn-primary" style="padding: 14px 28px; font-weight: 700;">Browse All {{TOTAL_COUNT}} Articles ↓</a>
+            <a href="https://wa.me/9779851023285?text=Hello%20Nepal%20Unique%20Treks,%20I%20have%20questions%20about%20trekking%20in%20Nepal." target="_blank" rel="noopener noreferrer" class="btn" style="background: #25D366; color: white; padding: 14px 22px; border-radius: var(--radius-sm, 8px); font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+              <span>WhatsApp A Guide</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTICLE DIRECTORY & FILTER -->
+    <section id="all-articles" class="blog-filter-section">
+      <div class="container">
+        <div class="text-center" style="max-width: 760px; margin: 0 auto 30px auto;">
+          <span class="pill pill-alpine" style="margin-bottom: 10px; display: inline-flex;">Blog Archive</span>
+          <h2 style="font-size: clamp(1.8rem, 3.2vw, 2.5rem); color: #1B2921; margin-bottom: 10px;">
+            All Migrated Blog Posts
+          </h2>
+          <p style="color: #535655; font-size: 1.02rem; line-height: 1.6;">
+            Filter by category or search by topic to open any full-length article.
+          </p>
+        </div>
+
+        <div class="blog-category-pills">
+          {{CATEGORY_PILLS}}
+        </div>
+
+        <div class="blog-filter-bar">
+          <div class="blog-search-wrap">
+            <svg class="blog-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="blog-archive-search" class="blog-search-input" placeholder="Search articles by title, category, or keyword..." aria-label="Search blog articles">
+          </div>
+        </div>
+
+        <div class="blog-results-meta">
+          <div>Showing <strong id="blog-archive-count" style="color: #22845F;">{{TOTAL_COUNT}}</strong> articles</div>
+          <button id="blog-archive-reset" class="blog-reset-btn" type="button">Reset Filters</button>
+        </div>
+
+        <div id="blog-archive-grid" class="blog-grid">
+          {{ARTICLE_CARDS}}
+        </div>
+
+        <div id="blog-archive-empty" style="display:none; text-align:center; padding: 48px 20px; color: #535655;">
+          No matching blog posts found. Try clearing your search or selecting "All".
+        </div>
+      </div>
+    </section>
+
+    {{ASSOCIATED_WITH}}
+  </main>
+
+  {{SITE_FOOTER}}
+
+  <script>
+    (function () {
+      const pills = document.querySelectorAll('.blog-cat-pill');
+      const searchInput = document.getElementById('blog-archive-search');
+      const resetBtn = document.getElementById('blog-archive-reset');
+      const cards = Array.from(document.querySelectorAll('#blog-archive-grid .blog-card'));
+      const countEl = document.getElementById('blog-archive-count');
+      const emptyEl = document.getElementById('blog-archive-empty');
+      let activeCat = 'all';
+
+      function applyFilter() {
+        const q = (searchInput ? searchInput.value : '').trim().toLowerCase();
+        let shown = 0;
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-category') || '';
+          const text = (card.getAttribute('data-search') || '').toLowerCase();
+          const okCat = activeCat === 'all' || cat === activeCat;
+          const okQuery = !q || text.includes(q);
+          if (okCat && okQuery) {
+            card.style.display = 'flex';
+            shown++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        if (countEl) countEl.textContent = String(shown);
+        if (emptyEl) emptyEl.style.display = shown === 0 ? 'block' : 'none';
+      }
+
+      pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          pills.forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+          activeCat = pill.getAttribute('data-cat') || 'all';
+          applyFilter();
+        });
+      });
+
+      if (searchInput) searchInput.addEventListener('input', applyFilter);
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          activeCat = 'all';
+          if (searchInput) searchInput.value = '';
+          pills.forEach(p => p.classList.toggle('active', p.getAttribute('data-cat') === 'all'));
+          applyFilter();
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
