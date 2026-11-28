@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 1,
+  "order": 8,
+  "batch": 1,
+  "sourceSlug": "upper-dolpo-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/upper-dolpo-trek",
+  "targetDir": "trek/upper-dolpo-trek",
+  "templateType": "trek",
+  "regionLabel": "Off The Beaten Trails",
+  "sourceCategory": "Off The Beaten Trails in Nepal",
+  "title": "Upper Dolpo Trek",
+  "seoTitle": "Upper Dolpo Trek",
+  "metaDescription": "Upper Dolpo Trek is the enchanting traveling up in the Himalayas near the vicinity of the Tibet and Nepal border. The place contains the spectacular H",
+  "heroLead": "Upper Dolpo Trek is the enchanting traveling up in the Himalayas near the vicinity of the Tibet and Nepal border. The place contains the spectacular Himalayan ranges which include the mammoth Dhaulagiri Mountain.",
+  "heroMore": "Trekking in Nepal at Dolpo region is termed as the strenuous as well as challenging which presents the unique wilderness adventure memories. The main focus point of the Dhaulagiri Trek is the Shey Phoksundo Lake.",
+  "durationDays": 25,
+  "durationDisplay": "25 Days",
+  "maxElevationM": 5360,
+  "facts": {
+    "duration": "25 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "5360 m",
+    "grade": "Strenuous",
+    "activity": "Trekking and Culture tour",
+    "transportation": "Private car/ tourist a bus",
+    "treks type": "Tea House"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/upper-dolpo-treks.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Upper Dolpo Trek is the enchanting traveling up in the Himalayas near the vicinity of the Tibet and Nepal border. The place contains the spectacular Himalayan ranges which include the mammoth Dhaulagiri Mountain. Trekking in Nepal at Dolpo region is termed as the strenuous as well as challenging which presents the unique wilderness adventure memories.</p><p>The main focus point of the Dhaulagiri Trek is the Shey Phoksundo Lake. Apart from this deepest lake of Nepal the Shey Gompa Monastery is another highlighting prospect of the region. Witness the plethora of the Himalayan animals and birds like blue sheep, yak, snow leopard, that and others in the region. The place is in the northern territory of Nepal. Therefore, the people rely upon the Tibetan Trade. The cultural and traditional beliefs, as well as the daily lifestyle, resembles that of the Tibetan counterparts. The major religion of the people residing in the Dolpo is Buddhism however in the remote parts they still practice Bonpo. The journey would be all the way following the Phoksundo River originated from the Lake itself.</p><p>Once you have reached the Shey Phoksundo you will be awestruck with the magnificent delights of the Mother Nature. The Himalayas smiling in the background and rocky terrain with beautiful landscape remind of the fairyland. The Lake is surrounded by the Himalayas and blessed by the diversified natural constituents. The experience of the subtropical to the alpine forests environment really makes the trip eventful. The journey passes by the Ringmo and further towards Palam crossing the cedar forest. The route comprises of the gigantic waterfalls and the rocky hills which would provide enough tranquility and wilderness adventure feeling. Observing such magnificence of nature the trekkers hardly get time to think about the fatigue. The Shey Phoksundo National Park visit is another element of the successful trip of the Upper Dolpo.</p><p>Book the Upper Dolpo Trek with the reliable team of the Nepal Unique Treks &amp; Expedition. We will ensure you to have the great environment and impeccable hospitality while traveling to this off the beaten track.</p><p>Outline Itinerary<br />Day 01: Arrival on Kathmandu airport and transfer to Hotel.</p><p>Day 02: Trekking preparation day.</p><p>Day 03: Kathmandu fly to Nepalgunj</p><p>Day 04: Nepalgunj fly to Jufal then trek to Dunai (2140m.)</p><p>Day 05: Dunai to Tarakot (2537m.)</p><p>Day 06: Tarakot to Laina Odar (3370m.)</p><p>Day 07: Laina Odar to Ghyamgar (3756m.)</p><p>Day 08: Ghyamgar to Dho Tarap (3944m.)</p><p>Day 09: Rest day.</p><p>Day 10: Dho Tarap to Takyu (4209m.)</p><p>Day 11: Takyu to Yak Kharka, (4702m.)</p><p>Day 12: Takyu to Sugu Gaun (3840m.) via over Janta Bhanjyang (5221m.)</p><p>Day 13: Sugu Gaun to Saldang (3770m.)</p><p>Day 14: Saldang to Namgung (4430m.)</p><p>Day 15: Namgung to Shey Gompa (4160m.)</p><p>Day 16: Exploration day.</p><p>Day 17: Shey Gompa to Nangdalo Base Camp via Nangdalo pass (5360m.)</p><p>Day 18: Nangdalo Base Camp to Sallaghari (4325m.)</p><p>Day 19: Sallaghari to Ringmogaun Phoksundo, (3733m.)</p><p>Day 20: Exploration day.</p><p>Day 21: Ringmogaun to Rechi, (2940m.)</p><p>Day 22: Rechi to Kageni, (2413m.)</p><p>Day 23: Kageni to Jufal.</p><p>Day 24: Fly Jufal to Nepalgunj then fly back to Kathmandu.</p><p>Day 25: Your own program.</p></div></div>",
+  "overviewPlainWordCount": 523,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrival on Kathmandu airport and transfer to Hotel."
+    },
+    {
+      "day": 2,
+      "title": "Trekking preparation day.",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Trekking preparation day."
+    },
+    {
+      "day": 3,
+      "title": "Kathmandu fly to Nepalgunj",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Kathmandu fly to Nepalgunj"
+    },
+    {
+      "day": 4,
+      "title": "Nepalgunj fly to Jufal then trek to Dunai",
+      "altitudeM": 2140,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Nepalgunj fly to Jufal then trek to Dunai (2140m.)"
+    },
+    {
+      "day": 5,
+      "title": "Dunai to Tarakot",
+      "altitudeM": 2537,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Dunai to Tarakot (2537m.)"
+    },
+    {
+      "day": 6,
+      "title": "Tarakot to Laina Odar",
+      "altitudeM": 3370,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Tarakot to Laina Odar (3370m.)"
+    },
+    {
+      "day": 7,
+      "title": "Laina Odar to Ghyamgar",
+      "altitudeM": 3756,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Laina Odar to Ghyamgar (3756m.)"
+    },
+    {
+      "day": 8,
+      "title": "Ghyamgar to Dho Tarap",
+      "altitudeM": 3944,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Ghyamgar to Dho Tarap (3944m.)"
+    },
+    {
+      "day": 9,
+      "title": "Rest day.",
+      "altitudeM": 3944,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Rest day."
+    },
+    {
+      "day": 10,
+      "title": "Dho Tarap to Takyu",
+      "altitudeM": 4209,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Dho Tarap to Takyu (4209m.)"
+    },
+    {
+      "day": 11,
+      "title": "Takyu to Yak Kharka",
+      "altitudeM": 4702,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Takyu to Yak Kharka, (4702m.)"
+    },
+    {
+      "day": 12,
+      "title": "Takyu to Sugu Gaun",
+      "altitudeM": 3840,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Takyu to Sugu Gaun (3840m.) via over Janta Bhanjyang (5221m.)"
+    },
+    {
+      "day": 13,
+      "title": "Sugu Gaun to Saldang",
+      "altitudeM": 3770,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Sugu Gaun to Saldang (3770m.)"
+    },
+    {
+      "day": 14,
+      "title": "Saldang to Namgung",
+      "altitudeM": 4430,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Saldang to Namgung (4430m.)"
+    },
+    {
+      "day": 15,
+      "title": "Namgung to Shey Gompa",
+      "altitudeM": 4160,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Namgung to Shey Gompa (4160m.)"
+    },
+    {
+      "day": 16,
+      "title": "Exploration day.",
+      "altitudeM": 4160,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Exploration day."
+    },
+    {
+      "day": 17,
+      "title": "Shey Gompa to Nangdalo Base Camp",
+      "altitudeM": 5360,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Shey Gompa to Nangdalo Base Camp via Nangdalo pass (5360m.)"
+    },
+    {
+      "day": 18,
+      "title": "Nangdalo Base Camp to Sallaghari",
+      "altitudeM": 4325,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Nangdalo Base Camp to Sallaghari (4325m.)"
+    },
+    {
+      "day": 19,
+      "title": "Sallaghari to Ringmogaun Phoksundo",
+      "altitudeM": 3733,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Sallaghari to Ringmogaun Phoksundo, (3733m.)"
+    },
+    {
+      "day": 20,
+      "title": "Exploration day.",
+      "altitudeM": 3733,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Exploration day."
+    },
+    {
+      "day": 21,
+      "title": "Ringmogaun to Rechi,",
+      "altitudeM": 2940,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Ringmogaun to Rechi, (2940m.)"
+    },
+    {
+      "day": 22,
+      "title": "Rechi to Kageni",
+      "altitudeM": 2413,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Rechi to Kageni, (2413m.)"
+    },
+    {
+      "day": 23,
+      "title": "Kageni to Jufal.",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kageni to Jufal."
+    },
+    {
+      "day": 24,
+      "title": "Fly Jufal to Nepalgunj then fly back to Kathmandu.",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Fly Jufal to Nepalgunj then fly back to Kathmandu."
+    },
+    {
+      "day": 25,
+      "title": "Your own program.",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Your own program."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "All hotel, airport arrival departure transfers",
+        "2 night hotel in Kathmandu 3-star category on BB plan",
+        "first night evening welcome dinner, before departure Kathmandu farewell dinner",
+        "all accommodation and food during the mountain",
+        "English speaking tour leader (trekking guide) an experienced guide about tourism, culture, religion, mountain, trekkers 1 assistant guide (Sherpa) porter to carry luggage (2 trekkers:1 porter )including their salary, insurance, equipment, transportation, food and lodging",
+        "Nepal unique treks can provide which is returned after trip completion (down jacket, sleeping bag, duffel trekking bag, first aid kit, trekking poles",
+        "Nepal unique treks provide each trekking map, trekking t-shirt",
+        "All kind of necessary paperwork TIMS card, national park permit",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee (need to bring accurate US cash and two passport size photographs)",
+        "Airport departure tax (per person NPR 200)",
+        "International airfare to and from Kathmandu",
+        "Excess baggage charge",
+        "Your own meals around city, lunch, dinner, drinks and also in case of early return from the mountain than the scheduled itinerary",
+        "Extra night accommodation in city because of early arrival, late departure and early return from the mountain (due to any reason )than the schedule itinerary",
+        "Travel and rescue insurance, in case (can help for organized helicopter hospital)",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for your travel guide, mountain guide, and porter, driver, hotel staf"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Upper Dolpo Trek (25 Days)",
+    "weatherTitle": "Upper Dolpo Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 2",
+        "spot": "Trekking preparation d..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 3",
+        "spot": "Kathmandu fly to Nepal..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 4",
+        "spot": "Nepalgunj fly to Jufal..",
+        "altitudeM": 2140,
+        "altitudeFt": 7021
+      },
+      {
+        "day": "Day 5",
+        "spot": "Dunai to Tarakot",
+        "altitudeM": 2537,
+        "altitudeFt": 8323
+      },
+      {
+        "day": "Day 6",
+        "spot": "Tarakot to Laina Odar",
+        "altitudeM": 3370,
+        "altitudeFt": 11056
+      },
+      {
+        "day": "Day 7",
+        "spot": "Laina Odar to Ghyamgar",
+        "altitudeM": 3756,
+        "altitudeFt": 12323
+      },
+      {
+        "day": "Day 8",
+        "spot": "Ghyamgar to Dho Tarap",
+        "altitudeM": 3944,
+        "altitudeFt": 12940
+      },
+      {
+        "day": "Day 9",
+        "spot": "Rest day.",
+        "altitudeM": 3944,
+        "altitudeFt": 12940
+      },
+      {
+        "day": "Day 10",
+        "spot": "Dho Tarap to Takyu",
+        "altitudeM": 4209,
+        "altitudeFt": 13809
+      },
+      {
+        "day": "Day 11",
+        "spot": "Takyu to Yak Kharka",
+        "altitudeM": 4702,
+        "altitudeFt": 15427
+      },
+      {
+        "day": "Day 12",
+        "spot": "Takyu to Sugu Gaun",
+        "altitudeM": 3840,
+        "altitudeFt": 12598
+      },
+      {
+        "day": "Day 13",
+        "spot": "Sugu Gaun to Saldang",
+        "altitudeM": 3770,
+        "altitudeFt": 12369
+      },
+      {
+        "day": "Day 14",
+        "spot": "Saldang to Namgung",
+        "altitudeM": 4430,
+        "altitudeFt": 14534
+      },
+      {
+        "day": "Day 15",
+        "spot": "Namgung to Shey Gompa",
+        "altitudeM": 4160,
+        "altitudeFt": 13648
+      },
+      {
+        "day": "Day 16",
+        "spot": "Exploration day.",
+        "altitudeM": 4160,
+        "altitudeFt": 13648
+      },
+      {
+        "day": "Day 17",
+        "spot": "Shey Gompa to Nangdalo..",
+        "altitudeM": 5360,
+        "altitudeFt": 17585
+      },
+      {
+        "day": "Day 18",
+        "spot": "Nangdalo Base Camp to ..",
+        "altitudeM": 4325,
+        "altitudeFt": 14190
+      },
+      {
+        "day": "Day 19",
+        "spot": "Sallaghari to Ringmoga..",
+        "altitudeM": 3733,
+        "altitudeFt": 12247
+      },
+      {
+        "day": "Day 20",
+        "spot": "Exploration day.",
+        "altitudeM": 3733,
+        "altitudeFt": 12247
+      },
+      {
+        "day": "Day 21",
+        "spot": "Ringmogaun to Rechi,",
+        "altitudeM": 2940,
+        "altitudeFt": 9646
+      },
+      {
+        "day": "Day 22",
+        "spot": "Rechi to Kageni",
+        "altitudeM": 2413,
+        "altitudeFt": 7917
+      },
+      {
+        "day": "Day 23",
+        "spot": "Kageni to Jufal.",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 24",
+        "spot": "Fly Jufal to Nepalgunj..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 25",
+        "spot": "Your own program.",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 4 (2140 m)",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "label": "Day 5 (2537 m)",
+        "min": -2,
+        "max": 12
+      },
+      {
+        "label": "Day 6 (3370 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 7 (3756 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 8 (3944 m)",
+        "min": -12,
+        "max": 4
+      },
+      {
+        "label": "Day 9 (3944 m)",
+        "min": -12,
+        "max": 4
+      },
+      {
+        "label": "Day 10 (4209 m)",
+        "min": -13,
+        "max": 2
+      },
+      {
+        "label": "Day 11 (4702 m)",
+        "min": -16,
+        "max": -1
+      },
+      {
+        "label": "Day 12 (3840 m)",
+        "min": -11,
+        "max": 4
+      },
+      {
+        "label": "Day 13 (3770 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 14 (4430 m)",
+        "min": -15,
+        "max": 1
+      },
+      {
+        "label": "Day 15 (4160 m)",
+        "min": -13,
+        "max": 2
+      },
+      {
+        "label": "Day 16 (4160 m)",
+        "min": -13,
+        "max": 2
+      },
+      {
+        "label": "Day 17 (5360 m)",
+        "min": -21,
+        "max": -5
+      },
+      {
+        "label": "Day 18 (4325 m)",
+        "min": -14,
+        "max": 1
+      },
+      {
+        "label": "Day 19 (3733 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 20 (3733 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 21 (2940 m)",
+        "min": -5,
+        "max": 10
+      },
+      {
+        "label": "Day 22 (2413 m)",
+        "min": -2,
+        "max": 13
+      },
+      {
+        "label": "Day 23 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 24 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 25 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/upper-dolpo-treks.jpg",
+    "images/treks/pikey-peak/pikey-peak-everest-range-panorama-08.jpg",
+    "images/treks/pikey-peak/pikey-peak-himalayan-sunrise-01.jpg",
+    "images/treks/pikey-peak/pikey-peak-jhapre-stupa-village-03.jpg",
+    "images/treks/pikey-peak/pikey-peak-ridge-trail-view-05.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:54:30.756Z"
+}

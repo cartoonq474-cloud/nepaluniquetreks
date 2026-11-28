@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "order": 3,
+  "batch": 1,
+  "sourceSlug": "safari-holiday",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/safari-holiday",
+  "targetDir": "tour/chitwan-national-park-safari",
+  "templateType": "tour",
+  "regionLabel": "Nepal",
+  "sourceCategory": "Tours in Nepal",
+  "title": "Safari Holiday",
+  "seoTitle": "Safari Holiday",
+  "metaDescription": "Chitwan national park is the best destination for .jungle safari in Nepal, Chitwan national park is famous for the endangered one horned rhino royal B",
+  "heroLead": "Chitwan national park is the first national park of Nepal which is situated in the mid southern plain land of Nepal covering an area of 932 sq. km. It was established in 1973 and enlisted in UNESCO world heritage site in 1984.",
+  "heroMore": "Chitwan national park is the best destination for jungle safari in Nepal, Chitwan national park is famous for the endangered one horned rhino royal Bengal tiger, and Gharial. In this safari you can see the various types of wild birds and animals.",
+  "durationDays": 7,
+  "durationDisplay": "07 Days",
+  "maxElevationM": 1345,
+  "facts": {
+    "duration": "07 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "1,345 m",
+    "grade": "Easy",
+    "activity": "jungle safari and culture tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House",
+    "best season": "Any"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/safari-holiday.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Chitwan national park is the first national park of Nepal which is situated in the mid southern plain land of Nepal covering an area of 932 sq. km. It was established in 1973 and enlisted in UNESCO world heritage site in 1984. Chitwan national park is the best destination for .jungle safari in Nepal, Chitwan national park is famous for the endangered one horned rhino royal Bengal tiger, and Gharial. In this safari you can see the various types of wild birds and animals.</p><p>While exploring the Chitwan national park you can encounter wild animal like hog deer, sloth deer, common leopard, chital, barking deer, wild dog, palm civet, wild buffalo, Royal Bengal tiger etc. In this safari you can also visit the nearby ethnic villages of the Tharu and Chepang. In Chepang village you can visit the Chepang museum and get insight into their history, culture, lifestyle, religion etc. you can explore the Chitwan national park in three different ways: on the back of the elephant, by jeep and on the foot. The jungle safari in Chitwan national park which is rich in flora and fauna as well as wild life provides you the wilderness experience to the tourists. There you can see rare one horn rhino face to face. You can combine this jungle safari with canoeing on the Narayani/ Sapta Gandaki River and Rapti River. In this our package you can visit the Tharu and Chepang village- the ethnic groups of Nepal around the national park and get insight into their lifestyle, culture and religion. You can combine the Chitwan National park Jungle safari with the Lumbini or Pokhara tour.</p></div></div>",
+  "overviewPlainWordCount": 273,
+  "itinerarySource": "derived-from-overview",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu & Transfer to Hotel",
+      "altitudeM": 1355,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Welcome Dinner",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Arrive at Tribhuvan International Airport in Kathmandu where our representative welcomes you and transfers you to your hotel. Evening trip briefing for Safari Holiday."
+    },
+    {
+      "day": 2,
+      "title": "Transfer from Kathmandu to Chitwan National Park via Flight & Private Car",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Travel toward Chitwan National Park (Flight & Private Car) and check into your accommodation as outlined in our Safari Holiday program."
+    },
+    {
+      "day": 3,
+      "title": "Chitwan National Park Exploration — jungle safari and culture tour (Day 3)",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast (plus package meals where included)",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Guided jungle safari and culture tour activities around Chitwan National Park, experiencing the core highlights described in the Safari Holiday overview."
+    },
+    {
+      "day": 4,
+      "title": "Chitwan National Park Exploration — jungle safari and culture tour (Day 4)",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast (plus package meals where included)",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Guided jungle safari and culture tour activities around Chitwan National Park, experiencing the core highlights described in the Safari Holiday overview."
+    },
+    {
+      "day": 5,
+      "title": "Chitwan National Park Exploration — jungle safari and culture tour (Day 5)",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast (plus package meals where included)",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Guided jungle safari and culture tour activities around Chitwan National Park, experiencing the core highlights described in the Safari Holiday overview."
+    },
+    {
+      "day": 6,
+      "title": "Return Journey to Kathmandu",
+      "altitudeM": 1355,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast & Farewell Dinner",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Travel back to Kathmandu (Flight & Private Car) with free evening time in Thamel."
+    },
+    {
+      "day": 7,
+      "title": "Final Departure from Kathmandu",
+      "altitudeM": 1355,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Departure",
+      "description": "Airport transfer from your Kathmandu hotel to Tribhuvan International Airport for onward departure."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "All hotel, airport arrival departure transfers",
+        "2 night hotel in Kathmandu 3-star category on BB plan",
+        "First night evening welcome dinner, before departure Kathmandu farewell dinner",
+        "All accommodation and food during the mountain",
+        "English speaking tour leader (trekking guide) an experienced guide about tourism, culture, religion, mountain, trekkers 1 assistant guide (Sherpa) porter to carry luggage (2 trekkers:1 porter )including their salary, insurance, equipment, transportation, food and lodging",
+        "Nepal unique treks can provide which is returned after trip completion (down jacket, sleeping bag, duffel trekking bag, first aid kit, trekking poles",
+        "Nepal unique treks provide each trekking map, trekking t-shirt",
+        "All kind of necessary paperwork TIMS card, national park permit",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee (need to bring accurate US cash and two passport size photographs)",
+        "Airport departure tax (per person NPR 200)",
+        "International airfare to and from Kathmandu",
+        "Excess baggage charge",
+        "Your own meals around city, lunch, dinner, drinks and also in case of early return from the mountain than the scheduled itinerary",
+        "Extra night accommodation in city because of early arrival, late departure and early return from the mountain (due to any reason )than the schedule itinerary",
+        "Travel and rescue insurance, in case (can help for organized helicopter hospital)",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for your travel guide, mountain guide, and porter, driver, hotel staff"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Safari Holiday (7 Days)",
+    "weatherTitle": "Safari Holiday Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu &..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 2",
+        "spot": "Transfer from Kathmand..",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 3",
+        "spot": "Chitwan National Park ..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 4",
+        "spot": "Chitwan National Park ..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 5",
+        "spot": "Chitwan National Park ..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 6",
+        "spot": "Return Journey to Kath..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 7",
+        "spot": "Final Departure from K..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 4 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 5 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 6 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 7 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/safari-holiday.jpg",
+    "uploads/nepal-chitwan-jungle-safari.jpg",
+    "uploads/chitwan-national-park-12-XL.jpg",
+    "uploads/bardiya-national-park-tour.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:39:45.154Z"
+}

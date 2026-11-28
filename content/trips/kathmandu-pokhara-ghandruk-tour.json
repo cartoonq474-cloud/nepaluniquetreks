@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "order": 95,
+  "batch": 10,
+  "sourceSlug": "kathmandu-pokhara-ghandruk-tour",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/kathmandu-pokhara-ghandruk-tour",
+  "targetDir": "tour/kathmandu-pokhara-ghandruk-tour",
+  "templateType": "tour",
+  "regionLabel": "Nepal",
+  "sourceCategory": "Tours in Nepal",
+  "title": "Kathmandu Pokhara Ghandruk Tour",
+  "seoTitle": "Kathmandu Pokhara Ghandruk Tour",
+  "metaDescription": "Kathmandu Pokhara Ghandruk Tour is perfect for families And with your best friends, nature lovers, and cultural enthusiasts. This tour offers a quick",
+  "heroLead": "Kathmandu Pokhara Ghandruk Tour is perfect for backpackers, nature lovers, and cultural enthusiasts. This tour offers a quick introduction to rural Nepal and its Himalayan profile.",
+  "heroMore": "From its long-fabled history and its trailing architectural wonders to the colorful and rich culture and tempting Himalayan vistas, Nepal never fails to surprise you. Kathmandu Pokhara Ghandruk Tour takes you to the culturally and naturally flourishing cities and combines them with a day hike and jungle adventure for a complete experience and discovery.",
+  "durationDays": 7,
+  "durationDisplay": "7 Days",
+  "maxElevationM": 2012,
+  "facts": {
+    "duration": "7 Days",
+    "accommodation": "3-star Hotel",
+    "max elevation": "2012 m",
+    "grade": "Easy Tour",
+    "activity": "Culture Tour, Hiking",
+    "transportation": "Car, Bus, Flight",
+    "treks type": "Tour",
+    "best season": "March – May and Sep – Jan"
+  },
+  "pricing": {
+    "primaryPriceUsd": 350,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$350",
+        "priceUsd": 350
+      }
+    ],
+    "groupTiers": [
+      {
+        "label": "1 Person",
+        "priceUsd": 600
+      },
+      {
+        "label": "2-3 Person",
+        "priceUsd": 450
+      },
+      {
+        "label": "4-7 Person",
+        "priceUsd": 395
+      },
+      {
+        "label": "7-13 Person",
+        "priceUsd": 350
+      }
+    ]
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/ghandruk.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><h2><strong>Overview </strong></h2><p>Kathmandu Pokhara Ghandruk Tour is perfect for backpackers, nature lovers, and cultural enthusiasts. This tour offers a quick introduction to rural Nepal and its Himalayan profile. From its long-fabled history and its trailing architectural wonders to the colorful and rich culture and tempting Himalayan vistas, Nepal never fails to surprise you. Kathmandu Pokhara Ghandruk Tour takes you to the culturally and naturally flourishing cities and combines them with a day hike and jungle adventure for a complete experience and discovery.</p><h2><strong>Kathmandu Tour</strong></h2><p>You can&rsquo;t define Kathmandu in just a few words. The city is too dynamic for that. Kathmandu&rsquo;s rich history flourishes with old stories reflected in timeless heritage buildings tucked around the sprawling city. Being in Kathmandu, you should not miss the magnificent architectural wonders that include Pashupatinath, Swayambhunath, Boudhanath, Kathmandu Durbar Square, Patan Durbar Square, and Bhaktapur. These sites are protected by UNESCO and reflect the medical history of the capital city.</p><h2><strong>Pokhara Tour</strong></h2><p>Pokhara draws thousands of visitors who love to spend holidays in a relaxed atmosphere and a relaxing environment, Pokhara is the major gateway to the Annapurna region and is home to the most eye-popped natural landscapes, under the Himalayas, offering a comfortable climate, Crystal Rivers, ancient caves, emerald lakes, and ever-green vegetation. It is an incredible destination not only for sightseeing but also for adventure seekers and photographers.</p><p>Sarangkot, a hilltop village, offers a tantalizing sunrise view and when the first ray of sun strikes the milky jagged peaks of Machhapuchhre and Annapurna, it gives you a heavenly feeling. Likewise, you will visit popular scenic spots like Phewa Lake, Mahendra Cave, Guptsewor Cave, Davis Falls, the Tibetan Refugee Center, the Mountain Museum, and more. On this trip, you will gain an insight into this fascinating land under the special guidance of an experienced tour escort.</p><h2><strong>A nature day hike to Ghandruk</strong></h2><p>Ghandruk is a small and culturally flourishing village located northwest of Pokhara city. It is a popular stopover for trekkers and represents the enticing Gurung culture with its old-world charm. The village offers remarkable views of Annapurna South, Machhapuchhre, and Himalchuli Peak. You will get a more dramatic and up-close view of the Himalayas than from Pokhara.</p><h2><strong>Jungle Adventure in Chitwan National Park</strong></h2><p>If you like to extend your journey, we can visit Chitwan National Park. It was established in 1973 and granted the status of a world heritage site in 1984. The dense jungle and river plains of Chitwan are home to numerous rare and non-rare wildlife, including the few remaining populations of the rare Bengal tiger and one-horned rhino.</p><p>All of these are best seen during adventurous elephant back safaris. Besides, you can also be involved in different jungle activities like bird watching, jeep driving, elephant bathing, canoeing, and a visit to the local Tharu village. </p></div></div>",
+  "overviewPlainWordCount": 466,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu, Tribhuvan International Airport and transfer to the Hotel. 1345 m.",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": null,
+      "accommodation": "3-star Hotel",
+      "description": "You will be greeted and welcomed by Nepal Unique Treks. At Tribhuwan International Airport. 6.5 km drive from the airport to the Hotel in Thamel. After check-in Hotel, we will be introduced to the Trek and City tour guide and briefed about the Kathmandu Pokhara Ghandruk Tour. Overnight stay in Kathmandu."
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu Valley Sightseeing 5 hrs., 1345 m.",
+      "altitudeM": 1345,
+      "walkingTime": "5 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "After having a warm breakfast in your Hotel. Start your day with the Kathmandu Valley sightseeing. A tour guide will help you to explore world heritage sites, tourist famous cities, and Historical and religious places like Patan Durbar Square, Hindu Temple Pashupatinath, Bouddhanath Stupa, and Swayambhunath (Monkey Temple). An Early afternoon drive back to the Hotel. Prepare travel gear and manage your duffel bag, and participate in the welcome dinner, which is organized by Nepal Unique Treks at the Nepali culture show restaurant."
+    },
+    {
+      "day": 3,
+      "title": "Drive from Kathmandu to Pokhara by luxury tourist bus. 7/8 hrs., 810 m.",
+      "altitudeM": 809,
+      "walkingTime": "7/8 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Early in the morning, your tour guide will take you to the tourist bus station to drive to Pokhara which is a 5 m walk from your Hotel. Today you will drive to Pokhara through Prithibi Highway, during the driving time, you will explore beautiful villages, white water rafting rivers, beautiful landscapes, and agriculture fields. In the evening you will be rich in Pokhara. After checking in Hotel your tour guide will invite you to explore Taal Barahi Temple. Enjoy short boating and walk around the Hindu Temple. Back to the lakeside in town for your dinner. Overnight stay at Pokhara."
+    },
+    {
+      "day": 4,
+      "title": "Drive from Pkhara to Ghandruk Village 2012 m, 3 hrs.",
+      "altitudeM": 2012,
+      "walkingTime": "3 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Three hours of road driving will bring you to an amazing place from where you can see magnificent snow-capped mountains. After 3 hrs of driving, you will reach Ghandruk Village. Ghandruk village belongs to the Kaski district, Gandaki province of Nepal, and is 2012 m from sea level, 32 km from Pokhara. Ghandruk Village is the gateway to Annapurna Base Camp and Ghorepani Poonhill Trek. Ghandruk Village is fully settled by the ethnic group of Gurung People. Gurung people are bravely famous in the world for doing the Gorkhas Army job; also they are helping to Nepal government by sending huge remittances. Ghandruk Village is the most visited village by domestic and International travelers, and also the second-largest Gurung village in Nepal. The Major attraction of Ghandruk village is the beautiful Mountain View, Local culture, Religion, Tradition, language, landscape, friendly community, and helpful people. Besides the unspoiled rural lifestyle, local foods, warm welcome reception, and the magnificent Himalayas will give you great memories. Today, after having lunch in Ghandruk Village, your guide will bring you to explore the Gurung Museum and Monastery, and hike around the old village. Overnight stay at the Guest house."
+    },
+    {
+      "day": 5,
+      "title": "Drive from Ghandruk to Pokhara - Pokhara Valley Sightseeing 810, 6 hrs",
+      "altitudeM": 810,
+      "walkingTime": "6 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "Wake up early in the morning and look from your window, you will see gorgeous Mt Fishtail, Annapurna South, and Himchuli. You will enjoy the view with warm tea coffee, and breakfast. Around 8 am, you will start to drive back to Pokhara normally 3 hrs take to rich there. When you arrive at Pokhara straight drive to Pokhara and start sightseeing. including the International Mountain museum, David falls, Gupteswar Mahadev Temple, World peace Stupa, and Taal Barahi Temple in Fewa Lake. Enjoy your dinner tourist city of Lakeside. Overnight stay in Pokhara."
+    },
+    {
+      "day": 6,
+      "title": "Drive from Pokhara to Kathmandu by Tourist Bus,7/8 hrs., 1345m",
+      "altitudeM": 1345,
+      "walkingTime": "7/8 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "After breakfast, drive back to Kathmandu, 7/8 hrs drive. Nepal Unique Treks will invite you for your farewell dinner, and share knowledge and information about the Trip. If you don't like to take a tourist bus for 8 hours, we can have a flight from Pokhara to Kathmandu. It cost $100 each."
+    },
+    {
+      "day": 7,
+      "title": "Departure from Kathmandu International Airport, 1345m.",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "After breakfast, check out from the hotel and transfer to Tribhuvan International Airport (1,345m) for your final departure from Kathmandu."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 350 per person",
+      "includes": [
+        "Airport Pickup and drop-off by tourist vehicle",
+        "Hotel Accommodation In Kathmandu and Pokhara",
+        "Guesthouse in Ghandruk, Clean and comfortable twin-sharing bed",
+        "Breakfast in Kathmandu and Pokhara, and all meals in Ghandruk",
+        "All transportation by private car or by flight, as you request",
+        "Sightseeing tour in Kathmandu, Pokhara, and Chitwan",
+        "An English-speaking experienced Tour Guide, Nature Guide",
+        "Welcome and Farewell Dinner by Nepal Unique Treks",
+        "A comprehensive medical kit",
+        "All the governmental, local, and official charges",
+        "All the required permits and documents"
+      ],
+      "excludes": [
+        "Nepal Visa Fee",
+        "International Flights, Travel Insurance",
+        "Personal nature expenses – alcoholic beverages",
+        "Phone calls, laundry, Internet, and other expenses that are not mentioned in the Itinerary",
+        "Lunch and Dinner at Kathmandu and Pokhara",
+        "Emergency evacuation charge"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Kathmandu Pokhara Ghandruk Tour (7 Days)",
+    "weatherTitle": "Kathmandu Pokhara Ghandruk Tour Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu, ..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu Valley Sight..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive from Kathmandu t..",
+        "altitudeM": 809,
+        "altitudeFt": 2654
+      },
+      {
+        "day": "Day 4",
+        "spot": "Drive from Pkhara to G..",
+        "altitudeM": 2012,
+        "altitudeFt": 6601
+      },
+      {
+        "day": "Day 5",
+        "spot": "Drive from Ghandruk to..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 6",
+        "spot": "Drive from Pokhara to ..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 7",
+        "spot": "Departure from Kathman..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (809 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 4 (2012 m)",
+        "min": 1,
+        "max": 15
+      },
+      {
+        "label": "Day 5 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 6 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 7 (1345 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/ghandruk.jpg",
+    "uploads/kathmandu-durbar-squire.jpg",
+    "uploads/pokhara-himalayan-view-winter.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg",
+    "uploads/nagarkot.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T11:00:23.529Z"
+}

@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "order": 115,
+  "batch": 12,
+  "sourceSlug": "langtang-valley-ganjala-pass-helambu-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/langtang-valley-ganjala-pass-helambu-trek",
+  "targetDir": "trek/langtang-valley-ganjala-pass-helambu-trek",
+  "templateType": "trek",
+  "regionLabel": "Langtang",
+  "sourceCategory": "Langtang Region Treks",
+  "title": "Langtang Valley Ganjala Pass Helambu Trek",
+  "seoTitle": "Langtang Valley Ganjala Pass Helambu Trek | Cost and Itinerary",
+  "metaDescription": "Langtang Valley Ganjala Pass Helambu Trek is full of wilderness adventure. You can trek the trail covered with snow and forest trails. The most divers",
+  "heroLead": "Langtang Valley Ganjala Pass Helambu Trek is full of wilderness adventure. You can trek the trail covered with snow and forest trails.",
+  "heroMore": "The most diversified is probably in the whole Langtang Region. Nepal Unique Treks is proud to offer the package to aspiring trekkers.",
+  "durationDays": 14,
+  "durationDisplay": "14 Days",
+  "maxElevationM": 5122,
+  "facts": {
+    "duration": "14 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "5122m",
+    "grade": "Soft adventure trek - Grade Explanation",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea house"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/ganjala-pass-trek.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p><strong>Langtang Valley Ganjala Pass Helambu Trek</strong> is full of wilderness adventure. You can trek the trail covered with snow and forest trails. The most diversified is probably in the whole <strong>Langtang Region.</strong> <strong>Nepal Unique Treks</strong> is proud to offer the package to aspiring trekkers. You can feel the forest environment and walk in the snow in this <strong>Langtang Trekking Package</strong>.</p><p>The journey begins as similar to the <strong>Langtang Valley Trek</strong>. The difference however is from the <strong>Kyanjin Gompa</strong>. <strong>Syaprubeshi to the Kyanjin</strong> is full of fun. The forest environment in the <strong>Lama Hotel and Ghoda Tabela</strong> will surprise you with the wood&#39;s fascination. <strong>Langtang Valley and Kyanjin Gompa </strong>offer the traditional T<strong>ibetan-influenced community culture</strong> and traditions.</p><p>Once you ascend towards <strong>Ganjala Pass from Kyanjin </strong>the journey becomes strenuous. Observing the spectacular view of the<strong> Langtang Lirung, Langtang Mountain, Sishapangma</strong> and other lofty <strong>Himalayan ranges</strong> the journey travels ahead. The pass is very daunting and resembles the semi-mountaineering during a few seasons. You are highly recommended to become extremely careful and be close with the <strong>trekking guides</strong>. Once you have passed the glorious yet challenging pass Helambu can be reached.</p><p><strong>Langtang Valley Ganjala Pass Helambu Trek</strong> is termed as diversified because of these geographical settings. Observing the mystical forests and numerous water streams the trip heads to <strong>Melamchi Village</strong>. This is probably the most scenic village in the Langtang region. The trail falls under the <strong>Langtang National Park</strong>. There are high possibility to get encountering endangered species of animals, vegetation, and birds. It is believed that rare red pandas too can be found in the region. From <strong>Melamchi Bazaar</strong> the bus drive will take you back to <strong>Kathmandu</strong>.</p><p><strong>Nepal Unique Treks </strong>ensures great hospitality and a hassle-free itinerary. Book the <strong>Langtang Valley Ganjala Pass Helambu Trek </strong>with an experienced team. We have been organizing <strong>trekking in Nepal</strong> at <strong>Langtang region</strong> for more than a decade. Experience diversified Nepal with us</p><h2><strong>Langtang Valley Ganjala Pass Helambu Trek - Outline Itinerary</strong></h2><p><br />Day 01: Arrival at the international airport in Kathmandu (1350m)</p><p>Day 02: sightseeing tour in Kathmandu Valley </p><p>Day 03: Kathmandu to Syabru Beshi </p><p>Day 04: Syabru bensi to Lama Hotel</p><p>Day 05: lama hotel to Langtang village</p><p>Day 06: Trek to Kyangjin Gompa</p><p>Day 07: Trek to Ngegang</p><p>Day 08: Trek to Ganja la pass</p><p>Day 09: Trek to Dukpa</p><p>Day 10: Trek towards the Tharkeghyang</p><p>Day 11: Exploration day at Tharkeghyang</p><p>Day 12: Trek to Sermathang</p><p>Day 13: Sermathang to Melamchi</p><p>Day 14: farewell and departure.</p></div></div>",
+  "overviewPlainWordCount": 415,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrival at international airport in Kathmandu (1350m)"
+    },
+    {
+      "day": 2,
+      "title": "seightseeing tour",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "seightseeing tour"
+    },
+    {
+      "day": 3,
+      "title": "Kathmandu to Syabru bensi",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kathmandu to Syabru bensi"
+    },
+    {
+      "day": 4,
+      "title": "Syabru bensi to Lama Hotel",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Syabru bensi to Lama Hotel"
+    },
+    {
+      "day": 5,
+      "title": "lama hotel to Langtang village",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "lama hotel to Langtang village"
+    },
+    {
+      "day": 6,
+      "title": "Trek to Kyangjin Gompa",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek to Kyangjin Gompa"
+    },
+    {
+      "day": 7,
+      "title": "Trek to Ngegang",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek to Ngegang"
+    },
+    {
+      "day": 8,
+      "title": "Trek to Ganja la pass",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek to Ganja la pass"
+    },
+    {
+      "day": 9,
+      "title": "Trek to Dukpa",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek to Dukpa"
+    },
+    {
+      "day": 10,
+      "title": "Trek towards the Tharkeghyang",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek towards the Tharkeghyang"
+    },
+    {
+      "day": 11,
+      "title": "Exploration day at Tharkeghyang",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Exploration day at Tharkeghyang"
+    },
+    {
+      "day": 12,
+      "title": "Trek to Sermathang",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek to Sermathang"
+    },
+    {
+      "day": 13,
+      "title": "Sermathang to Melamchi",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Sermathang to Melamchi"
+    },
+    {
+      "day": 14,
+      "title": "farewell and departure.",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "farewell and departure."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "All hotel, airport arrival departure transfers",
+        "2 night hotel in Kathmandu 3-star category on BB plan",
+        "First night evening welcome dinner, before departure Kathmandu farewell dinner",
+        "All accommodation and food during the mountain",
+        "English speaking tour leader (trekking guide) an experienced guide about tourism, culture, religion, mountain, trekkers 1 assistant guide (Sherpa) porter to carry luggage (2 trekkers:1 porter )including their salary, insurance, equipment, transportation, food and lodging",
+        "Nepal unique treks can provide which is returned after trip completion (down jacket, sleeping bag, duffel trekking bag, first aid kit, trekking poles",
+        "Nepal unique treks provide each trekking map, trekking t-shirt",
+        "All kind of necessary paperwork TIMS card, national park permit",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee (need to bring accurate US cash and two passport size photographs)",
+        "Airport departure tax (per person NPR 200)",
+        "International airfare to and from Kathmandu",
+        "Excess baggage charge",
+        "Your own meals around city, lunch, dinner, drinks and also in case of early return from the mountain than the scheduled itinerary",
+        "Extra night accommodation in city because of early arrival, late departure and early return from the mountain (due to any reason )than the schedule itinerary",
+        "Travel and rescue insurance, in case (can help for organized helicopter hospital)",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for your travel guide, mountain guide, and porter, driver, hotel staff"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/langtang-valley-ganjala-pass-helambu-trek.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Langtang Valley Ganjala Pass Helambu Trek (14 Days)",
+    "weatherTitle": "Langtang Valley Ganjala Pass Helambu Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 2",
+        "spot": "seightseeing tour",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 3",
+        "spot": "Kathmandu to Syabru be..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 4",
+        "spot": "Syabru bensi to Lama H..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 5",
+        "spot": "lama hotel to Langtang..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 6",
+        "spot": "Trek to Kyangjin Gompa",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 7",
+        "spot": "Trek to Ngegang",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 8",
+        "spot": "Trek to Ganja la pass",
+        "altitudeM": 5122,
+        "altitudeFt": 16804
+      },
+      {
+        "day": "Day 9",
+        "spot": "Trek to Dukpa",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 10",
+        "spot": "Trek towards the Thark..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 11",
+        "spot": "Exploration day at Tha..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 12",
+        "spot": "Trek to Sermathang",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 13",
+        "spot": "Sermathang to Melamchi",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 14",
+        "spot": "farewell and departure.",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 4 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 5 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 6 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 7 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 8 (5122 m)",
+        "min": -19,
+        "max": -3
+      },
+      {
+        "label": "Day 9 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 10 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 11 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 12 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 13 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 14 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/ganjala-pass-trek.jpg",
+    "images/treks/langtang-valley/langtang-trek-hiker-mountain-view-03.jpg",
+    "images/treks/langtang-valley/langtang-trek-hiker-rocky-viewpoint-06.jpg",
+    "images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg",
+    "images/treks/langtang-valley/langtang-trek-trekkers-mountain-view-01.jpg"
+  ],
+  "mapImage": "uploads/langtang-valley-ganjala-pass-helambu-trek.jpg",
+  "fetchedAt": "2026-11-28T11:00:42.173Z"
+}

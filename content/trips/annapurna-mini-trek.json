@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "order": 23,
+  "batch": 3,
+  "sourceSlug": "annapurna-mini-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/annapurna-mini-trek",
+  "targetDir": "trek/annapurna-mini-trek",
+  "templateType": "trek",
+  "regionLabel": "Annapurna",
+  "sourceCategory": "Annapurna Region Trekking",
+  "title": "Annapurna Mini Trek",
+  "seoTitle": "Annapurna Mini Trek | Ghorepani Poon hill Trek | Trek from Pokhara",
+  "metaDescription": "Annapurna Mini Trek is truly called the best trek as it takes you to the most spectacular snow-capped mountains of the Annapurna Region. Also, the Gho",
+  "heroLead": "of Annapurna Mini Trek The Annapurna Mini Trek is truly called the best of trekking as it takes you to the most spectacular mountains of the Annapurna Region. The major highlight of this trip includes the hike to Poon Hill (3,210m), which offers magnificent mountain views of the sunrise over the hills as the rays land on the giant massifs.",
+  "heroMore": "The spectacular panoramic views of Mt: Dhaulagiri (8,167m), Mt: Fishtail (6,997m), Mt: Annapurna (8,091m), Mt: Annapurna II, Mt: Annapurna South, Nilgiri, Tukuche, Dhampus peak, Butterfly mountain, Hiuchuli, and many others are seen prominently on clear weather. The other highlight of this trek is Dhampus village, an authentic place located in the Annapurna region with pristine traditions and culture.",
+  "durationDays": 3,
+  "durationDisplay": "3 Days",
+  "maxElevationM": 3210,
+  "facts": {
+    "duration": "3 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "3210m",
+    "grade": "Easy",
+    "activity": "Trekking",
+    "transportation": "Jeep, Car",
+    "treks type": "Tea house",
+    "best season": "March, April, May, and Oct, Nov Dec"
+  },
+  "pricing": {
+    "primaryPriceUsd": 300,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$300",
+        "priceUsd": 300
+      }
+    ],
+    "groupTiers": [
+      {
+        "label": "1 Person",
+        "priceUsd": 300
+      }
+    ]
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/annapurna Mini Treks.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><h2><strong>Overview of Annapurna Mini Trek</strong></h2><p>The <strong>Annapurna Mini Trek </strong>is truly called the best of trekking as it takes you to the most spectacular mountains of the Annapurna Region. The major highlight of this trip includes the hike to Poon Hill (3,210m), which offers magnificent mountain views of the sunrise over the hills as the rays land on the giant massifs.</p><p>The spectacular panoramic views of Mt: Dhaulagiri (8,167m), Mt: Fishtail (6,997m), Mt: Annapurna (8,091m), Mt: Annapurna II, Mt: Annapurna South, Nilgiri, Tukuche, Dhampus peak, Butterfly mountain, Hiuchuli, and many others are seen prominently on clear weather.</p><p>The other highlight of this trek is Dhampus village, an authentic place located in the Annapurna region with pristine traditions and culture. You will descend following a narrow Trekking trail through rhododendron forests that offer frequent views of Mt. Fishtail. Ghandruk is a Homelands of British Gurkha Army.</p><h2><strong>Short Information about Annapurna Mini Trek</strong></h2><p><strong>Airport reception:</strong><br />The Nepal Unique Treks guide will be waiting for you at Tribhuvan International Airport in Kathmandu. A guide will show a name card that is easy to recognize. From the Airport to the Hotel 6.5 km drive will take 20/30 minutes. Check-in Hotel and a detailed briefing about your Trekking in Nepal. Complete the official documents and agreements. </p><h2><strong>Accommodations during the Trek</strong></h2><p>We use three-star category Hotels in Kathmandu and Pokhara, including breakfast. Our Hotel is clean, safe, luxurious, best environment, with 24-hour Hot Shower, Internet with great hospitality. When we start trekking we have a nice guesthouse in the mountains.</p><p>They will provide us with a clean and comfortable twin-sharing bed with fluffy, warm blankets. During the Annapurna Mini Trek, if it is possible, we will book an attached room, but normally, in mountain toilets and bathrooms are outside your room</p><h2><strong>Food during the Trek</strong></h2><p>Kathmandu and Pokhara are the main cities for travelers, so we have delicious food. You may choose from the menu, they have a variety of yummy foods and many foreign types of restaurants with different cuisines in a city like Chinese, Indian, Continental, Tibetan, and Nepalese.</p><p>During your trek, we can have homemade, fresh, and organic food also in the mountains, they have a menu to choose good food, but compared with the city looks different. You will like mountain food because they serve food with a happy smile.</p><h2><strong>Nepal Unique Trekking Team</strong></h2><p>Our trekking team, guide, and porters are eligible to work as professionals and are responsible. Our guides are trained and certified by the Nepal Government. A guide can speak English well.</p><p>So they are perfect to introduce to mountains and villages. Your Trek start-to-end guide will look after you and handle the team. Our porter is Healthy and strong, they can carry your trekking duffel bag. One porter will carry 2 clients&#39; bags, and each bag weighs 12 kg.</p><p>For safety, Nepal Unique Treks has trekking insurance to cover the risk of trekking. Transportation, accommodation, and food are provided by the agency. During the trek, you feel like family and good friends with your guide. The Guide will care about your safety, success, satisfaction, and service.</p></div></div>",
+  "overviewPlainWordCount": 518,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Drive from Pokhara to Ulleri Viallage and trek to Ghorepani 2874m, 5/6 hrs",
+      "altitudeM": 2874,
+      "walkingTime": "5/6 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Beautiful Sunshine welcomes you and has a warm breakfast at Pokhara. Pack your bags and start hiking to Ghorepani through Nangethati and Lower Ghorepani. It will be a 3-hour drive through Nayapul, Hile, Tikhe Dhunga, and Ulleri Village. From here start trekking to Ghorepani via Nange Thanti. It will take 3/4 hours. In early afternoon, you will arrive at Ghorepani, where you will enjoy the sunrise and panoramic Annapurna Himalayan View. It will be an enjoyable and beautiful trek through the rain forest, crossing some spring rivers, and discovering the Rhododendron forest, which is the national flower of Nepal. In the early afternoon, check in at the guesthouse in Ghorepani and enjoy the mountain scenery with the magnificent Sunset of Annapurna and Dhaulagiri Himal."
+    },
+    {
+      "day": 2,
+      "title": "Poonhill Viewpoint, Ghorepani to Tadapani 2630m, 8 hrs,",
+      "altitudeM": 2630,
+      "walkingTime": "8 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Weakup early morning at 4 am and hike to Poonhill viewpoint. It will be steps ascending to reach the viewpoint, and it takes one hour and 30 minutes. A very surprised view welcomed you at viewpoints with mesmerizing, panoramic Annapurna Himalaya view with a stunning sunrise view. Sunrays change the mountain colors it will be a very dramatic view all the mountain looks like gold coverage on the mountain. From left to right on your side magnificent Himalayan range which we called by name Mt Dhaulagiri range, Tukuche Peak, Gangapurna, Nilgiri Himal, Annapurna South, Himchuli, Brahashikhara, Mt Annapurna I, and Mt Fishtail. A moment captured by your camera and take a warm tea and coffee at Poonhill 3210m. In winter time Poonhill is decorated by fresh snow and looks like much snowhill peak. and if you trek to the spring session it looks more fabulous colorful flowers decorated by Rhododendrom Nepali National Flowers. Trek back to the Guest House and have breakfast. Start hiking to Tadapani. Today you feel more relaxed with beautiful Nature because during the trek you will explore the rain forest, Annapurna Snowo peaks, spring rivers, Rhododendron flowers, Small bamboo trees, and a few human settlements. Today's trek will be up and down and some narrow steps going to Tadapani from Deurali tea house."
+    },
+    {
+      "day": 3,
+      "title": "Tadapani to Ghandruk Village and drive to Pokhara",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "The monkey will make a noise in the jungle, and Birds will whistle nearby your windows. Then you will wake up and enjoy the sunrise view of Annapurna South, Himchuli, and Mt Machhapuchhre. Take a warm breakfast and trek to Ghandruk Village through the lovely rainforest via Bhaisi Kharka, a peaceful and nice environment, passing some spring rivers, a beautiful Rhododendron forest with birds and monkey whistles. Arrived in Ghandruk Village, explore around there, visit the Buddhist Monastery, the Gurung Museum, and their lifestyle. After having lunch in Ghandruk Village, we will drive to Pokhara via Nayapul, it will take 3 hours. Your Annapurna Mini Trek ends today, and back to luxury city life."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 250 per person",
+      "includes": [
+        "Pokhara to Ulleri, and Ghandruk to Pokhara, Sharing Local Jeep",
+        "Breakfast, lunch, and dinner during the trek. Three times a day, tea or coffee",
+        "Annapurna Conservation Trekking permits. (TIMS) card",
+        "Best available twin-sharing teahouse accommodation during the trek.",
+        "English-speaking tour/trekking Guide.",
+        "Porters to carry your baggage during the trek.",
+        "Accommodation, food, salary, insurance, trekking equipment for staff",
+        "Seasonal fresh fruits and a first aid box for all staff.",
+        "Trekking bag and sleeping bag by Nepal Unique Treks.",
+        "Any kind of government taxes"
+      ],
+      "excludes": [
+        "Your travel insurance.",
+        "Telephone, Alcoholic, cold, and hot drinks, laundry.",
+        "Personal trekking gear, Drinking Mineral Water",
+        "Any other bar bill, dessert, or salad during the trek",
+        "Tips for trekking staff and driver-- appreciated",
+        "Other expenses that are not mentioned in the price include the section."
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/annapurna-mini-trek.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Annapurna Mini Trek (3 Days)",
+    "weatherTitle": "Annapurna Mini Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Drive from Pokhara to ..",
+        "altitudeM": 2874,
+        "altitudeFt": 9429
+      },
+      {
+        "day": "Day 2",
+        "spot": "Poonhill Viewpoint, Gh..",
+        "altitudeM": 3210,
+        "altitudeFt": 10531
+      },
+      {
+        "day": "Day 3",
+        "spot": "Tadapani to Ghandruk V..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (2874 m)",
+        "min": -5,
+        "max": 10
+      },
+      {
+        "label": "Day 2 (3210 m)",
+        "min": -7,
+        "max": 8
+      },
+      {
+        "label": "Day 3 (810 m)",
+        "min": 9,
+        "max": 23
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/annapurna Mini Treks.jpg",
+    "images/treks/annapurna-base-camp/abc-hero.jpg",
+    "images/treks/annapurna-base-camp/annapurna-base-camp-annapurna-range-sunrise-03.jpg",
+    "images/treks/annapurna-base-camp/annapurna-base-camp-mountain-sunrise-04.jpg",
+    "images/treks/annapurna-base-camp/annapurna-base-camp-snow-covered-mountain-valley-10.jpg"
+  ],
+  "mapImage": "uploads/annapurna-mini-trek.jpg",
+  "fetchedAt": "2026-11-28T10:54:43.215Z"
+}

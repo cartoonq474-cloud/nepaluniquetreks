@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "order": 37,
+  "batch": 4,
+  "sourceSlug": "nepal-experience-tour",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/nepal-experience-tour",
+  "targetDir": "tour/nepal-experience-tour",
+  "templateType": "tour",
+  "regionLabel": "Nepal",
+  "sourceCategory": "Tours in Nepal",
+  "title": "Nepal Experience Tour 10 Days | Kathmandu, Pokhara, Lumbini & Chitwan",
+  "seoTitle": "Nepal Experience Tour 10 Days | Kathmandu, Pokhara, Lumbini & Chitwan",
+  "metaDescription": "Experience Nepal in 10 days with Kathmandu, Pokhara, Lumbini and Chitwan. Explore UNESCO heritage, Himalayan views, Buddha",
+  "heroLead": "Experience Nepal in 10 days with Kathmandu, Pokhara, Lumbini and Chitwan. Explore UNESCO heritage, Himalayan views, Buddha Featuring 3-star Hotel / Tea house, Private car, and an overall grade of Easy, the itinerary spans up to 1600 m across Spring, Monsoon and Autumn.",
+  "heroMore": "Warm welcome at Kathmandu International Airport by Nepal Unique Treks Team, 6.5 km drive from Airport to Hotel, check into Hotel, Overnight sleep at Thamel. Key Itinerary Highlights Kathmandu Valley Site Sightseeing Drive from Kathmandu to Pokhara 210 km, 7/8 hrs Pokhara Valley Sightseeing Visit Sarangkot Sunrise Viewpoint, and Drive to Lumbini 220 km, 6/7 hrs Visit Lumbini Monastery and drive 157 km to Chitwan National Park 150 km, 4 hrs Chitwan National Park Activities",
+  "durationDays": 10,
+  "durationDisplay": "10 Days",
+  "maxElevationM": 1600,
+  "facts": {
+    "duration": "10 Days",
+    "accommodation": "3-star Hotel / Tea house",
+    "max elevation": "1600 m",
+    "grade": "Easy",
+    "activity": "Culture Tour",
+    "transportation": "Private car",
+    "treks type": "Land Tour",
+    "best season": "Spring, Monsoon and Autumn"
+  },
+  "pricing": {
+    "primaryPriceUsd": 995,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$995",
+        "priceUsd": 995
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/nepal tour.jpg"
+  ],
+  "highlights": [
+    "Kathmandu Valley Site Sightseeing",
+    "Drive from Kathmandu to Pokhara 210 km, 7/8 hrs",
+    "Pokhara Valley Sightseeing",
+    "Visit Sarangkot Sunrise Viewpoint, and Drive to Lumbini 220 km, 6/7 hrs",
+    "Visit Lumbini Monastery and drive 157 km to Chitwan National Park 150 km, 4 hrs",
+    "Chitwan National Park Activities"
+  ],
+  "overviewHtml": "<div><h2><strong>Nepal Experience Tour 10 Days | Kathmandu, Pokhara, Lumbini &amp; Chitwan Overview</strong></h2><p>Experience Nepal in 10 days with Kathmandu, Pokhara, Lumbini and Chitwan. Explore UNESCO heritage, Himalayan views, Buddha</p><p>Featuring 3 Star Hotel / Tea house, Privet car, and an overall grade of Easy, the itinerary spans up to 1600 m across Spring, Monsoon and Autumn.</p><p>Warm welcome at Kathmandu International Airport by Nepal Unique Treks Team, 6.5 km drive from Airport to Hotel, check into Hotel, Overnight sleep at Thamel.</p><h3><strong>Key Itinerary Highlights</strong></h3><ul><li>Kathmandu Valley Site Sightseeing</li><li>Drive from Kathmandu to Pokhara 210 km, 7/8 hrs</li><li>Pokhara Valley Sightseeing</li><li>Visit Sarangkot Sunrise Viewpoint, and Drive to Lumbini 220 km, 6/7 hrs</li><li>Visit Lumbini Monastery and drive 157 km to Chitwan National Park 150 km, 4 hrs</li><li>Chitwan National Park Activities</li></ul></div>",
+  "overviewPlainWordCount": 372,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Welcome in Kathmandu International Airport. 1345m",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": null,
+      "accommodation": "3-star Hotel",
+      "description": "Warm welcome at Kathmandu International Airport by Nepal Unique Treks Team, 6.5 km drive from Airport to Hotel, check into Hotel, Overnight sleep at Thamel."
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu Valley Site Sightseeing 1345 m, 6 hrs",
+      "altitudeM": 1345,
+      "walkingTime": "6 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "Kathmandu Valley Sightseeing with Nepal Unique Treks is a captivating journey through Nepal’s cultural and spiritual heart. This tour takes travelers to the most iconic sites in the valley, starting with Boudhanath Stupa, one of the largest Buddhist stupas in the world, where pilgrims and monks create a serene spiritual atmosphere. Next, visit Pashupatinath Temple, a sacred Hindu site on the banks of the Bagmati River, offering insight into Nepal’s rich religious traditions. Explore Basantapur Durbar Square, a UNESCO World Heritage Site, showcasing ancient palaces, temples, and intricate Newar architecture. The journey continues to Swayambhunath (Monkey Temple), perched atop a hill with panoramic views of Kathmandu and a unique blend of Hindu and Buddhist influences. This sightseeing tour combines history, culture, and spirituality, providing international travelers with an authentic experience of Nepal’s heritage. With Nepal Unique Treks, visitors enjoy knowledgeable guides, comfortable transfers, and an unforgettable introduction to Kathmandu Valley."
+    },
+    {
+      "day": 3,
+      "title": "Drive from Kathmandu to Pokhara 210 km, 7/8 hrs",
+      "altitudeM": 810,
+      "walkingTime": "7/8 hrs",
+      "distanceKm": "210 km",
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "The scenic drive from Kathmandu to Pokhara covers approximately 210 km and takes around 7–8 hours, offering travelers breathtaking views of the Himalayan foothills, terraced fields, rivers, and local villages along the way. This journey allows international visitors to experience Nepal’s diverse landscapes and rural life at a relaxed pace. For those who prefer a faster and more comfortable option, domestic flights from Kathmandu to Pokhara are available at an additional cost of $120 per person, providing stunning aerial views of the Annapurna and Dhaulagiri ranges. Whether by road or air, the journey is an integral part of the Nepal Experience Tour with Nepal Unique Treks."
+    },
+    {
+      "day": 4,
+      "title": "Pokhara Valley Sightseeing 810 m, 5/6 hrs",
+      "altitudeM": 810,
+      "walkingTime": "5/6 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "Pokhara Valley Sightseeing with Nepal Unique Treks offers travelers a blend of natural beauty, cultural sites, and serene adventure at 810 m above sea level. Visit the iconic World Peace Stupa for panoramic views of the Annapurna range, explore David Falls and the sacred Gupteshwor Mahadev Cave, and discover Nepal’s mountaineering heritage at the International Mountain Museum. Enjoy a relaxing boating experience on Fewa Lake and visit Bindabasini Temple, an important religious site in Pokhara. This sightseeing tour combines spirituality, culture, and nature, giving international travelers a comprehensive and unforgettable experience of Pokhara’s scenic landscapes and cultural heritage."
+    },
+    {
+      "day": 5,
+      "title": "Visit Sarangkot Sunrise Viewpoint, and Drive to Lumbini 220 km, 6/7 hrs",
+      "altitudeM": 197,
+      "walkingTime": "6/7 hrs",
+      "distanceKm": "220 km",
+      "meals": "Breakfast, Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "Start your day with an early morning visit to Sarangkot Sunrise Viewpoint in Pokhara, enjoying breathtaking panoramic views of the Annapurna and Dhaulagiri ranges. After returning to your hotel for a hearty breakfast, embark on a scenic drive to Lumbini, the birthplace of Lord Buddha, covering approximately 220 km. Arriving in the early afternoon, visit the sacred Maya Devi Temple, where travelers can explore the temple complex, meditation gardens, and ancient monastic ruins. Conclude the day with an overnight stay at a luxury hotel in Lumbini, experiencing comfort, relaxation, and a serene atmosphere while reflecting on this spiritual journey curated by Nepal Unique Treks."
+    },
+    {
+      "day": 6,
+      "title": "Visit Lumbini Monastery and drive 157 km to Chitwan National Park 150 km, 4 hrs",
+      "altitudeM": 150,
+      "walkingTime": "4 hrs",
+      "distanceKm": "157 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "After breakfast at your hotel, pack your bags and explore Lumbini’s monasteries, each showcasing unique Buddhist architecture and cultural traditions. After this spiritual visit, return to the hotel and drive approximately 4 hours to Chitwan National Park. Upon arrival, our experienced nature guide will welcome you and provide an overview of your 2-night, 3-day wildlife and nature activities. After lunch, relax at the hotel before a gentle hike around a Tharu village, experiencing local culture. End the day with a sunset view along the Rapti River, followed by dinner at 7 pm and an overnight stay in your comfortable hotel."
+    },
+    {
+      "day": 7,
+      "title": "Chitwan National Park Activities 150m",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "Early in the morning, guests receive a wake-up call at their hotel to start the day refreshed after the scenic drive. Begin with light morning exercises followed by a nutritious breakfast at the hotel. Your experienced local guide from Nepal Unique Treks will then take you into the Chitwan jungle for an exciting day of wildlife and nature activities. Enjoy bird watching, a peaceful canoeing ride, and a guided jungle walk, along with a visit to the Elephant Breeding Center to learn about conservation efforts. Return to the hotel for lunch and rest, then at 3 PM embark on an elephant-back safari through the lush forest. After dinner, participate in a traditional Tharu cultural program, featuring the famous Tharu stick dance, and enjoy an overnight stay at your hotel in Chitwan, completing a memorable wildlife and cultural experience."
+    },
+    {
+      "day": 8,
+      "title": "Chitwan National Park Activities 150m, Jeep Safari",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "Experience the thrill of Chitwan National Park with Nepal Unique Treks, exploring one of Nepal’s most famous wildlife destinations. Enjoy an exciting jeep safari, spotting rhinos, deer, monkeys, and exotic birds in their natural habitat. Glide along the Rapti River on a canoeing ride, observing aquatic wildlife and lush riverside forests. The park also offers guided jungle walks and visits to the combining adventure, nature, and conservation education. Perfect for international travelers, these activities provide a memorable wildlife experience, showcasing Nepal’s rich biodiversity while enjoying comfort and safety throughout the Nepal Experience Tour."
+    },
+    {
+      "day": 9,
+      "title": "Chitwan National Park to Kathmandy by flight, by car 1345 m",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "Early in the morning, enjoy the sunrise view at Rapti River bank in Chitwan, taking in the serene beauty of the surrounding jungle. Return to the hotel for a delicious breakfast before beginning the journey back to Kathmandu, a scenic 6-hour drive. For travelers who prefer a quicker option, a domestic flight from Bharatpur Airport to Kathmandu is available, (Extra cost $120 per person) Upon arrival, guests are congratulated for completing the Nepal Experience Tour with a certificate of participation. In the evening, enjoy a farewell dinner hosted by Nepal Unique Treks, sharing your Nepal travel experiences. For those interested, optional Thamel nightlife experiences can be arranged to celebrate the last night in Nepal."
+    },
+    {
+      "day": 10,
+      "title": "Departure to International Airport",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel / Tea house",
+      "description": "Enjoy your last breakfast at the hotel as you conclude your unforgettable Nepal Experience Tour. After breakfast, take some time to explore the local markets in Thamel, where you can shop for authentic Nepali handicrafts, souvenirs, and gifts for family and friends. Later, our team will assist you with a private car transfer to the airport, arriving approximately three hours before your flight. This final day offers a perfect blend of last-minute shopping, cultural immersion, and comfortable travel, ensuring that your departure from Nepal is as smooth and memorable as your entire journey with Nepal Unique Treks."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 995 per person",
+      "includes": [
+        "3 nights in Kathmandu, 2 nights in Pokhara, 3-star Hotel with breakfast",
+        "Kathmandu to Pokhara by Private Car",
+        "Professional English-speaking tour guide",
+        "Pokhara Valley Sightseeing with Private Guide and Transportation",
+        "Pokhara to Lumbini by Private vehicle",
+        "1 Night 3-star or Resort categories hotel includes Breakfast and dinner",
+        "Lumbini to Chitwan National Park by Private Vehicle",
+        "Resort or Three-Star Hotel in Chitwan National Park, including Breakfast, Lunch, Dinner, and Tea and Coffee",
+        "Tourist activities in Chitwan National Park, including Entrance and sightseeing fees with a Nature Guide",
+        "Chitwan National Park to Kathmandu by Private car",
+        "Farewell dinner in Thamel, Kathmandu",
+        "Seasonal fresh fruits and Drinking Mineral Water"
+      ],
+      "excludes": [
+        "International and Domestic Air Tickets",
+        "Lunch and dinner whilst in Kathmandu, Pokhara",
+        "Your travel insurance, Emergency Air ambulance, and Hospital Medicine",
+        "Personal gear, Telephone, Alcoholic, cold, and hot drinks, laundry.",
+        "Extra Night Accommodation after the Tour",
+        "Tips for the Tour Guide and driver-- expected. Appreciated",
+        "Other expenses that are not mentioned in the Price Includes section."
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "<div><h2> Traveller Useful Information</h2><div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf0\"><i></i>Cultural Experiences in Nepal</button></div><div><div><p>Nepal offers international travelers a rich tapestry of cultural and spiritual experiences, making it a key highlight of the <strong>Nepal Experience Tour</strong>. From ancient temples and monasteries to vibrant local communities, visitors can immerse themselves in Nepal&rsquo;s unique traditions, festivals, and daily life. Curated by <strong>Nepal Unique Treks</strong>, this tour ensures travelers experience authentic cultural interactions, blending history, religion, and local lifestyle for a truly memorable journey.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf1\"><i></i>Traditional Villages, Local Life, and Community Visits</button></div><div><div><p>The Nepal Experience Tour allows travelers to visit traditional villages and interact with local communities, offering a glimpse into authentic Nepalese daily life and customs. Guests can observe farming practices, participate in local activities, and engage with villagers to learn about their culture, crafts, and traditions. These immersive experiences provide international tourists with meaningful connections to Nepal&rsquo;s people, heritage, and rural lifestyle beyond the usual tourist attractions.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf2\"><i></i>Nepali Cuisine and Cultural Performances</button></div><div><div><p>A true cultural experience in Nepal includes savoring authentic Nepali cuisine and enjoying traditional music and dance performances. Travelers on the Nepal Experience Tour can taste local dishes such as dal bhat, momo, and Newari specialties while witnessing cultural programs that reflect Nepal&rsquo;s ethnic diversity. These experiences enrich international visitors&rsquo; understanding of Nepalese culture, combining flavors, arts, and traditions into unforgettable memories.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf3\"><i></i>Guided Sightseeing and Heritage Walks</button></div><div><div><p>The <strong>Nepal Experience Tour</strong> offers guided sightseeing and heritage walks through Nepal&rsquo;s most iconic destinations. Travelers explore the <strong>UNESCO World Heritage Sites in Kathmandu Valley</strong>, including <strong>Kathmandu Durbar Square</strong>, <strong>Boudhanath Stupa</strong>, <strong>Pashupatinath Temple</strong>, and <strong>Patan Durbar Square</strong>. Also, <strong>Pokhara Valley</strong>, <strong>Lumbini Buddha Birth Place</strong>, and <strong>Chitwan National Park</strong>. Knowledgeable local guides from <strong>Nepal Unique Treks</strong> provide historical insights, cultural context, and fascinating stories behind each monument. These heritage walks are perfect for international travelers who want to experience Nepal&rsquo;s rich history, architecture, and spiritual traditions in a comfortable, informative way while capturing unforgettable memories.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf4\"><i></i>Easy Hiking and Nature Walks in Pokhara</button></div><div><div><p>For nature enthusiasts, the Nepal Experience Tour includes easy hiking and scenic nature walks suitable for all fitness levels. Visitors enjoy leisurely trails in Pokhara, exploring terraced fields, peaceful lakesides, and panoramic Himalayan viewpoints. Sunrise and sunset walks allow travelers to witness the majestic Annapurna and Dhaulagiri ranges up close. These short treks combine relaxation with adventure, giving international visitors a chance to immerse themselves in Nepal&rsquo;s natural beauty while staying active without strenuous trekking.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf5\"><i></i>Jungle Safari, Canoeing, and Wildlife Viewing</button></div><div><div><p>A highlight of the Nepal Experience Tour is the wildlife adventure in Chitwan National Park. Guests can enjoy jungle safaris, canoeing along the Rapti River, and guided wildlife viewing to spot rhinos, deer, and exotic birds. Experienced guides ensure safety and provide insight into the park&rsquo;s biodiversity and conservation efforts. This combination of adventure and nature makes the tour ideal for international travelers seeking authentic Nepalese wildlife experiences beyond mountains and cities.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf6\"><i></i>Why Choose Nepal Unique Treks</button></div><div><div><p>Nepal Unique Treks is a trusted local operator offering personalized Nepal tours with a focus on quality, safety, and authentic experiences. Choosing us ensures a seamless travel experience, knowledgeable guides, and responsible tourism practices, making your Nepal Experience Tour memorable and meaningful.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf7\"><i></i>Experienced Local Guides and Personalized Service</button></div><div><div><p>Our team of experienced local guides provides in-depth knowledge of Nepal&rsquo;s culture, history, and natural landscapes. Every Nepal Experience Tour is tailored to travelers&rsquo; preferences, ensuring personalized service, comfortable accommodations, and authentic experiences. From city tours to village visits and wildlife safaris, our guides make every step of your journey informative, safe, and enjoyable.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf8\"><i></i>Responsible and Sustainable Tourism Practices</button></div><div><div><p>At Nepal Unique Treks, we prioritize responsible and sustainable tourism. Our Nepal Experience Tour supports local communities, preserves cultural heritage, and minimizes environmental impact. Travelers can enjoy ethical wildlife encounters, community-based homestays, and eco-friendly practices while contributing positively to Nepal&rsquo;s economy and culture.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf9\"><i></i>Best Time to Join the Nepal Experience Tour</button></div><div><div><ul><li><h3>Spring and Autumn Travel Seasons in Nepal</h3></li></ul><p>The best time to experience Nepal is during spring (March to May) and autumn (September to November). During these seasons, the weather is mild, the skies are clear, and the mountain views are spectacular, making it ideal for sightseeing, nature walks, and cultural tours. Festivals, local celebrations, and lush landscapes add extra charm for international travelers exploring Nepal.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf10\"><i></i>Weather and Travel Conditions for International Visitors</button></div><div><div><p>Nepal&rsquo;s diverse geography means travelers experience different climates across regions. While Kathmandu and Pokhara enjoy moderate temperatures, Chitwan and the southern lowlands are warmer and humid. Spring and autumn offer comfortable travel conditions, minimal rainfall, and safe road access for tours. International visitors can enjoy sightseeing, trekking, wildlife tours, and cultural activities with pleasant weather and clear Himalayan vistas, making the Nepal Experience Tour a comfortable and memorable journey.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf11\"><i></i>Luxury and Private Transportation Options During the Tour</button></div><div><div><p>The Nepal Experience Tour offers luxury and private transportation for travelers seeking comfort and convenience throughout their journey. Land transfers between destinations are conducted in private vehicles, ensuring a smooth and relaxed travel experience. For those who prefer to save time or enjoy scenic aerial views, domestic flights from Kathmandu to Pokhara and from Chitwan back to Kathmandu are available as optional add-ons at an extra cost. These flights provide spectacular Himalayan panoramas while reducing travel time, making the tour ideal for international travelers who want a premium and flexible Nepal travel experience.</p></div></div></div></div></div>",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Nepal Experience Tour 10 Days | Kathmandu, Pokhara, Lumbini & Chitwan (10 Days)",
+    "weatherTitle": "Nepal Experience Tour 10 Days | Kathmandu, Pokhara, Lumbini & Chitwan Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Welcome in Kathmandu I..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu Valley Site ..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive from Kathmandu t..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 4",
+        "spot": "Pokhara Valley Sightse..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 5",
+        "spot": "Visit Sarangkot Sunris..",
+        "altitudeM": 197,
+        "altitudeFt": 646
+      },
+      {
+        "day": "Day 6",
+        "spot": "Visit Lumbini Monaster..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 7",
+        "spot": "Chitwan National Park ..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 8",
+        "spot": "Chitwan National Park ..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 9",
+        "spot": "Chitwan National Park ..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 10",
+        "spot": "Departure to Internati..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 4 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 5 (197 m)",
+        "min": 13,
+        "max": 26
+      },
+      {
+        "label": "Day 6 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 7 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 8 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 9 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 10 (1345 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/nepal tour.jpg",
+    "uploads/safari-holiday.jpg",
+    "uploads/nepal-chitwan-jungle-safari.jpg",
+    "uploads/chitwan-national-park-12-XL.jpg",
+    "uploads/bardiya-national-park-tour.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:58:28.489Z"
+}

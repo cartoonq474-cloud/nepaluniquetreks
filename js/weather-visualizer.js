@@ -721,9 +721,25 @@ function getSplinePath(points, includeM = true) {
   return d;
 }
 
+function getInlineWeatherChartData() {
+  try {
+    const el = document.getElementById('trip-chart-data');
+    if (!el || !el.textContent) return null;
+    const parsed = JSON.parse(el.textContent);
+    return parsed && typeof parsed === 'object' ? parsed : null;
+  } catch (e) {
+    return null;
+  }
+}
+
 export function renderWeatherChart(containerId) {
   const container = document.getElementById(containerId);
   if (!container) return;
+
+  const inlineData = getInlineWeatherChartData();
+  if (inlineData && inlineData.key && Array.isArray(inlineData.weatherPoints) && inlineData.weatherPoints.length) {
+    trekDailyWeather[inlineData.key] = inlineData.weatherPoints;
+  }
 
   const isDaily = currentTab === "daily";
   const isFahrenheit = tempUnit === "f";
@@ -740,7 +756,10 @@ export function renderWeatherChart(containerId) {
       max: d.max + offset
     }));
   } else {
-    points = monthData.map(m => ({
+    const srcMonths = (inlineData && Array.isArray(inlineData.monthData) && inlineData.monthData.length === 12)
+      ? inlineData.monthData
+      : monthData;
+    points = srcMonths.map(m => ({
       label: m.name,
       min: m.min,
       max: m.max
@@ -748,19 +767,22 @@ export function renderWeatherChart(containerId) {
   }
 
   // Dimensions
-  const width = isDaily ? 1000 : 800; // Scrollable if daily
-  const height = 300;
-  const paddingLeft = isDaily ? 130 : 60;
-  const paddingRight = 40;
-  const paddingTop = 50;
-  const paddingBottom = 60;
+  const paddingLeft = isDaily ? 140 : 64;
+  const paddingRight = 72;
+  const paddingTop = 52;
+  const paddingBottom = 78;
+  const width = isDaily ? Math.max(850, paddingLeft + paddingRight + Math.max(1, points.length - 1) * 76) : 820; // Scrollable if daily
+  const height = 315;
 
   const allVals = points.flatMap(p => [p.min, p.max]);
   const maxVal = Math.max(...allVals) + 5;
   const minVal = Math.min(...allVals) - 5;
 
-  const getX = (index) => paddingLeft + (index / (points.length - 1)) * (width - paddingLeft - paddingRight);
-  const getY = (val) => height - paddingBottom - ((val - minVal) / (maxVal - minVal)) * (height - paddingTop - paddingBottom);
+  const getX = (index) => paddingLeft + (points.length > 1 ? (index / (points.length - 1)) : 0.5) * (width - paddingLeft - paddingRight);
+  const getY = (val) => {
+    const span = maxVal - minVal;
+    return height - paddingBottom - ((val - minVal) / (span > 0 ? span : 1)) * (height - paddingTop - paddingBottom);
+  };
 
   // Generate Splines and Range Areas
   let pathHTML = "";
@@ -822,7 +844,7 @@ export function renderWeatherChart(containerId) {
             ${monthData.map(m => `<option value="${m.name}" ${currentMonth === m.name ? 'selected' : ''}>${m.name}</option>`).join('')}
           </select>
         ` : `
-          <span style="font-size: 1.1rem; font-weight: 700; color: var(--color-primary-navy);">Everest Averages</span>
+          <span style="font-size: 1.1rem; font-weight: 700; color: var(--color-primary-navy);">${inlineData && inlineData.weatherTitle ? inlineData.weatherTitle : 'Everest Averages'}</span>
         `}
       </div>
 
@@ -838,7 +860,7 @@ export function renderWeatherChart(containerId) {
 
     <!-- Scrollable Chart Container -->
     <div class="weather-scroll-container">
-      <svg viewBox="0 0 ${width} ${height}" style="width: 100%; max-width: 100%; min-width: ${isDaily ? '850px' : '650px'}; height: auto; display: block; overflow: visible;">
+      <svg viewBox="0 0 ${width} ${height}" style="width: 100%; max-width: 100%; min-width: ${isDaily ? `${width}px` : '650px'}; height: auto; display: block; overflow: visible;">
         <defs>
           <linearGradient id="weatherGradient" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="${colorTheme}" stop-opacity="${fillOpacity}"/>

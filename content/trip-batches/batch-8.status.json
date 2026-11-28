@@ -1,0 +1,52 @@
+{
+  "batch": 8,
+  "verifiedAt": "2026-11-28T12:27:53.385Z",
+  "count": 9,
+  "packages": [
+    {
+      "order": 71,
+      "sourceSlug": "ganesh-himal-rupina-la-trek",
+      "targetHtmlPath": "trek/ganesh-himal-rupina-la-trek/index.html"
+    },
+    {
+      "order": 72,
+      "sourceSlug": "annapurna-panorama-trekking",
+      "targetHtmlPath": "trek/annapurna-panorama-trekking/index.html"
+    },
+    {
+      "order": 73,
+      "sourceSlug": "everest-expedition-in-nepal",
+      "targetHtmlPath": "trek/everest-expedition-in-nepal/index.html"
+    },
+    {
+      "order": 74,
+      "sourceSlug": "everest-sherpa-village-trek",
+      "targetHtmlPath": "trek/everest-sherpa-village-trek/index.html"
+    },
+    {
+      "order": 75,
+      "sourceSlug": "everest-three-high-pass-trek",
+      "targetHtmlPath": "trek/everest-three-passes-trek/index.html"
+    },
+    {
+      "order": 76,
+      "sourceSlug": "manaslu-circuit-trek-package",
+      "targetHtmlPath": "trek/manaslu-circuit-trek-package/index.html"
+    },
+    {
+      "order": 77,
+      "sourceSlug": "chulu-far-east-peak-climbing",
+      "targetHtmlPath": "trek/chulu-far-east-peak-climbing/index.html"
+    },
+    {
+      "order": 78,
+      "sourceSlug": "upper-mustang-tea-house-trek",
+      "targetHtmlPath": "trek/upper-mustang-tea-house-trek/index.html"
+    },
+    {
+      "order": 79,
+      "sourceSlug": "upper-mustang-muktinath-trek",
+      "targetHtmlPath": "trek/upper-mustang-muktinath-trek/index.html"
+    }
+  ]
+}

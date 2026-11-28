@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "order": 17,
+  "batch": 2,
+  "sourceSlug": "namobuddha-hiking",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/namobuddha-hiking",
+  "targetDir": "trek/namobuddha-hiking",
+  "templateType": "trek",
+  "regionLabel": "Nepal Foothills",
+  "sourceCategory": "Short & Easy Trekking Routes in Nepal",
+  "title": "Namobuddha Hiking",
+  "seoTitle": "Namobuddha Hiking",
+  "metaDescription": "Namobuddha hiking is the pilgrimage site of the Buddhist people which lies around 40 km east of Kathmandu valley which is situated at the elevation of",
+  "heroLead": "Namobuddha hiking is the pilgrimage site of the Buddhist people which lies around 40 km east of Kathmandu valley which is situated at the elevation of 1750 m. Phulchowki is the name of Hindu goddess and Hindu pilgrims make their pilgrimage tour to Phulchowki Namobuddha hiking is the short pilgrimage trek that takes you to the Buddhist Stupa of Namobuddha and the Phulchowki hill (2782 m) the highest hill that surrounds the Kathmandu valley.",
+  "heroMore": "This trek offers the awe some vistas of the mountains and the culture of the ethnic people. This trek is also famous for the bird watching.",
+  "durationDays": 6,
+  "durationDisplay": "6 Days",
+  "maxElevationM": 2765,
+  "facts": {
+    "duration": "6 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "2765 m",
+    "grade": "Easy",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House",
+    "best season": "Any"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/namobudha-hiking.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Namobuddha hiking is the pilgrimage site of the Buddhist people which lies around 40 km east of Kathmandu valley which is situated at the elevation of 1750 m. Phulchowki is the name of Hindu goddess and Hindu pilgrims make their pilgrimage tour to Phulchowki Namobuddha hiking is the short pilgrimage trek that takes you to the Buddhist Stupa of Namobuddha and the Phulchowki hill (2782 m) the highest hill that surrounds the Kathmandu valley. This trek offers the awe some vistas of the mountains and the culture of the ethnic people. This trek is also famous for the bird watching. During the Namobuddha Phulchowki hike you visit the Buddhist Stupa of Namobuddha. It is believed that in this place Buddha gives the flesh of his body to tigress to feed her offspring. In Namobuddha you can interact with the Buddhist monks and nuns which is the opportunity to experience the culture and lifestyle of them.</p><p>Namobuddha Phulchowki trek begins with the drive from Kathmandu to Dhulikhel from where you can reach Namobuddha in 2/3 hours via Panauti. Dhulikhel and Panauti are Newari villages where you can get knowledge about their typical culture. Then you head to Phulchowki hill from where you can observe the panorama of the mountain range like Langtang, Rolwaling, Gauri Shankar, Jugal etc. you pass through the thick forests of Rhododendron, Mongolia and Sal tree. This place is also famous for bird watching. In this place you can see various species of birds like Black eagle, Common Hill Partridge, Collared Owlet, Crimson-breasted Pied, Spiny Babblers, Striated Bulbul, Besra etc. in this trek you also visit Godavari which is rich in flora and fauna as well as the wild lives. This trek is the easy trek and it does not require prior experience of hiking or trekking. You can go for Namobuddha Phulchowki trekking throughout the year.</p><p>Outline Itinerary<br />Day 01: Drive from Kathmandu to Dhulikhel and trek to Namo Buddha.</p><p>Day 02: Trek from Namobuddha to Balthali</p><p>Day 03: Trek from Balthali to Bebar Danda</p><p>Day 04: Trek from Bebar Danda to Phulchowki</p><p>Day 05: Trek from Phulchowki to Godavari and stay overnight at Godavari.</p><p>Day 06: Drive from Godavari to Kathmandu.</p></div></div>",
+  "overviewPlainWordCount": 365,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Drive from Kathmandu to Dhulikhel and trek to Namo Buddha.",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive from Kathmandu to Dhulikhel and trek to Namo Buddha."
+    },
+    {
+      "day": 2,
+      "title": "Trek from Namobuddha to Balthali",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek from Namobuddha to Balthali"
+    },
+    {
+      "day": 3,
+      "title": "Trek from Balthali to Bebar Danda",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek from Balthali to Bebar Danda"
+    },
+    {
+      "day": 4,
+      "title": "Trek from Bebar Danda to Phulchowki",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek from Bebar Danda to Phulchowki"
+    },
+    {
+      "day": 5,
+      "title": "Trek from Phulchowki to Godavari",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Trek from Phulchowki to Godavari and stay overnight at Godavari."
+    },
+    {
+      "day": 6,
+      "title": "Drive from Godavari to Kathmandu.",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive from Godavari to Kathmandu."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "All hotel, airport arrival departure transfers",
+        "2 night hotel in Kathmandu 3-star category on BB plan",
+        "First night evening welcome dinner, before departure Kathmandu farewell dinner",
+        "All accommodation and food during the mountain",
+        "English speaking tour leader (trekking guide) an experienced guide about tourism, culture, religion, mountain, trekkers 1 assistant guide (Sherpa) porter to carry luggage (2 trekkers:1 porter )including their salary, insurance, equipment, transportation, food and lodging",
+        "Nepal unique treks can provide which is returned after trip completion (down jacket, sleeping bag, duffel trekking bag, first aid kit, trekking poles",
+        "Nepal unique treks provide each trekking map, trekking t-shirt",
+        "All kind of necessary paperwork TIMS card, national park permit",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee (need to bring accurate US cash and two passport size photographs)",
+        "Airport departure tax (per person NPR 200)",
+        "International airfare to and from Kathmandu",
+        "Excess baggage charge",
+        "Your own meals around city, lunch, dinner, drinks and also in case of early return from the mountain than the scheduled itinerary",
+        "Extra night accommodation in city because of early arrival, late departure and early return from the mountain (due to any reason )than the schedule itinerary",
+        "Travel and rescue insurance, in case (can help for organized helicopter hospital)",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for your travel guide, mountain guide, and porter, driver, hotel staff"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Namobuddha Hiking (6 Days)",
+    "weatherTitle": "Namobuddha Hiking Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Drive from Kathmandu t..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 2",
+        "spot": "Trek from Namobuddha t..",
+        "altitudeM": 2765,
+        "altitudeFt": 9072
+      },
+      {
+        "day": "Day 3",
+        "spot": "Trek from Balthali to ..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 4",
+        "spot": "Trek from Bebar Danda ..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 5",
+        "spot": "Trek from Phulchowki t..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 6",
+        "spot": "Drive from Godavari to..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (2765 m)",
+        "min": -4,
+        "max": 11
+      },
+      {
+        "label": "Day 3 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 4 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 5 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 6 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/namobudha-hiking.jpg",
+    "images/treks/ghorepani-poon-hill/poon-hill-sunrise.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-morning-light-24.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-14.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-32.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:54:37.643Z"
+}

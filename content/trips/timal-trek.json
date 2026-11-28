@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "order": 1,
+  "batch": 1,
+  "sourceSlug": "timal-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/timal-trek",
+  "targetDir": "trek/timal-trek",
+  "templateType": "trek",
+  "regionLabel": "Nepal Foothills",
+  "sourceCategory": "Short & Easy Trekking Routes in Nepal",
+  "title": "Timal Trek",
+  "seoTitle": "Timal Trek",
+  "metaDescription": "Timal area is very rich in terms of Tamang cultures, festivals, traditions, systems, customs, religion and rituals so the visitors who want to know lo",
+  "heroLead": "The Timal trek is another excellent alternative to trekking trips in Nepal, offering beautiful natural views and a unique Timal culture. Timal widely refers to the origin places of the Tamang ethnic people, so the Sailung and Timal trek takes you to some of the typical villages and places related to the Tamang ethnic people.",
+  "heroMore": "The Timal area was under the regime of the so-called Tamang King Rinjen Dorje before the unification of Nepal. The Timal area is vibrant in terms of Tamang cultures, festivals, traditions, systems, customs, religion, and rituals, so the visitors who want to know long preserved cultures, traditions, systems, customs, religion, and rituals of the Timal area, this trek is very suitable for them.",
+  "durationDays": 13,
+  "durationDisplay": "13 Days",
+  "maxElevationM": 3146,
+  "facts": {
+    "duration": "13 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "3146 m",
+    "grade": "Easy",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House",
+    "best season": "Any"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/timal trek.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_4444.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_4466.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_4479.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_4488.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_4503.JPG"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>The Timal trek is another excellent alternative to trekking trips in Nepal, offering beautiful natural views and a unique Timal culture. Timal widely refers tothe origin places of the Tamang ethnic people, so the Sailung and Timal trek takes you to some of the typical villages and places related to the Tamang ethnic people. The Timal area was under the regime of the so-called Tamang King Rinjen Dorje before the unification of Nepal.The </p><p>Timal area is vibrant in terms of Tamang cultures, festivals, traditions, systems, customs, religion, and rituals, so the visitors who want to know long preserved cultures, traditions, systems, customs, religion, and rituals of the Timal area, this trek is very suitable for them. The Tamang people of the Timal area still follow their traditions, such as the lama and the Jhankri. Similarly Tamang people of the Timal region still follow their old system called Choho.</p><p>Choho is a clan leader, first selected by community members who continue under a form of hereditary succession. Choho plays multiple roles in the community, such as administrator, judiciary, and spiritual leader. For these services, the community members offer him gifts of alcohol and the head of a sacrificed animal. So during the Timal area trekking, trekkers can know and experience such types of various things related to the culture, tradition, system, custom, and rituals of the Tamang people.</p><p>The highest point of this trek is Sailung (3100m), from wherethe beautiful mountains of the Makalu range to the Dhaulagiri range can be seen. Sailung is naturally a very attractive place where, in the winter season, trekkers can enjoy the snow. This place is also famous for different kinds of flower including rhododendron.</p><p>Moreover, from Sailun,g trekkers can see the world&#39;s highest mountain, Mount Everest, and the plain landscapes of Tarai at once, and this will be the amazing experience to the Trekkers. This trek starts from Phalate Danda and ends in Namobuddha. On the way, it completes the romantic and important journey of several Tamang villages of the Timal area, such as Vimsen Than, Arubot Village, Thulo Parsel, and Kot Timal.</p><p>Highlights of the trek: Timal cultures, festivals, traditions, systems, customs, religion and rituals, stunning glimpse of beautiful mountains fromthe Makalu range to the Dhaulagiri range.</p></div></div>",
+  "overviewPlainWordCount": 374,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrive at Kathmandu and transfer to the hotel"
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu sightseeing day and preparation",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Kathmandu sightseeing day and preparation day for Timal culture trek"
+    },
+    {
+      "day": 3,
+      "title": "Drive Mude Bazaar",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Drive Mude Bazaar, Dolakha by bus/private car"
+    },
+    {
+      "day": 4,
+      "title": "Trek Khola Kharka",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Khola Kharka"
+    },
+    {
+      "day": 5,
+      "title": "Trek Dhoromba Gompa",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Dhoromba Gompa"
+    },
+    {
+      "day": 6,
+      "title": "Trek Bag Dhunga",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Bag Dhunga"
+    },
+    {
+      "day": 7,
+      "title": "Trek Gurase Bhanjyang",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Gurase Bhanjyang"
+    },
+    {
+      "day": 8,
+      "title": "Trek Bholung Village",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Bholung Village"
+    },
+    {
+      "day": 9,
+      "title": "Trek Chapakhori",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Chapakhori"
+    },
+    {
+      "day": 10,
+      "title": "Trek Kot Timal",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Kot Timal"
+    },
+    {
+      "day": 11,
+      "title": "Trek Namobuddha",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Namobuddha"
+    },
+    {
+      "day": 12,
+      "title": "Drive back to Kathmandu",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive back to Kathmandu"
+    },
+    {
+      "day": 13,
+      "title": "Final departure",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Final departure to the destination"
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "All hotel, airport arrival departure transfers",
+        "2 night hotel in Kathmandu 3-star category on BB plan",
+        "First night evening welcome dinner, before departure Kathmandu farewell dinner",
+        "All accommodation and food during the mountain",
+        "English speaking tour leader (trekking guide) an experienced guide about tourism, culture, religion, mountain, trekkers 1 assistant guide (Sherpa) porter to carry luggage (2 trekkers:1 porter )including their salary, insurance, equipment, transportation, food and lodging",
+        "Nepal unique treks can provide which is returned after trip completion (down jacket, sleeping bag, trekking bag, first aid kit, trekking poles",
+        "Nepal unique treks provide each trekking map, trekking t-shirt",
+        "All kind of necessary paperwork TIMS card, national park permit",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee (need to bring accurate US cash and two passport size photographs)",
+        "Airport departure tax (per person NPR 200)",
+        "International airfare to and from Kathmandu",
+        "Excess baggage charge",
+        "Your own meals around city, lunch, dinner, drinks and also in case of early return from the mountain than the scheduled itinerary",
+        "Extra night accommodation in city because of early arrival, late departure and early return from the mountain (due to any reason )than the schedule itinerary",
+        "Travel and rescue insurance, in case (can help for organized helicopter hospital)",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for your travel guide, mountain guide, and porter, driver, hotel staff"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Timal Trek (13 Days)",
+    "weatherTitle": "Timal Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu sightseeing ..",
+        "altitudeM": 3146,
+        "altitudeFt": 10322
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive Mude Bazaar",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 4",
+        "spot": "Trek Khola Kharka",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 5",
+        "spot": "Trek Dhoromba Gompa",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 6",
+        "spot": "Trek Bag Dhunga",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 7",
+        "spot": "Trek Gurase Bhanjyang",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 8",
+        "spot": "Trek Bholung Village",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 9",
+        "spot": "Trek Chapakhori",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 10",
+        "spot": "Trek Kot Timal",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 11",
+        "spot": "Trek Namobuddha",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 12",
+        "spot": "Drive back to Kathmandu",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 13",
+        "spot": "Final departure",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (3146 m)",
+        "min": -6,
+        "max": 9
+      },
+      {
+        "label": "Day 3 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 4 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 5 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 6 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 7 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 8 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 9 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 10 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 11 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 12 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 13 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/timal trek.JPG",
+    "uploads/IMG_4444.JPG",
+    "uploads/IMG_4466.JPG",
+    "uploads/IMG_4479.JPG",
+    "uploads/IMG_4488.JPG",
+    "uploads/IMG_4503.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:39:44.739Z"
+}

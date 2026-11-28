@@ -1,0 +1,57 @@
+{
+  "batch": 1,
+  "verifiedAt": "2026-11-28T12:27:53.369Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 1,
+      "sourceSlug": "timal-trek",
+      "targetHtmlPath": "trek/timal-trek/index.html"
+    },
+    {
+      "order": 2,
+      "sourceSlug": "rolwaling-trek",
+      "targetHtmlPath": "trek/rolwaling-valley-trek/index.html"
+    },
+    {
+      "order": 3,
+      "sourceSlug": "safari-holiday",
+      "targetHtmlPath": "tour/chitwan-national-park-safari/index.html"
+    },
+    {
+      "order": 4,
+      "sourceSlug": "rara-lake-trek",
+      "targetHtmlPath": "trek/rara-lake-trek/index.html"
+    },
+    {
+      "order": 5,
+      "sourceSlug": "sivapuri-hiking",
+      "targetHtmlPath": "trek/sivapuri-hiking/index.html"
+    },
+    {
+      "order": 6,
+      "sourceSlug": "fikuri-hill-trek",
+      "targetHtmlPath": "trek/fikuri-hill-trek/index.html"
+    },
+    {
+      "order": 7,
+      "sourceSlug": "mt-cholatse-peak",
+      "targetHtmlPath": "trek/mt-cholatse-peak/index.html"
+    },
+    {
+      "order": 8,
+      "sourceSlug": "upper-dolpo-trek",
+      "targetHtmlPath": "trek/upper-dolpo-trek/index.html"
+    },
+    {
+      "order": 9,
+      "sourceSlug": "tsum-valley-trek",
+      "targetHtmlPath": "trek/tsum-valley-trek/index.html"
+    },
+    {
+      "order": 10,
+      "sourceSlug": "mardi-himal-trek",
+      "targetHtmlPath": "trek/mardi-himal-trek/index.html"
+    }
+  ]
+}

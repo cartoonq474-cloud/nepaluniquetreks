@@ -1,0 +1,57 @@
+{
+  "batch": 9,
+  "verifiedAt": "2026-11-28T12:27:53.385Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 81,
+      "sourceSlug": "mera-peak-climbing-from-khare",
+      "targetHtmlPath": "trek/mera-peak-climbing-from-khare/index.html"
+    },
+    {
+      "order": 82,
+      "sourceSlug": "everest-base-camp-luxury-trek",
+      "targetHtmlPath": "trek/everest-base-camp-luxury-trek/index.html"
+    },
+    {
+      "order": 83,
+      "sourceSlug": "ganesh-himal-singla-pass-trek",
+      "targetHtmlPath": "trek/ganesh-himal-singla-pass-trek/index.html"
+    },
+    {
+      "order": 84,
+      "sourceSlug": "langtang-gosaikunda-lake-trek",
+      "targetHtmlPath": "trek/langtang-gosaikunda-trek/index.html"
+    },
+    {
+      "order": 85,
+      "sourceSlug": "mardi-himal-trek-from-pokhara",
+      "targetHtmlPath": "trek/mardi-himal-trek-from-pokhara/index.html"
+    },
+    {
+      "order": 86,
+      "sourceSlug": "ganesh-himal-ruby-valley-trek",
+      "targetHtmlPath": "trek/ganesh-himal-ruby-valley-trek/index.html"
+    },
+    {
+      "order": 87,
+      "sourceSlug": "gokyo-cho-la-pass-trek-via-ebc",
+      "targetHtmlPath": "trek/gokyo-lakes-and-cho-la-pass/index.html"
+    },
+    {
+      "order": 88,
+      "sourceSlug": "annapurna-base-camp-short-trek",
+      "targetHtmlPath": "trek/annapurna-base-camp-short-trek/index.html"
+    },
+    {
+      "order": 89,
+      "sourceSlug": "luxury-ghorepani-ghandruk-trek",
+      "targetHtmlPath": "trek/luxury-ghorepani-ghandruk-trek/index.html"
+    },
+    {
+      "order": 90,
+      "sourceSlug": "everest-base-camp-trek-by-road",
+      "targetHtmlPath": "trek/everest-base-camp-trek-by-road/index.html"
+    }
+  ]
+}

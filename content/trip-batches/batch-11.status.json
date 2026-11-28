@@ -1,0 +1,57 @@
+{
+  "batch": 11,
+  "verifiedAt": "2026-11-28T12:27:53.388Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 101,
+      "sourceSlug": "dhaulagiri-trek-and-dhampus-peak",
+      "targetHtmlPath": "trek/dhaulagiri-trek-and-dhampus-peak/index.html"
+    },
+    {
+      "order": 102,
+      "sourceSlug": "everest-base-camp-helicopter-tour",
+      "targetHtmlPath": "tour/everest-base-camp-helicopter-tour/index.html"
+    },
+    {
+      "order": 103,
+      "sourceSlug": "buddhist-pilgrimage-tour-of-nepal",
+      "targetHtmlPath": "tour/buddhist-pilgrimage-tour-of-nepal/index.html"
+    },
+    {
+      "order": 104,
+      "sourceSlug": "everest-high-pass-with-island-peak",
+      "targetHtmlPath": "trek/everest-high-pass-with-island-peak/index.html"
+    },
+    {
+      "order": 105,
+      "sourceSlug": "manaslu-circuit-trek-with-tsum-valley",
+      "targetHtmlPath": "trek/manaslu-tsum-valley-trek/index.html"
+    },
+    {
+      "order": 106,
+      "sourceSlug": "annapurna-circuit-with-poon-hill-trek",
+      "targetHtmlPath": "trek/annapurna-circuit-with-poon-hill-trek/index.html"
+    },
+    {
+      "order": 107,
+      "sourceSlug": "kathmandu-pokhara-chitwan-lumbini-tour",
+      "targetHtmlPath": "tour/kathmandu-pokhara-chitwan-lumbini-tour/index.html"
+    },
+    {
+      "order": 108,
+      "sourceSlug": "nepal-cultural-tour-with-poon-hill-trek",
+      "targetHtmlPath": "trek/nepal-cultural-tour-with-poon-hill-trek/index.html"
+    },
+    {
+      "order": 109,
+      "sourceSlug": "annapurna-base-camp-with-poon-hill-trek",
+      "targetHtmlPath": "trek/poon-hill-abc-trek/index.html"
+    },
+    {
+      "order": 110,
+      "sourceSlug": "gokyo-chola-pass-everest-base-camp-trek",
+      "targetHtmlPath": "trek/everest-base-camp-via-gokyo-lakes/index.html"
+    }
+  ]
+}

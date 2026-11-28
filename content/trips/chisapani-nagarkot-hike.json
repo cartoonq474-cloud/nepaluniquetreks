@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "order": 53,
+  "batch": 6,
+  "sourceSlug": "chisapani-nagarkot-hike",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/chisapani-nagarkot-hike",
+  "targetDir": "trek/chisapani-nagarkot-hike",
+  "templateType": "trek",
+  "regionLabel": "Nepal Foothills",
+  "sourceCategory": "Short & Easy Trekking Routes in Nepal",
+  "title": "Chisapani Nagarkot Hike",
+  "seoTitle": "Chisapani Nagarkot Hike",
+  "metaDescription": "Nagarkot Chisapani Hike is a quick respite from the hustle and bustle of the city and an excellent walking day tour on the outskirts of the Kathmandu",
+  "heroLead": "The Chisapani Nagarkot Hike is one of the shortest treks near Kathmandu, offering a perfect blend of natural beauty, cultural experience, and Himalayan scenery within a short timeframe. This Nagarkot hiking tour in Nepal is ideal for travelers who want to experience trekking in Nepal without committing to long and challenging routes.",
+  "heroMore": "This Kathmandu valley hiking tour usually takes 2 to 3 days and begins with a drive to Sundarijal, followed by a scenic hike through the lush forests of Shivapuri National Park. The trail passes through waterfalls, stone steps, and dense woodland, making it a refreshing nature hiking tour in Nepal.",
+  "durationDays": 3,
+  "durationDisplay": "3 Days",
+  "maxElevationM": 2194,
+  "facts": {
+    "duration": "3 Days",
+    "accommodation": "Hotel, Guesthouse",
+    "max elevation": "2,194m",
+    "grade": "Easy",
+    "activity": "Hiking, Culture Tour",
+    "transportation": "Private Car",
+    "treks type": "Hotel",
+    "best season": "March, April, May and Oct, Nov, Dec"
+  },
+  "pricing": {
+    "primaryPriceUsd": 295,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$295",
+        "priceUsd": 295
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/chisapani-nagarkot-hike.jpg"
+  ],
+  "highlights": [
+    "Spectacular sunrise view over the Himalayas from Nagarkot",
+    "Easy and beginner-friendly trekking route",
+    "Walk through Shivapuri National Park",
+    "Experience local Tamang and Sherpa culture",
+    "Panoramic views of Langtang, Ganesh Himal, and even Everest (on clear days)",
+    "Perfect weekend hiking trip from Kathmandu"
+  ],
+  "overviewHtml": "<div> <div><h2><strong>Chisapani Nagarkot Hike Introduction</strong></h2><p>If you are looking for a short yet rewarding trekking experience in Nepal, the <strong>Chisapani Nagarkot Hike</strong> is one of the best options. Perfect for beginners, families, and travelers with limited time, this hike offers a blend of natural beauty, cultural encounters, and breathtaking Himalayan views&mdash;all within just a few days.</p><p>Organized by <a href=\"https://www.nepaluniquetreks.com/\"><strong>Nepal Unique Treks</strong></a>, this hike takes you through lush forests, traditional villages, and scenic ridgelines, culminating in a stunning sunrise view from Nagarkot.</p><h2><strong> Chisapani Nagarkot Hike Overview</strong></h2><p>The <strong>Chisapani Nagarkot Hike </strong>is one of the shortest treks near Kathmandu, offering a perfect blend of natural beauty, cultural experience, and Himalayan scenery within a short timeframe. This <strong>Nagarkot hiking tour in Nepal</strong> is ideal for travelers who want to experience <strong>trekking in Nepal </strong>without committing to long and challenging routes.</p><p>This <strong>Kathmandu valley hiking tour </strong>usually takes 2 to 3 days and begins with a drive to Sundarijal, followed by a scenic hike through the lush forests of <strong>Shivapuri National Park</strong>. The trail passes through waterfalls, stone steps, and dense woodland, making it a refreshing nature hiking tour in Nepal. The first overnight stop is Chisapani, a peaceful hilltop village known for its panoramic mountain views.</p><p>From Chisapani, the trek continues along a beautiful ridge through traditional villages and terraced farmlands. This section highlights the charm of cultural village hiking in Nepal, where trekkers can observe local lifestyles and interact with friendly communities. The journey ends at Nagarkot, one of the most famous viewpoints for a Nagarkot sunrise view hike, offering breathtaking views of the Himalayas, including <strong>Langtang</strong>, <strong>Ganesh Himal</strong>, and even <strong>Mount Everest</strong> on clear days.</p><p>The <strong>Chisapani Nagarkot trek </strong>difficulty level is easy to moderate, making it suitable for beginners, families, and anyone looking for an easy hiking package in Nepal. With its accessibility, scenic diversity, and short duration, this trek is considered one of the best weekend hiking trips from Kathmandu and a perfect introduction to trekking in Nepal.</p><h2><strong>Why Choose the Chisapani Nagarkot Hike?</strong></h2><p>Nepal is famous for long and challenging treks, but not everyone has weeks to explore the Himalayas. This short trek near Kathmandu is ideal for those who want a quick escape into nature without compromising on experience.</p><h2><strong>Chisapani Nagarkot Hike Highlights:</strong></h2><ul><li>Spectacular sunrise view over the Himalayas from Nagarkot </li><li>Easy and beginner-friendly trekking route </li><li>Walk through Shivapuri National Park </li><li>Experience local Tamang and Sherpa culture </li><li>Panoramic views of Langtang, Ganesh Himal, and even Everest (on clear days) </li><li>Perfect weekend hiking trip from Kathmandu </li></ul><h3><strong>Trek Duration:</strong></h3><p>2&ndash;3 Days</p><h3><strong>Maximum Elevation:</strong></h3><p>Nagarkot (2,175 meters)</p><h3><strong>Difficulty Level:</strong></h3><p>Easy to Moderate</p><h3><strong>Best For:</strong></h3><ul><li>Beginners </li><li>Families </li><li>Solo travelers </li><li>Short holiday visitors </li></ul></div></div>",
+  "overviewPlainWordCount": 440,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Drive from Kathmandu – Sundarijal and hike to Chisapani",
+      "altitudeM": 2165,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Lunch / Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Early in the morning your Tour guide and driver will come to your Hotel. After having breakfast in your hotel. Then drive from Kathmandu to Sundarijal it will take about (around 1 hour). Arrive in Sundarijal. Start the hike from Sundarijal passing through Sivapuri National Park and Some local villages. The day hike will be into the rainforest and on the sheds. It takes 5/6 hrs to ach in Chisapani."
+    },
+    {
+      "day": 2,
+      "title": "Chisapani – Nagarkot Hike 2194m, 6/7 hrs",
+      "altitudeM": 2194,
+      "walkingTime": "6/7 hrs",
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "3-star Hotel",
+      "description": "The hike from Chisapani to Nagarkot is a popular trek in the Kathmandu Valley of Nepal, offering stunning views of the Himalayas, lush landscapes, and cultural experiences. Here's a general overview of the trek: Chisapani Chisapani is a small village situated at an altitude of around 2,194 meters (7,198 feet). The trail leads through rhododendrons and oak forests, providing a beautiful natural setting. Chauki Bhanjyang is a small settlement along the way. The trek continues through charming villages and terraced fields. As you ascend, the views of the Himalayas become more spectacular. Nagarkot, at an altitude of about 2,175 meters (7,136 feet), is a popular hill station known for its panoramic views of the mountains, including Everest on clear days. The Chisapani to Nagarkot trek can usually be completed in 2 to 3 days, depending on your pace and the specific route you take. The distance is approximately 25 kilometers (15.5 miles). The best time to undertake this trek is during the spring (March to May) and autumn (September to November) seasons when the weather is clear, and the views are stunning. During these months, the temperatures are moderate, making it an ideal time for trekking."
+    },
+    {
+      "day": 3,
+      "title": "Nagarkot – Changunarayan and drive back to hotel at Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "3-star Hotel",
+      "description": "Nagarkot is a popular hill station located near Kathmandu, Nepal, known for its stunning sunrise views over the Himalayas. One of the main attractions of Nagarkot is its breathtaking sunrise views. The early morning hours are the best time to witness the sun rising over the snow-capped peaks of the Himalayas, including Mount Everest on a clear day. The early morning in Nagarkot is characterized by crisp and refreshing mountain air. The atmosphere is serene, and you can enjoy the tranquility of the surroundings as the day begins. Nagarkot is a quieter area compared to the bustling city of Kathmandu, the early morning hours provide a peaceful and tranquil atmosphere. It's an excellent time for meditation, reflection, or simply enjoying the natural beauty around you. It is the home to various bird species. In the early morning, you might have the opportunity to observe different birds as they become active during this time. If you enjoy hiking, early morning is an ideal time to explore some of the hiking trails around Nagarkot. The cool weather and the scenic surroundings make for a pleasant hiking experience. After having breakfast start hiking to Changunarayan via Telkot Vanjyang and passing by some villages. Visit Changu Narayan Temple then drive to Kathmandu."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 295 per person",
+      "includes": [
+        "Kathmandu to SundariJal by private tourist vehicle",
+        "English speaking responsible tour guide.",
+        "Shivapuri National Park fee",
+        "Guesthouse accommodation in Chisapani,",
+        "3-star Categories Hotel and Resort in Nagarkot",
+        "2 breakfast, 2 Lunch and 2 Dinner",
+        "Changunarayan to Kathmandu by private car",
+        "1 Local porter, Trekking duffel bags"
+      ],
+      "excludes": [
+        "All International flight",
+        "Travel insurance, Medical medication",
+        "Personal Hiking gear",
+        "Extra night accommodation",
+        "Extra food, any bar bills, Laundry, Telephone",
+        "Tips for guides, drivers, and staff",
+        "Extra activities than our Itineraries"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Chisapani Nagarkot Hike (3 Days)",
+    "weatherTitle": "Chisapani Nagarkot Hike Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Drive from Kathmandu",
+        "altitudeM": 2165,
+        "altitudeFt": 7103
+      },
+      {
+        "day": "Day 2",
+        "spot": "Chisapani",
+        "altitudeM": 2194,
+        "altitudeFt": 7198
+      },
+      {
+        "day": "Day 3",
+        "spot": "Nagarkot",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (2165 m)",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "label": "Day 2 (2194 m)",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "label": "Day 3 (1345 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/chisapani-nagarkot-hike.jpg",
+    "images/treks/ghorepani-poon-hill/poon-hill-sunrise.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-morning-light-24.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-14.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-32.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:56:08.957Z"
+}

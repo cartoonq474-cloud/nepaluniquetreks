@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const defaultOrderB = parseInt(b.getAttribute('data-order') || '0', 10);
 
       if (activeSort === 'price-low') {
-        return priceA - priceB;
+        return (priceA || 9999999) - (priceB || 9999999);
       } else if (activeSort === 'price-high') {
         return priceB - priceA;
       } else if (activeSort === 'duration-short') {

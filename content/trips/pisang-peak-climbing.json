@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "order": 34,
+  "batch": 4,
+  "sourceSlug": "pisang-peak-climbing",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/pisang-peak-climbing",
+  "targetDir": "trek/pisang-peak-climbing",
+  "templateType": "trek",
+  "regionLabel": "Peak Climbing",
+  "sourceCategory": "Peak Climbing in Nepal",
+  "title": "Pisang Peak Climbing",
+  "seoTitle": "Pisang peak climbing, Cost, Itinerary and Guide",
+  "metaDescription": "Pisang Peak Climbing is one of the popular climbing peaks of Nepal. Situating at the Annapurna regions,pisang peak climbing. is not included in the ex",
+  "heroLead": "Pisang Peak Climbing is one of the most thrilling and scenic adventures among the trekking peaks in Nepal. Standing at 6,091 meters above sea level in the heart of the Annapurna region, Pisang Peak offers a perfect blend of high-altitude trekking and alpine climbing.",
+  "heroMore": "Known for its stunning location above the village of Pisang, this peak is ideal for both novice climbers looking for their first Himalayan summit and experienced mountaineers seeking a less crowded yet rewarding climb. As a popular trekking peak in Nepal, the Pisang Peak Expedition is often combined with the classic Annapurna Circuit, adding both challenge and beauty to the journey.",
+  "durationDays": 19,
+  "durationDisplay": "19 Days",
+  "maxElevationM": 6091,
+  "facts": {
+    "duration": "19 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "6091 m",
+    "grade": "Moderate",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/pisang-peak-climbing-1.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Pisang Peak Climbing is one of the most thrilling and scenic adventures among the trekking peaks in Nepal. Standing at 6,091 meters above sea level in the heart of the Annapurna region, Pisang Peak offers a perfect blend of high-altitude trekking and alpine climbing. Known for its stunning location above the village of Pisang, this peak is ideal for both novice climbers looking for their first Himalayan summit and experienced mountaineers seeking a less crowded yet rewarding climb. As a popular trekking peak in Nepal, the Pisang Peak Expedition is often combined with the classic Annapurna Circuit, adding both challenge and beauty to the journey.</p><p><br />Climbing Pisang Peak begins with a trek through the diverse landscapes of the Annapurna region, passing through lush valleys, terraced fields, and charming Gurung and Manangi villages. The Pisang Peak Climbing Itinerary generally follows the route of the Annapurna Circuit up to the village of Pisang, from where the real mountaineering adventure begins. The route involves glacier travel, steep snow slopes, and a final push to the summit, offering panoramic views of the Annapurna Massif, Manaslu, Gangapurna, Tilicho Peak, and the Chulu range. This makes Pisang Peak Nepal one of the most scenic and satisfying peaks to climb in the region.</p><p><br />Pisang Peak Trekking and Climbing offers the added advantage of high-altitude acclimatization, thanks to the gradual ascent along the Annapurna trail. Most climbers take several days to adapt to the increasing altitude, which enhances safety and summit success rates. The standard Pisang Peak Climbing Package includes all necessary logistics such as accommodation, meals, permits, experienced climbing guides, and climbing equipment, ensuring a smooth and safe expedition. For those new to Himalayan climbing, a Guided Pisang Peak Climb provides professional support, technical training, and expert decision-making on the mountain, which is crucial for a successful and enjoyable experience.</p><p><br />The Pisang Peak Climbing Cost varies depending on group size, services, route customization, and inclusion of additional trekking destinations such as Tilicho Lake or Thorong La Pass. Many climbers opt for Pisang Peak via Annapurna Circuit to maximize their adventure by combining one of Nepal&rsquo;s most iconic treks with a high-altitude climb. This not only enriches the cultural and natural experience but also makes the journey more rewarding and memorable.</p><p><br />As part of the Annapurna Region Peak Climbing experience, Pisang Peak Adventure stands out for its balanced mix of trekking and technical climbing, making it a favored choice among Himalayan enthusiasts. The Best Time for Pisang Peak Climbing is during the spring (March to May) and autumn (September to November) seasons when the weather is stable, skies are clear, and mountain views are at their best. These periods also offer optimal climbing conditions with minimal risk of snowfall or avalanche hazards.</p><p><br />Whether you&#39;re an aspiring climber or a seasoned trekker aiming for a Himalayan summit, Pisang Peak Climb is a challenging yet accessible expedition. With proper planning, acclimatization, and professional support, Pisang Peak Climbing in Nepal delivers an unforgettable high-altitude adventure that combines nature, culture, and achievement in one of the most spectacular settings on Earth.</p></div></div>",
+  "overviewPlainWordCount": 509,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1300,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrival in Kathmandu (1,300m/4,264ft)"
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu: Trip Preparation Day",
+      "altitudeM": 1300,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Kathmandu: Trip Preparation Day"
+    },
+    {
+      "day": 3,
+      "title": "Drive: Kathmandu – Dharapani",
+      "altitudeM": 1960,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Drive: Kathmandu – Dharapani (1,960m/6,430ft) – 11 – 12 hours"
+    },
+    {
+      "day": 4,
+      "title": "Trek starts: Dharapani – Chame",
+      "altitudeM": 2710,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek starts: Dharapani – Chame (2,710m/8,891ft) – 5 – 6 hours"
+    },
+    {
+      "day": 5,
+      "title": "Chame – Upper Pisang",
+      "altitudeM": 3700,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Chame – Upper Pisang (3,700m/12,13ft) – 5 – 6 hours"
+    },
+    {
+      "day": 6,
+      "title": "Upper Pisang: Acclimatization",
+      "altitudeM": 3700,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Upper Pisang: Acclimatization"
+    },
+    {
+      "day": 7,
+      "title": "Upper Pisang – Pisang Peak Base Camp",
+      "altitudeM": 4380,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Upper Pisang – Pisang Peak Base Camp (4,380m/14,370ft) – 4 – 5 hours"
+    },
+    {
+      "day": 8,
+      "title": "Pisang Peak Base Camp – High Camp",
+      "altitudeM": 5400,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Pisang Peak Base Camp – High Camp (5,400m/17,712ft) – 3 – 4 hours"
+    },
+    {
+      "day": 9,
+      "title": "Summit Day: High Camp -– Pisang Peak and back to base camp",
+      "altitudeM": 4380,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Summit Day: High Camp – Pisang Peak (6,091m/19,980ft) and back to base camp- 8 – 9 hours"
+    },
+    {
+      "day": 10,
+      "title": "Contingency Day",
+      "altitudeM": 4380,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Contingency Day"
+    },
+    {
+      "day": 11,
+      "title": "Pisang Peak Base Camp – Manang Valley",
+      "altitudeM": 3450,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Pisang Peak Base Camp – Manang Valley (3,450m/11,316ft) – 5 – 6 hours"
+    },
+    {
+      "day": 12,
+      "title": "Manang – Yak Kharka",
+      "altitudeM": 4110,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Manang – Yak Kharka (4,110m/13,484ft) – 3 – 4 hours"
+    },
+    {
+      "day": 13,
+      "title": "Yak Kharka – Thorang Phedi",
+      "altitudeM": 4420,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Yak Kharka – Thorang Phedi (4,420m/14,501ft) – 3 – 4 hours"
+    },
+    {
+      "day": 14,
+      "title": "Thorang Phedi – Muktinath",
+      "altitudeM": 3800,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Thorang Phedi – Muktinath (3,800m/12,467ft) via Thorong La Pass (5,416m/17,764ft)"
+    },
+    {
+      "day": 15,
+      "title": "Mukitnath – Jomsom",
+      "altitudeM": 2715,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Mukitnath – Jomsom (2,715m/8,910ft) – 5 – 6 hours"
+    },
+    {
+      "day": 16,
+      "title": "Fly: Jomsom – Pokhara",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Fly: Jomsom – Pokhara – 25 minutes"
+    },
+    {
+      "day": 17,
+      "title": "Drive: Pokhara – Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive: Pokhara – Kathmandu"
+    },
+    {
+      "day": 18,
+      "title": "Full Day sightseeing in Kathmandu valley",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Full Day sightseeing in Kathmandu valley"
+    },
+    {
+      "day": 19,
+      "title": "Final Departure",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Transfer to the airport for final departure, or alternative join other activities 100% Satisfaction Book Trip Contact Us 24/7 Customer Support +977 9851023285 (Dil), 9841492749 (Binaya), 01 441145"
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "Airport Pickups and Drops service in private vehicle",
+        "Standard accommodation in Kathmandu with Breakfast",
+        "Teahouse and Camp accommodation during the trek",
+        "All the meals (Breakfast, Lunch & Dinner) during the trip",
+        "All the ground transportation on a cozy vehicle as per the itinerary",
+        "An English Speaking, experienced and professional trekking guide, climbing guide and assistant guide",
+        "Porter (2 trekkers: 1 porter)",
+        "All the staff salary including insurance, equipment, domestic airfare, food and accommodation",
+        "Down Jacket (to be returned after the trip)",
+        "All the necessary paper works, TIMS, Sagarmatha National Park Permit and Island Peak Climbing Permit",
+        "Good quality tents, kitchen and expert cook",
+        "Required mountain gears",
+        "All the governmental and local taxes",
+        "Medical Kit ( Oxygen cylinder if necessary)"
+      ],
+      "excludes": [
+        "Nepal Entry Visa Fee",
+        "International Airfare (to and from Kathmandu)",
+        "Excess Baggage Charges (only 15kg plus hand carry allowed, Cargo Charges around $ 1.5 per kg)",
+        "Extra night accommodation in Kathmandu due to early arrival, delay or in any circumstances",
+        "Lunch and Dinner in Kathmandu (except welcome and farewell dinner)",
+        "Travel and rescue insurance",
+        "Personal Nature Expenses – shopping, alcoholic beverages, laundry and more",
+        "Tips for guides and porters"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/pisang-peak-climbing-2.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Pisang Peak Climbing (19 Days)",
+    "weatherTitle": "Pisang Peak Climbing Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1300,
+        "altitudeFt": 4265
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu",
+        "altitudeM": 1300,
+        "altitudeFt": 4265
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive",
+        "altitudeM": 1960,
+        "altitudeFt": 6430
+      },
+      {
+        "day": "Day 4",
+        "spot": "Trek starts",
+        "altitudeM": 2710,
+        "altitudeFt": 8891
+      },
+      {
+        "day": "Day 5",
+        "spot": "Chame",
+        "altitudeM": 3700,
+        "altitudeFt": 12139
+      },
+      {
+        "day": "Day 6",
+        "spot": "Upper Pisang",
+        "altitudeM": 3700,
+        "altitudeFt": 12139
+      },
+      {
+        "day": "Day 7",
+        "spot": "Upper Pisang",
+        "altitudeM": 4380,
+        "altitudeFt": 14370
+      },
+      {
+        "day": "Day 8",
+        "spot": "Pisang Peak Base Camp",
+        "altitudeM": 5400,
+        "altitudeFt": 17717
+      },
+      {
+        "day": "Day 9",
+        "spot": "Summit Day",
+        "altitudeM": 6091,
+        "altitudeFt": 19984
+      },
+      {
+        "day": "Day 10",
+        "spot": "Contingency Day",
+        "altitudeM": 4380,
+        "altitudeFt": 14370
+      },
+      {
+        "day": "Day 11",
+        "spot": "Pisang Peak Base Camp",
+        "altitudeM": 3450,
+        "altitudeFt": 11319
+      },
+      {
+        "day": "Day 12",
+        "spot": "Manang",
+        "altitudeM": 4110,
+        "altitudeFt": 13484
+      },
+      {
+        "day": "Day 13",
+        "spot": "Yak Kharka",
+        "altitudeM": 4420,
+        "altitudeFt": 14501
+      },
+      {
+        "day": "Day 14",
+        "spot": "Thorang Phedi",
+        "altitudeM": 3800,
+        "altitudeFt": 12467
+      },
+      {
+        "day": "Day 15",
+        "spot": "Mukitnath",
+        "altitudeM": 2715,
+        "altitudeFt": 8907
+      },
+      {
+        "day": "Day 16",
+        "spot": "Fly",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 17",
+        "spot": "Drive",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 18",
+        "spot": "Full Day sightseeing i..",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 19",
+        "spot": "Final Departure",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1300 m)",
+        "min": 6,
+        "max": 20
+      },
+      {
+        "label": "Day 2 (1300 m)",
+        "min": 6,
+        "max": 20
+      },
+      {
+        "label": "Day 3 (1960 m)",
+        "min": 1,
+        "max": 16
+      },
+      {
+        "label": "Day 4 (2710 m)",
+        "min": -4,
+        "max": 11
+      },
+      {
+        "label": "Day 5 (3700 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 6 (3700 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 7 (4380 m)",
+        "min": -14,
+        "max": 1
+      },
+      {
+        "label": "Day 8 (5400 m)",
+        "min": -21,
+        "max": -5
+      },
+      {
+        "label": "Day 9 (6091 m)",
+        "min": -25,
+        "max": -9
+      },
+      {
+        "label": "Day 10 (4380 m)",
+        "min": -14,
+        "max": 1
+      },
+      {
+        "label": "Day 11 (3450 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 12 (4110 m)",
+        "min": -13,
+        "max": 3
+      },
+      {
+        "label": "Day 13 (4420 m)",
+        "min": -15,
+        "max": 1
+      },
+      {
+        "label": "Day 14 (3800 m)",
+        "min": -11,
+        "max": 5
+      },
+      {
+        "label": "Day 15 (2715 m)",
+        "min": -4,
+        "max": 11
+      },
+      {
+        "label": "Day 16 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 17 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 18 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 19 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/pisang-peak-climbing-1.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-snow-peak-clouds-16.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+  ],
+  "mapImage": "uploads/pisang-peak-climbing-2.jpg",
+  "fetchedAt": "2026-11-28T10:55:57.182Z"
+}

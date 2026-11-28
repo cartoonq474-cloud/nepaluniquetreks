@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "order": 91,
+  "batch": 10,
+  "sourceSlug": "gurung-heritage-trekking-trail",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/gurung-heritage-trekking-trail",
+  "targetDir": "trek/gurung-heritage-trekking-trail",
+  "templateType": "trek",
+  "regionLabel": "Manaslu",
+  "sourceCategory": "Manaslu Region Treks",
+  "title": "Gurung Heritage Trekking Trail",
+  "seoTitle": "Gurung Heritage Trekking Trail in Nepal | Cultural Trek in Annapurna Region with Himalayan Views",
+  "metaDescription": "Discover the Gurung Heritage Trekking Trail in Nepal, a cultural journey through Annapurna region villages, homestays, Himalayan views, and traditions",
+  "heroLead": "The Gurung Heritage Trekking Trail is a newly explored and culturally rich trekking route in the heart of the Annapurna Region Trekking of Nepal, offering a perfect blend of mountain adventure, untouched landscapes, and authentic Himalayan culture. Unlike crowded trekking trails, this hidden trekking experience follows ancient Gurung settlements, remote ridges, alpine meadows, sacred lakes, and traditional highland routes, providing travelers with a rare opportunity to discover the true spirit of trekking in Nepal.",
+  "heroMore": "This unique Himalayan journey begins from the beautiful city of Pokhara and passes through traditional villages such as Tangting and Yamjakot before entering remote mountain terrain. The trail gradually climbs through forests of rhododendron, grazing pastures, high ridges, and spectacular viewpoints toward sacred places like Kwhlolasothar, Thulek, Dudh Pokhari, and Gurung Deurali.",
+  "durationDays": 14,
+  "durationDisplay": "14 Days",
+  "maxElevationM": 4910,
+  "facts": {
+    "duration": "14 Days",
+    "accommodation": "Hotel, Lodge and Camping",
+    "max elevation": "4,910 m",
+    "grade": "Moderate",
+    "activity": "Trekking",
+    "transportation": "Flight, Car, Van",
+    "treks type": "Heritage Walk",
+    "best season": "September to November, and March to Jun"
+  },
+  "pricing": {
+    "primaryPriceUsd": 1595,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$1,595",
+        "priceUsd": 1595
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/Gurung Heritage Trekking Trails.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.58_59340817-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.58_6253cae1-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_79fa749f-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_fb5aaf01-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_57049c99-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_cac034d3-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_ce3fc178-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_3b83b7a3-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_1f2987b7-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_e3a3bdf1-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_71b32a94-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_e3a3bdf1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.59_fb5aaf01.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.58_10d4379c-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.58_37c44fde-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/WhatsApp Image 2025-08-03 at 19.08.58_223c5bca-1.jpg"
+  ],
+  "highlights": [
+    "Authentic Gurung Culture Experience: Explore traditional Gurung villages, lifestyle, ancient customs, and unique Himalayan heritage.",
+    "Panoramic Himalayan Views: Witness breathtaking views of Annapurna, Machhapuchhre (Fishtail), and Dhaulagiri ranges.",
+    "Rich Cultural Immersion: Experience Buddhist and Hindu-influenced traditions, monasteries, and local rituals.",
+    "Off-the-Beaten-Path Trekking in Nepal: Less crowded trekking route offering peaceful nature and raw beauty.",
+    "Gurung Hospitality & Homestays: Stay with local families and enjoy traditional organic food and warm hospitality.",
+    "Beautiful Landscapes: Rhododendron forests, terraced fields, rivers, and alpine scenery throughout the trail.",
+    "Ideal for Short Cultural Trekking: Perfect blend of moderate trekking and cultural exploration in the Annapurna region.",
+    "Photography & Nature Paradise: Excellent opportunity for landscape, culture, and wildlife photography."
+  ],
+  "overviewHtml": "<div> <div><h2><strong>Gurung Heritage Trekking Trail Overview</strong></h2><p>The <strong>Gurung Heritage Trekking Trail</strong> is a newly explored and culturally rich <strong>trekking route</strong> in the heart of the <a href=\"https://www.nepaluniquetreks.com/region/annapurna-region-trekking\">Annapurna Region </a><a href=\"https://www.nepaluniquetreks.com/region/annapurna-region-trekking\" target=\"_blank\">Trekking </a>of Nepal, offering a perfect blend of mountain adventure, untouched landscapes, and authentic Himalayan culture. Unlike crowded trekking trails, this hidden trekking experience follows ancient Gurung settlements, remote ridges, alpine meadows, sacred lakes, and traditional highland routes, providing travelers with a rare opportunity to discover the true spirit of <a href=\"https://www.nepaluniquetreks.com/activity/trekking-in-nepal\"><strong>trekking in Nepal</strong></a>.</p><p>This unique Himalayan journey begins from the beautiful city of <strong>Pokhara</strong> and passes through traditional villages such as <strong>Tangting </strong>and <strong>Yamjakot </strong>before entering remote mountain terrain. The trail gradually climbs through forests of rhododendron, grazing pastures, high ridges, and spectacular viewpoints toward sacred places like <strong>Kwhlolasothar, Thulek, Dudh Pokhari,</strong> and <strong>Gurung Deurali</strong>. Along the route, trekkers enjoy extraordinary views of the <strong>Annapurna range</strong>, <strong>Lamjung Himal</strong>, <strong>Machhapuchhre</strong>, and surrounding Himalayan peaks.</p><p>One of the major highlights of the <strong>Gurung Heritage Trek</strong> is its deep connection with the <strong>Gurung people</strong>, one of Nepal&rsquo;s most respected indigenous communities. The <strong>Gurung community </strong>is well known for its bravery, hospitality, and rich cultural identity. Their lifestyle remains closely connected to nature, agriculture, livestock farming, and traditional mountain living. Visitors can experience authentic <strong>Gurung culture</strong> through local architecture, traditional dress, festivals, music, dance, and warm hospitality. The Gurung people traditionally practice Buddhism mixed with ancient animist beliefs and Hindu traditions, creating a unique spiritual culture preserved for generations.</p><p>For travelers searching for authentic trekking experiences in Nepal beyond mainstream routes, the <strong>Gurung Heritage Trek </strong>offers an excellent alternative. It combines cultural immersion with remote Himalayan adventure while connecting with Nepal&rsquo;s most famous trekking destinations. Trekkers interested in the famous <a href=\"https://www.nepaluniquetreks.com/trip/annapurna-base-camp-trek\"><strong>Annapurna Base Camp Trek</strong></a>, <a href=\"https://www.nepaluniquetreks.com/trip/annapurna-circuit-trek\"><strong>Annapurna Circuit Trek</strong></a>, <a href=\"https://www.nepaluniquetreks.com/trip/manaslu-circuit-trek\"><strong>Manaslu Circuit Trek</strong></a>, and <a href=\"https://www.nepaluniquetreks.com/region/mustang-region-trek\"><strong>Upper Mustang Trek </strong></a>often seek similar combinations of mountain scenery, culture, and wilderness. However, the Gurung Heritage route provides a more peaceful and less commercialized trekking environment.</p><p>This journey is ideal for trekkers who want to explore hidden Himalayan trails, experience local mountain culture, witness spectacular landscapes, and discover a deeper connection with Nepal&rsquo;s diverse traditions. Whether you are passionate about cultural trekking, Himalayan photography, remote adventure, or understanding indigenous communities, the <strong>Gurung Heritage Trekking Trail</strong> promises an unforgettable experience filled with unique memories and genuine encounters in the mountains of Nepal.</p><h2><strong>Gurung Heritage Trekking Trail Highlights </strong></h2><ul><li><p><strong>Authentic Gurung Culture Experience: </strong>Explore traditional Gurung villages, lifestyle, ancient customs, and unique Himalayan heritage.</p></li><li><p><strong>Panoramic Himalayan Views: </strong>Witness breathtaking views of Annapurna, Machhapuchhre (Fishtail), and Dhaulagiri ranges.</p></li><li><strong>Rich Cultural Immersion: </strong>Experience Buddhist and Hindu-influenced traditions, monasteries, and local rituals.</li><li><strong>Off-the-Beaten-Path Trekking in Nepal: </strong>Less crowded trekking route offering peaceful nature and raw beauty.</li><li><strong>Gurung Hospitality &amp; Homestays: </strong>Stay with local families and enjoy traditional organic food and warm hospitality.</li><li><strong>Beautiful Landscapes</strong>: Rhododendron forests, terraced fields, rivers, and alpine scenery throughout the trail.</li><li><strong>Ideal for Short Cultural Trekking: </strong>Perfect blend of moderate trekking and cultural exploration in the Annapurna region.</li><li><strong>Photography &amp; Nature Paradise: </strong>Excellent opportunity for landscape, culture, and wildlife photography.</li></ul><h2><strong>The Gurung People&#39;s History and Culture</strong></h2><p>The Gurung people are one of Nepal&rsquo;s most respected and culturally rich indigenous communities, known for their deep-rooted traditions, warm hospitality, and strong connection with the Himalayan mountains. Primarily living in the central hills of Nepal, especially around the Annapurna region, Gurung settlements are commonly found in villages such as Tangting, Ghandruk, Sikles, and other mountain communities along popular trekking routes. Historically, the Gurung people are believed to have migrated from the Tibetan plateau centuries ago and gradually settled in the hilly regions of Nepal.</p><p>Over generations, they developed a distinct identity shaped by mountain life, agriculture, animal husbandry, and close-knit community values. Their history is also associated with legendary bravery, as many Gurung men served in the famous Gurkha regiments and earned worldwide recognition for courage and loyalty. Today, trekkers exploring trekking in Nepal, including routes connected with the Annapurna region, often seek opportunities to experience authentic Gurung heritage and local traditions.</p><p>The culture of the <strong>Gurung people </strong>reflects a beautiful combination of spirituality, community life, and traditional Himalayan customs. Their lifestyle remains closely tied to nature, seasonal farming, and family-centered living. Most <strong>Gurung communities </strong>traditionally practice Buddhism blended with ancient shamanic beliefs and elements of Hindu traditions, creating a unique cultural identity. Religious ceremonies, prayer flags, monasteries, and sacred sites continue to play important roles in daily life.</p><p>The Gurung culture is also famous for colorful festivals, traditional attire, folk songs, and the lively Ghatu and Sorathi dances performed during celebrations. Visitors trekking through Gurung villages experience stone-built houses, terraced farmlands, and a genuine atmosphere that differs from modern urban life. For travelers interested in cultural trekking in Nepal, understanding Gurung history and culture adds a meaningful dimension to adventures near the <strong>Annapurna Base Camp Trek</strong>, <strong>Annapurna Circuit Trek</strong>, <strong>Manaslu Circuit Trek</strong>, and other Himalayan journeys.</p><h2><strong>Food and Accommodation During the Trek </strong></h2><p>During the <strong>Gurung Heritage Trekking Trail, Nepal Unique Treks</strong> ensures a safe, comfortable, and authentic trekking experience with well-managed food and accommodation services.</p><p>Our professional kitchen team prepares all meals freshly on the trail using organic, locally sourced, and hygienic ingredients. Trekkers can enjoy a variety of nutritious dishes, including <strong>Nepali, Asian</strong>, and simple <strong>continental </strong>options, carefully cooked to maintain both taste and health standards during the trek. Special attention is given to cleanliness, balanced nutrition, and energy-boosting meals required for trekking in the Himalayas.</p><p>For accommodation, we provide high-quality, clean, and comfortable camping facilities. This includes spacious and well-maintained guest tents for sleeping, a separate dining tent for meals and social time, a fully equipped kitchen tent for safe food preparation, and dedicated shower and toilet tents to ensure proper hygiene and privacy throughout the journey.</p><p>With <strong>Nepal Unique Treks,</strong> you can experience the beauty of the <strong>Gurung Heritage Trail </strong>without compromising on comfort, cleanliness, or quality service in the remote Himalayan environment.</p><h2><strong>Gurung Heritage Trekking Trails Difficulty </strong></h2><p>The <strong>Gurung Heritage Trekking Trail</strong> is considered a <strong>moderate-level trek in Nepal,</strong> suitable for trekkers with average physical fitness and some prior hiking experience. The trail involves daily walking of 4&ndash;6 hours through stone steps, terraced fields, forest paths, and <strong>traditional Gurung villages</strong>. Although there are some uphill and downhill sections, the altitude remains relatively low compared to high Himalayan treks, making it less demanding. However, proper preparation, good stamina, and gradual pacing are important for a comfortable journey. Weather conditions and trail terrain can also affect difficulty, but overall, it is a rewarding cultural trekking experience in the Annapurna region.</p><h2><strong>Trekking Gear Preparation for Gurung Heritage Trekking Trail</strong></h2><p>Proper gear preparation is essential for a safe and comfortable <strong>trekking experience</strong> in the <strong>Gurung Heritage Trekking Trail</strong>. Trekkers should carry lightweight, layered clothing suitable for changing weather conditions, including moisture-wicking base layers, warm fleece, and a waterproof jacket. Good-quality trekking boots with strong ankle support are highly recommended for uneven trails.</p><p>A comfortable backpack, sleeping bag (suitable for cool temperatures), headlamp, trekking poles, and reusable water bottles are also important. Personal hygiene items, sunscreen, sunglasses, and basic first aid supplies should not be forgotten. With well-prepared gear, trekkers can fully enjoy the cultural beauty and natural scenery of the Annapurna region.</p><h2><strong>Best Time to Do the Gurung Heritage Trekking Trail</strong></h2><p>The <strong>best time to trek the Gurung Heritage Trekking Trail in Nepal</strong> is during the <strong>spring (March to May) </strong>and <strong>autumn (September to November) seasons</strong>. In <strong>spring,</strong> the trail becomes vibrant with blooming rhododendrons, lush forests, and clear mountain views, creating a colorful and pleasant trekking atmosphere. <strong>Autumn</strong> is considered the most popular season due to stable weather, crystal-clear Himalayan visibility, and comfortable temperatures, making it ideal for cultural exploration and photography.</p></div></div>",
+  "overviewPlainWordCount": 1273,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at Kathmandu Airport (1,400 m / 4,593 ft) and Transfer to Hotel",
+      "altitudeM": 1400,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": null,
+      "accommodation": "Hotel",
+      "description": "Welcome to Nepal. Upon arrival at Kathmandu’s international airport, our representative will greet you and transfer you to your hotel in the city. The lively capital offers a fascinating mix of ancient temples, bustling markets, colorful streets, and Himalayan culture. After hotel check-in, you can relax after your journey or explore nearby areas like Thamel, known for caf&eacute;s, trekking shops, and local restaurants. In the evening, you will receive a briefing on your trekking adventure and final preparations for the upcoming journey to the remote Annapurna region."
+    },
+    {
+      "day": 2,
+      "title": "Mountain Flight from Kathmandu to Pokhara (820 m / 2,690 ft) Flight Distance: Approx. 200 km Flight Time: 25–30 minutes",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": "200 km",
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Begin the day with a scenic mountain flight from Kathmandu to Pokhara. The short flight provides unforgettable aerial views of snow-capped Himalayan peaks, deep valleys, and terraced hillsides. Upon arrival in Pokhara, the atmosphere changes completely—calm lakes, mountain scenery, and peaceful surroundings replace the busy city life. The rest of the day can be spent exploring the beautiful lakeside area, preparing trekking equipment, or simply relaxing beside Phewa Lake with views of Machhapuchhre and Annapurna."
+    },
+    {
+      "day": 3,
+      "title": "Drive from Pokhara to Tangting or Yamjakot Starting Elevation: 820 m / 2,690 ft Ending Elevation: Approx. 1,650–1,700 m Distance: Approx. 38–45 km Driving Hours: 4–5 hours",
+      "altitudeM": 1650,
+      "walkingTime": "4–5 hours",
+      "distanceKm": "38–45 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "After breakfast, drive through winding mountain roads toward Tangting or Yamjakot village. The route passes traditional settlements, terraced farmland, forests, and river valleys. As you leave urban areas behind, the scenery gradually becomes more rural and authentic. The Gurung villages along the route offer insight into local mountain lifestyles and culture. Snowy peaks occasionally appear above green hills, giving a glimpse of the landscapes ahead."
+    },
+    {
+      "day": 4,
+      "title": "Trek from Tangting to Krapu Cho (Tsho) – 2,930 m Distance: Approx. 10 km Trekking Hours: 5–6 hours",
+      "altitudeM": 2930,
+      "walkingTime": "5–6 hours",
+      "distanceKm": "10 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Teahouse",
+      "description": "Your trekking adventure officially begins today. The trail climbs steadily through dense forests, stone paths, and traditional grazing areas. Rhododendron and oak forests dominate much of the route, especially beautiful during spring bloom. As you gain elevation, views become increasingly dramatic. Krapu Cho is a peaceful highland area surrounded by natural beauty and mountain landscapes. Overnight camp allows you to experience a quiet wilderness atmosphere."
+    },
+    {
+      "day": 5,
+      "title": "Trek from Krapu Cho to Tapro/Taprang – 3,385 m Distance: Approx. 8–9 km Trekking Hours: 5–6 hours",
+      "altitudeM": 3385,
+      "walkingTime": "5–6 hours",
+      "distanceKm": "8–9 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Camping",
+      "description": "Today's route gradually climbs through alpine landscapes and traditional grazing lands. Vegetation begins changing as lower forests slowly disappear and open mountain scenery appears. Along the route, you may encounter shepherd shelters and local herders. The views of surrounding ridges and distant Himalayan peaks continue improving throughout the day. Tapro or Taprang provides a scenic campsite surrounded by untouched landscapes and peaceful mountain surroundings."
+    },
+    {
+      "day": 6,
+      "title": "Trek from Tapro/Taprang to Kwholasothar – 3,285 m Distance: Approx. 8 km Trekking Hours: 4–5 hours",
+      "altitudeM": 3285,
+      "walkingTime": "4–5 hours",
+      "distanceKm": "8 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Camping",
+      "description": "The trail today includes gradual ascents and descents through remote terrain with beautiful mountain panoramas. Trekking through isolated sections provides a feeling of true wilderness away from crowded trekking routes. Open ridgelines and grassy meadows dominate the landscape. Khwolasothar serves as an excellent resting point with spectacular scenery and opportunities to observe local highland environments."
+    },
+    {
+      "day": 7,
+      "title": "Trek from Kwholasothar to Thulek – 4,070 m Distance: Approx. 9 km Trekking Hours: 6–7 hours",
+      "altitudeM": 4070,
+      "walkingTime": "6–7 hours",
+      "distanceKm": "9 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Camping",
+      "description": "Today brings a more challenging climb as you gain significant elevation. The trail crosses rugged mountain terrain and high alpine landscapes. As altitude increases, views become increasingly breathtaking. Snow-covered peaks and dramatic ridges dominate the horizon. The air becomes cooler and thinner as you reach Thulek, a spectacular high-altitude campsite offering incredible Himalayan scenery."
+    },
+    {
+      "day": 8,
+      "title": "Trek from Thulek to Thurju via Chyangre Deurali Ridge – 4,070 m Distance: Approx. 11 km Trekking Hours: 6–7 hours",
+      "altitudeM": 4070,
+      "walkingTime": "6–7 hours",
+      "distanceKm": "11 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Camping",
+      "description": "Today's trail follows scenic ridges and mountain paths toward Thurju. Crossing Chyangre Deurali offers some of the trek's most memorable viewpoints. The ridge provides panoramic views of the surrounding Himalayan ranges, deep valleys, and remote landscapes. Trekking at high elevation creates a true sense of adventure and isolation. Arrive at Thurju and rest in preparation for tomorrow's acclimatization day."
+    },
+    {
+      "day": 9,
+      "title": "Acclimatization Day – Hike to Dudh Pokhari (4,585 m) and Return to Thurju Distance: Approx. 7–8 km Trekking Hours: 4–5 hours",
+      "altitudeM": 4585,
+      "walkingTime": "4–5 hours",
+      "distanceKm": "7–8 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Camping",
+      "description": "Acclimatization plays a vital role in safe high-altitude trekking. Today you hike toward the sacred Dudh Pokhari, a beautiful alpine lake surrounded by rugged mountain scenery. The lake carries cultural and spiritual significance among local communities and pilgrims. Enjoy magnificent mountain views before returning to Thurju for overnight rest. The gradual climb and descent help your body adapt to higher elevation."
+    },
+    {
+      "day": 10,
+      "title": "Trek from Thurju to Danfe Kharka (4,239 m) via Gurung Deurali – 4,910 m Distance: Approx. 12 km Trekking Hours: 7–8 hours",
+      "altitudeM": 4910,
+      "walkingTime": "7–8 hours",
+      "distanceKm": "12 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Camping",
+      "description": "This is one of the most exciting and demanding trekking days of the journey. The trail climbs toward Gurung Deurali, the highest point of the trek at 4,910 meters. The high pass rewards trekkers with extraordinary views of Annapurna, Lamjung Himal, Manaslu, and surrounding peaks. After enjoying the scenery, descend carefully toward Danfe Kharka. The landscapes are wild, dramatic, and truly unforgettable."
+    },
+    {
+      "day": 11,
+      "title": "Trek from Danfe Kharka to Timang – 2,743 m Distance: Approx. 14 km Trekking Hours: 6–7 hours",
+      "altitudeM": 2743,
+      "walkingTime": "6–7 hours",
+      "distanceKm": "14 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Today involves a long descent toward Timang village. As altitude decreases, forests gradually return, and oxygen levels become more comfortable. Waterfalls, forests, and traditional settlements create a refreshing change in scenery. Timang is a beautiful village with impressive mountain views and a rich local culture. Enjoy a comfortable evening after completing one of the remote sections of the trek."
+    },
+    {
+      "day": 12,
+      "title": "Drive from Timang to Besisahar Distance: Approx. 65 km Driving Hours: 5–6 hours",
+      "altitudeM": null,
+      "walkingTime": "5–6 hours",
+      "distanceKm": "65 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "After breakfast, begin the jeep journey toward Besisahar. Mountain roads pass through rivers, villages, waterfalls, and terraced landscapes. This route reconnects you with lower valleys and busier settlements after days in remote mountain terrain. Enjoy changing scenery while reflecting on your trekking achievements."
+    },
+    {
+      "day": 13,
+      "title": "Drive from Besisahar to Kathmandu – Explore Kathmandu Distance: Approx. 175 km Driving Hours: 6–7 hours",
+      "altitudeM": 1400,
+      "walkingTime": "6–7 hours",
+      "distanceKm": "175 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Hotel",
+      "description": "Drive back to Kathmandu along scenic highways following river valleys and hillside communities. After arrival and hotel check-in, enjoy free time exploring Kathmandu. You may visit local markets, buy souvenirs, taste traditional Nepali cuisine, or simply relax. In the evening, celebrate the completion of your memorable Himalayan adventure."
+    },
+    {
+      "day": 14,
+      "title": "Departure Day Distance: Approx. 6–8 km (hotel to airport) Driving Time: 20–30 minutes",
+      "altitudeM": 1400,
+      "walkingTime": null,
+      "distanceKm": "6–8 km",
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge and Camping",
+      "description": "Your remarkable trekking journey comes to an end today. Depending on your international flight schedule, our representative will transfer you to Kathmandu airport. Leave Nepal with unforgettable memories of remote mountain landscapes, local culture, alpine lakes, and extraordinary Himalayan experiences. We hope to welcome you again for another adventure in Nepal."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 1,595 per person",
+      "includes": [
+        "Airport arrival and departure transfers by private vehicle",
+        "All ground transportation as mentioned in the itinerary",
+        "Domestic mountain flight from Kathmandu to Pokhara",
+        "Two nights’ 3-star category hotel in Kathmandu with Breakfast",
+        "One night's accommodation with breakfast at a tourist-standard hotel in Pokhara",
+        "Full board meals during the trek (Breakfast, Lunch, and Dinner) with tea/coffee",
+        "Drinking Hot Water, Seasonal fresh Fruits, and snacks",
+        "Best available tented camping accommodation during the trekking period",
+        "Professional English-speaking trekking guide and required support crew",
+        "The necessary number of porters and camping staff during the trek",
+        "Wages, food, accommodation, transportation, insurance, and equipment for guides and support staff",
+        "Annapurna Conservation Area Permit (ACAP) and all required trekking permits",
+        "Trekking route map and official government taxes",
+        "Camping equipment, including tents, a kitchen tent, a dining tent, and necessary logistics",
+        "First aid medical kit carried by trekking staff,",
+        "Sleeping bag and duffel bag (returned after trek completion) if required",
+        "All government taxes and office service charges"
+      ],
+      "excludes": [
+        "International airfare to and from Nepal",
+        "Nepal entry visa fees and related expenses",
+        "Travel and rescue insurance (Highly recommended)",
+        "Personal trekking equipment and clothing",
+        "Lunch and dinner in Kathmandu and Pokhara, except stated meals",
+        "Additional accommodation in Kathmandu or Pokhara due to early arrival, late departure, flight cancellation, or personal reasons",
+        "Personal expenses such as laundry, internet, phone calls, hot showers, charging fees, snacks, and beverages",
+        "Alcoholic drinks, soft drinks, bottled water, and extra beverages",
+        "Tips for trekking guide, porters, and support staff",
+        "Expenses arising from weather conditions, natural disasters, landslides, flight delays, political issues, or unforeseen circumstances beyond the company's control",
+        "Emergency evacuation charges if required, Oxygen Bottle for Altitude Sickness",
+        "Any services not specifically mentioned in the “Cost Includes” section"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [
+    {
+      "question": "What services are included in the Gurung Heritage Trekking Trail?",
+      "answer": "The Gurung Heritage Trekking Trail includes full trekking support such as experienced guides, porters, permits, accommodation in clean guest tents, and freshly prepared meals. Nepal Unique Treks provides a complete camping setup, including dining tents, kitchen tents, shower tents, and toilet tents for a comfortable and organized trekking experience in the Annapurna region."
+    },
+    {
+      "question": "What kind of food is provided during the trek?",
+      "answer": "We provide fresh, organic, and hygienic meals prepared by our professional kitchen team. The menu includes traditional Nepali food, energy-rich trekking meals, and simple continental, Chinese, Tibetan, Indean options. All food is cooked safely in our dedicated kitchen tent to ensure cleanliness and nutrition throughout the journey."
+    },
+    {
+      "question": "What type of accommodation is available on the trek?",
+      "answer": "Accommodation is arranged in clean and comfortable guest tents. Each camping site includes sleeping tents, dining tents, kitchen tents, and separate shower and toilet tents. This ensures privacy, hygiene, and comfort even in remote trekking areas of the Gurung Heritage Trail."
+    },
+    {
+      "question": "Is a guide required for the Gurung Heritage Trek?",
+      "answer": "Yes, a licensed trekking guide is highly recommended. Our professional guides provide cultural insight into the Gurung community, ensure safe navigation of trails, and assist with communication in local villages. This enhances both safety and cultural experience."
+    },
+    {
+      "question": "How difficult is the Gurung Heritage Trekking Trail?",
+      "answer": "The trek is moderate in difficulty and suitable for beginners with basic fitness. It includes 4–6 hours of daily walking through villages, forests, and terraced landscapes. No technical climbing is required, but good stamina and preparation are important."
+    },
+    {
+      "question": "What is the best season for the Gurung Heritage Trek?",
+      "answer": "The best time for the Gurung Heritage Trekking Trail is spring (March–May) and autumn (September–November). These seasons offer clear mountain views, stable weather, and comfortable trekking conditions."
+    },
+    {
+      "question": "What makes Nepal Unique Treks special for this trek?",
+      "answer": "Nepal Unique Treks offers personalized service, experienced trekking staff, fresh organic meals, and fully managed camping equipment. We focus on safety, hygiene, cultural immersion, and creating a lifetime trekking experience in Nepal."
+    }
+  ],
+  "chartSeries": {
+    "name": "Gurung Heritage Trekking Trail (14 Days)",
+    "weatherTitle": "Gurung Heritage Trekking Trail Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival at Kathmandu A..",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      },
+      {
+        "day": "Day 2",
+        "spot": "Mountain Flight from K..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive from Pokhara to ..",
+        "altitudeM": 1650,
+        "altitudeFt": 5413
+      },
+      {
+        "day": "Day 4",
+        "spot": "Trek from Tangting to ..",
+        "altitudeM": 2930,
+        "altitudeFt": 9613
+      },
+      {
+        "day": "Day 5",
+        "spot": "Trek from Krapu Cho to..",
+        "altitudeM": 3385,
+        "altitudeFt": 11106
+      },
+      {
+        "day": "Day 6",
+        "spot": "Trek from Tapro/Tapran..",
+        "altitudeM": 3285,
+        "altitudeFt": 10778
+      },
+      {
+        "day": "Day 7",
+        "spot": "Trek from Kwholasothar..",
+        "altitudeM": 4070,
+        "altitudeFt": 13353
+      },
+      {
+        "day": "Day 8",
+        "spot": "Trek from Thulek to Th..",
+        "altitudeM": 4070,
+        "altitudeFt": 13353
+      },
+      {
+        "day": "Day 9",
+        "spot": "Acclimatization Day",
+        "altitudeM": 4585,
+        "altitudeFt": 15043
+      },
+      {
+        "day": "Day 10",
+        "spot": "Trek from Thurju to Da..",
+        "altitudeM": 4910,
+        "altitudeFt": 16109
+      },
+      {
+        "day": "Day 11",
+        "spot": "Trek from Danfe Kharka..",
+        "altitudeM": 2743,
+        "altitudeFt": 8999
+      },
+      {
+        "day": "Day 12",
+        "spot": "Drive from Timang to B..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 13",
+        "spot": "Drive from Besisahar t..",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      },
+      {
+        "day": "Day 14",
+        "spot": "Departure Day Distance",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1400 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 3 (1650 m)",
+        "min": 3,
+        "max": 18
+      },
+      {
+        "label": "Day 4 (2930 m)",
+        "min": -5,
+        "max": 10
+      },
+      {
+        "label": "Day 5 (3385 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 6 (3285 m)",
+        "min": -7,
+        "max": 8
+      },
+      {
+        "label": "Day 7 (4070 m)",
+        "min": -12,
+        "max": 3
+      },
+      {
+        "label": "Day 8 (4070 m)",
+        "min": -12,
+        "max": 3
+      },
+      {
+        "label": "Day 9 (4585 m)",
+        "min": -16,
+        "max": 0
+      },
+      {
+        "label": "Day 10 (4910 m)",
+        "min": -18,
+        "max": -2
+      },
+      {
+        "label": "Day 11 (2743 m)",
+        "min": -4,
+        "max": 11
+      },
+      {
+        "label": "Day 12 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 13 (1400 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 14 (1400 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/Gurung Heritage Trekking Trails.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.58_59340817-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.58_6253cae1-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_79fa749f-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_fb5aaf01-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_57049c99-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_cac034d3-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_ce3fc178-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_3b83b7a3-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_1f2987b7-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_e3a3bdf1-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_71b32a94-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_e3a3bdf1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.59_fb5aaf01.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.58_10d4379c-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.58_37c44fde-1.jpg",
+    "uploads/WhatsApp Image 2025-08-03 at 19.08.58_223c5bca-1.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T11:00:21.827Z"
+}

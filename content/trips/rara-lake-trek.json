@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "order": 4,
+  "batch": 1,
+  "sourceSlug": "rara-lake-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/rara-lake-trek",
+  "targetDir": "trek/rara-lake-trek",
+  "templateType": "trek",
+  "regionLabel": "Off The Beaten Trails",
+  "sourceCategory": "Off The Beaten Trails in Nepal",
+  "title": "Rara Lake Trek",
+  "seoTitle": "Rara Lake Trek in Nepal | Kathmandu to Rara Trekking & Rara National Park Guide",
+  "metaDescription": "Explore the Rara Lake Trek in Nepal, a peaceful adventure through Rara National Park. Discover trekking in Nepal, cultural lifestyle, and scenic beaut",
+  "heroLead": "The Rara Lake Trek is one of the most rewarding journeys for travelers seeking authentic trekking in Nepal beyond the crowded Himalayan routes. Located in the remote northwestern region of the country, this remarkable adventure combines natural beauty, cultural discovery, and peaceful landscapes within the stunning surroundings of Rara National Park, Nepal’s smallest yet one of its most scenic protected areas.",
+  "heroMore": "Often called the \"Queen of Lakes,\" Rara Lake sits at an altitude of 2,990 meters and captivates visitors with its crystal-clear blue waters, alpine forests, and snow-capped mountain views. For travelers looking for a unique Tour in Nepal, the Rara region offers a perfect blend of wilderness and local experiences far from modern city life.",
+  "durationDays": 11,
+  "durationDisplay": "11 Days",
+  "maxElevationM": 3055,
+  "facts": {
+    "duration": "11 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "3055 m",
+    "grade": "Moderate",
+    "activity": "Trekking and culture tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House"
+  },
+  "pricing": {
+    "primaryPriceUsd": 1300,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$1,300",
+        "priceUsd": 1300
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/Rara Lake Trek.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/66285918_2985544058152638_825815313579769856_n.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/502915494_3949774301906994_297903097396302835_n.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/462796451_3740535436164216_909755501114486389_n.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/128356443_2745800682304368_729382509930831858_n.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/87457252_2499772363573869_2475215632941973504_n.jpg"
+  ],
+  "highlights": [
+    "Stunning view of Rara Lake, the largest lake in Nepal, at a high altitude",
+    "Exploration of Rara National Park, rich in biodiversity and wildlife",
+    "Peaceful and less crowded trekking trails compared to other routes in Nepal",
+    "Scenic journey from Kathmandu to Rara through hills, rivers, and remote landscapes",
+    "An authentic experience of trekking in Nepal with untouched natural beauty",
+    "Chance to observe Himalayan wildlife like musk deer, Himalayan black bear, and various bird species",
+    "Cultural interaction with local Thakuri, Chhetri, and Tibetan-influenced communities",
+    "Traditional lifestyle experience of remote villagers living close to nature"
+  ],
+  "overviewHtml": "<div> <div><h2><strong>Rara Lake Trek Overview </strong></h2><p>The <strong>Rara Lake Trek</strong> is one of the most rewarding journeys for travelers seeking authentic <strong>trekking in Nepal</strong> beyond the crowded Himalayan routes. Located in the remote northwestern region of the country, this remarkable adventure combines natural beauty, cultural discovery, and peaceful landscapes within the stunning surroundings of <strong>Rara National Park</strong>, Nepal&rsquo;s smallest yet one of its most scenic protected areas. Often called the &quot;<strong>Queen of Lakes</strong>,&quot; Rara Lake sits at an altitude of 2,990 meters and captivates visitors with its crystal-clear blue waters, alpine forests, and snow-capped mountain views. For travelers looking for a <strong>unique Tour in Nepal</strong>, the Rara region offers a perfect blend of wilderness and local experiences far from modern city life.</p><p>The journey from Kathmandu to Rara itself becomes part of the adventure. Travelers can choose a scenic flight and overland route or combine transportation with trekking trails that pass through untouched villages, forests, and rolling hills. Along the route, those interested in hiking in Nepal can experience hidden landscapes rarely seen by mainstream visitors. Unlike commercial trekking destinations, the Rara area offers quiet trails and a sense of exploration that appeals to nature lovers and cultural travelers alike.</p><p>Beyond its natural attractions, the Rara region introduces visitors to the lifestyle of local communities. People living around Rara mainly belong to ethnic groups such as <strong>Chhetri</strong>, <strong>Thakuri</strong>, and <strong>Tibetan-influenced</strong> communities who maintain a simple mountain lifestyle based on farming, livestock raising, and traditional trade. Daily life reflects strong community values and close ties with nature.</p><p>The religion of the area is primarily <strong>Hindu </strong>and <strong>Buddhist</strong>, and visitors may notice colorful prayer flags, local shrines, monasteries, and spiritual practices that remain important in everyday life. The local culture is deeply rooted in ancient customs, traditional dress, folk songs, festivals, and warm hospitality, allowing travelers to experience the authentic cultural side of Nepal. The <strong>Rara Lake Trek</strong> is more than just a mountain journey&mdash;it is an unforgettable experience that combines nature, culture, and the true spirit of <strong>adventure in Nepal</strong>.</p><h2><strong>Rara Lake Trek Highlights</strong></h2><ul><li>Stunning view of Rara Lake, the largest lake in Nepal, at a high altitude</li><li>Exploration of Rara National Park, rich in biodiversity and wildlife</li><li>Peaceful and less crowded trekking trails compared to other routes in Nepal</li><li>Scenic journey from Kathmandu to Rara through hills, rivers, and remote landscapes</li><li>An authentic experience of trekking in Nepal with untouched natural beauty</li><li>Chance to observe Himalayan wildlife like musk deer, Himalayan black bear, and various bird species</li><li>Cultural interaction with local Thakuri, Chhetri, and Tibetan-influenced communities</li><li>Traditional lifestyle experience of remote villagers living close to nature</li><li>Beautiful sunrise and sunset views over the surrounding snow-capped peaks</li><li>A perfect destination for peaceful hiking in Nepal, away from crowded tourist areas</li><li>A blend of Hindu and Buddhist culture with local monasteries and temples</li><li>Opportunity for photography of landscapes, lake reflections, and mountain scenery</li></ul></div></div>",
+  "overviewPlainWordCount": 479,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu (1,400m) and Transfer to Hotel",
+      "altitudeM": 1400,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": null,
+      "accommodation": "Hotel",
+      "description": "Upon your arrival at Kathmandu International Airport, our representative will warmly welcome you and transfer you to your hotel in the heart of Kathmandu city. After check-in, you can relax and recover from your international flight. Depending on your arrival time, you may explore the colorful streets of Thamel, a popular tourist hub filled with restaurants, trekking shops, and cultural attractions. In the evening, your trekking guide will brief you about the upcoming Rara Lake Trek adventure, including permits, equipment, and trail information. Overnight stay at the hotel in Kathmandu."
+    },
+    {
+      "day": 2,
+      "title": "In Kathmandu for Trek Preparation and Fly to Nepalgunj, 150 m, 1 hrs Flight",
+      "altitudeM": 150,
+      "walkingTime": "1 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Hotel",
+      "description": "Today is reserved for trek preparation and sightseeing in Kathmandu Valley. You can visit famous UNESCO World Heritage Sites such as Pashupatinath Temple, Boudhanath Stupa, and Swayambhunath Monkey Temple. After completing final trekking preparations, you will take a scenic afternoon flight to Nepalgunj, a warm city located in western Nepal near the Indian border. The short flight offers beautiful aerial views of hills and plains. Nepalgunj is an important gateway for trekking in western Nepal and the Rara Lake region. Overnight stay at a hotel in Nepalgunj."
+    },
+    {
+      "day": 3,
+      "title": "Fly to Jumla (2,540m) then Trek to Chauriya Chaur (3,055m), 12 km, 5/6 hrs",
+      "altitudeM": 3055,
+      "walkingTime": "5/6 hrs",
+      "distanceKm": "12 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Lodge",
+      "description": "Early in the morning, you will board a spectacular mountain flight from Nepalgunj to Jumla, one of the remote mountain districts of Nepal. After landing at Jumla, the trek officially begins through beautiful villages, pine forests, and terraced fields. The trail gradually ascends along peaceful mountain paths with views of snow-capped peaks and local settlements. You will experience authentic rural lifestyles and untouched Himalayan landscapes during today’s walk. After several hours of trekking, you will arrive at Chauriya Chaur for an overnight stay in a local teahouse."
+    },
+    {
+      "day": 4,
+      "title": "Trek on Route Bota via Jaljala Pass (3,585m), 14 km, 6 hrs",
+      "altitudeM": 3585,
+      "walkingTime": "6 hrs",
+      "distanceKm": "14 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Lodge",
+      "description": "Today’s trek is one of the most scenic sections of the journey as you cross the famous Jaljala Pass at 3,585 meters. The trail climbs steadily through forests of pine, juniper, and rhododendron while offering panoramic mountain views. The high pass rewards trekkers with breathtaking Himalayan scenery and peaceful alpine landscapes. Along the way, you may encounter local shepherds, yak caravans, and traditional villages. After crossing the pass, the trail descends gradually toward Bota through remote wilderness and beautiful valleys. Overnight stay at a teahouse in Bota."
+    },
+    {
+      "day": 5,
+      "title": "Trek to Bota (2,680m) via Sinja Khola (2,440m) 13 km, 6 hrs",
+      "altitudeM": 2440,
+      "walkingTime": "6 hrs",
+      "distanceKm": "13 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Lodge",
+      "description": "After breakfast, the trail descends toward the historic Sinja Valley, once the ancient capital of the Khasa Kingdom and believed to be the origin of the Nepali language. You will walk beside the Sinja Khola river while passing traditional villages, suspension bridges, and terraced farms. The region is culturally rich and offers insight into the local lifestyle of western Nepal. The peaceful trail continues through forests and open meadows before reaching Bota village. The surrounding hills and quiet environment create a perfect resting place for trekkers."
+    },
+    {
+      "day": 6,
+      "title": "Trek to Ghorasinga 3,050 m near Rara Lake – 06 hrs.",
+      "altitudeM": 3050,
+      "walkingTime": "06 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Lodge",
+      "description": "After breakfast, the trail descends toward the historic Sinja Valley, once the ancient capital of the Khasa Kingdom and believed to be the origin of the Nepali language. You will walk beside the Sinja Khola river while passing traditional villages, suspension bridges, and terraced farms. The region is culturally rich and offers insight into the local lifestyle of western Nepal. The peaceful trail continues through forests and open meadows before reaching Bota village. The surrounding hills and quiet environment create a perfect resting place for trekkers."
+    },
+    {
+      "day": 7,
+      "title": "Trek to Rara Lake (2,980m) 10 km, 6 hrs",
+      "altitudeM": 2980,
+      "walkingTime": "6 hrs",
+      "distanceKm": "10 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Lodge",
+      "description": "Today is one of the highlights of the Rara Lake Trek as you finally reach the magnificent Rara Lake, often called the “Queen of Lakes” in Nepal. The trail passes through alpine forests and scenic ridges with stunning views of the lake’s crystal-clear blue water. Surrounded by snow-capped peaks and peaceful forests, Rara Lake is one of the most beautiful natural destinations in Nepal. Upon arrival, you can enjoy the tranquil atmosphere and breathtaking scenery around the lake. The peaceful environment makes this place perfect for relaxation and photography."
+    },
+    {
+      "day": 8,
+      "title": "Rest Day for Excursion Around Rara Lake, 5 km, 3 hrs",
+      "altitudeM": 2980,
+      "walkingTime": "3 hrs",
+      "distanceKm": "5 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Lodge",
+      "description": "Today is a relaxing exploration day around the beautiful Rara Lake. You can hike to nearby viewpoints for panoramic views of the lake and surrounding Himalayan landscapes. The calm water changes color throughout the day, depending on sunlight and weather conditions, creating magical scenery. You may also explore nearby villages, interact with local people, or observe wildlife and birds inside Rara National Park. The peaceful atmosphere and untouched beauty make this one of the most memorable days of the trek. Enjoy nature, photography, and the serenity of western Nepal."
+    },
+    {
+      "day": 9,
+      "title": "Trek to Talcha Town 2735 m, 8 km, 6 hrs",
+      "altitudeM": 2735,
+      "walkingTime": "6 hrs",
+      "distanceKm": "8 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Lodge",
+      "description": "After enjoying the peaceful beauty of Rara Lake, today you will trek toward Talcha, a small settlement with an airport near the lake region. The trail gently descends through pine forests and scenic landscapes while offering final views of the stunning lake and surrounding hills. The route is relatively easy compared to previous trekking days and allows trekkers to enjoy the final moments in the remote wilderness of western Nepal. Talcha serves as an important gateway for flights connecting the Rara region with Nepalgunj. Overnight stay at a local lodge."
+    },
+    {
+      "day": 10,
+      "title": "Fly to Kathmandu via Nepalgunj and Transfer to Hotel 1400 m, 1 hrs",
+      "altitudeM": 1400,
+      "walkingTime": "1 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Hotel",
+      "description": "Today you will take an early morning flight from Talcha to Nepalgunj and then connect with another scenic flight to Kathmandu. During the flight, enjoy spectacular aerial views of hills, rivers, and the Himalayan range. After arriving in Kathmandu, you will be transferred to your hotel. The rest of the day is free for relaxation, shopping, or exploring nearby cultural sites. In the evening, you may enjoy a farewell dinner celebrating the successful completion of the Rara Lake Trek adventure in western Nepal."
+    },
+    {
+      "day": 11,
+      "title": "Depart Kathmandu for International Flight",
+      "altitudeM": 1400,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Your unforgettable journey in Nepal comes to an end today. After breakfast, our representative will transfer you to Tribhuvan International Airport according to your flight schedule. As you leave Nepal, you will carry wonderful memories of trekking in remote western Nepal, beautiful Rara Lake, local mountain culture, and breathtaking Himalayan scenery. We hope this adventure becomes one of your lifetime travel experiences and look forward to welcoming you again for more trekking, hiking, peak climbing, and expedition adventures in Nepal."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 1,300 per person",
+      "includes": [
+        "Airport pick-up and drop-off service in Kathmandu",
+        "Hotel accommodation in Kathmandu includes breakfast",
+        "Domestic flights: Kathmandu – Nepalgunj – Jumla / Talcha – Nepalgunj – Kathmandu",
+        "All required trekking permits (Rara National Park entry permit)",
+        "Experienced licensed trekking guide and necessary porters",
+        "Food (Breakfast, Lunch, Dinner) during the trekking days",
+        "Teahouse/lodge accommodation during the trek",
+        "Ground transportation as per the itinerary",
+        "First aid kit and basic medical support",
+        "Government taxes and company service charges",
+        "Trekking map and briefing before departure"
+      ],
+      "excludes": [
+        "International airfare to and from Nepal",
+        "Nepal entry visa fees (available on arrival at Tribhuvan International Airport)",
+        "Travel insurance (mandatory for high-altitude trekking)",
+        "Personal expenses such as drinks, snacks, and beverages",
+        "Hot showers, Wi-Fi, and charging fees during trekking",
+        "Extra accommodation or meals in Kathmandu due to early arrival or late departure",
+        "Personal trekking gear and equipment",
+        "Tips for guide and porter (expected but not mandatory)",
+        "Emergency evacuation or helicopter rescue (if required)"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Rara Lake Trek (11 Days)",
+    "weatherTitle": "Rara Lake Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      },
+      {
+        "day": "Day 2",
+        "spot": "In Kathmandu for Trek ..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 3",
+        "spot": "Fly to Jumla",
+        "altitudeM": 3055,
+        "altitudeFt": 10023
+      },
+      {
+        "day": "Day 4",
+        "spot": "Trek on Route Bota via..",
+        "altitudeM": 3585,
+        "altitudeFt": 11762
+      },
+      {
+        "day": "Day 5",
+        "spot": "Trek to Bota",
+        "altitudeM": 2440,
+        "altitudeFt": 8005
+      },
+      {
+        "day": "Day 6",
+        "spot": "Trek to Ghorasinga 3,0..",
+        "altitudeM": 3050,
+        "altitudeFt": 10007
+      },
+      {
+        "day": "Day 7",
+        "spot": "Trek to Rara Lake",
+        "altitudeM": 2980,
+        "altitudeFt": 9777
+      },
+      {
+        "day": "Day 8",
+        "spot": "Rest Day for Excursion..",
+        "altitudeM": 2980,
+        "altitudeFt": 9777
+      },
+      {
+        "day": "Day 9",
+        "spot": "Trek to Talcha Town 27..",
+        "altitudeM": 2735,
+        "altitudeFt": 8973
+      },
+      {
+        "day": "Day 10",
+        "spot": "Fly to Kathmandu via N..",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      },
+      {
+        "day": "Day 11",
+        "spot": "Depart Kathmandu for I..",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1400 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 3 (3055 m)",
+        "min": -6,
+        "max": 9
+      },
+      {
+        "label": "Day 4 (3585 m)",
+        "min": -9,
+        "max": 6
+      },
+      {
+        "label": "Day 5 (2440 m)",
+        "min": -2,
+        "max": 13
+      },
+      {
+        "label": "Day 6 (3050 m)",
+        "min": -6,
+        "max": 9
+      },
+      {
+        "label": "Day 7 (2980 m)",
+        "min": -5,
+        "max": 10
+      },
+      {
+        "label": "Day 8 (2980 m)",
+        "min": -5,
+        "max": 10
+      },
+      {
+        "label": "Day 9 (2735 m)",
+        "min": -4,
+        "max": 11
+      },
+      {
+        "label": "Day 10 (1400 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 11 (1400 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/Rara Lake Trek.jpg",
+    "uploads/66285918_2985544058152638_825815313579769856_n.jpg",
+    "uploads/502915494_3949774301906994_297903097396302835_n.jpg",
+    "uploads/462796451_3740535436164216_909755501114486389_n.jpg",
+    "uploads/128356443_2745800682304368_729382509930831858_n.jpg",
+    "uploads/87457252_2499772363573869_2475215632941973504_n.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:54:28.932Z"
+}

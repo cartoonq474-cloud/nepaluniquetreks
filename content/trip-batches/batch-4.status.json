@@ -1,0 +1,57 @@
+{
+  "batch": 4,
+  "verifiedAt": "2026-11-28T12:27:53.380Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 31,
+      "sourceSlug": "family-tour-in-nepal",
+      "targetHtmlPath": "tour/family-tour-in-nepal/index.html"
+    },
+    {
+      "order": 32,
+      "sourceSlug": "ruby-valley-trekking",
+      "targetHtmlPath": "trek/ruby-valley-trek/index.html"
+    },
+    {
+      "order": 33,
+      "sourceSlug": "annapurna-royal-trek",
+      "targetHtmlPath": "trek/annapurna-royal-trek/index.html"
+    },
+    {
+      "order": 34,
+      "sourceSlug": "pisang-peak-climbing",
+      "targetHtmlPath": "trek/pisang-peak-climbing/index.html"
+    },
+    {
+      "order": 35,
+      "sourceSlug": "langtang-valley-trek",
+      "targetHtmlPath": "trek/langtang-valley-trek/index.html"
+    },
+    {
+      "order": 36,
+      "sourceSlug": "sirubari-village-tour",
+      "targetHtmlPath": "tour/sirubari-village-tour/index.html"
+    },
+    {
+      "order": 37,
+      "sourceSlug": "nepal-experience-tour",
+      "targetHtmlPath": "tour/nepal-experience-tour/index.html"
+    },
+    {
+      "order": 38,
+      "sourceSlug": "jomsom-muktinath-trek",
+      "targetHtmlPath": "trek/jomsom-muktinath-trek/index.html"
+    },
+    {
+      "order": 39,
+      "sourceSlug": "lobuche-peak-climbing",
+      "targetHtmlPath": "trek/lobuche-peak-climbing/index.html"
+    },
+    {
+      "order": 40,
+      "sourceSlug": "langtang-valley-treks",
+      "targetHtmlPath": "trek/langtang-valley-treks/index.html"
+    }
+  ]
+}

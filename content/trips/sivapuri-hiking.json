@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "order": 5,
+  "batch": 1,
+  "sourceSlug": "sivapuri-hiking",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/sivapuri-hiking",
+  "targetDir": "trek/sivapuri-hiking",
+  "templateType": "trek",
+  "regionLabel": "Nepal Foothills",
+  "sourceCategory": "Short & Easy Trekking Routes in Nepal",
+  "title": "Sivapuri Hiking",
+  "seoTitle": "Sivapuri Hiking",
+  "metaDescription": "Shivapuri hiking is the short hiking around the Kathmandu valley which provides the glimpse of the rural lifestyle and culture as well as the view of",
+  "heroLead": "Shivapuri hiking is the short hiking around the Kathmandu valley which provides the glimpse of the rural lifestyle and culture as well as the view of the Kathmandu valley. Shivapuri hiking.is the second highest hill around the Kathmandu valley from where you can observe the long panorama of the Himalayas in the north.",
+  "heroMore": "Shivapuri national park on the Shivapuri hill which is the nearest national park from Kathmandu is famous for the wildlife and watershed area in Nepal. Shivapuri lies in the transition between subtropical and temperate climate zone.",
+  "durationDays": 1,
+  "durationDisplay": "1 Day",
+  "maxElevationM": 2563,
+  "facts": {
+    "duration": "1 Day",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "2563 m.",
+    "grade": "Easy",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House",
+    "best season": "Any"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/shivapuri-hiking.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Shivapuri hiking is the short hiking around the Kathmandu valley which provides the glimpse of the rural lifestyle and culture as well as the view of the Kathmandu valley. Shivapuri hiking.is the second highest hill around the Kathmandu valley from where you can observe the long panorama of the Himalayas in the north. Shivapuri national park on the Shivapuri hill which is the nearest national park from Kathmandu is famous for the wildlife and watershed area in Nepal. Shivapuri lies in the transition between subtropical and temperate climate zone. In this hiking you experience both subtropical and temperate zone in a single day. It is the main source of drinking water in the Kathmandu valley. Shivapuri village which is located in the park is the ideal village to experience the spirit of the hospitality and village experience of Nepal.</p><p>This easy trek is best for the family trekking or for those who have limited time and old people to experience the grandeur of the Himalayas and the mountain villages. Shivapuri hiking begins from Budhanilkantha after short drive from Kathmandu. In Budhanilkantha you visit the Budhanilkantha temple, a temple of Hindu lord Vishnu who lies on the cosmic ocean and awakens on the Haribodhini Ekadashi which falls in October/ November. From Budhanilkantha you enter the Shivapuri national park and head to Shivapuri village. In the national park you can see various wild lives. While trekking you also see the beautiful view of the Kathmandu valley. In this hiking you can interact with different ethnic groups like Tamang, Newar, and Brahmin etc. Shivapuri hiking can be done throughout the year.</p></div></div>",
+  "overviewPlainWordCount": 268,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Drive to budhanilkantha then hike Shivapuri then back to kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive to budhanilkantha then hike to bagdwar explore wild life. enjoy with nature back to hike seem trail. drive back to Kathmandu overnight at hotel"
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "Sivapuri national park fee",
+        "Trekking guide. porter",
+        "All transportation pickup drop"
+      ],
+      "excludes": []
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Sivapuri Hiking (1 Days)",
+    "weatherTitle": "Sivapuri Hiking Seasonal Averages",
+    "points": [
+      {
+        "day": "Start",
+        "spot": "Trailhead",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      },
+      {
+        "day": "Peak",
+        "spot": "Drive to budhanilkanth..",
+        "altitudeM": 2563,
+        "altitudeFt": 8409
+      },
+      {
+        "day": "End",
+        "spot": "Finish",
+        "altitudeM": 1400,
+        "altitudeFt": 4593
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Start (1400 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Peak (2563 m)",
+        "min": -3,
+        "max": 12
+      },
+      {
+        "label": "End (1400 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/shivapuri-hiking.jpg",
+    "images/treks/ghorepani-poon-hill/poon-hill-sunrise.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-morning-light-24.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-14.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-32.jpg"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:54:29.494Z"
+}

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "order": 31,
+  "batch": 4,
+  "sourceSlug": "family-tour-in-nepal",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/family-tour-in-nepal",
+  "targetDir": "tour/family-tour-in-nepal",
+  "templateType": "tour",
+  "regionLabel": "Annapurna",
+  "sourceCategory": "Annapurna Region Trekking",
+  "title": "Family Tour in Nepal",
+  "seoTitle": "Family Tour in Nepal | Best Nepal Family Holiday Packages",
+  "metaDescription": "Discover the best Family Tour in Nepal with Nepal Unique Treks. Enjoy cultural sightseeing, wildlife safaris, scenic mountains, and family-friendly ho",
+  "heroLead": "Family Tour In Nepal gives you an opportunity to explore panoramic mountain views, stunning sunrise views, UNESCO World Heritage sites, Local culture, Tradition, religion, and Nepali people lifestyle. Nepal has been the first choice for many avid trekking in Nepal, and tours in Nepal.",
+  "heroMore": "The rich natural wonders and cultural diversity makes it the most incredible and unique tourist destination in the world. There are so many categories of touring activities in Nepal and all are worth observing.",
+  "durationDays": 9,
+  "durationDisplay": "9 Days",
+  "maxElevationM": 1345,
+  "facts": {
+    "duration": "9 Days",
+    "accommodation": "3-star Hotel",
+    "max elevation": "1345 m",
+    "grade": "Easy",
+    "activity": "Heritage and Culture tour",
+    "transportation": "Private Car/jeep/van",
+    "treks type": "Tour",
+    "best season": "Spring (March – May) Autumn (Sep – Nov)"
+  },
+  "pricing": {
+    "primaryPriceUsd": 695,
+    "priceOnRequest": false,
+    "priceSource": "csv-fallback",
+    "luxuryPriceUsd": null,
+    "packages": [],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/family-tours-in-nepal.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p><strong>Family Tour In Nepal</strong> gives you an opportunity to explore panoramic mountain views, stunning sunrise views, <strong>UNESCO World Heritage</strong> sites, Local culture, Tradition, religion, and Nepali people lifestyle. Nepal has been the first choice for many avid <strong>trekking in Nepal</strong>, and <strong>tours in Nepal</strong>. The rich natural wonders and cultural diversity makes it the most incredible and unique tourist destination in the world. There are so many categories of touring activities in Nepal and all are worth observing. The highest mountains are the main highlight of Nepal Tourism. Besides this, beautiful valleys like Pokhara and Kathmandu, green rolling hills, rural lifestyle, ancient old monuments, Temples, and Stupas are the things people want to explore.</p><p>We have designed family tours in Nepal so carefully and selected the most suitable places for tours with children to make your holiday awesome. <strong>Trekking in Nepal </strong>is a strenuous activity, and not suitable for all children so we have included easy travel destinations in this tour package. All of them are the most loved sites among international and domestic tourists.</p><h2>Kathmandu Pokhara and Chitwan Tour</h2><p>This is an ideal tour package for family tours with children. This easy trekking starts from Kathmandu where you can explore the unique traditions and culture of the local peoples and additionally explore the very beautiful Temples that have been enlisted as world heritage sites by UNESCO, also the famous Buddhist stupa like Boudhanath and Changunarayan.</p><p>Pokhara is the city of lakes where you will be rewarded with astounding mountain panoramas and the chance to explore the big lakes in a tranquil environment. The view of the surrounding is also perfect in Pokhara. Then you will make a visit to CNP (Chitwan National Park) where you will get a chance to explore rare and endangered wild animals and beautiful bird species. Also gets a chance to explore the national park riding in the back of an elephant. Also, jeep safari and kayaking are famous in Chitwan National Park which is suitable for a tour with family also.</p></div></div>",
+  "overviewPlainWordCount": 337,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Kathmandu Arrival"
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu Sightseeing",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Kathmandu Sightseeing"
+    },
+    {
+      "day": 3,
+      "title": "Drive to Riverside Camp",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Drive to Riverside Camp"
+    },
+    {
+      "day": 4,
+      "title": "Drive to Chitwan National park",
+      "altitudeM": 100,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive to Chitwan National park | Safari activities"
+    },
+    {
+      "day": 5,
+      "title": "Holiday Safari activities at Chitwan for your family",
+      "altitudeM": 100,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Holiday Safari activities at Chitwan for your family"
+    },
+    {
+      "day": 6,
+      "title": "Drive to Pokhara & Explore",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive to Pokhara | Explore Phewa Lake and lakeside market"
+    },
+    {
+      "day": 7,
+      "title": "Pokhara Tour",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Pokhara Tour"
+    },
+    {
+      "day": 8,
+      "title": "Fly to Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Fly to Kathmandu and visit Bhaktapur & Patan Tour"
+    },
+    {
+      "day": 9,
+      "title": "Final departure",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "Drive to the airport for final departure"
+    }
+  ],
+  "packagesCost": [],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Family Tour in Nepal (9 Days)",
+    "weatherTitle": "Family Tour in Nepal Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu Sightseeing",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive to Riverside Camp",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 4",
+        "spot": "Drive to Chitwan Natio..",
+        "altitudeM": 100,
+        "altitudeFt": 328
+      },
+      {
+        "day": "Day 5",
+        "spot": "Holiday Safari activit..",
+        "altitudeM": 100,
+        "altitudeFt": 328
+      },
+      {
+        "day": "Day 6",
+        "spot": "Drive to Pokhara & Exp..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 7",
+        "spot": "Pokhara Tour",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 8",
+        "spot": "Fly to Kathmandu",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 9",
+        "spot": "Final departure",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 4 (100 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 5 (100 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 6 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 7 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 8 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 9 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/family-tours-in-nepal.jpg",
+    "uploads/kathmandu-durbar-squire.jpg",
+    "uploads/pokhara-himalayan-view-winter.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg",
+    "uploads/nagarkot.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:55:54.479Z"
+}

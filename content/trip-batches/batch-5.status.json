@@ -1,0 +1,57 @@
+{
+  "batch": 5,
+  "verifiedAt": "2026-11-28T12:27:53.381Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 41,
+      "sourceSlug": "makalu-base-camp-trek",
+      "targetHtmlPath": "trek/makalu-base-camp-trek/index.html"
+    },
+    {
+      "order": 42,
+      "sourceSlug": "annapurna-circuit-trek",
+      "targetHtmlPath": "trek/annapurna-circuit-trek/index.html"
+    },
+    {
+      "order": 43,
+      "sourceSlug": "jiri-everest-base-camp",
+      "targetHtmlPath": "trek/jiri-everest-base-camp/index.html"
+    },
+    {
+      "order": 44,
+      "sourceSlug": "chisapani-helambu-trek",
+      "targetHtmlPath": "trek/helambu-trek/index.html"
+    },
+    {
+      "order": 45,
+      "sourceSlug": "ganesh-himal-view-trek",
+      "targetHtmlPath": "trek/ganesh-himal-view-trek/index.html"
+    },
+    {
+      "order": 46,
+      "sourceSlug": "kathmandu-pokhara-tour",
+      "targetHtmlPath": "tour/kathmandu-pokhara-tour/index.html"
+    },
+    {
+      "order": 47,
+      "sourceSlug": "everest-base-camp-trek",
+      "targetHtmlPath": "trek/everest-base-camp-trek/index.html"
+    },
+    {
+      "order": 48,
+      "sourceSlug": "honeymoon-tour-in-nepal",
+      "targetHtmlPath": "tour/honeymoon-tour-in-nepal/index.html"
+    },
+    {
+      "order": 49,
+      "sourceSlug": "kathmandu-lumbini-tours",
+      "targetHtmlPath": "tour/kathmandu-lumbini-tours/index.html"
+    },
+    {
+      "order": 50,
+      "sourceSlug": "luxury-holiday-in-nepal",
+      "targetHtmlPath": "tour/luxury-holiday-in-nepal/index.html"
+    }
+  ]
+}

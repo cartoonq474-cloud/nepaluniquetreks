@@ -3,6 +3,8 @@
  * Zero-dependency, performant client-side filtering, live search, sorting, and modal integration.
  */
 
+import { upgradeStyledSelect, syncStyledSelect } from './custom-select.js';
+
 document.addEventListener('DOMContentLoaded', () => {
   // DOM Elements
   const catalogSearchInput = document.getElementById('catalog-search-input');
@@ -25,6 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const emptyState = document.getElementById('catalog-empty-state');
   const treksContainer = document.getElementById('treks-container');
   const cards = Array.from(document.querySelectorAll('.trek-catalog-card'));
+  const filterSelects = [filterDuration, filterDifficulty, filterSeason, filterSort].filter(Boolean);
+  filterSelects.forEach(upgradeStyledSelect);
 
   // Active state object
   const state = {
@@ -117,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
         case 'duration-desc':
           return getVal(b, 'data-days') - getVal(a, 'data-days');
         case 'price-asc':
-          return getVal(a, 'data-price') - getVal(b, 'data-price');
+          return (getVal(a, 'data-price') || 9999999) - (getVal(b, 'data-price') || 9999999);
         case 'price-desc':
           return getVal(b, 'data-price') - getVal(a, 'data-price');
         case 'altitude-desc':
@@ -151,6 +155,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Update active filter count badge on Reset button
     updateFilterBadge();
+
+    // Sync accessible styled select display labels
+    filterSelects.forEach(syncStyledSelect);
   }
 
   // Render removable active filter chips

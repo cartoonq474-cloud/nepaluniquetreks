@@ -1,0 +1,57 @@
+{
+  "batch": 2,
+  "verifiedAt": "2026-11-28T12:27:53.378Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 11,
+      "sourceSlug": "gorilla-trekking",
+      "targetHtmlPath": "trek/gorilla-trekking/index.html"
+    },
+    {
+      "order": 12,
+      "sourceSlug": "lower-dolpo-trek",
+      "targetHtmlPath": "trek/lower-dolpo-trek/index.html"
+    },
+    {
+      "order": 13,
+      "sourceSlug": "kanchenjunga-trek",
+      "targetHtmlPath": "trek/kanchenjunga-base-camp-trek/index.html"
+    },
+    {
+      "order": 14,
+      "sourceSlug": "everest-mini-trek",
+      "targetHtmlPath": "trek/everest-mini-trek/index.html"
+    },
+    {
+      "order": 15,
+      "sourceSlug": "gokyo-valley-trek",
+      "targetHtmlPath": "trek/gokyo-lakes-trek/index.html"
+    },
+    {
+      "order": 16,
+      "sourceSlug": "everest-view-trek",
+      "targetHtmlPath": "trek/everest-view-trek/index.html"
+    },
+    {
+      "order": 17,
+      "sourceSlug": "namobuddha-hiking",
+      "targetHtmlPath": "trek/namobuddha-hiking/index.html"
+    },
+    {
+      "order": 18,
+      "sourceSlug": "panch-pokhari-trek",
+      "targetHtmlPath": "trek/panch-pokhari-trek/index.html"
+    },
+    {
+      "order": 19,
+      "sourceSlug": "manaslu-expedition",
+      "targetHtmlPath": "trek/manaslu-expedition/index.html"
+    },
+    {
+      "order": 20,
+      "sourceSlug": "mera-peak-climbing",
+      "targetHtmlPath": "trek/mera-peak-climbing/index.html"
+    }
+  ]
+}

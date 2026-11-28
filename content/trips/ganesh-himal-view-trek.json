@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "order": 45,
+  "batch": 5,
+  "sourceSlug": "ganesh-himal-view-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/ganesh-himal-view-trek",
+  "targetDir": "trek/ganesh-himal-view-trek",
+  "templateType": "trek",
+  "regionLabel": "Langtang",
+  "sourceCategory": "Langtang Region Treks",
+  "title": "Ganesh Himal View Trek",
+  "seoTitle": "Ganesh Himal View Trek",
+  "metaDescription": "Ganesh Himal view trek is one of the non touristic trekking regions of Nepal which offers a great scenario to its visitors",
+  "heroLead": "Ganesh Himal view trek is one of the non touristic trekking regions of Nepal which offers a great scenario to its visitors. The marvelous view of the Ganesh Himal can be seen while doing this trekking.",
+  "heroMore": "Situating at the central regions of Nepal, the Ganesh Himal is not so far from Kathmandu. While making our trek towards the Ganesh Himal we can get the superb view of the neighboring mountains like Annapurna, Langtang and Manaslu Mountains.",
+  "durationDays": 15,
+  "durationDisplay": "15 Days",
+  "maxElevationM": 4600,
+  "facts": {
+    "duration": "15 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "4600m",
+    "grade": "Link",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/ganesh-himal-view-trek-.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Ganesh Himal view trek is one of the non touristic trekking regions of Nepal which offers a great scenario to its visitors. The marvelous view of the Ganesh Himal can be seen while doing this trekking. Situating at the central regions of Nepal, the Ganesh Himal is not so far from Kathmandu. While making our trek towards the Ganesh Himal we can get the superb view of the neighboring mountains like Annapurna, Langtang and Manaslu Mountains. Similarly, the trekking routes to the Ganesh Himal go all the way through some marvelous forest which is rich in both flora and fauna. The forests are rich is varieties of vegetations and flowers. Thus a beautiful smell of fresh flowers always used to blow at the forest of the Ganesh Himal regions. The trekking route of the Ganesh Himal passes through some of the most traditional Tamang and Gurung villages of Nepal. The traditional lifestyle and the culture of the Tamang and Gurung people living at this regions will always mesmerizes us and also provides us several information about the regions and their culture. </p><p>The Ganesh Himal view trekking will begins all the way from Kathmandu with the drive over to Trishuli and form Trishuli the way will goes passing some splendid villages and forest of the trekking regions. The mix cultured villages along with the dense forest of the trekking routes will makes our Ganesh Himal view trekking spectacular. For the best view of the Ganesh Himal; autumn and spring season will be best.</p><p>Nepal Unique Treks and Expedition is arranging the Ganesh Himal view trekking with the collaboration with the visitors. We at Nepal Unique Treks and Expedition is offering several types of services and facilities to the trekkers who wants to enjoy the beauty of the nature.</p><p>Outline Itinerary<br />Day 01: Arrival at Kathmandu (1350m) and then guided towards the hotel room at Kathmandu.</p><p>Day 02: Sightseeing tour at Kathmandu</p><p>Day 03: Kathmandu to Trishuli bazaar</p><p>Day 04: Trishuli bazaar to Deurali Bhanjyang (1700m)</p><p>Day 05: Deurali Bhanjyang to Bhaisi Kharka (2300m)</p><p>Day 06: Bhaisi Kharka to Kharani odar (2800m)</p><p>Day 07: Kharani Odar to Singla pass (4600m)</p><p>Day 08: Singla pass to Kharka (2500m)</p><p>Day 09: Kharka to Chalise (1800m)</p><p>Day 10: Chalise to Laba (2550m)</p><p>Day 11: Laba to Mongaythati (3700m)</p><p>Day 12: Mongaythati to Ghunchet (2100m)</p><p>Day 13: Ghunchet to Arughat bazaar.</p><p>Day 14: Arughat to Kathmandu driving for about 7 to 8 hours.</p><p>Day 15: Farewell and final departure towards your own home.</p></div></div>",
+  "overviewPlainWordCount": 417,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrival at Kathmandu (1350m) and then guided towards the hotel room at Kathmandu."
+    },
+    {
+      "day": 2,
+      "title": "Sightseeing tour at Kathmandu",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Sightseeing tour at Kathmandu"
+    },
+    {
+      "day": 3,
+      "title": "Kathmandu to Trishuli bazaar",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kathmandu to Trishuli bazaar"
+    },
+    {
+      "day": 4,
+      "title": "Trishuli bazaar to Deurali Bhanjyang",
+      "altitudeM": 1700,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trishuli bazaar to Deurali Bhanjyang (1700m)"
+    },
+    {
+      "day": 5,
+      "title": "Deurali Bhanjyang to Bhaisi Kharka",
+      "altitudeM": 2300,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Deurali Bhanjyang to Bhaisi Kharka (2300m)"
+    },
+    {
+      "day": 6,
+      "title": "Bhaisi Kharka to Kharani odar",
+      "altitudeM": 2800,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Bhaisi Kharka to Kharani odar (2800m)"
+    },
+    {
+      "day": 7,
+      "title": "Kharani Odar to Singla pass",
+      "altitudeM": 4600,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kharani Odar to Singla pass (4600m)"
+    },
+    {
+      "day": 8,
+      "title": "Singla pass to Kharka",
+      "altitudeM": 2500,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Singla pass to Kharka (2500m)"
+    },
+    {
+      "day": 9,
+      "title": "Kharka to Chalise",
+      "altitudeM": 1800,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kharka to Chalise (1800m)"
+    },
+    {
+      "day": 10,
+      "title": "Chalise to Laba",
+      "altitudeM": 2550,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Chalise to Laba (2550m)"
+    },
+    {
+      "day": 11,
+      "title": "Laba to Mongaythati",
+      "altitudeM": 3700,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Laba to Mongaythati (3700m)"
+    },
+    {
+      "day": 12,
+      "title": "Mongaythati to Ghunchet",
+      "altitudeM": 2100,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Mongaythati to Ghunchet (2100m)"
+    },
+    {
+      "day": 13,
+      "title": "Ghunchet to Arughat bazaar.",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Ghunchet to Arughat bazaar."
+    },
+    {
+      "day": 14,
+      "title": "Arughat to Kathmandu",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Arughat to Kathmandu driving for about 7 to 8 hours."
+    },
+    {
+      "day": 15,
+      "title": "final departure",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Farewell and final departure towards your own home."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "All hotel, airport arrival departure transfers",
+        "2 night hotel in Kathmandu 3-star category on BB plan",
+        "first night evening welcome dinner, before departure Kathmandu farewell dinner",
+        "all accommodation and food during the mountain",
+        "English speaking tour leader (trekking guide) an experienced guide about tourism, culture, religion, mountain, trekkers 1 assistant guide (Sherpa) porter to carry luggage (2 trekkers:1 porter )including their salary, insurance, equipment, transportation, food and lodging",
+        "Nepal unique treks can provide which is returned after trip completion (down jacket, sleeping bag, duffel trekking bag, first aid kit, trekking poles",
+        "Nepal unique treks provide each trekking map, trekking t-shirt",
+        "All kind of necessary paperwork TIMS card, national park permit",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee (need to bring accurate US cash and two passport size photographs)",
+        "Airport departure tax (per person NPR 200)",
+        "International airfare to and from Kathmandu",
+        "Excess baggage charge",
+        "Your own meals around city, lunch, dinner, drinks and also in case of early return from the mountain than the scheduled itinerary",
+        "Extra night accommodation in city because of early arrival, late departure and early return from the mountain (due to any reason )than the schedule itinerary",
+        "Travel and rescue insurance, in case (can help for organized helicopter hospital)",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for your travel guide, mountain guide, and porter, driver, hotel staff"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/nepal-unique-treks-logo.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Ganesh Himal View Trek (15 Days)",
+    "weatherTitle": "Ganesh Himal View Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 2",
+        "spot": "Sightseeing tour at Ka..",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 3",
+        "spot": "Kathmandu to Trishuli ..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 4",
+        "spot": "Trishuli bazaar to Deu..",
+        "altitudeM": 1700,
+        "altitudeFt": 5577
+      },
+      {
+        "day": "Day 5",
+        "spot": "Deurali Bhanjyang to B..",
+        "altitudeM": 2300,
+        "altitudeFt": 7546
+      },
+      {
+        "day": "Day 6",
+        "spot": "Bhaisi Kharka to Khara..",
+        "altitudeM": 2800,
+        "altitudeFt": 9186
+      },
+      {
+        "day": "Day 7",
+        "spot": "Kharani Odar to Singla..",
+        "altitudeM": 4600,
+        "altitudeFt": 15092
+      },
+      {
+        "day": "Day 8",
+        "spot": "Singla pass to Kharka",
+        "altitudeM": 2500,
+        "altitudeFt": 8202
+      },
+      {
+        "day": "Day 9",
+        "spot": "Kharka to Chalise",
+        "altitudeM": 1800,
+        "altitudeFt": 5906
+      },
+      {
+        "day": "Day 10",
+        "spot": "Chalise to Laba",
+        "altitudeM": 2550,
+        "altitudeFt": 8366
+      },
+      {
+        "day": "Day 11",
+        "spot": "Laba to Mongaythati",
+        "altitudeM": 3700,
+        "altitudeFt": 12139
+      },
+      {
+        "day": "Day 12",
+        "spot": "Mongaythati to Ghunchet",
+        "altitudeM": 2100,
+        "altitudeFt": 6890
+      },
+      {
+        "day": "Day 13",
+        "spot": "Ghunchet to Arughat ba..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 14",
+        "spot": "Arughat to Kathmandu",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 15",
+        "spot": "final departure",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 4 (1700 m)",
+        "min": 3,
+        "max": 17
+      },
+      {
+        "label": "Day 5 (2300 m)",
+        "min": -1,
+        "max": 14
+      },
+      {
+        "label": "Day 6 (2800 m)",
+        "min": -4,
+        "max": 11
+      },
+      {
+        "label": "Day 7 (4600 m)",
+        "min": -16,
+        "max": 0
+      },
+      {
+        "label": "Day 8 (2500 m)",
+        "min": -2,
+        "max": 12
+      },
+      {
+        "label": "Day 9 (1800 m)",
+        "min": 2,
+        "max": 17
+      },
+      {
+        "label": "Day 10 (2550 m)",
+        "min": -2,
+        "max": 12
+      },
+      {
+        "label": "Day 11 (3700 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 12 (2100 m)",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "label": "Day 13 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 14 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 15 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/ganesh-himal-view-trek-.jpg",
+    "images/treks/langtang-valley/langtang-trek-hiker-mountain-view-03.jpg",
+    "images/treks/langtang-valley/langtang-trek-hiker-rocky-viewpoint-06.jpg",
+    "images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg",
+    "images/treks/langtang-valley/langtang-trek-trekkers-mountain-view-01.jpg"
+  ],
+  "mapImage": "uploads/nepal-unique-treks-logo.jpg",
+  "fetchedAt": "2026-11-28T10:56:06.340Z"
+}

@@ -1223,9 +1223,28 @@ function setActiveUnit(unit) {
   }
 }
 
+function getInlineTripChartData() {
+  try {
+    const el = document.getElementById('trip-chart-data');
+    if (!el || !el.textContent) return null;
+    const parsed = JSON.parse(el.textContent);
+    return parsed && typeof parsed === 'object' ? parsed : null;
+  } catch (e) {
+    return null;
+  }
+}
+
 export function renderAltitudeChart(containerId, trekKey = "ebc") {
   const container = document.getElementById(containerId);
   if (!container) return;
+
+  const inlineData = getInlineTripChartData();
+  if (inlineData && inlineData.key && Array.isArray(inlineData.points) && inlineData.points.length) {
+    trekAltitudeProfiles[inlineData.key] = {
+      name: inlineData.name || inlineData.key,
+      points: inlineData.points
+    };
+  }
 
   const data = trekAltitudeProfiles[trekKey] || trekAltitudeProfiles["ebc"];
   const points = data.points;
@@ -1241,27 +1260,32 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
     displayAlt: convertAlt(p)
   }));
 
-  const width = 800;
-  const height = 280;
-  const paddingLeft = 50;
-  const paddingRight = 40;
-  const paddingTop = 40;
-  const paddingBottom = 60;
+  const width = 840;
+  const height = 305;
+  const paddingLeft = 96;
+  const paddingRight = 56;
+  const paddingTop = 42;
+  const paddingBottom = 82;
 
   const maxPoint = Math.max(...convertedPoints.map(p => p.displayAlt));
   const minPoint = Math.min(...convertedPoints.map(p => p.displayAlt));
   const maxAlt = maxPoint + (isFeet ? 1500 : 500);
   const minAlt = Math.max(0, minPoint - (isFeet ? 1500 : 500));
 
-  const getX = (index) => paddingLeft + (index / (convertedPoints.length - 1)) * (width - paddingLeft - paddingRight);
-  const getY = (alt) => height - paddingBottom - ((alt - minAlt) / (maxAlt - minAlt)) * (height - paddingTop - paddingBottom);
+  const getX = (index) => paddingLeft + (convertedPoints.length > 1 ? (index / (convertedPoints.length - 1)) : 0.5) * (width - paddingLeft - paddingRight);
+  const getY = (alt) => {
+    const span = maxAlt - minAlt;
+    return height - paddingBottom - ((alt - minAlt) / (span > 0 ? span : 1)) * (height - paddingTop - paddingBottom);
+  };
 
   const coords = convertedPoints.map((p, i) => ({ x: getX(i), y: getY(p.displayAlt) }));
   const pathCoords = getSplinePath(coords, true);
   const areaCoords = `${pathCoords} L ${getX(convertedPoints.length - 1)},${height - paddingBottom} L ${getX(0)},${height - paddingBottom} Z`;
 
-  const gridLine1Val = isFeet ? 6000 : 2000;
-  const gridLine2Val = isFeet ? 12000 : 4000;
+  const gridRound = isFeet ? 1000 : 500;
+  const gridLine1Val = Math.max(minAlt, Math.round((minAlt + (maxAlt - minAlt) * 0.34) / gridRound) * gridRound);
+  let gridLine2Val = Math.min(maxAlt, Math.round((minAlt + (maxAlt - minAlt) * 0.72) / gridRound) * gridRound);
+  if (gridLine2Val <= gridLine1Val) gridLine2Val = gridLine1Val + gridRound;
 
   const chartHTML = `
     <!-- Card Header Row -->
@@ -1269,6 +1293,7 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
       <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
         <!-- Trek Selector -->
         <select id="altitude-trek-selector" class="control-select" style="background: #ffffff; color: var(--color-primary-navy); border: 1px solid #C7D3CB; border-radius: 8px; padding: 8px 12px; font-size: 0.9rem; font-weight: 600; cursor: pointer; outline: none; transition: border-color var(--transition-fast);">
+          ${inlineData && inlineData.key && !['everest-view','ebc','abc','annapurna_circuit','manaslu','langtang','poonhill','gokyo','gokyo_chola','mustang'].includes(inlineData.key) ? `<option value="${inlineData.key}" ${trekKey === inlineData.key ? 'selected' : ''}>${inlineData.name || inlineData.key}</option>` : ''}
           <option value="everest-view" ${trekKey === 'everest-view' ? 'selected' : ''}>Everest View Trek (7 Days)</option>
           <option value="ebc" ${trekKey === 'ebc' ? 'selected' : ''}>Everest Base Camp</option>
           <option value="abc" ${trekKey === 'abc' ? 'selected' : ''}>Annapurna Base Camp</option>
@@ -1339,8 +1364,8 @@ export function renderAltitudeChart(containerId, trekKey = "ebc") {
           <text x="${getX(i)}" y="${getY(p.displayAlt) - 12}" font-size="10.5" font-weight="700" text-anchor="middle" fill="#34463C">${p.displayAlt.toLocaleString()}${unitLabel}</text>
           
           <!-- Slanted Spot Names on X-axis -->
-          <g transform="translate(${getX(i)}, ${height - paddingBottom + 20})">
-            <text transform="rotate(-25)" font-size="9.5" font-weight="600" text-anchor="end" fill="#65736B">${p.spot}</text>
+          <g transform="translate(${getX(i)}, ${height - paddingBottom + 18})">
+            <text transform="rotate(-22)" font-size="9.5" font-weight="600" text-anchor="end" fill="#65736B">${p.spot.length > 16 ? p.spot.slice(0, 14) + '..' : p.spot}</text>
           </g>
         `).join('')}
       </svg>

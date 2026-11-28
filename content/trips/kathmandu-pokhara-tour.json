@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "order": 46,
+  "batch": 5,
+  "sourceSlug": "kathmandu-pokhara-tour",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/kathmandu-pokhara-tour",
+  "targetDir": "tour/kathmandu-pokhara-tour",
+  "templateType": "tour",
+  "regionLabel": "Nepal",
+  "sourceCategory": "Tours in Nepal",
+  "title": "Kathmandu Pokhara Tour",
+  "seoTitle": "Kathmandu Pokhara Tour | Nepal Unique Treks",
+  "metaDescription": "Kathmandu Pokhara Tour explores the endless wonders of Nepal on this exotic trip that will lead you to wonderful cities with opulent history, timeless",
+  "heroLead": "Kathmandu Pokhara Tour – A complete cultural and natural travel experience in Nepal Explore the endless wonders of Nepal on this exotic trip that will lead you to wonderful cities with opulent history, timeless culture, and wonderful nature. Kathmandu Pokhara Tour offers the best travel experience for friends and families who have less time on hand or are unable to trek high altitude due to health issues or age factors.",
+  "heroMore": "This trip is also perfect for backpackers and honeymoon seekers. Major Place of Interest during Kathmandu Pokhara Tour Kathmandu Valley Heritage Sites Kathmandu is a melting pot of religions and cultures, with fascinating heritage, arts, and history.",
+  "durationDays": 5,
+  "durationDisplay": "5 Days",
+  "maxElevationM": 2175,
+  "facts": {
+    "duration": "5 Days",
+    "accommodation": "3-star Hotel",
+    "max elevation": "2175M",
+    "grade": "Easy",
+    "activity": "Trek and Culture tour",
+    "transportation": "Private Car/jeep/van",
+    "treks type": "Tour",
+    "best season": "Spring, Monsoon and Autumn"
+  },
+  "pricing": {
+    "primaryPriceUsd": 595,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$595",
+        "priceUsd": 595
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_20170725_132244-3.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><h2><strong>Kathmandu Pokhara Tour &ndash; A complete cultural and natural travel experience in Nepal</strong></h2><p>Explore the endless wonders of Nepal on this exotic trip that will lead you to wonderful cities with opulent history, timeless culture, and wonderful nature.</p><p>Kathmandu Pokhara Tour offers the best travel experience for friends and families who have less time on hand or are unable to trek high altitude due to health issues or age factors. This trip is also perfect for backpackers and honeymoon seekers.</p><h2><strong>Major Place of Interest during Kathmandu Pokhara Tour</strong></h2><h2> </h2><h2><strong>Kathmandu Valley Heritage Sites</strong></h2><p>Kathmandu is a melting pot of religions and cultures, with fascinating heritage, arts, and history. This enigmatic city has its roots deep in its customs, culture, history, and religion. The more you try to enjoy this essence, the more fascinating Kathmandu becomes. During the Kathmandu sightseeing tour, we will explore the UNESCO World Heritage sites; which play a significant in people&rsquo;s lifestyles.</p><p>Our Kathmandu Day Tour includes a visit to all the major cultural heritage sites &ndash; Swayambhunath, Bouddhanath, Pashupatinath, and Kathmandu Durbar Square. These sites have great cultural and religious values for locals. Kathmandu is often known as an open museum of medieval arts and architecture.</p><p>Patan, also known as Manigal in the local dialect, was founded in the Kirat era around 3rd</p><p><br />century BC. The Patan City is designed in the shape of Dharma Chakra which showcases the paths to enlightenment based on the Mantra of Buddha. The whole city is endowed with ancient craftwork in urbanization. Bhaktapur, the city of God, used to be the Malla Kingdom until the end of the 15th<br />century. The city preserves ancient traditions, flairs &amp; festivals, age-old wooden and stone crafts, and stones displaying wonderful architecture.</p><h2><strong>Nagarkot</strong></h2><p>Nagarkot is a hilltop village located about 32km east of the Kathmandu Valley at an altitude of 2175m. Whether you wish to witness Mt. Everest or seek tranquility or perhaps you just want to spend a romantic night, whatever the reason, Nagarkot is the best place to be.</p><p>When the sun rises gradually from the horizon and strikes the milky peaks, the peaks change into a magical color, which is simply spell-binding to witness.</p><h2><strong>Pokhara</strong></h2><p>Get the feel of Himalayan nature, enjoy tranquility, and explore the timeless heritage that sets Pokhara apart from other cities of Nepal. Pokhara, a city of Lake, offers countless opportunities to soak in nature and adventure.</p><p>Imagine yourself boating in a serene lake with the backdrop of the Himalayas or flying high parallel to Annapurna through paragliding or Ultra flight! This imagination is possible nowhere in the country but in Pokhara. Many travelers dubbed Pokhara as a heaven and nature&rsquo;s paradise.</p><p>Kathmandu Pokhara Tour Itinerary offers you an incredible opportunity to experience all the major highlights of Pokhara. Few Lake, Mahendra Cave, Guptseshowr Cave, Davis Falls, and Sarangkot are some of the major sites included in this trip.</p></div></div>",
+  "overviewPlainWordCount": 481,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Explore Patan and Bhaktapur drive to Nagarkot 2175m",
+      "altitudeM": 2175,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Meet at your Hotel and introduce with our tour guide. Complete the agreement and official documents. Start tour today from Patan Durbar Squire and Bhaktapur Durbar squire Exploring UNESCO World Heritage sites. Enjoy lunch in Bhaktapur local newari or types of International food is available there. After Lunch drive to Nagarkot it takes 35 m, and 14 km far from Bhaktapur city. Check in Hotel. Country Villa enjoy the time with Tea coffee. Hike around Nagarkot Village and enjoy with the beautiful sunset with Mountain view. Overnight Stay at Nagarkot."
+    },
+    {
+      "day": 2,
+      "title": "Flight to Pokhara 810 m",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Beautiful sunrise over the panoramice himalaya range it makes so joyfull morning. After having breakfast drive to Kathmandu domestic Airport. It takes 1 hours and 20m, 28 km. 30 Minut flight to Pokhara from Kathmandu. And 40m drive to Pokhara lake side. Chek in Hotel and rest. Early afternoon Sightseeing around Phewa Lake, Binda Basini Temple. Then walk around Lakeside where you can test type of foods, musice and locole cultures. Overnight sleep at Pokhara."
+    },
+    {
+      "day": 3,
+      "title": "Pokhara Valley Sightseeing 810m,5/6 hrs",
+      "altitudeM": 810,
+      "walkingTime": "5/6 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Early in the morning 40 m drive to Sarangkot. Sunrise over the Annapurna Himalayas it looks absuletly worth view. from the view point you can explore more then 15 snow peaks. Which is Mt Annapurna II, Mt Annapura II, Mt Dhawalagiri, Mt Nilgiri, Gangapurna, Annapurna South, Himchuli, Mt Fishtail and many more. After Breakfast in Hotel. Start Pokhara Valley sightseein Including World peace stupa, David falls, Mahendra Cave and International Mountain Musium. Early afternoon back to Hotel and take a rest. Evening is your strool around Lakeside and enjoy dinner."
+    },
+    {
+      "day": 4,
+      "title": "Flight from Pokhara to Kathmandu 30m, 1345m",
+      "altitudeM": 1344,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Dinner",
+      "accommodation": "Hotel",
+      "description": "Boting in Fewa lake and enjoy with reflecting view of Annapurna Himalayan. After breakfast drive to Pokhara International Airport and flight to Kathmandu. Check in Hotel collect some souvenear for your family and friends. Nepal Unique Treks will invite you to join for the Farewell dinner in Thamel. And sharing about Kathmandu Pokhara Tour. Enjoy with Culturel show, Nepali Musice and dance. Thamel is allnight open for tourist if you like to explore Nightlife and locol cultures of Kathmandu. Overnight sleep at Kathmandu."
+    },
+    {
+      "day": 5,
+      "title": "Departure International Airport 1345m",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "Kathmandu Pokhara Tour is end today. I wish you had a wonderfull Nepal tour expreance. We are Nepal Unique Treks always positive to share about Nepal Travel, Trekking and Climbing Expreance with you. The Nepal Unique Treks will drop of you in Internatinal Airport Three hours befor then your flight shedule."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 595 per person",
+      "includes": [
+        "Patan, Bhaktapur Sightseeing",
+        "Nagarkot in Hotel Country Villa Including B, D",
+        "Kathmandu to Pokhara and Pokhara to Kathmandu by flight",
+        "Pokhara Hotel includes Breakfast",
+        "Pokhara Valley sightseeing includes all Entrance fee",
+        "English-speaking Tour Guide",
+        "All ground transportation by private car",
+        "Farewell dinner in Kathmandu"
+      ],
+      "excludes": [
+        "Nepal Visa Fee",
+        "International Flights",
+        "Accommodation in Kathmandu",
+        "Personal nature expenses – alcoholic beverages, phone calls, laundry, Internet, and more",
+        "Travel Insurance",
+        "Tips for guides and drivers"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Kathmandu Pokhara Tour (5 Days)",
+    "weatherTitle": "Kathmandu Pokhara Tour Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Explore Patan and Bhak..",
+        "altitudeM": 2175,
+        "altitudeFt": 7136
+      },
+      {
+        "day": "Day 2",
+        "spot": "Flight to Pokhara 810 m",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 3",
+        "spot": "Pokhara Valley Sightse..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 4",
+        "spot": "Flight from Pokhara to..",
+        "altitudeM": 1344,
+        "altitudeFt": 4409
+      },
+      {
+        "day": "Day 5",
+        "spot": "Departure Internationa..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (2175 m)",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "label": "Day 2 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 3 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 4 (1344 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 5 (1345 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/IMG_20170725_132244-3.jpg",
+    "uploads/kathmandu-durbar-squire.jpg",
+    "uploads/pokhara-himalayan-view-winter.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg",
+    "uploads/nagarkot.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:56:06.764Z"
+}

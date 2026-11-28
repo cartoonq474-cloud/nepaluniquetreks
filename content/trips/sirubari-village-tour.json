@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "order": 36,
+  "batch": 4,
+  "sourceSlug": "sirubari-village-tour",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/sirubari-village-tour",
+  "targetDir": "tour/sirubari-village-tour",
+  "templateType": "tour",
+  "regionLabel": "Nepal Foothills",
+  "sourceCategory": "Short & Easy Trekking Routes in Nepal",
+  "title": "Sirubari Village Tour",
+  "seoTitle": "Sirubari Village Tour, Pokhar Tour",
+  "metaDescription": "Sirubari village tour is one of the typical Gurung villages of Nepal Located in the Syangja District, western region of Nepal. In this village, there",
+  "heroLead": "Sirubari village tour is one of the typical Gurung villages of Nepal Located in the Syangja District, western region of Nepal. In this village, there are about 45 typical Gurung houses with slate roofs.",
+  "heroMore": "Sirubari village is on the lap of beautiful white-capped peaks and is very neat and clean. During this village tour, visitors can see the typical Gurung way of life with their language, dress, culture foods, and festivals.",
+  "durationDays": 7,
+  "durationDisplay": "7 Days",
+  "maxElevationM": 1700,
+  "facts": {
+    "duration": "7 Days",
+    "accommodation": "Hotel, Homestay",
+    "max elevation": "1700 m",
+    "grade": "Easy",
+    "activity": "Hiking and culture tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Homestay",
+    "best season": "March, April, May and Oct, Nov, Dec"
+  },
+  "pricing": {
+    "primaryPriceUsd": 750,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$750",
+        "priceUsd": 750
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/sirubari-village-homestay.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p><strong>Sirubari village tour</strong> is one of the typical Gurung villages of Nepal Located in the Syangja District, western region of Nepal. In this village, there are about 45 typical Gurung houses with slate roofs. Sirubari village is on the lap of beautiful white-capped peaks and is very neat and clean. During this village tour, visitors can see the typical Gurung way of life with their language, dress, culture foods, and festivals.</p><p>Due to the great hospitability and sanitation, this village is declared as the model village of Nepal by the government. This village is famous for local foods, vegetables, wine, honey and Handicraft. Most of the houses of this village are designed for homestay so there is good homestay service in this village.</p><p>Gurung people of this village make a warm welcome their guests as their family members which will give the family friendly environment to its visitors. Most of the senior male Gurung people of this village are retired from the British, Singapore, and Indian armies and they will tell war stories of the past very interestingly visitors are impressed by their brave war story.</p><p>Moreover, visitors can learn the hidden story of the Gorkha soldiers while staying and talking with ex-Gorkha soldiers. To give full entertainment to the visitors Gurung people of this village organize a singing and dancing program every evening.</p><p>Sirubari village is not only famous for Gurung culture and festivals it is equally attractive in terms of natural beauty. From the view tower located above the Sirubari village stunning glimpse of the beautiful snowy peaks such as Dhaulagiri, Annapurna, Machhapuchhre and Lamjung Himal can seen.</p><p>The rice terraces field is so beautiful with their crops and this village has verities of seasonal fruits and flowers. There are many options for visitors to reach Sirubari village. Now small vans direct from Pokhara reach Sirubari so if the visitors are hurry and avoid trek can use this option. But if the visitors are interested in walking on the sloping trail of the hilly region they can start trekking from Syangja Naudanda after an hour&#39;s bus drive from Pokhara and after 4/5 hours of walk visitors reach Sirubari.</p><p>Highlights of the tour: Gurung culture and festivals, local foods, vegetables, fruits, honey and wine, singing and dancing program, and a stunning glimpse of the Annapurna, Machhapuchhre, Dhaulagiri, and Lamjung Himal.</p><h1><strong>Outline </strong></h1><p>Day 1: Kathmandu to Pokhara</p><p>Day 2: Pokhara to Sirubari</p><p>Day 3: Sirubari Village Exploration</p><p>Day 4: Sirubari to Pokhara</p><p>Day 5: Pokhara Valley Sightseeing</p><p>Day 6: Back to Kathmandu</p><p>Day 7: Final Departure from Kathmandu.</p></div></div>",
+  "overviewPlainWordCount": 428,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Kathmandu to Pokhara",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "Drive or fly from Kathmandu to Pokhara on your choice. If you drive by road it will take 7/8 hrs, and if you take DomesDomesticht only 30 m a flight. When you arrive in Pokhara explore the beautiful lakeside city of Pokhara in the afternoon. Enjoy the dinner in Himalayan lake city on the lakeside. Overnight stay in Pokhara."
+    },
+    {
+      "day": 2,
+      "title": "Pokhara to Sirubari",
+      "altitudeM": 1700,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Homestay",
+      "description": "After breakfast in Pokhara Hotel. Drive to Sirubari village takes (approximately 3-4 hours) by private car with a beautiful mountain view. Warm welcome and introduction by the Mother group of Sirubari Village It will be very a pleasant welcome in the Gurung Traditional. The Homestay or Mothers Group of the village will provide you traditional Gurung dinner and cultural program in the evening. Villagers will welcome you giving by beautiful mala with Raksi welcome drinks. Then the mother's group of villagers will perform some cultural programs which are very memorable and enjoyable for you. Overnight sleep at Homestay."
+    },
+    {
+      "day": 3,
+      "title": "Sirubari Village Exploration",
+      "altitudeM": 1700,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Homestay",
+      "description": "The beautiful morning sunshine will welcome you to the village. Take a warm and fresh breakfast. Then start hiking and exploring Sirubari and experience the local culture. Visit homes, interact with villagers, and participate in cultural activities. Enjoy traditional Nepali meals prepared by local families. Explore the surrounding hills and enjoy panoramic views of the Himalayas."
+    },
+    {
+      "day": 4,
+      "title": "Sirubari to Pokhara",
+      "altitudeM": 810,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "3-star Hotel",
+      "description": "After breakfast pack your bags and farewell to the villagers, and drive back to Pokhara. In the evening check in Hotel in Pokhara. Free time to explore around there yourself."
+    },
+    {
+      "day": 5,
+      "title": "Pokhara Valley Sightseeing",
+      "altitudeM": 808,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "3-star Hotel",
+      "description": "Early morning at 4 am drive to Sarangkot viewpoint. It takes 40 m by private car. You will see the panoramic view of the sunrise over the Annapurna and Dhaulagiri mountain ranges, The Sarangkot viewpoint offers you a spectacular vantage point for photography enthusiasts. Drive back to the Hotel and have breakfast. Then your day starts with Pokhara Valley Sightseeing. Some sightseeing places are given bellowed. Phewa Lake (Phewa Tal): Start your day with a boat ride on Phewa Lake. You can hire a colorful wooden boat or a paddleboat and enjoy the serene surroundings. The lake offers breathtaking views of the Annapurna range and Machapuchare (Fishtail) mountain. Tal Barahi Temple: Located on an island in the middle of Phewa Lake, Barahi Temple is dedicated to the goddess Barahi. You can reach the temple by a short boat ride and explore the pagoda-style structure. Devi's Fall (Patale Chhango): A unique waterfall with an underground tunnel, Devi's Fall is an interesting natural attraction. The waterfall is more impressive during the monsoon season. Gupteshwor Cave: Adjacent to Devi's Fall, Gupteshwor Cave is a sacred cave with a natural Shiva Linga. It's an interesting place to explore for its stalactite and stalagmite formations. World Peace Pagoda (Shanti Stupa): Located on a hilltop, the World Peace Pagoda offers breathtaking views of the Pokhara Valley and the surrounding mountains. It's a peaceful place with stunning architecture and significant spiritual importance. Bindhyabasini Temple: Perched atop a small hill, Bindhyabasini Temple is dedicated to the Hindu goddess Bindhyabasini. It's a sacred place with cultural significance. International Mountain Museum: For those interested in the Himalayan culture and mountaineering history, the International Mountain Museum is a must-visit. It provides insight into the lives of the people living in the Himalayas and the challenges faced by mountaineers. Pokhara Old Bazaar: Explore the narrow streets of the Old Bazaar to experience the local culture, shop for souvenirs, and taste local cuisine."
+    },
+    {
+      "day": 6,
+      "title": "Back to Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B, D",
+      "accommodation": "3-star Hotel",
+      "description": "After Breakfast, your tour guide will drop you Tourist Buspark, Or domestic airport (On your Choice). Arrive in Kathmandu. The Sirubari Village tour ends tonight at Dinner in Thamel. Your Agency will invite you for a farewell dinner and share the Experience of the Nepal Village Tour."
+    },
+    {
+      "day": 7,
+      "title": "Final Departure from Kathmandu.",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Homestay",
+      "description": "Your Nepal Holidays have ended today. Collect some handicrafts for your family and friends as gifts from Nepal. 3 hours before you will drive to the International Airport then your flight schedule."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 750 per person",
+      "includes": [
+        "International and domestic Airport pick-up drop by tourist Pravet van",
+        "2 night 3-star Hotel in Kathmandu includes Breakfast",
+        "Kathmandu to Pokhara, and Pokhara to Kathmandu by flight",
+        "3 Night 3-star Hotel in Pokhara including breakfast",
+        "Pokhara to Sirubari Village and Pokhara by private car",
+        "Pokhara Valley sightseeing includes an entrance fee",
+        "Responsible, and professional English speaking Tour Guide",
+        "Breakfast, Lunch, Dinner, and tea Coffee during the Sirubari Village stay",
+        "Homestay accommodation during the Sirubari village tour"
+      ],
+      "excludes": [
+        "All International flight",
+        "Travel insurance, Medical medication",
+        "Personal Hiking gear",
+        "Extra night accommodation",
+        "Extra food, any bar bills, Laundry, Telephone",
+        "Tips for guides, drivers, and staff",
+        "Extra activities than our Itineraries"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Sirubari Village Tour (7 Days)",
+    "weatherTitle": "Sirubari Village Tour Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Kathmandu to Pokhara",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 2",
+        "spot": "Pokhara to Sirubari",
+        "altitudeM": 1700,
+        "altitudeFt": 5577
+      },
+      {
+        "day": "Day 3",
+        "spot": "Sirubari Village Explo..",
+        "altitudeM": 1700,
+        "altitudeFt": 5577
+      },
+      {
+        "day": "Day 4",
+        "spot": "Sirubari to Pokhara",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      },
+      {
+        "day": "Day 5",
+        "spot": "Pokhara Valley Sightse..",
+        "altitudeM": 808,
+        "altitudeFt": 2651
+      },
+      {
+        "day": "Day 6",
+        "spot": "Back to Kathmandu",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 7",
+        "spot": "Final Departure from K..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 2 (1700 m)",
+        "min": 3,
+        "max": 17
+      },
+      {
+        "label": "Day 3 (1700 m)",
+        "min": 3,
+        "max": 17
+      },
+      {
+        "label": "Day 4 (810 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 5 (808 m)",
+        "min": 9,
+        "max": 23
+      },
+      {
+        "label": "Day 6 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 7 (1345 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/sirubari-village-homestay.jpg",
+    "uploads/kathmandu-durbar-squire.jpg",
+    "uploads/pokhara-himalayan-view-winter.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg",
+    "uploads/nagarkot.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:55:57.958Z"
+}

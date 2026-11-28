@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "order": 15,
+  "batch": 2,
+  "sourceSlug": "gokyo-valley-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/gokyo-valley-trek",
+  "targetDir": "trek/gokyo-lakes-trek",
+  "templateType": "trek",
+  "regionLabel": "Everest",
+  "sourceCategory": "Everest Region Trekking",
+  "title": "Gokyo Valley Trek",
+  "seoTitle": "Gokyo Valley Trek, Cost, Permits and Itinerary for 2026/2027,",
+  "metaDescription": "Book Gokyo Valley Trek 2026/2027 with Nepal Unique Treks. Explore itinerary, cost & permits with expert guides for an unforgettable Himalayan adventur",
+  "heroLead": "Not everyone can reach the peak of Mt. However, trekkers continuously search for the closest uninterrupted views of Mt.",
+  "heroMore": "With the Gokyo Valley Trek, you can get a chance to experience the tallest mountain peak in the world very closely. Additionally, you can explore the five lakes around the Gokyo Valley system and hike to the amazing Gokyo Ri.",
+  "durationDays": 14,
+  "durationDisplay": "14 Days",
+  "maxElevationM": 5357,
+  "facts": {
+    "duration": "14 Days",
+    "accommodation": "Hotel - Lodge - Tea House",
+    "max elevation": "(5357 m/17,570 ft)",
+    "grade": "Moderate",
+    "activity": "Trekking",
+    "transportation": "Flight, Private Car",
+    "treks type": "Tea House",
+    "best season": "March, April and May (Spring). October, November and December (Autumn)"
+  },
+  "pricing": {
+    "primaryPriceUsd": 1095,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$1,095",
+        "priceUsd": 1095
+      }
+    ],
+    "groupTiers": [
+      {
+        "label": "1 Person",
+        "priceUsd": 1300
+      },
+      {
+        "label": "2-3 Person",
+        "priceUsd": 1200
+      },
+      {
+        "label": "4-7 Person",
+        "priceUsd": 1150
+      },
+      {
+        "label": "7-13 Person",
+        "priceUsd": 1095
+      }
+    ]
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/gokyo valley trek.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/gok9.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok8.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok7.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok6-1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok5.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok4.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok3.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok2.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok14.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok13.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok12.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok11.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok10.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/gok1.jpg",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5782.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5704.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5589.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5605.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5721.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5712.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5915.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_6001.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5469.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5767.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5624.JPG",
+    "https://www.nepaluniquetreks.com/public/uploads/IMG_5481.JPG"
+  ],
+  "highlights": [
+    "A beautiful and adventurous trek to Gokyo Valley in the Khumbu region of Nepal.",
+    "Chance to witness Gokyo Ri and the Gokyo Lakes in the Gokyo Valley Trek.",
+    "An adventurous flight to the Gateway to the Everest Region, Lukla Airport.",
+    "Witness the religion and the culture of the local communities in the Himalayas.",
+    "Get a closer view of Mt. Everest and the entire Khumbu Region from Gokyo.",
+    "Panoramic views of the mountain peaks like Makalu, Lhotse, Cho Oyu, Everest, and many more from Gokyo Ri.",
+    "Accommodation and meals with great views of the Himalayas throughout the trek."
+  ],
+  "overviewHtml": "<div> <div><h2><strong>Gokyo Valley Trek Overview </strong></h2><p>Not everyone can reach the peak of <strong>Mt. Everest</strong>. However, trekkers continuously search for the closest uninterrupted views of <strong>Mt. Everest</strong>. With the <strong>Gokyo Valley Trek</strong>, you can get a chance to experience the tallest mountain peak in the world very closely. Additionally, you can explore the five lakes around the Gokyo Valley system and hike to the amazing <strong>Gokyo Ri</strong>.</p><p>The <strong>13-day Gokyo Valley Trek </strong>begins with a <strong>flight to Lukla Airport,</strong> the <strong>Gateway To The Everest</strong>. Traversing through the trail and acclimatizing at a few places, the trail takes us to the <strong>Gokyo Village</strong>. Throughout this trek, you will be walking far away from all the hustle and bustle, enjoying the peaceful environment. Moreover, the interactions with locals, amazing views, and meals all along the way make the <strong>Gokyo Valley trek</strong> even more worthwhile. Furthermore, exploring the lakes with the stunning view of the <strong>Gokyo Ri</strong>, and passing through <strong>Renjo La Pass</strong>, we retrace our way back to <strong>Lukla</strong> and fly back to the capital.</p><p>During the ascent, trekkers can also explore the flora and fauna along the trail while enjoying the beautiful views of the mountain peaks and the landscapes. Many trekkers categorize the <strong>Gokyo Valley trail</strong> as an interesting trekking trail in the <a href=\"https://www.nepaluniquetreks.com/region/everest-region-trekking\">Everest Region Trekking</a>. That is because of the mesmerizing views one can see on the path. However, let us tell you that the trail can sometimes be challenging as well. Nevertheless, with all the hurdles aside, the destination will always be rewarding at the end of the day.</p><p>Please go through the entire details of the <strong>Gokyo Valley Trek</strong> to understand more about the trail and opportunities.</p><h2><strong>Highlights of the Gokyo Valley Trek</strong></h2><ul><li><p>A beautiful and adventurous trek to <strong>Gokyo Valley in the Khumbu region of Nepal.</strong></p></li><li><p>Chance to witness <strong>Gokyo Ri and the Gokyo Lakes in the Gokyo Valley Trek</strong>.</p></li><li><p>An adventurous flight to the Gateway to the <strong>Everest Region, Lukla Airport</strong>.</p></li><li><p>Witness the religion and the culture of the local communities in the Himalayas.</p></li><li><p>Get a closer view of <strong>Mt. Everest</strong> and the entire <strong>Khumbu Region from Goky</strong>o.</p></li><li><p>Panoramic views of the mountain peaks like <strong>Makalu, Lhotse, Cho Oyu, Everest</strong>, and many more from <strong>Gokyo Ri</strong>.</p></li><li><p>Accommodation and meals with great views of the Himalayas throughout the trek.</p></li></ul><h2><strong>Why choose us for this Trek?</strong></h2><p>Planning and organizing multiple adventure trips all over Nepal is what <a href=\"https://www.nepaluniquetreks.com/\"><strong>Nepal Unique Treks</strong></a> has been providing for the last two decades. In our journey, we are honored to have highly skilled team members who have helped trekkers in their dream destinations. Moreover, the guides we have in the team are government license holders and have been in this sector for over a decade.</p><p>We are not just limited to providing services <a href=\"https://www.nepaluniquetreks.com/activity/trekking-in-nepal\"><strong>Trekking in Nepal</strong></a>. We also plan and organize trips to <strong>Bhutan and Tibet</strong>. Initially, we plan and organize the journey; however, you can customize it according to your preferences. Below is some additional information on why we are the perfect choice for the <strong>Gokyo Lake Trek</strong> :</p><ul><li><p>The experience, information, and knowledge regarding the locals and the mountains of our guides will help you have a smooth trekking experience with all the safety precautions.</p></li><li><p>Prioritizing the best experience in the entire journey, we ensure to provide you with the best services in every meal served and place accommodated.</p></li><li><p>Skilled and experienced guides will help you from the very beginning of the trek, ensuring a better journey.</p></li></ul><h2><strong>Permits required for Gokyo Lake Trek</strong></h2><p>In <strong>Nepal</strong>, we require a permit to enter the protected areas of certain regions. These permits are crucial as they are verified by the local officers at the checkpoints. Only then are we allowed to pass through those areas. The permits required are:</p><ul><li>Sagarmatha National Park Entry Permit</li><li>Khumbu Pasang Lhamu Municipality Entry Permit</li><li>Trekker&#39;s Information Management System (TIMS) Permit</li></ul><p>You need the first permit to enter <strong>Sagarmatha National Park</strong> en route and the second permit to access the Khumbu region. Without these permits, you cannot pass through those areas.</p><p><strong>TIMS Permit </strong>is a special type of permit that helps the government official track the trekkers, ensuring their safety and well-being.</p><p>In <strong>Nepal Unique Treks</strong>, we help you to get these permits without any hassle. Let us streamline the process for getting these permits while you prepare for the trek.</p><h2><strong>Why is insurance necessary for the Gokyo Lake Trek?</strong></h2><p>You might be wondering if Insurance is necessary for trekking. Then let me remind you that insurance can be much more helpful in case of any sort of emergency. Trekking in high altitudes can be tricky, as the weather conditions can change drastically. These sudden changes can lead to some emergency cases. In these critical conditions, the insurance comes in handy.</p><p>There are different kinds of insurance you can get before starting this journey. Some of them provide medical coverage, emergency evacuation, cancellation insurance, and many more. However, we highly recommend you take the insurance package that covers all of these.</p><p>Spring and autumn seasons are much more favorable for trekking, and we will also be scheduling our treks in these seasons. However, there is always a possibility of some changes in the weather. Only a simple change in weather can disrupt our trek and can lead to other emergencies as well. Therefore, to ensure things go smoothly even in emergency cases, we recommend you get the full package of insurance.</p><p>Furthermore, our guides will always be there to assist and navigate you even in emergency cases. This way, we can ensure you have a great journey with all the safety precautions.</p></div></div>",
+  "overviewPlainWordCount": 932,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at the Tribhuwan International Airport (Kathmandu) and Transfer to the Hotel",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "3-star Categories Hotel",
+      "description": "On the first day, as you arrive at the Tribhuwan International Airport, Kathmandu, you will meet the representatives from Nepal Unique Treks. They will greet you with Khadas and bouquets before taking you to the hotel in a private vehicle. As you check in at the hotel, you will welcomed with a welcome drink. After that, we recommend the trekkers go for a quick refreshment before strolling around the nearby areas. You can check out some cafes, restaurants, and even spas around the hotel areas. Moreover, if you feel like you need some massage to prepare your body for the trek, you can also visit any massage parlors around. In the evening, we request the trekkers to join us for the welcome dinner arranged by the Nepal Unique Treks team. At the dinner, the professional guides will also describe to you the entire Gokyo Valley Trekking map. After that, you can go to sleep in your respective hotel rooms."
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu to Ramechhap by drive and fly to Lukla (2860 meters) and trek to Phakding or Manzo (2610 meters)",
+      "altitudeM": 2610,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Without any delay, we will start the journey towards the Gokyo Valley immediately on the second day. As you wake up and have breakfast in the hotel, our guides will pick you up in a private vehicle. From there, we will drive to Ramechhap. It takes approximately 5 hours to reach Ramechhap from Kathmandu. This will be one of the most scenic drives in Nepal as you drive on a well-pitched road. However, in some places, the roads might not be as expected. As the drive concludes in Ramechhap, our guides will take you to the Airport. From there, it will be an amazing flight towards Tenzing and Hilary Airport (Lukla). If you get the window seat, you will be offered amazing aerial views of different mountains, valleys, and settlements. Within the next 25 minutes, you will land in the Tenzing & Hilary Airport. Our journey for the day does not end here. As you reach Lukla and meet the guides from Nepal Unique Treks, they will prepare you for a hike to Phakding (Manzo). It takes about 3/4 hours to hike from Lukla to Phakding. There, you can check in at the hotel and go for a proper rest for the day."
+    },
+    {
+      "day": 3,
+      "title": "Trek to Namche Bazaar (3,444 meters) from Phakding -6 to 7 hours",
+      "altitudeM": 3440,
+      "walkingTime": "7 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "From Phakding, the Gokyo Valley Trekking trail continues on the EBC Trail. So, we will be heading towards Namche Bazaar. This incredible journey to the heaven of Sherpa settlement requires you to walk past several waterfalls, settlements, and domestic farms, on a comparatively maintained route. One of the best things you will do on this day's journey is to pass the Dudh Koshi River over the Hilary suspension bridge. Besides, this section of the Gokyo Valley Trekking trail also offers outstanding views of different Himalayas, which include Kusum Kanguru, Thamserku, and many other summits. As we walk for about 6 to 7 hours from Phakding, we will reach one of the most developed towns of the entire Khumbu region located at an altitude of 3444 meters above sea level. Moreover, did you know that Namche Bazaar is also known as the trading hub of Nepal as most of the trading between Nepal and other countries takes place from Namche Bazaar? As you reach Namche, you will witness a lot of colorful houses, and terraced hillsides, hidden among the clouds. Take your time to stroll around the town, interact with the locals, and indulge in the delicacies of locally prepared food. After that, you can return to the hotel and sleep."
+    },
+    {
+      "day": 4,
+      "title": "Acclimatization (Rest) Day at Namche Bazaar (Hike to Everest View Hotel - 3880 meters)",
+      "altitudeM": 3440,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "After three days of trekking through the rugged landscapes of the Khumbu region, the fourth day is a crucial acclimatization day in Namche Bazaar (3,440m). Even though this day is labeled as a \"rest day\", we will not stay idle on this day at all. Instead, we will spend the day hiking to higher altitudes and returning to lower elevations to help the body adapt to the thinning air. As a part of this hike, the guides will take you on a quick hike to the Everest View Hotel. The Everest View Hotel is a perfect location to get eye-soothing views of several mountains; especially Mount Everest. We will go for the hike to Everest View Hotel after the trekkers have breakfast in the hotel. It takes about 2 hours for any average trekker to reach the hotel from Namche Bazaar. The trail gradually ascends through pine forests, rhododendron bushes, and yak pastures, leading to the Syangboche Airstrip (3,780m). From here, the path continues towards Khumjung village, home to the legendary Yeti Skull Monastery and the Hillary School, built by Sir Edmund Hillary’s Himalayan Trust. As we ascend further, the Everest View Hotel welcomes us with awe-inspiring 360-degree views of Mount Everest (8,848m), Lhotse (8,516m), Ama Dablam (6,812m), Thamserku (6,608m), and Kongde Ri (6,187m). As you reach the Everest View Hotel, have some coffee or tea, and capture some ever-lasting memories, the guides will take you back to Namche Bazaar. You can explore around the town for the rest of the day before heading to the hotel for dinner and an overnight stay."
+    },
+    {
+      "day": 5,
+      "title": "Trek from Namche Bazaar to Phortse Thanga (3650 meters) - 5 to 6 hours",
+      "altitudeM": 3660,
+      "walkingTime": "6 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "After a refreshing acclimatization day at Namche Bazaar, the trail takes us off the beaten path towards the peaceful village of Phortse Thanga (3,680m). This route is less crowded than the classic Everest Base Camp trail, offering stunning Himalayan vistas, diverse landscapes, and a chance to spot rare wildlife. The trek to Phortse Thanga begins immediately after breakfast. As we begin the trail, we need to go for a gentle ascend until Mong La (3975 meters). From here, the trail separates from the Everest Base Camp Trekking trail and we move towards the Gokyo Valley Trekking trail. As you keep your legs moving slowly and steadily, the trail leads us to a beautiful riverside village between the towering peaks. This village is comparatively untouched with just a handful of tea houses. Moreover, you will also get to see some yaks grazing, and a unique lifestyle being practiced. Talking about this section of the Gokyo Valley Trekking route is comparatively very quieter than the classic EBC Trail. Besides, you can also witness the landscape transform into a mix of pine forests, rhododendron bushes, and scattered stone houses. Before reaching Phortse Thanga, we will pass through two other villages; Sanasa and Mong La. On your way to Mong La, the trekkers might also spot Himalayan Monals and even musk deer. In Mong La, the trekkers will rest for a while and have lunch before taking the final ascend to Phortse Thanga. Overnight stay will be arranged in a Sherpa lodge at Phortse Thanga after having dinner."
+    },
+    {
+      "day": 6,
+      "title": "Ascend to Machhermo (4,470 meters) from Phortse Thanga - 4 to 5 hours",
+      "altitudeM": 4470,
+      "walkingTime": "5 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "As the trekkers wake up and enjoy a delicious breakfast in the hotel, our journey on the Gokyo Valley Trekking map continues. From there, we will be on a 4 to 5-hour hike that leads to a maximum altitude of 4,470 meters above sea level. We will have to navigate through lush rhododendron and juniper forests while you will also be sensing the crisp and cool mountain breeze. Furthermore, you will also witness Himalayan Tahrs and yaks grazing over the green pasture lands. After a few hours of steady climbing, we reach Dole (4,200m), a small Sherpa settlement offering a perfect rest stop. With Cho Oyu (8,188m), Thamserku (6,608m), and Kangtega (6,782m) towering in the distance. From Dole, the route transits into a gentle ascent taking us through ridges and alpine meadows. After about 4 to 5 hours of quiet, peaceful, and adventurous walking, we will finally reach Machhermo, a beautiful village surrounded by sky-touching peaks on all sides. Well, let us tell you that locals at Machhermo have also reported the legendary tale of the first-ever Yeti sighting. As we reach the destination, we will check in at the hotel, take some time to stroll around the village, and then go for dinner and overnight stay."
+    },
+    {
+      "day": 7,
+      "title": "Ascend to Gokyo (4,790 meters) from Machhermo - 4 to 5 hours",
+      "altitudeM": 4790,
+      "walkingTime": "5 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Another day, another trail, and another achievement to unlock as we leave Machhermo and walk towards Gokyo. As we start the trail, it climbs steadily following the icy waters of the Dudh Koshi River, with the imposing Cho Oyu (8,188m) dominating the skyline. The trekkers can sense the air getting thinner as they achieve higher altitude. Moreover, as we are currently above the altitude of 4000 meters, there is a higher risk of altitude sickness. Therefore, we also recommend that trekkers keep a slow pace, stay hydrated, and hike with all caution. Crossing small wooden bridges and rocky moraines, we soon arrive at the first of the Gokyo Lakes, shimmering in shades of turquoise against the rugged backdrop. From there, we will have to go for a final push which takes us to the tranquil village of Gokyo, located at an altitude of 4790 meters above sea level. Besides, the village is also nestled beside the third and largest Gokyo Lake (Dudh Pokhari), which offers an amazing view of the glacial lake, reflecting the sky-touching peaks. All these scenes and scenarios make this section of the Gokyo Valley Trekking trial completely worth the difficult ascend. If you have extra energy left after checking in at the hotel, we recommend you go for a short walk to the lake's edge. Here, you can witness a breathtaking sunset view over Ngozumpa glacier, the largest glacier in the Nepali Himalayas. After that, you can return to the hotel and go for a sound rest after enjoying a delicious dinner."
+    },
+    {
+      "day": 8,
+      "title": "Quick Hike to Gokyo Ri (5,357 meters) and Back to Gokyo - 3 to 4 hours",
+      "altitudeM": 5357,
+      "walkingTime": "4 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "On the eighth day of the Gokyo Valley Trekking package, we hike up to the Gokyo Ri, the highest point of the entire trekking route. Gokyo Ri is one of the most spectacular viewpoints in the entire Everest region. This viewpoint is located at an altitude of 5357 meters above sea level and offers some spectacular views of the surrounding valleys and mountains. However, there is something else that we will be spectating from the Gokyo Ri viewpoint. Yes, we will go for an early sunrise view hike to Gokyo Ri. The hike from Gokyo to Gokyo Ri takes about 2 to 3 hours and it takes about 1.5 hours to descend back to Gokyo. As it is an early morning hike, we recommend the trekkers strictly carry a headlamp and trekking pole. Moreover, you must also not leave the track led by the guide from Nepal Unique Treks and Expedition at all. From the top of Gokyo Ri, we can get a clear view of the Ngozumpa Glacier, along with different Himalayas, valleys, and lakes."
+    },
+    {
+      "day": 9,
+      "title": "Descend from Gokyo to Dole (4,200 meters) - 5 to 6 hours",
+      "altitudeM": 4200,
+      "walkingTime": "6 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "After witnessing the breathtaking beauty of Gokyo and Gokyo Ri, we begin our descent on the Gokyo Valley Trekking trail. On that journey, Dole will be our destination for the ninth day. It takes about 5 to 6 hours for us to walk from Gokyo to Dole (4200 meters). The journey back follows the familiar trail but with new perspectives of the towering peaks and glacial landscapes we had previously ascended. Besides, the trekkers can also witness stunning views of Cho Oyu (8,188m) and the Ngozumpa Glacier on this day as well. Passing through Machhermo and Luza, we descend into the greener landscapes of the valley. Here the trekkers can again watch yak pastures, prayer, and flags while walking past small Sherpa villages and settlements. As we lose some altitude, we will also sense the thickening of air and increment in the amount of oxygen in the air that we breathe. We will reach Dole in the late afternoon. After that, you can check in at the hotel and go for a sound rest after dinner."
+    },
+    {
+      "day": 10,
+      "title": "Walk from Dole to Namche Bazaar (3,444 meters) via Khumjung Village (3,790 meters) - 5 to 6 hours",
+      "altitudeM": 3440,
+      "walkingTime": "6 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "As this is a descending trail, we will try to cover a little more distance every day. Due to that reason, we will cover an approximate distance of 11 kilometers on the tenth day. As you wake up and have breakfast in the hotel, our guides will lead you on a scenic trail through lush rhododendrons and pine forests. As we make our way down, the high-altitude barren landscapes gradually give way to greener pastures and terraced hills, where yak herders and local Sherpas go about their daily routines. After a short and steady descent, we will reach the first checkpoint of the day, Mong La (3975 meters). A little rest here and then we continue towards the Khumjung village (3790 meters). This village, one of the largest Sherpa villages in the Everest region, is known for its rich cultural heritage. As we reach here, the guides will take you for a quick visit to the famous Khumjung Monastery, where we can see a legendary Yeti scalp. Furthermore, we also take time to visit the Hilary School. After that, we go for the last part of today's descent, which leads us to Namche Bazaar. Finally, after such a tiring walk to the Gokyo Ri and back, you will get a chance to stay in a town with many facilities. Check-in at the hotel before you stroll around the town and try some delicacies like yak cheese and bakery items. After that, you can head back to the hotel for dinner and a comfortable sleep."
+    },
+    {
+      "day": 11,
+      "title": "Descend to Lukla (2860 meters) from Namche Bazaar - 6 to 7 hours",
+      "altitudeM": 2860,
+      "walkingTime": "7 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Today, the trekkers will have to cover an approximate distance of about 18 kilometers. Well, it might sound too hectic but believe us, it only takes 6 to 7 hours to cover this distance. As we are on a descending journey on the Gokyo Valley Trekking trail, even the longest distance can be covered in a short time. The trail to Lukla goes through dense pine and rhododendron forests, passing by small Sherpa settlements and Mani stone walls adorned with Buddhist prayers. Before reaching Lukla, we will also stop at another smaller settlement named Phakding. As we leave Phakding, the trail transits into a gentle ascend to Lukla. Upon reaching Lukla and marking an end to the walking journey in the Gokyo Valley Trekking package, we will check in at the hotel and take some rest. You can utilize the rest of the day by exploring the village or just resting with the views from the hotel. In the evening, we will have the last dinner in the Khumbu region and sleep for the night."
+    },
+    {
+      "day": 12,
+      "title": "Flight to Ramechhap from Lukla (20 minutes), then drive to Kathmandu (5 hours)",
+      "altitudeM": 1345,
+      "walkingTime": "5 hours",
+      "distanceKm": null,
+      "meals": "Breakfast, Dinner",
+      "accommodation": "3-star Categories Hotel",
+      "description": "On the 12th day, the journey begins backtracking the trails to Namche. The trek starts getting easier as we keep moving down to the lower altitude. The walk is relatively long and we stay overnight at Namche."
+    },
+    {
+      "day": 13,
+      "title": "Final Day of the Gokyo Valley Trekking Package",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel - Lodge - Tea House",
+      "description": "What we do on this day depends completely on your schedule. If you are traveling back to your home country, our guides will take you to the international Airport in a private vehicle. However, if you want to stay back in Nepal and go for some other tours and hikes, you can book those with us as well. The Nepal Unique Treks team will be more than happy to serve you with adventure and insights. However, one thing that happened on this day is that we officially put an end to the 13-Day Gokyo Valley Trek."
+    },
+    {
+      "day": 14,
+      "title": "",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": null,
+      "accommodation": "Hotel - Lodge - Tea House",
+      "description": ""
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 1,095 per person",
+      "includes": [
+        "International and domestic airport pick-up and drop-off by private car.",
+        "Private transportation for all airport transfers as per arrival and departure times.",
+        "Three Star Categories Hotel in Thamel, Three Night, including breakfast.",
+        "11 nights of tea house accommodation during the trek, with one private room for every two clients.",
+        "Full-board meals (breakfast, lunch, and dinner) throughout the trek.",
+        "Seasonal fresh fruits are served after dinner.",
+        "Experienced, English-speaking tour/trekking guide.",
+        "One porter for every two clients to carry baggage during the trek.",
+        "Assistant guide for groups of six or more.",
+        "TIMS (Trekkers' Information Management System) card.",
+        "Sagarmatha National Park permits.",
+        "Duffel bags, sleeping bags, and trekking poles are provided by Nepal Unique Treks. Which is return after Trek.",
+        "First aid medicine for all members.",
+        "Emergency rescue arrangements are covered by travel insurance.",
+        "Appreciation certificate after successful completion of the trek.",
+        "Farewell dinner with traditional Nepalese music and dance.",
+        "Oximeter for oxygen and pulse monitoring during the trek.",
+        "All government taxes, VAT, and official expenses."
+      ],
+      "excludes": [
+        "Lunch and dinner while in Kathmandu are not included.",
+        "Travel insurance, including high-altitude emergency coverage, is not included (helicopter rescue can be arranged if necessary).",
+        "Costs for telephone calls, alcohol (beer, wine), soft drinks (Coca-Cola), laundry services, and personal trekking gear are not included.",
+        "The Kathmandu Valley Sightseeing and entrance fee of USD 25 is not included.",
+        "Tea Coffee, Hot Water, Drinking Mineral Water, Bar bills, desserts, salads, or any extra food during trekking are not included.",
+        "Tips for trekking staff and drivers are expected and appreciated."
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "<div><h2> Traveller Useful Information</h2><div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf0\"><i></i>What to expect from Gokyo Lake Trek?</button></div><div><div><ul><li><p>A journey consisting of exploring the 5 sacred lakes in the Gokyo with absolutely stunning trails and views. Also, explore the Eight Thousanders from the <strong>Gokyo Ri</strong>.</p></li><li><p>A flight from the capital to the <strong>Gateway To The Everest</strong>, <strong>Lukla Airport.</strong> The aerial view of the landscapes, rivers, lush hills,s and mountain peaks will mesmerize your eyes.</p></li><li><p>Indulge yourself in experiencing the lifestyle of the <strong>locals of Sherpas and Tibetans</strong>. Also, get to explore the local cuisine of the community.</p></li><li><p>The journey to Gokyo is challenging, but the stunning views of <strong>Mt. Everest </strong>and the entire <strong>Khumbu Region</strong> will make you forget all the hardships of the trek.</p></li><li><p>Gokyo Ri is another best viewpoints in the Everest Region. A great panoramic view of the mountain peaks above with lakes and glaciers below.</p></li><li><p>For a meal, we can expect anything from local cuisine to Western and Tibetan cuisine. Similarly, for the accommodation, we will be staying at teashops at higher altitudes, while at lower altitudes there are multiple lodges. But, from every point in the journey, we will have the best view when we have our meal.</p></li></ul></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf1\"><i></i>Level of Difficulty at Gokyo Lake Trek</button></div><div><div><p>The overall trek is considered a bit challenging but is rewarding as well. Gokyo Lake Trek can be categorized as Moderate level with few hurdles on the trail. However, it depends on the trekkers as well. If you haven&#39;t done any trekking before, then you might feel harder comparatively. Nevertheless, with proper physical condition, diet, and rest, anyone can complete this journey.</p><p>First and foremost, the altitude can be a challenge for us. The highest point we will reach on this trek is Gokyo Ri at 5,483 meters. At such altitudes, there is a constant risk of altitude sickness. To minimize the potential harm, we acclimatize properly, which is why Nepal Unique Treks expert trek guides have designed the itinerary to include rest days at strategic points, ensuring your body adjusts gradually.<br /><br />Secondly, the trail is going to be challenging in certain portions with numerous ups and downs, narrow paths, rocky stretches, and boulder-filled routes. Also, we will be trekking on these trails for 5 to 7 hours daily, which is physically demanding. Therefore, it is necessary to be physically fit. For this, we need to do prior workout to maintain the consistency in our body.</p><p>Moreover, Nepal Unique Treks expert guides will be with you every step of the way. They are experienced, licensed guides who will monitor your progress and ensure your safety throughout the trek. Their guidance and support will help you navigate the challenges with confidence.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf2\"><i></i>Transportation During the Gokyo Lake Trek</button></div><div><div><p>The moment you land at Tribhuvan International Airport (TIA), we take care of all the transportation till the very end of the journey. A private commute will come to pick you up from the airport and escort you to the hotel. Now comes the adventurous flight to the Lukla airport. We will take care of this connecting flight from Kathmandu to Lukla Airport for you.</p><p>However, if you choose to take a flight from Ramechhap, then we will arrange a bus to travel from Kathmandu to Ramechhap. Furthermore, to enhance your experience we provide a luxurious bus for travel. This way you comfortably reach your destination.</p><p>One of the things that needs to be considered is that the flight to Lukla can get canceled. This is mainly due to harsh weather conditions up in the hills. So, you have to accommodate for the day and we will make sure you have the next flight for tomorrow. Also, we have the option to reach Lukla on the same day via Helicopter ride. For 5 people this costs nearly $3,000 from Kathmandu to Lukla.</p><p>Helicopter Flights can be much more convenient as you won&#39;t have to wait for normal planes. The flight will take off on time. In addition, the breathtaking views from the flight you get are beyond imagination. Hence, if you wish to book a flight to Lukla via Helicopter, we will arrange it for you hassle-free.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf3\"><i></i>Best Season for Gokyo Lake Trek</button></div><div><div><p>Spring and Autumn seasons are considered more favorable for trekking in Nepal as there is less chance of sudden weather changes daily. Also, we get to experience the stunning views of the Himalayas, the traditional culture of the people in high regions, and a more comfortable compared to other seasons.</p><h4><strong>Spring Season (March to May)</strong></h4><p>It is one of the most preferable seasons for the Gokyo Lake Trek. The weather conditions are favorable with moderate temperature, skies are clear along with the dry trails making it easier for overall trekking. Moreover, the wildflowers start to bloom and we get to see lush hills and rhododendrons along the way making the path more beautiful. With the clear sky, the visibility of the mountain peaks like Everest, Cho Oyu, and Makalu is also high.</p><h4><strong>Autumn Season (September to November)</strong></h4><p>Similar to the spring season, the weather is consistent with fewer chances of extreme weather conditions in the Autumn Season as well. Additionally, the sky is also clear during the daytime with few clouds in the afternoon allowing us to get clear views along the route of the surroundings. Moreover, in this season, the leaves start to change their colors and the flowers also start to fall. The fallen leaves and the flowers create a beautiful carpet of orange foliage en route.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf4\"><i></i>Food and Accommodation in Gokyo Lake Trek</button></div><div><div><p>After a tiring trek during the time, a portion of good food and and comfortable stay is what we look forward to. A good meal will help us in restoring all the energy and a good sleep will allow our body to rest and be prepared for the next. Keeping this in mind the guides of Nepal Unique Treks will help you in finding the best accommodation in the area with a great place to dine in.</p><p>Throughout the trail, we will find multiple tea houses and lodges that will provide lunch, breakfast, and dinner. The variety of the foods available during the initial phase of the trek is much more. We can get local foods like dal, bhat, and momo to Western foods like pizza, pasta, and many more. However, as we ascend there are fewer options available but has enough energy to keep on moving on our further journey.</p><p>Similarly, for the accommodation, we will find multiple options from simple basic rooms to luxurious rooms during the initial section of our trek. But as we move ahead the options are lesser providing the basic amenities. For most of the days, we will be accommodating in the tea house. They are affordable and are the best value for money with the amenities they provide.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf5\"><i></i>Altitude Sickness and How to stay safe?</button></div><div><div><p>Altitude Sickness is common as we ascend more than 2,500 meters. It is a condition where our body doesn&#39;t adapt to the lower oxygen levels at higher altitudes. Every single one of us is different, so it can happen to us at different altitudes with dissimilar symptoms.</p><p>Some of the common symptoms include nausea, shortness of breath, headache, dizziness, and fatigue. Therefore, for our safety, it is crucial to understand and mitigate the risk of altitude sickness to have a safe and enjoyable journey.</p><p>Also known as Acute Mountain Sickness(AMS) can escalate into more serious conditions, like High Altitude Pulmonary Edema (HAPE) or High Altitude Cerebral Edema (HACE), both of which require immediate medical attention. However, with the right precautions you can minimize the risks. If there is any discomfort in the body then do inform your guides. They will assist you in further processes to minimize the effect.</p><p>To stay safe from altitude sickness, the best possible way is to acclimatize at different points in the trek. So for your safety, in this journey, we will be acclimatizing at a few places. This will help our body to adapt at higher altitudes where the level of oxygen is comparatively lower.</p><p>Additionally, staying hydrated by drinking 3-4 liters of water daily, eating a carbohydrate-rich diet, and using an oximeter to monitor oxygen levels are key steps in preventing AMS. If symptoms do arise, it&rsquo;s important to listen to your body and descend to a lower altitude as soon as possible.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf6\"><i></i>What to Pack for Gokyo Lake Trek?</button></div><div><div><p>It is important to know what we require during the trek from the beginning. Also, as we proceed ahead in our journey, we don&#39;t get much of items in the local shops. So, keeping this in mind,d we have created a list of items that you require during this trek:</p><ul><li><p>Waterproof Trekking Shoes</p></li><li><p>Thick Warm Woolen Socks</p></li><li><p>Trekking Trousers</p></li><li><p>Thermal T-shirt (Long Sleeves)</p></li><li><p>Down Jacket</p></li><li><p>Waterproof Jacket</p></li><li><p>Warm Waterproof Gloves</p></li><li><p>Headlight for Night or Sunrise Hike</p></li><li><p>High-Quality Trekking Poles</p></li><li><p>Day Backpack</p></li><li><p>Waterproof Bag</p></li><li><p>Thermal Water Bottle</p></li><li><p>First Aid Kit</p></li><li><p>Power Bank</p></li><li><p>Snacks (Energy Bars and Power Gel)</p></li><li><p>Trekking Trail Map</p></li><li><p>Mobile Phone and Power Bank for Mobile Charging</p></li><li><p>Padlock and Key for Safe Backpack</p></li><li><p>Sun protection cream, wet wipes, and hand sanitizer</p></li><li><p>Sleeping bags</p></li><li><p>Sunglasses, sun hat, or woolen cap</p></li></ul><p>These items are not just tailored to <strong>Gokyo Lake Trek</strong> only. You can look up to these items, pack them, and go on any treks in Nepal.</p></div></div></div><div><div><button type=\"button\" aria-expanded=\"false\" aria-controls=\"inf7\"><i></i>How to Book for Gokyo Lake Trek?</button></div><div><div><p>Regarding the booking process for this journey, we have multiple options. You can directly message us on WhatsApp, Zalo, or Viber at +9779851023285. Also, you can email us at info@nepaluniquetreks.com or nepaluniquetreks@gmail.com. Moreover, we also customize the itinerary according to your requirements and make sure your trip goes according to your plan.</p><p>After you choose how you want to proceed with the itinerary, for the booking we require a 30% deposit to secure your spot. In addition, you can communicate with our team directly regarding payment methods.</p><p>Once your booking is confirmed, we will provide you with additional information to help you prepare for your trip. If you have any questions about the booking process, feel free to contact us anytime.</p></div></div></div></div></div>",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/gokyo-valley-trek-13-days.jpg",
+  "liveFaqs": [
+    {
+      "question": "What is the best time to do the Gokyo Lake Trek?",
+      "answer": "The best times are during the pre-monsoon (March to May) and post-monsoon (September to November) seasons when the weather is clear, and the views are spectacular."
+    },
+    {
+      "question": "How difficult is the Gokyo Lake Trek?",
+      "answer": "The trek is considered moderate to challenging due to high altitudes and steep ascents, especially to Gokyo Ri. Prior trekking experience and good physical fitness are recommended."
+    },
+    {
+      "question": "What is the maximum altitude reached during the trek?",
+      "answer": "The highest point is Gokyo Ri at 5,483 meters."
+    },
+    {
+      "question": "What permits are required for the trek?",
+      "answer": "You need the Sagarmatha National Park Permit, Khumbu Pasang Lhamu Municipality Entry Permit, and the TIMS (Trekkers' Information Management System) card."
+    },
+    {
+      "question": "How long is the Gokyo Lake Trek?",
+      "answer": "The standard itinerary is 13 days, including arrival and departure days."
+    },
+    {
+      "question": "What is the accommodation like during the trek?",
+      "answer": "Accommodation is in teahouses or lodges, which are basic but comfortable, with shared facilities. In Kathmandu, you’ll stay in a 3-star hotel."
+    },
+    {
+      "question": "What kind of food is available during the trek?",
+      "answer": "Teahouses serve a variety of meals, including Nepali, Tibetan, and Western dishes like dal bhat, noodles, soups, and pasta."
+    },
+    {
+      "question": "Is altitude sickness a concern on this trek?",
+      "answer": "Yes, altitude sickness is a risk. Proper acclimatization days are included in the itinerary to minimize this risk."
+    },
+    {
+      "question": "What should I pack for the Gokyo Lake Trek?",
+      "answer": "Essential items include trekking boots, warm clothing, a down jacket, a sleeping bag, a daypack, and personal items. A detailed packing list is provided in the itinerary."
+    },
+    {
+      "question": "Can I rent trekking gear in Kathmandu?",
+      "answer": "Yes, you can rent gear like sleeping bags and down jackets in Kathmandu. The cost is around USD 35 per item."
+    },
+    {
+      "question": "How do I get to Lukla?",
+      "answer": "You can fly to Lukla from Kathmandu or Ramechhap/Manthali, depending on the season. The flight takes about 35 minutes."
+    },
+    {
+      "question": "What happens if my Lukla flight is delayed or canceled?",
+      "answer": "It’s recommended to add buffer days to your itinerary. In case of delays, alternative arrangements will be made, but flexibility is key."
+    },
+    {
+      "question": "Is travel insurance required for the trek?",
+      "answer": "Yes, travel insurance with high-altitude emergency evacuation coverage is mandatory."
+    },
+    {
+      "question": "Can I charge my electronic devices during the trek?",
+      "answer": "Yes, but charging facilities in teahouses may come at an additional cost. Bringing a power bank is recommended."
+    },
+    {
+      "question": "What is the temperature like during the trek?",
+      "answer": "Temperatures vary depending on the altitude and season. Days can be warm, while nights can be freezing, especially at higher altitudes."
+    },
+    {
+      "question": "Can I customize the Gokyo Lake Trek itinerary?",
+      "answer": "Yes, the itinerary can be customized to include additional activities or rest days. Discuss your preferences with Nepal Unique Treks."
+    },
+    {
+      "question": "What is the cost of the Gokyo Lake Trek?",
+      "answer": "The cost varies depending on the package and inclusions. For the pricing details, you can directly contact Nepal Unique Treks and Expeditions."
+    },
+    {
+      "question": "What happens in case of an emergency during the trek?",
+      "answer": "Your guide will handle emergencies, including arranging evacuations if necessary. Ensure your travel insurance covers high-altitude evacuations."
+    }
+  ],
+  "chartSeries": {
+    "name": "Gokyo Valley Trek (14 Days)",
+    "weatherTitle": "Gokyo Valley Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival at the Tribhuw..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu to Ramechhap..",
+        "altitudeM": 2610,
+        "altitudeFt": 8563
+      },
+      {
+        "day": "Day 3",
+        "spot": "Trek to Namche Bazaar",
+        "altitudeM": 3440,
+        "altitudeFt": 11286
+      },
+      {
+        "day": "Day 4",
+        "spot": "Acclimatization",
+        "altitudeM": 3440,
+        "altitudeFt": 11286
+      },
+      {
+        "day": "Day 5",
+        "spot": "Trek from Namche Bazaa..",
+        "altitudeM": 3660,
+        "altitudeFt": 12008
+      },
+      {
+        "day": "Day 6",
+        "spot": "Ascend to Machhermo",
+        "altitudeM": 4470,
+        "altitudeFt": 14665
+      },
+      {
+        "day": "Day 7",
+        "spot": "Ascend to Gokyo",
+        "altitudeM": 4790,
+        "altitudeFt": 15715
+      },
+      {
+        "day": "Day 8",
+        "spot": "Quick Hike to Gokyo Ri",
+        "altitudeM": 5357,
+        "altitudeFt": 17575
+      },
+      {
+        "day": "Day 9",
+        "spot": "Descend from Gokyo to ..",
+        "altitudeM": 4200,
+        "altitudeFt": 13780
+      },
+      {
+        "day": "Day 10",
+        "spot": "Walk from Dole to Namc..",
+        "altitudeM": 3440,
+        "altitudeFt": 11286
+      },
+      {
+        "day": "Day 11",
+        "spot": "Descend to Lukla",
+        "altitudeM": 2860,
+        "altitudeFt": 9383
+      },
+      {
+        "day": "Day 12",
+        "spot": "Flight to Ramechhap fr..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 13",
+        "spot": "Final Day of the Gokyo..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 14",
+        "spot": "Day 14",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (2610 m)",
+        "min": -3,
+        "max": 12
+      },
+      {
+        "label": "Day 3 (3440 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 4 (3440 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 5 (3660 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 6 (4470 m)",
+        "min": -15,
+        "max": 1
+      },
+      {
+        "label": "Day 7 (4790 m)",
+        "min": -17,
+        "max": -1
+      },
+      {
+        "label": "Day 8 (5357 m)",
+        "min": -21,
+        "max": -5
+      },
+      {
+        "label": "Day 9 (4200 m)",
+        "min": -13,
+        "max": 2
+      },
+      {
+        "label": "Day 10 (3440 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 11 (2860 m)",
+        "min": -4,
+        "max": 10
+      },
+      {
+        "label": "Day 12 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 13 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 14 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/gokyo valley trek.JPG",
+    "uploads/gok9.jpg",
+    "uploads/gok8.jpg",
+    "uploads/gok7.jpg",
+    "uploads/gok6-1.jpg",
+    "uploads/gok5.jpg",
+    "uploads/gok4.jpg",
+    "uploads/gok3.jpg",
+    "uploads/gok2.jpg",
+    "uploads/gok14.jpg",
+    "uploads/gok13.jpg",
+    "uploads/gok12.jpg",
+    "uploads/gok11.jpg",
+    "uploads/gok10.jpg",
+    "uploads/gok1.jpg",
+    "uploads/IMG_5782.JPG",
+    "uploads/IMG_5704.JPG",
+    "uploads/IMG_5589.JPG",
+    "uploads/IMG_5605.JPG",
+    "uploads/IMG_5721.JPG",
+    "uploads/IMG_5712.JPG",
+    "uploads/IMG_5915.JPG",
+    "uploads/IMG_6001.JPG",
+    "uploads/IMG_5469.JPG",
+    "uploads/IMG_5767.JPG",
+    "uploads/IMG_5624.JPG",
+    "uploads/IMG_5481.JPG"
+  ],
+  "mapImage": "uploads/gokyo-valley-trek-13-days.jpg",
+  "fetchedAt": "2026-11-28T10:54:36.332Z"
+}

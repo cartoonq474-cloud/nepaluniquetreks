@@ -1,0 +1,57 @@
+{
+  "batch": 7,
+  "verifiedAt": "2026-11-28T12:27:53.383Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 61,
+      "sourceSlug": "dhaulagiri-base-camp-trek",
+      "targetHtmlPath": "trek/dhaulagiri-circuit-trek/index.html"
+    },
+    {
+      "order": 62,
+      "sourceSlug": "himlung-himal-expeditions",
+      "targetHtmlPath": "trek/himlung-himal-expeditions/index.html"
+    },
+    {
+      "order": 63,
+      "sourceSlug": "bardiya-national-park-tour",
+      "targetHtmlPath": "tour/bardiya-national-park-tour/index.html"
+    },
+    {
+      "order": 64,
+      "sourceSlug": "mustang-tiji-festival-trek",
+      "targetHtmlPath": "trek/mustang-tiji-festival-trek/index.html"
+    },
+    {
+      "order": 65,
+      "sourceSlug": "kathmandu-valley-day-tours",
+      "targetHtmlPath": "tour/kathmandu-valley-day-tours/index.html"
+    },
+    {
+      "order": 66,
+      "sourceSlug": "mustang-damodar-kunda-trek",
+      "targetHtmlPath": "trek/mustang-damodar-kunda-trek/index.html"
+    },
+    {
+      "order": 67,
+      "sourceSlug": "tamang-heritage-trail-trek",
+      "targetHtmlPath": "trek/tamang-heritage-trail-trek/index.html"
+    },
+    {
+      "order": 68,
+      "sourceSlug": "short-manaslu-circuit-trek",
+      "targetHtmlPath": "trek/short-manaslu-circuit-trek/index.html"
+    },
+    {
+      "order": 69,
+      "sourceSlug": "annapurna-sunrise-view-tour",
+      "targetHtmlPath": "tour/annapurna-sunrise-view-tour/index.html"
+    },
+    {
+      "order": 70,
+      "sourceSlug": "ganesh-himal-base-camp-trek",
+      "targetHtmlPath": "trek/ganesh-himal-base-camp-trek/index.html"
+    }
+  ]
+}

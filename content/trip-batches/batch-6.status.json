@@ -1,0 +1,47 @@
+{
+  "batch": 6,
+  "verifiedAt": "2026-11-28T12:27:53.382Z",
+  "count": 8,
+  "packages": [
+    {
+      "order": 51,
+      "sourceSlug": "ghale-gaun-village-tour",
+      "targetHtmlPath": "tour/ghale-gaun-village-tour/index.html"
+    },
+    {
+      "order": 53,
+      "sourceSlug": "chisapani-nagarkot-hike",
+      "targetHtmlPath": "trek/chisapani-nagarkot-hike/index.html"
+    },
+    {
+      "order": 54,
+      "sourceSlug": "ghorepani-ghandruk-trek",
+      "targetHtmlPath": "trek/ghorepani-ghandruk-trek/index.html"
+    },
+    {
+      "order": 55,
+      "sourceSlug": "annapurna-base-camp-trek",
+      "targetHtmlPath": "trek/annapurna-base-camp-trek/index.html"
+    },
+    {
+      "order": 56,
+      "sourceSlug": "chulu-west-peak-climbing",
+      "targetHtmlPath": "trek/chulu-west-peak-climbing/index.html"
+    },
+    {
+      "order": 57,
+      "sourceSlug": "ghorepani-poon-hill-trek",
+      "targetHtmlPath": "trek/ghorepani-poon-hill-trek/index.html"
+    },
+    {
+      "order": 58,
+      "sourceSlug": "ama-dablam-base-camp-trek",
+      "targetHtmlPath": "trek/ama-dablam-base-camp-trek/index.html"
+    },
+    {
+      "order": 59,
+      "sourceSlug": "mardi-himal-peak-climbing",
+      "targetHtmlPath": "trek/mardi-himal-peak-climbing/index.html"
+    }
+  ]
+}

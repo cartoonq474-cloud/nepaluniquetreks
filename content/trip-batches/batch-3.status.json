@@ -1,0 +1,52 @@
+{
+  "batch": 3,
+  "verifiedAt": "2026-11-28T12:27:53.379Z",
+  "count": 9,
+  "packages": [
+    {
+      "order": 21,
+      "sourceSlug": "upper-mustang-trek",
+      "targetHtmlPath": "trek/upper-mustang-trek/index.html"
+    },
+    {
+      "order": 22,
+      "sourceSlug": "nar-phu-valley-trek",
+      "targetHtmlPath": "trek/nar-phu-valley-trek/index.html"
+    },
+    {
+      "order": 23,
+      "sourceSlug": "annapurna-mini-trek",
+      "targetHtmlPath": "trek/annapurna-mini-trek/index.html"
+    },
+    {
+      "order": 24,
+      "sourceSlug": "nepal-tours-package",
+      "targetHtmlPath": "tour/nepal-tours-package/index.html"
+    },
+    {
+      "order": 25,
+      "sourceSlug": "thorong-la-pass-trek",
+      "targetHtmlPath": "trek/thorong-la-pass-trek/index.html"
+    },
+    {
+      "order": 26,
+      "sourceSlug": "island-peak-climbing",
+      "targetHtmlPath": "trek/island-peak-climbing/index.html"
+    },
+    {
+      "order": 27,
+      "sourceSlug": "paldor-peak-climbing",
+      "targetHtmlPath": "trek/paldor-peak-climbing/index.html"
+    },
+    {
+      "order": 28,
+      "sourceSlug": "naya-kang-peak-climb",
+      "targetHtmlPath": "trek/naya-kang-peak-climb/index.html"
+    },
+    {
+      "order": 29,
+      "sourceSlug": "manaslu-circuit-trek",
+      "targetHtmlPath": "trek/manaslu-circuit-trek/index.html"
+    }
+  ]
+}

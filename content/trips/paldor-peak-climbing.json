@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "order": 27,
+  "batch": 3,
+  "sourceSlug": "paldor-peak-climbing",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/paldor-peak-climbing",
+  "targetDir": "trek/paldor-peak-climbing",
+  "templateType": "trek",
+  "regionLabel": "Peak Climbing",
+  "sourceCategory": "Peak Climbing in Nepal",
+  "title": "Paldor Peak Climbing",
+  "seoTitle": "Paldor Peak Climbing | Nepal Unique Treks",
+  "metaDescription": "Paldor Peak Climbing (5903m.) Climbing adventure is a wonderful opportunity in the Ganesh Himal region which is one of the most popular Peaks for clim",
+  "heroLead": "Paldor Peak Climbing (5903m.) Climbing adventure is a wonderful opportunity in Ganesh Himal region which is one of the most popular Peaks for climbing. The peak has two ridges for climbing-south-east ridge and north-east ridge.",
+  "heroMore": "Paldor Peak climbing and Trekking in Ganesh Himal provides astonishing views of Ganesh Himal massif, Annapurna range, Manaslu range, Langtang range, Lamjung Himal, Himalchuli, Shringi Himal, and many other mountains and peaks around there. The Peak summit offers astonishing views of Ganesh Himal I, Ganesh Himal II, Ganesh Himal IV, Pabi Himal, Mt.",
+  "durationDays": 14,
+  "durationDisplay": "14 Days",
+  "maxElevationM": 5896,
+  "facts": {
+    "duration": "14 Days",
+    "accommodation": "Hotel. Tea house, and Camping",
+    "max elevation": "5896 m",
+    "grade": "Adventure",
+    "activity": "Trekking and Climbing",
+    "transportation": "Private Car",
+    "treks type": "Tea House, Camping",
+    "best season": "October to December, March to May"
+  },
+  "pricing": {
+    "primaryPriceUsd": 3800,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$3,800",
+        "priceUsd": 3800
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/paldor peak climbing.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p><strong>Paldor Peak Climbing</strong> (5903m.) Climbing adventure is a wonderful opportunity in Ganesh Himal region which is one of the most popular Peaks for climbing. The peak has two ridges for climbing-south-east ridge and north-east ridge. Paldor Peak climbing and Trekking in Ganesh Himal provides astonishing views of Ganesh Himal massif, Annapurna range, Manaslu range, Langtang range, Lamjung Himal, Himalchuli, Shringi Himal, and many other mountains and peaks around there.</p><p>The Peak summit offers astonishing views of <strong>Ganesh Himal</strong> I, Ganesh Himal II, Ganesh Himal IV, Pabi Himal, Mt. Langtang, Mt. Manaslu and hundreds of other peaks and mountains around there.</p><p><strong>Paldor Peak Climbing</strong> trekking trail is also experiencing a wide variety of rare wildlife and birds including endangered rare animals like Snow Leopard, Red Panda, Wild Yak, Himali Thar, Musk Deer, Wild Boar and more than 300 species of birds and natural lives in Langtang Valley. The region is habitat of Yeti which is mysterious and unjustified till now.</p><p>Paldor Peak Trek mostly covers Gorkha and reaches to the foothill of Paldor Peak. A pleasant view of Ganga Jamuna Waterfall which is sacred to Hindus gives an unforgettable experience in trekking adventure. The Temple of Tripura Sundari is also in the same region, the deity is offered different sacrificial animals to make the wish fulfilled. Monasteries and ch&ouml;rtens give spiritual insight during the trek.</p><p>The region is cultivated by Tamang, Gurung, Magar, Chhetri, and Brahmin ethnic groups which visitors can explore while trekking through the settlements. Syabrubesi, Gatlang, Yuri Kharka, Somdang, and Jasta Khani are full of unique cultures to explore during the trek. The life and activities of hillside people are interesting for the visitors which vary from settlement to settlement.</p><p><strong>Paldor Peak Climbing</strong> in the Ganesh Himal region is an adventure -the package designed by (company name) to offer wilderness trekking and Peak climbing experience. Trekking on this trail needs a healthy and fit and preferably high-altitude trekking experience. We have expert guides to support the journey to summit the peak</p><h2><strong>Paldor Peak Climbing difficulties</strong></h2><p>Paldor Peak is a popular trekking peak located in the Ganesh Himal range of Nepal. The difficulty level of climbing Paldor Peak largely depends on several factors such as weather, season, route, altitude, and your level of experience and fitness.</p><p>The standard route to climb Paldor Peak is via the North East Ridge, which is considered a technical climb and requires basic mountaineering skills such as using an ice axe, crampons, and ropes. The climb involves steep and exposed sections, snow and ice slopes, and crevasses, which can be challenging and require careful attention and skills.</p><p>The altitude of Paldor Peak is 5,896 meters (19,347 ft), which means that altitude sickness can be a potential issue for climbers. Therefore, proper acclimatization is necessary to avoid altitude-related problems.</p><p>Overall, Paldor Peak climbing is considered to be moderately difficult, and prior mountaineering experience is recommended. It is advisable to go with a professional and experienced guide or a mountaineering company to ensure safety and success.</p><h2><strong>Best Session for Paldor Peak Climbing</strong></h2><p>Paldor Peak climbing is a challenging and exciting adventure that requires proper planning and preparation. The best season for Paldor Peak climbing is during the autumn months (September to November) and spring months (March to May).</p><p>During these months, the weather is generally stable, with clear skies and minimal rainfall. The temperatures are also moderate, which makes it easier to climb without facing extreme weather conditions.</p><p>It&#39;s important to note that climbing Paldor Peak requires a good level of physical fitness, technical skills, and experience. Therefore, it&#39;s highly recommended that you hire a professional guide and join an organized climbing expedition to ensure your safety and increase your chances of success.</p><p>Also, before embarking on this adventure, make sure you have all the necessary equipment and gear, such as proper climbing shoes, warm clothing, a sleeping bag, a tent, and other essential items.</p><p>Overall, the best season for Paldor Peak climbing is during autumn and spring, but it&#39;s crucial to be well-prepared and have the necessary skills and equipment to have a safe and enjoyable experience.</p></div></div>",
+  "overviewPlainWordCount": 682,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrive at Kathmandu and transfer to the hotel"
+    },
+    {
+      "day": 2,
+      "title": "Sightseeing day at Kathmandu",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Sightseeing day at Kathmandu"
+    },
+    {
+      "day": 3,
+      "title": "Drive Syabrubesi and trek Gompa Gaun",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Drive Syabrubesi and trek Gompa Gaun"
+    },
+    {
+      "day": 4,
+      "title": "Trek Somdang",
+      "altitudeM": 3230,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Somdang (3230m.)"
+    },
+    {
+      "day": 5,
+      "title": "Trek Somdang to Jastha Khani",
+      "altitudeM": 3700,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Trek Somdang to Jastha Khani (3700m.)"
+    },
+    {
+      "day": 6,
+      "title": "Trek Lower base Camp of Paldor base camp",
+      "altitudeM": 4280,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Trek Lower base Camp of Paldor base camp (4280m.)"
+    },
+    {
+      "day": 7,
+      "title": "Trek High Base Camp",
+      "altitudeM": 4980,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Trek High Base Camp (4980m.)"
+    },
+    {
+      "day": 8,
+      "title": "Trek High camp",
+      "altitudeM": 5200,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Trek High camp (5200m.)"
+    },
+    {
+      "day": 9,
+      "title": "Summit Paldor and back to Paldor base camp",
+      "altitudeM": 5200,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "Summit Paldor (5896m.), and back to Paldor base camp"
+    },
+    {
+      "day": 10,
+      "title": "Back to Samdung Kharka",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Back to Samdung Kharka"
+    },
+    {
+      "day": 11,
+      "title": "Back to Gatlang",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Back to Gatlang"
+    },
+    {
+      "day": 12,
+      "title": "Back down to Syaphrubesi",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Back down to Syaphrubesi"
+    },
+    {
+      "day": 13,
+      "title": "Drive back to Kathmandu",
+      "altitudeM": 1350,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive back to Kathmandu"
+    },
+    {
+      "day": 14,
+      "title": "Departure to your destination",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel. Tea house, and Camping",
+      "description": "Departure to your destination"
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 3,800 per person",
+      "includes": [
+        "International Airport Pick up drop by private car",
+        "Three-night accommodation in Kathmandu on BB basis (3-star category hotel) on twin sharing as mentioned in the itinerary",
+        "An experienced, helpful, and friendly Government license holder trekking & Paldor peak climbing guide",
+        "Trekking porter /sherpa who will carry your bag pack during the trekking. (two people will get one trekking sherpa/ porter according to the workers Union of Nepal)",
+        "Kathmandu Syabrubensi overland transportation by private vehicle as mentioned in the itinerary",
+        "Trekking accommodation in a tented camp during trekking & Paldor Peak climbing",
+        "Trekking cook who will prepare Nepalese, Chinese, Indian, American, European & continental food entire the trekking & peak climbing",
+        "Trekking equipment such as two men tent, Dining tent, Kitchen tent, Toilet tent, Mattress & Kitchen entails",
+        "Three-time meals during the trekking Breakfast, Lunch & Dinner.",
+        "dessert /fruit after having dinner as the company provides",
+        "Paldor peak climbing permit",
+        "Paldor peak climbing guide salary",
+        "Paldor peak garbage deposit",
+        "Paldor peak climbing equipment such as Rope( both main and fixed rope) Snow bar, Snow ice screw, etc.",
+        "Trekker's Information Management system (TIMS permit)",
+        "Langtang National park permit",
+        "Sybrubensi to Kathmandu overland transportation by local bus as mentioned in the itinerary",
+        "Kathmandu valley guided sightseeing tour as mentioned in the itinerary",
+        "Kathmandu valley sightseeing tour with private car as mentioned in the itinerary",
+        "All programs as mentioned in the itinerary",
+        "Overland transportation",
+        "Insurance for Nepalese staff. ( Trekking guide, and porters)",
+        "Guide and porter fares and taxes.",
+        "Government Tax and office service charge.",
+        "Kathmandu International Airport drop"
+      ],
+      "excludes": [
+        "Lunch & Dinner during the Kathmandu stay",
+        "International flight ticket",
+        "Nepal entry visa fee US$ 40 (duration 60 days from date of issue)- you may easily issue the visa upon your arrival at Tribhuwan International Airport -Kathmandu.",
+        "High-risk medical insurance",
+        "Entrance fees while sightseeing tour in Kathmandu valley.",
+        "Alcoholic beverages and telephone calls",
+        "Hot drinks, Soft drinks such as cola, mineral water",
+        "Nepal Visa Fee",
+        "Emergency rescue evacuation if needed",
+        "Purely personal nature expenses",
+        "Tipping /Tips(Tipping is Expected)."
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/paldor-peak-climbing.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Paldor Peak Climbing (14 Days)",
+    "weatherTitle": "Paldor Peak Climbing Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 2",
+        "spot": "Sightseeing day at Kat..",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive Syabrubesi and t..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 4",
+        "spot": "Trek Somdang",
+        "altitudeM": 3230,
+        "altitudeFt": 10597
+      },
+      {
+        "day": "Day 5",
+        "spot": "Trek Somdang to Jastha..",
+        "altitudeM": 3700,
+        "altitudeFt": 12139
+      },
+      {
+        "day": "Day 6",
+        "spot": "Trek Lower base Camp o..",
+        "altitudeM": 4280,
+        "altitudeFt": 14042
+      },
+      {
+        "day": "Day 7",
+        "spot": "Trek High Base Camp",
+        "altitudeM": 4980,
+        "altitudeFt": 16339
+      },
+      {
+        "day": "Day 8",
+        "spot": "Trek High camp",
+        "altitudeM": 5200,
+        "altitudeFt": 17060
+      },
+      {
+        "day": "Day 9",
+        "spot": "Summit Paldor and back..",
+        "altitudeM": 5896,
+        "altitudeFt": 19344
+      },
+      {
+        "day": "Day 10",
+        "spot": "Back to Samdung Kharka",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 11",
+        "spot": "Back to Gatlang",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 12",
+        "spot": "Back down to Syaphrubesi",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 13",
+        "spot": "Drive back to Kathmandu",
+        "altitudeM": 1350,
+        "altitudeFt": 4429
+      },
+      {
+        "day": "Day 14",
+        "spot": "Departure to your dest..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 4 (3230 m)",
+        "min": -7,
+        "max": 8
+      },
+      {
+        "label": "Day 5 (3700 m)",
+        "min": -10,
+        "max": 5
+      },
+      {
+        "label": "Day 6 (4280 m)",
+        "min": -14,
+        "max": 2
+      },
+      {
+        "label": "Day 7 (4980 m)",
+        "min": -18,
+        "max": -2
+      },
+      {
+        "label": "Day 8 (5200 m)",
+        "min": -20,
+        "max": -4
+      },
+      {
+        "label": "Day 9 (5896 m)",
+        "min": -24,
+        "max": -8
+      },
+      {
+        "label": "Day 10 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 11 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 12 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 13 (1350 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 14 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/paldor peak climbing.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-snow-peak-clouds-16.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+  ],
+  "mapImage": "uploads/paldor-peak-climbing.jpg",
+  "fetchedAt": "2026-11-28T10:54:45.289Z"
+}

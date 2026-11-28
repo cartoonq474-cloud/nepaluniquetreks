@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "order": 51,
+  "batch": 6,
+  "sourceSlug": "ghale-gaun-village-tour",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/ghale-gaun-village-tour",
+  "targetDir": "tour/ghale-gaun-village-tour",
+  "templateType": "tour",
+  "regionLabel": "Nepal Foothills",
+  "sourceCategory": "Short & Easy Trekking Routes in Nepal",
+  "title": "Ghale Gaun Village Tour",
+  "seoTitle": "Ghale Gaun Village Tour | Homestay in Nepal",
+  "metaDescription": "Ghale Gaun Village tour is a popular homestay in Nepal. from where attractive mountain views and nice hospitality in every homestay with local tradit",
+  "heroLead": "Ghale Gaun Village Tour is another typical Gurung village of Nepal situated at the foot of Lamjung Himal in Lamjung district, the Ghale Gaun village tour.is surrounded by beautiful white-capped peaks so it is naturally so attractive. The major inhabitants of this village are Gurung ethnic people this village still follows their ancient culture, festivals, systems, rituals, and ceremonies so this village tour is a perfect mingling of nature and culture.",
+  "heroMore": "In Ghale Gaun ancient cultural dances of Gurung people such as Jhyaure, Serka, Rodi, Ghantu, Ghyabring, Krishna Charitra, and Jhankri are performed on various occasions accompanied by different Gurung typical musical instruments with the dancers in traditional Gurung dress, After watching these dances performed by the Gurung people visitors will have the feeling of experiencing the most romantic culture, Gurung people of Ghale Gaun are very hospitable and they make no stone unturned to make their guests happy so their effort and activities will mesmerize the visitors all over of their life, During Ghale Gaun village tour visitors will get the chance to taste different Gurung especial local food items, honey, wine, and local fruits. Naturally, too Ghale Gaun is very attractive because it is surrounded by beautiful mountains, waterfalls, forests, and rivers.",
+  "durationDays": 4,
+  "durationDisplay": "4 Days",
+  "maxElevationM": 2100,
+  "facts": {
+    "duration": "4 Days",
+    "accommodation": "Homestay",
+    "max elevation": "2100 m",
+    "grade": "Easy",
+    "activity": "Hiking, Village Tour",
+    "transportation": "Private Car",
+    "treks type": "Homestay",
+    "best season": "Autumn: October, November, December. Spring: March, April, May"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/Ghalegau.JPG"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p><strong>Ghale Gaun Village Tour</strong> is another typical Gurung village of Nepal situated at the foot of Lamjung Himal in Lamjung district, the Ghale Gaun village tour.is surrounded by beautiful white-capped peaks so it is naturally so attractive.</p><p> The major inhabitants of this village are Gurung ethnic people this village still follows their ancient culture, festivals, systems, rituals, and ceremonies so this village tour is a perfect mingling of nature and culture.</p><p>In Ghale Gaun ancient cultural dances of Gurung people such as Jhyaure, Serka, Rodi, Ghantu, Ghyabring, Krishna Charitra, and Jhankri are performed on various occasions accompanied by different Gurung typical musical instruments with the dancers in traditional Gurung dress,</p><p>After watching these dances performed by the Gurung people visitors will have the feeling of experiencing the most romantic culture, <strong>Gurung people </strong>of Ghale Gaun are very hospitable and they make no stone unturned to make their guests happy so their effort and activities will mesmerize the visitors all over of their life, During <strong>Ghale Gaun village tour</strong> visitors will get the chance to taste different Gurung especial local food items, honey, wine, and local fruits.</p><p>Naturally, too Ghale Gaun is very attractive because it is surrounded by beautiful mountains, waterfalls, forests, and rivers. From Ghale Gaun striking views of beautiful mountains such as Annapurna, Machhapuchhre, Lamjung Himal, Buddha Himal, and Himchuli can be seen.</p><p>While trekking to Ghale Gaun visitors will follow the beautiful trail and can see the beautiful dense forests, different species of birds and animals, waterfalls, Lakes, and rivers. Other attractions of the Ghale Gaun tour are bird watching around the Lake, visiting the temple and Khudi Hydro project, watching an attractive waterfall, and exploring the Batase cave. Moreover, near the Ghale Gaun, there is another typical Gurung village called Ghanpokhara which visitors can visit for more cultural and natural pleasure.</p><h2>Highlights of the tour:</h2><p>Ghale Gaun village, Ghanpokhara, Jhyaure, Serka, Rodi, Ghantu, Ghyabring, Krishna Charitra, and Jhankri dances, a stunning glimpse of the beautiful mountains such as Annapurna, Machhapuchhre, Lamjung Himal, Buddha Himal, and Himchuli, Lake, waterfalls, Khudi hydro project, and Batase cave.</p></div></div>",
+  "overviewPlainWordCount": 348,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Kathmandu to Ghale Gaun via Besisahar 182 Km, 7 Hrs, 2100 m",
+      "altitudeM": 2100,
+      "walkingTime": "7 Hrs",
+      "distanceKm": "182 Km",
+      "meals": "L, D",
+      "accommodation": "Homestay",
+      "description": "Drive from Kathmandu to Ghale Gaun via Beshishar it takes 7 hrs drive by private car. During the drive you will enjoy on highway road and when you reach Besishahar beautiful white water rafting Marsyangdi Rivers. From Besishahar little hrs drive on a gravel road will be simply bumpy but you will observe the spectacular snowcapped mountain views. When you arrive there you will attend a welcome program, and organized by the mother's group, the Homestay community of Ghale Gaun. You have a chance to join them to dance to local folk songs. They will perform for you Gurung Cultural dance, Sorathi, and Salaiju Nepali folk songs. Overnight stay at Ghale Gaun."
+    },
+    {
+      "day": 2,
+      "title": "Ghale Guan to Bhujung 3 Hrs walk 1695 m",
+      "altitudeM": 1695,
+      "walkingTime": "3 Hrs",
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "Homestay",
+      "description": "Early in the morning explore around the village and hike to the viewpoint. You will encounter an incredible view of the mountain such as Mt Annapurna, Mt Manasulu, and Lamjung Himal, and dramatic sunrise. After visiting the village you will join us for breakfast which is prepared by the local homestay community. Then your guide will manage the sightseeing tour of the village. Around 12 pm you will have lunch and some rest. Then 2 hrs hikes to Bhujung Village. Bhujung is popular for wild honey hunting. After 5 m walk from the village, you will see the historical Uttar Kanya Temple, tea garden, and museum. A Bhujung village is also settled by ethnic groups of the Gurung community so they have a very similar language, culture, religion, and tradition to a Ghale Gaun. But definitely, you will see the panoramic mountain views."
+    },
+    {
+      "day": 3,
+      "title": "Hike from Bhujung to Ghalegaun 3 Hrs, 2100",
+      "altitudeM": 2100,
+      "walkingTime": "3 Hrs",
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "Homestay",
+      "description": "After breakfast, you will visit the village, have lunch and hike back to Ghale Guan. The rest of the time you will enjoy yourself. In the evening you will enjoy the cultural show of mothers group or youth club of Village. Overnight stay at Ghale Guan."
+    },
+    {
+      "day": 4,
+      "title": "Drive from Ghalegaun to Kathmandu 182 Km, 8 Hrs Drive, 1345 m",
+      "altitudeM": 1345,
+      "walkingTime": "8 Hrs",
+      "distanceKm": "182 Km",
+      "meals": "B, L",
+      "accommodation": "Homestay",
+      "description": "After having a warm breakfast prepare your bag and drive back to Kathmandu and you will have lunch on the way when you feel hungry."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "Kathmandu - Ghale Gaun - Kathmandu by private vehicle",
+        "Homestay accommodation in Ghale Gaun, and Bhujung",
+        "Breakfast, Lunch, and dinner",
+        "Sleeping bag, duffel bag, first aid kit, trekking poles",
+        "Nepal Unique Treks T-shirt, Map",
+        "Experience and responsible guide",
+        "Necessary permits and official documents.",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee",
+        "International airfare",
+        "Travel Insurance",
+        "Accommodation in the city",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for guide and driver."
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Ghale Gaun Village Tour (4 Days)",
+    "weatherTitle": "Ghale Gaun Village Tour Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Kathmandu to Ghale Gau..",
+        "altitudeM": 2100,
+        "altitudeFt": 6890
+      },
+      {
+        "day": "Day 2",
+        "spot": "Ghale Guan to Bhujung ..",
+        "altitudeM": 1695,
+        "altitudeFt": 5561
+      },
+      {
+        "day": "Day 3",
+        "spot": "Hike from Bhujung to G..",
+        "altitudeM": 2100,
+        "altitudeFt": 6890
+      },
+      {
+        "day": "Day 4",
+        "spot": "Drive from Ghalegaun t..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (2100 m)",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "label": "Day 2 (1695 m)",
+        "min": 3,
+        "max": 17
+      },
+      {
+        "label": "Day 3 (2100 m)",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "label": "Day 4 (1345 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/Ghalegau.JPG",
+    "uploads/kathmandu-durbar-squire.jpg",
+    "uploads/pokhara-himalayan-view-winter.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg",
+    "uploads/nagarkot.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:56:08.464Z"
+}

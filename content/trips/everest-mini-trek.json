@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "order": 14,
+  "batch": 2,
+  "sourceSlug": "everest-mini-trek",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/everest-mini-trek",
+  "targetDir": "trek/everest-mini-trek",
+  "templateType": "trek",
+  "regionLabel": "Everest",
+  "sourceCategory": "Everest Region Trekking",
+  "title": "Everest Mini Trek",
+  "seoTitle": "Everest Mini Trek | Everest Short Trek, Cost & Itinerary for 2026/2027",
+  "metaDescription": "Everest Mini Treks offers you magnificent panoramic snowcapped Mountain views with the Sherpa people",
+  "heroLead": "Everest Mini Treks offers you magnificent panoramic snow-capped mountain views, along with the Sherpa people's lifestyle, culture, and traditions. Also, people know Everest Short Trek, Cost & Itinerary for 2026/27 given below.",
+  "heroMore": "Your Trek starts in Kathmandu. On the day you arrive, you will be welcomed by the Nepal Unique Treks family.",
+  "durationDays": 11,
+  "durationDisplay": "11 Days",
+  "maxElevationM": 3860,
+  "facts": {
+    "duration": "11 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "3860 m",
+    "grade": "Medium",
+    "activity": "Trekking and culture tou",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea house",
+    "best season": "Spring (March – May) Autumn (Sep – Nov)"
+  },
+  "pricing": {
+    "primaryPriceUsd": 1200,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$1,200",
+        "priceUsd": 1200
+      }
+    ],
+    "groupTiers": [
+      {
+        "label": "1 Person",
+        "priceUsd": 1200
+      }
+    ]
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/everest mini trek.JPG"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p><strong>Everest Mini Treks </strong>offers you magnificent panoramic snow-capped mountain views, along with the Sherpa people&#39;s lifestyle, culture, and traditions. Also, people know <strong>Everest Short Trek, Cost &amp; Itinerary for 2026/27</strong> given below. Your Trek starts in Kathmandu. On the day you arrive, you will be welcomed by the <strong>Nepal Unique Treks </strong>family. It is a 6.5 km drive from the International airport to your Hotel in Thamel. If you arrive early on the day or the next morning, you will meet with the trek operator and be introduced to the trek guide. Officially confirm your <strong>Everest Mini Trek </strong>agreement and trekking gear preparation.</p><p>Early in the morning, your guide will bring you to Kathmandu domestic airport, and then you will fly from<strong> Kathmandu to Lukla Airport</strong>. Your treks start from Lukla. After arrival at Lukla airport, you will change your trekking gear for the day and introduce yourself to a local Sherpa who will help to carry your baggage during the trek. You will find amazing shops around <strong>Lukla Bazaar.</strong> There are many trekker shops where you can buy many types of local trekking gear as well as branded equipment for the <strong>Everest Expedition or trekking</strong>.</p><p>At Lukla, there is a Trekking permit checkpoint that belongs to the Nepal Tourist Police and the Lukla village development committees. After official trek permits are issued, your trek starts through beautiful local villages, spring rivers, a Monastery, and the Dudhkoshi river valley. On the way, you will enjoy the lunch cooked by a Sherpa lady. Today, four hours of trekking bring you to stay at Phakding village. During the trek, you will enjoy beautiful mountain views, the Local Sherpa&#39;s lifestyle, and a religious Buddhist monastery. Dramatic Mountain View with sunrise and sunset.The </p><p>Everest Mini Treks route has been covered by Sagarmatha National Park, and there are several Villages which are internationally famous among trekkers and climbers. Which is popularly known as Namche Bazaar, Khumjung Village, and Tengbuchhe Village. Namche is a beautiful Sherpa settlement, like the city, where you can buy everything compared to the city. Also, people called it a gateway to Mt. Everest, which is mainly known as the resting place (acclimatization place).</p><p>At Namche Bazaar, you will have a rest and exploration day. Early in the morning. Hike up to Hotel Everest. Capture the moment of joy and the beauty of nature. It will be a lifetime travel memory. After breakfast, hike up to the Everest View Hotel. Explore the Village of World record-holders, climbing Sherpa&#39;s hometowns and monastery, and see the real Yeti Head. The trek from Namche Bazaar to Tengboche Monastery will be fruitful and valuable for trekking in Everest.</p><p>Tengboche Monastery is situated at 3865 m above sea level. The local people are known as Dawa Chholing Gompa. The largest Gompa or Buddhist pilgrims&#39; sites in the Khumbu region. It was built in 1916 by Lama Gulu, and people believed it was linked with their mother&#39;s monastery, known as the Rongbuk Monastery in Tibet. Before going to Everest, every climber, trekker, and local person offers a butter lamp and prayers for a successful trip and a Happy Life. If people have a big dream to explore Everest or hike to the summit, they will continue trekking with a blessing from the Monastery.</p></div></div>",
+  "overviewPlainWordCount": 545,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu airport 1345 m",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": null,
+      "accommodation": "3-star Hotel",
+      "description": "Nepal Unique Treks staff will receive you at the Tribhuwan International Airport in Kathmandu and bring you to the hotel. If you arrive earlier on the day, we have time to discuss our trip."
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu valley Sightseeing and Trip Preparation 1345 m",
+      "altitudeM": 1342,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "3-star Hotel",
+      "description": "After having breakfast, we will introduce you to the tour guide. The tour guide will take you to visit Swayambhunath, and people have known as the Monkey Temple, Boudhanath Stupa, Hindu Temple Pasupatinath & live god Kumari in Basantapur Durbar Square or Patan Durbar Square on your choice. Our Tour Guide will help you to explore our Heritage sites, Local Culture, Religions, and people's lifestyle Early afternoon returns to the hotel. Introduce with a trekking guide. And the guide will help you to check your trekking gear. if not have enough and good gear for the trek, you have to buy things in Thamel. The guide will help you."
+    },
+    {
+      "day": 3,
+      "title": "hrs, drive to Ramechhap Manthali Airport 144 km, 474 m Elevation",
+      "altitudeM": 474,
+      "walkingTime": null,
+      "distanceKm": "144 km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Today our Everest Base Camp Trek starts in 5 hrs and is a 144 km drive from Kathmandu to Ramechhap Manthali Airport. On the first day of trekking, you will enjoy local villages, beautiful rafting rivers, and landscapes. You will have a warm local lunch on the way, then a few hours' drive you will arrive in Ramechhap. Check-in guesthouse, after refreshment, you will hike around local villages and enjoy a beautiful sunset by the river. Back to the guesthouse, take dinner, and overnight in the guesthouse."
+    },
+    {
+      "day": 4,
+      "title": "Flight from Ramechhap to Lukla 2860 m. Trek to Phakding 2610 m.",
+      "altitudeM": 2610,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Enjoy a short mountain flight. Within 20/25 m, you will arrive in Lukla. Then your trek guide will meet with the Sherpa (Porter). Our local porter will take 2 clients' bags maximum weight of 22 kg. He will carry your duffel bag and trek together until you return to Lukla. Take some tea or coffee at Lukla, and enjoy a flight from the Buddha lodge rooftop. Today you will trek 4/5 hrs to the rich Phakding 2610. The trek will be fantastic, you will enjoy the Local Sherpa Village, Buddhist Monastery, Chorten, and Mani Wall trek views of the Thado Koshi River. In the early evening, you will hike around villages and also a 200 M hike up to Phakding Monastery, which will help you to adjust your altitude. Overnight In Phakding Guesthouse."
+    },
+    {
+      "day": 5,
+      "title": "Trek from Phakding to Namche 3444 m, 6/7 hrs Trek",
+      "altitudeM": 3444,
+      "walkingTime": "6/7 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Today we walk along the bank of Dudh Koshi River, during the day across many exciting suspension bridges to reach Namche Bazaar. On the way to Namche Bazaar, the trail passes through the Sagarmatha National Park, which changes the steeply breathtaking view. After entering our trekking permits, you will have lunch in Jorsalle village, this village is the last one to have food and tea, coffee. As Namche Bazaar is considered the main gateway to Everest Base Camp and summits, it has developed into a town with luxurious guest houses, Hotels, and urban facilities like restaurants, money exchange services, internet cafes, s and fresh bakeries, Local and top branded trekking gear. You need to walk 6/7 hours to reach Namche Bazaar."
+    },
+    {
+      "day": 6,
+      "title": "Hike to Everest View Hotel 3962 m. Explore Namche Bazzar 4/5 hrs. 3444 m.",
+      "altitudeM": 3444,
+      "walkingTime": "4/5 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Today you will stay in Namche Bazaar. It’s the place from where we can see the first view of Mt. Everest, 8848 m. From here, you can see incredible views of the Himalayas with a stunning sunrise and sunset over the panorama of the Khumbu Himalayas. Hike up to Everest View Hotel, 360 Mountains views from the Hotel Lobby, and the tea garden. You love to take a short time for tea or coffee. From there, some people continued to visit Khumjung village and visit Yeti head Monastery, but some people returned to the hotel. It will depend on your health situation. Descending Namche to recover your tired body. In the afternoon, enjoy the Mt: Everest historical documentary at a coffee shop."
+    },
+    {
+      "day": 7,
+      "title": "Trek from Namche to Tengbuche 3860 m, 6 hrs, 10 Km",
+      "altitudeM": 3860,
+      "walkingTime": "6 hrs",
+      "distanceKm": "10 Km",
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "The dawn calls for a yummy breakfast, and you start your trek towards Tengboche, enjoying beautiful views of Mt. Everest, Mt. Nuptse, Mt. Lhotse, Mt. Ama Dablam, and a close-up view of Thamserku. Your trek follows the gradual trail with a few ups and downs, overlooking the glorious view of the great Himalayas. Along the way, you can spot wild lives like pheasant, musk deer, or a herd of Himalayan Thar. The trail goes gradually down to Kayangjuma Village. The path eventually reaches Sansa, which is the major trail junction to Gokyo Valley and Everest Base Camp. The track will then penetrate you through the pine forests and crossing the prayer flags festooned bridge over Dudh Koshi River, we reach Phunki Thenga, a small settlement with a couple of teahouses and a small army post amidst the alpine woods. A tongue-twisting lunch at Phunki Thenga will be your fuel for the tough little climb steep up through the pine forests before approaching Tengboche. Tengboche is a great place for close-up views of Ama-Dablam, Nuptse, and Everest, and it has the biggest Buddhist Monastery all over in the Khumbu Region. Late afternoon, we can visit the monastery and pray for success."
+    },
+    {
+      "day": 8,
+      "title": "Trek from Tengbuche to Manjo Village 2850 M, 6/7 Hrs",
+      "altitudeM": 2850,
+      "walkingTime": "6/7 Hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Today, you will trek down through the hillside by rhododendron and juniper trees. If you are there in spring, pink and red Rhododendron flowers will blaze in your atmosphere. Cross the prayer flag festooned bridge over the Dudh Koshi River; the trekking trail follows the Dudh Koshi gorge downhill rapidly through the pine forests.. You stop at Kayangjuma (3570 m/11,710 ft) for a relaxed tea or coffee. The trail to Namche Bazaar clings to the steep forested slope beyond Kayangjuma village, winding through several bends. We keep a watch out for wildlife such as mountain goats, snow leopards, colorful pheasants, etc. While short-lived through the forest by the trail. After passing a Chorten, you reach the army camp at Namche Bazaar, and you will enjoy Lunch. At this point, you would like to take a long last look and picture back to Mt. Lhotse, the tip of Mt. Everest. After lunch, trek down to Manzo Village via the suspension Hillary Bridge and Jorsalle village. Overnight Stay at Manzo. Though you will have some pain around your thigh due to continuous movement, the memories that are stuck in your mind and heart slowly cover the pain."
+    },
+    {
+      "day": 9,
+      "title": "Trek from Manzo Village to Lukla 2860 M, 7/8 Hrs",
+      "altitudeM": 2860,
+      "walkingTime": "7/8 Hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Early in the morning will slowly pinch your ears and knock your head to wake up for the trip. Though it will not be easy to wrap up the warm blanket, we must say goodbye to Manzo today. Extend your body for a moment and fill your stomach with a warm and mouth-watering breakfast to propel down the trail and descend gently downward. You need to walk slowly and under control as your shaky legs constantly battle the rocky terrain. Journey to the suspension bridges over the fast-flowing \"Dudh Koshi River\" and its tributaries, the trail becomes more leveled and natural. By today, you will start to get warmed up by the light wind. Any outstanding sore throats and colds will slowly vanish from today as you pass through this delightful mountain air. While you are traveling the same route downhill, you feel finally different. You just snap a mixture of open plains, rhododendron, and pine forests, and in the space, snow-covered peaks. You will be exposed to the Sherpa villages, noticing inspiring faith in Buddhism and the culture of prayer stones and prayer flags while you walk through the Sherpa villages. Upon arrival at Lukla village, stretch those sore legs and recall the experience of the last couple of weeks. Your familiarity is the conclusion of a fantastic trek on a happy note, with everyone back safe and sound with a smile on their faces! Lots of memories wriggle around your mind and heart. You will feel that you have touched the feet of the highest mountain peak in the world, Mount Everest, and it is leaning down to grace you with a happy and prosperous life. Slowly, your eyebrows get heavy due to tiredness, and you will be lost in the lap of Lukla village, waiting for the day to say goodbye to Lukla village. Last day Trek celebration in Lukla"
+    },
+    {
+      "day": 10,
+      "title": "Lukla to Ramechhap by flight, 5 Hrs drive to Kathmandu 1345 M.",
+      "altitudeM": 1345,
+      "walkingTime": "5 Hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "3-star Hotel",
+      "description": "Fly from Lukla to Ramechhap airport. Drive back to Kathmandu by private vehicle."
+    },
+    {
+      "day": 11,
+      "title": "Departure to Tribhuwan International Airport. 1345 M",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "After the beautiful sunshine morning will sadly wake up; your trip to Nepal comes to an end today; our spokesperson will escort you to the airport approx 3 hours before your flight schedule. On your way home, you have plenty of time to plan for your next adventure tour in the amazing Himalayan country. There will be a heart-touching relationship between you and our company during this trip. Nepal Unique Treks Family will be missing you and praying for your safe departure home."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 950 per person",
+      "includes": [
+        "Airport pickup & drop by private car.",
+        "3-star categories Hotel in Kathmandu with breakfast.",
+        "Kathmandu to Lukla, Lukla to Kathmandu by airlines.",
+        "Everest Region trekking permits and official documents.",
+        "Breakfast, lunch, and dinner during the trek",
+        "Three-time tea, coffee, and seasonal fresh fruits.",
+        "Best available guesthouse accommodation during the trek.",
+        "English-speaking trekking guide, and local sherpa to carry duffel bag.",
+        "Guide porters trekking insurance, Accommodation food, and there sallery",
+        "Trekking bags and sleeping bags are refundable after the trek.",
+        "Farewell dinner, completion of certificate by Nepal Unique Treks.",
+        "Any kind of government taxes"
+      ],
+      "excludes": [
+        "Lunch and dinner whilst in Kathmandu.",
+        "Your travel insurance.",
+        "Telephone, Alcoholic, cold and hot drinks, laundry.",
+        "Personal trekking Gear",
+        "Tour sightseeing entrance fee",
+        "Any other bar bill, dessert, or salad during the trekking",
+        "Tips for trekking staff and driver-- expected. Appreciated but not mandatory",
+        "Other expenses which are not mentioned in the Price Includes section."
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/everest-mini-trek.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Everest Mini Trek (11 Days)",
+    "weatherTitle": "Everest Mini Trek Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu a..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu valley Sight..",
+        "altitudeM": 1342,
+        "altitudeFt": 4403
+      },
+      {
+        "day": "Day 3",
+        "spot": "hrs, drive to Ramechha..",
+        "altitudeM": 474,
+        "altitudeFt": 1555
+      },
+      {
+        "day": "Day 4",
+        "spot": "Flight from Ramechhap ..",
+        "altitudeM": 2610,
+        "altitudeFt": 8563
+      },
+      {
+        "day": "Day 5",
+        "spot": "Trek from Phakding to ..",
+        "altitudeM": 3444,
+        "altitudeFt": 11299
+      },
+      {
+        "day": "Day 6",
+        "spot": "Hike to Everest View H..",
+        "altitudeM": 3444,
+        "altitudeFt": 11299
+      },
+      {
+        "day": "Day 7",
+        "spot": "Trek from Namche to Te..",
+        "altitudeM": 3860,
+        "altitudeFt": 12664
+      },
+      {
+        "day": "Day 8",
+        "spot": "Trek from Tengbuche to..",
+        "altitudeM": 2850,
+        "altitudeFt": 9350
+      },
+      {
+        "day": "Day 9",
+        "spot": "Trek from Manzo Villag..",
+        "altitudeM": 2860,
+        "altitudeFt": 9383
+      },
+      {
+        "day": "Day 10",
+        "spot": "Lukla to Ramechhap by ..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 11",
+        "spot": "Departure to Tribhuwan..",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1342 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (474 m)",
+        "min": 11,
+        "max": 25
+      },
+      {
+        "label": "Day 4 (2610 m)",
+        "min": -3,
+        "max": 12
+      },
+      {
+        "label": "Day 5 (3444 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 6 (3444 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 7 (3860 m)",
+        "min": -11,
+        "max": 4
+      },
+      {
+        "label": "Day 8 (2850 m)",
+        "min": -4,
+        "max": 10
+      },
+      {
+        "label": "Day 9 (2860 m)",
+        "min": -4,
+        "max": 10
+      },
+      {
+        "label": "Day 10 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 11 (1345 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/everest mini trek.JPG",
+    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-trail-view-12.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+  ],
+  "mapImage": "uploads/everest-mini-trek.jpg",
+  "fetchedAt": "2026-11-28T10:54:35.244Z"
+}

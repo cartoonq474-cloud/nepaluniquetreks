@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "order": 49,
+  "batch": 5,
+  "sourceSlug": "kathmandu-lumbini-tours",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/kathmandu-lumbini-tours",
+  "targetDir": "tour/kathmandu-lumbini-tours",
+  "templateType": "tour",
+  "regionLabel": "Nepal",
+  "sourceCategory": "Tours in Nepal",
+  "title": "Kathmandu Lumbini Tours",
+  "seoTitle": "Kathmandu Lumbini Tours | Nepal Unique Treks",
+  "metaDescription": "Any date you desire can be designed for the Kathmandu to Lumbini excursion.",
+  "heroLead": "Any date you desire can be designed for the Kathmandu to Lumbini excursion. The main monuments, including the Maya Devi temple, Ashoka pillar, Bodhi tree, holy ponds, world peace stupa, and other monasteries, are located in Lumbini Garden, which is reached after a first flight to Bhairahawa airport and a subsequent 40-minute drive.",
+  "heroMore": "You are greeted and taken to the locations by our knowledgeable professional guide who is well-versed in Buddhism. Since cars are not permitted inside Lumbini Garden, you must either walk or take a tuk-tuk for your trip.",
+  "durationDays": 6,
+  "durationDisplay": "6 Days",
+  "maxElevationM": 1345,
+  "facts": {
+    "duration": "6 Days",
+    "max elevation": "1345m"
+  },
+  "pricing": {
+    "primaryPriceUsd": 450,
+    "priceOnRequest": false,
+    "priceSource": "csv-fallback",
+    "luxuryPriceUsd": null,
+    "packages": [],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/lumbini-1.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Any date you desire can be designed for the Kathmandu to Lumbini excursion. The main monuments, including the Maya Devi temple, Ashoka pillar, Bodhi tree, holy ponds, world peace stupa, and other monasteries, are located in Lumbini Garden, which is reached after a first flight to Bhairahawa airport and a subsequent 40-minute drive.</p><p>You are greeted and taken to the locations by our knowledgeable professional guide who is well-versed in Buddhism. Since cars are not permitted inside Lumbini Garden, you must either walk or take a tuk-tuk for your trip.</p><p>Your visit to the Maya Devi temple and its surroundings will cover all of the significant locations during the first leg of the tour. The second part of the excursion includes a tuk-tuk journey toward the monasteries area. Your lunch will be served at a restaurant close to Lumbini Garden following the memorial tour.</p><p>Lord Buddha, the prophet of peace and the Light of Asia, was born at Lumbini in 623 B.C. The Holy Lumbini location, which the Buddha once referred to as a lovely garden, still exudes the same allure and beauty. Nowadays, you can study Buddhism, practice meditation, visit the birthplace within the revered Mayadevi Gardens, and tour over twenty-five Buddhist monasteries constructed by many nations, from France to Vietnam.</p><p>Under the Bodhi tree, one can engage in yoga and meditation, which Buddhists regard as means of purifying the mind and soul. Lumbini has recently been designated a World Heritage Site by UNESCO. It has a great deal of potential to become Nepal&#39;s top tourist attraction.</p></div></div>",
+  "overviewPlainWordCount": 258,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": null,
+      "accommodation": "3-star Categories Hotel",
+      "description": "Upon arrival at the Tribhuvan International Airport in Kathmandu, you will be picked up by a representative from your tour company and transferred to your hotel. Spend the rest of the day exploring the city on your own."
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu Sightseeing",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B",
+      "accommodation": "3-star Categories Hotel",
+      "description": "Take a full-day guided tour of the city's major attractions, including the Swayambhunath Stupa (also known as the Monkey Temple), the Pashupatinath Temple, the Boudhanath Stupa, and the Kathmandu Durbar Square. Each of these sites has unique historical and cultural significance."
+    },
+    {
+      "day": 3,
+      "title": "Drive to Lumbini",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "3-star Categories Hotel",
+      "description": "After breakfast, drive to Lumbini, which is located about 300 kilometers southwest of Kathmandu. The journey takes around 7-8 hours, so you can expect to arrive in the late afternoon or early evening. Check into your hotel and rest for the evening."
+    },
+    {
+      "day": 4,
+      "title": "Lumbini Sightseeing",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B, L, D",
+      "accommodation": "3-star Categories Hotel",
+      "description": "Take a full-day guided tour of the Lumbini area, visiting the Maya Devi Temple, where Lord Buddha was born, the Ashoka Pillar, and the various monasteries and temples that have been built by Buddhist countries around the world. In the evening, enjoy a sunset meditation session in the peaceful surroundings of the Lumbini gardens."
+    },
+    {
+      "day": 5,
+      "title": "Return to Kathmandu",
+      "altitudeM": 1345,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B, D",
+      "accommodation": "3-star Categories Hotel",
+      "description": "After breakfast, drive back to Kathmandu. You can choose to stop at some of the smaller towns along the way, such as Tansen or Palpa, to break up the journey. Arrive in Kathmandu in the evening and spend your last night exploring the city."
+    },
+    {
+      "day": 6,
+      "title": "Departure from Nepal",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "B",
+      "accommodation": null,
+      "description": "Depending on your flight schedule, you may have some time in the morning to do some last-minute shopping or sightseeing. Nepal Unique Treks will arrange for a transfer to the airport for your departure. Overall, this Kathmandu-Lumbini tour is a great way to experience the cultural and spiritual side of Nepal. Don't forget to try some of the delicious local cuisines and interact with the friendly locals along the way!"
+    }
+  ],
+  "packagesCost": [],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Kathmandu Lumbini Tours (6 Days)",
+    "weatherTitle": "Kathmandu Lumbini Tours Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu Sightseeing",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 3",
+        "spot": "Drive to Lumbini",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 4",
+        "spot": "Lumbini Sightseeing",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 5",
+        "spot": "Return to Kathmandu",
+        "altitudeM": 1345,
+        "altitudeFt": 4413
+      },
+      {
+        "day": "Day 6",
+        "spot": "Departure from Nepal",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 3 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 4 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 5 (1345 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 6 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/lumbini-1.jpg",
+    "uploads/kathmandu-durbar-squire.jpg",
+    "uploads/pokhara-himalayan-view-winter.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg",
+    "uploads/nagarkot.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:56:07.572Z"
+}

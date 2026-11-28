@@ -1,0 +1,57 @@
+{
+  "batch": 10,
+  "verifiedAt": "2026-11-28T12:27:53.387Z",
+  "count": 10,
+  "packages": [
+    {
+      "order": 91,
+      "sourceSlug": "gurung-heritage-trekking-trail",
+      "targetHtmlPath": "trek/gurung-heritage-trekking-trail/index.html"
+    },
+    {
+      "order": 92,
+      "sourceSlug": "kathmandu-valley-nagarkot-tour",
+      "targetHtmlPath": "tour/kathmandu-valley-nagarkot-tour/index.html"
+    },
+    {
+      "order": 93,
+      "sourceSlug": "kathmandu-pokhara-sunrise-tour",
+      "targetHtmlPath": "tour/kathmandu-pokhara-sunrise-tour/index.html"
+    },
+    {
+      "order": 94,
+      "sourceSlug": "kathmandu-pokhara-lumbini-tours",
+      "targetHtmlPath": "tour/kathmandu-pokhara-lumbini-tours/index.html"
+    },
+    {
+      "order": 95,
+      "sourceSlug": "kathmandu-pokhara-ghandruk-tour",
+      "targetHtmlPath": "tour/kathmandu-pokhara-ghandruk-tour/index.html"
+    },
+    {
+      "order": 96,
+      "sourceSlug": "upper-mustang-overland-jeep-tour",
+      "targetHtmlPath": "tour/upper-mustang-overland-jeep-tour/index.html"
+    },
+    {
+      "order": 97,
+      "sourceSlug": "everest-heli-tour-with-breakfast",
+      "targetHtmlPath": "tour/everest-heli-tour-with-breakfast/index.html"
+    },
+    {
+      "order": 98,
+      "sourceSlug": "gokyo-renjo-la-pass-trek-15-days",
+      "targetHtmlPath": "trek/gokyo-renjo-la-pass-trek-15-days/index.html"
+    },
+    {
+      "order": 99,
+      "sourceSlug": "nar-phu-valley-kang-la-pass-trek",
+      "targetHtmlPath": "trek/nar-phu-valley-kang-la-pass-trek/index.html"
+    },
+    {
+      "order": 100,
+      "sourceSlug": "everest-base-camp-tea-house-trek",
+      "targetHtmlPath": "trek/everest-base-camp-tea-house-trek/index.html"
+    }
+  ]
+}

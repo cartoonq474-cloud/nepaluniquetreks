@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "order": 24,
+  "batch": 3,
+  "sourceSlug": "nepal-tours-package",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/nepal-tours-package",
+  "targetDir": "tour/nepal-tours-package",
+  "templateType": "tour",
+  "regionLabel": "Nepal",
+  "sourceCategory": "Tours in Nepal",
+  "title": "Nepal Tours Package",
+  "seoTitle": "Nepal Tours Package",
+  "metaDescription": "Nepal Unique Treks offers the Nepal Tours Package, it is the best reason to visit and explore the Himalayan country and friendly Nepali people which w",
+  "heroLead": "Nepal Unique Treks offers the Nepal Tours Package, it is the best reason to visit and explore the Himalayan country and friendly Nepali people which will give you an awesome experience and a memorable journey in your lifetime. The specific program schedule allows visitors to explore Nepali culture, religion, and tradition.",
+  "heroMore": "An exclusive cultural heritage with an unbelievable history. Nepal is one of the best destinations for holidays.",
+  "durationDays": 19,
+  "durationDisplay": "19 Days",
+  "maxElevationM": 1650,
+  "facts": {
+    "duration": "19 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "1650 m",
+    "grade": "Easy",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House",
+    "best season": "Jan–May, Sep–Dec"
+  },
+  "pricing": {
+    "primaryPriceUsd": null,
+    "priceOnRequest": true,
+    "priceSource": "price-on-request",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$0",
+        "priceUsd": 0
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/basantapur.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Nepal Unique Treks offers the Nepal Tours Package, it is the best reason to visit and explore the Himalayan country and friendly Nepali people which will give you an awesome experience and a memorable journey in your lifetime. The specific program schedule allows visitors to explore Nepali culture, religion, and tradition.</p><p>An exclusive cultural heritage with an unbelievable history. Nepal is one of the best destinations for holidays. During your stay here on special tours in Nepal you will learn the various cultural, traditional, and religious aspects of the people.</p><p>Especially Hindu and Buddhist Nepali communities. There are wonderful Himalayas, snow cap hills, and lovely natural vegetation welcoming you into the small nature paradise of Nepal</p><p>We like to do all the programming within in short time including small trekking in the hills. Appearing suitable for the aged and pleasure-wanted visitors too. We love to give special prices for this tour. 20 % of our package cost except transportation and permit can be reduced. The best time special Tour in Nepal.</p><p>The tour package is beginning of March to the end of May and the beginning of September to the end of December. You can choose the details of itineraries as per your desire and holidays for a special tour in Nepal.</p><p>Besides cultural tours in Nepal, you can enjoy adventure holidays in Nepal such as bungee jumping in Nepal, zip flying in Nepal, sky diving in Nepal, paragliding in Nepal, etc.</p><h2> </h2></div></div>",
+  "overviewPlainWordCount": 242,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrival in Kathmandu"
+    },
+    {
+      "day": 2,
+      "title": "Full day sightseeing",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Full day sightseeing"
+    },
+    {
+      "day": 3,
+      "title": "Tourist ac bus to Kurintar 3.30 hrs",
+      "altitudeM": null,
+      "walkingTime": "30 hrs",
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Tourist ac bus to Kurintar 3.30 hrs"
+    },
+    {
+      "day": 4,
+      "title": "Manakamana and drive to Chitwan",
+      "altitudeM": 150,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Manakamana and drive to Chitwan"
+    },
+    {
+      "day": 5,
+      "title": "Full day sight seen",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Full day sight seen"
+    },
+    {
+      "day": 6,
+      "title": "Bird watching",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Bird watching"
+    },
+    {
+      "day": 7,
+      "title": "Full day sightseeing",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Full day sightseeing"
+    },
+    {
+      "day": 8,
+      "title": "your way lead to the Tansen Palpa 3hrs",
+      "altitudeM": null,
+      "walkingTime": "3hrs",
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "your way lead to the Tansen Palpa 3hrs"
+    },
+    {
+      "day": 9,
+      "title": "After Breakfast drive to Pokhara 4 hrs.",
+      "altitudeM": null,
+      "walkingTime": "4 hrs",
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "After Breakfast drive to Pokhara 4 hrs."
+    },
+    {
+      "day": 10,
+      "title": "Full day sightseeing tour of Pokhara,",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Full day sightseeing tour of Pokhara,"
+    },
+    {
+      "day": 11,
+      "title": "Boating and 40 Hike",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Boating and 40 Hike"
+    },
+    {
+      "day": 12,
+      "title": "Drive to Phedi",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Drive to Phedi"
+    },
+    {
+      "day": 13,
+      "title": "Sarankot hiking from Dhampust,",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Sarankot hiking from Dhampust,"
+    },
+    {
+      "day": 14,
+      "title": "Drive back to pokhara",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive back to pokhara"
+    },
+    {
+      "day": 15,
+      "title": "Fly back to Kathmandu",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Fly back to Kathmandu"
+    },
+    {
+      "day": 16,
+      "title": "Drive to Nagarkot",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive to Nagarkot"
+    },
+    {
+      "day": 17,
+      "title": "Drive back to Kathmandu",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Drive back to Kathmandu"
+    },
+    {
+      "day": 18,
+      "title": "Leisure day or shopping.",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Leisure day or shopping."
+    },
+    {
+      "day": 19,
+      "title": "final Departure..",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Drive to international Airport for you final Departure.."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "",
+      "includes": [
+        "All hotel, airport arrival departure transfers",
+        "4 night hotel in Kathmandu 3-star category on BB plan",
+        "First night evening welcome dinner, before departure Kathmandu farewell dinner",
+        "All accommodation and food during the mountain",
+        "English speaking tour leader (trekking guide) an experienced guide about tourism, culture, religion, mountain, trekkers 1 assistant guide (Sherpa) porter to carry luggage (2 trekkers:1 porter )including their salary, insurance, equipment, transportation, food and lodging",
+        "Nepal unique treks can provide which is returned after trip completion (down jacket, sleeping bag, duffel trekking bag, first aid kit, trekking poles",
+        "Nepal unique treks provide each trekking map, trekking t-shirt",
+        "All kind of necessary paperwork TIMS card, national park permit",
+        "All government and local taxes"
+      ],
+      "excludes": [
+        "Nepal entry visa fee (need to bring accurate US cash and two passport size photographs)",
+        "Airport departure tax (per person NPR 200)",
+        "International airfare to and from Kathmandu",
+        "Excess baggage charge",
+        "Your own meals around city, lunch, dinner, drinks and also in case of early return from the mountain than the scheduled itinerary",
+        "Extra night accommodation in city because of early arrival, late departure and early return from the mountain (due to any reason )than the schedule itinerary",
+        "Travel and rescue insurance, in case (can help for organized helicopter hospital)",
+        "Personal expenses (bar bills, battery charge, laundry, phone calls, extra porter, bottle or boiled water, shower, etc.)",
+        "Tips for your travel guide, mountain guide, and porter, driver, hotel staff"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Nepal Tours Package (19 Days)",
+    "weatherTitle": "Nepal Tours Package Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 2",
+        "spot": "Full day sightseeing",
+        "altitudeM": 1650,
+        "altitudeFt": 5413
+      },
+      {
+        "day": "Day 3",
+        "spot": "Tourist ac bus to Kuri..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 4",
+        "spot": "Manakamana and drive t..",
+        "altitudeM": 150,
+        "altitudeFt": 492
+      },
+      {
+        "day": "Day 5",
+        "spot": "Full day sight seen",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 6",
+        "spot": "Bird watching",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 7",
+        "spot": "Full day sightseeing",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 8",
+        "spot": "your way lead to the T..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 9",
+        "spot": "After Breakfast drive ..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 10",
+        "spot": "Full day sightseeing t..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 11",
+        "spot": "Boating and 40 Hike",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 12",
+        "spot": "Drive to Phedi",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 13",
+        "spot": "Sarankot hiking from D..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 14",
+        "spot": "Drive back to pokhara",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 15",
+        "spot": "Fly back to Kathmandu",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 16",
+        "spot": "Drive to Nagarkot",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 17",
+        "spot": "Drive back to Kathmandu",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 18",
+        "spot": "Leisure day or shopping.",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      },
+      {
+        "day": "Day 19",
+        "spot": "final Departure..",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 2 (1650 m)",
+        "min": 3,
+        "max": 18
+      },
+      {
+        "label": "Day 3 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 4 (150 m)",
+        "min": 13,
+        "max": 27
+      },
+      {
+        "label": "Day 5 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 6 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 7 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 8 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 9 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 10 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 11 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 12 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 13 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 14 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 15 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 16 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 17 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 18 (1355 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 19 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/basantapur.jpg",
+    "uploads/kathmandu-durbar-squire.jpg",
+    "uploads/pokhara-himalayan-view-winter.jpg",
+    "uploads/kathmandu pokhara lumbini tour.jpg",
+    "uploads/nagarkot.JPG"
+  ],
+  "mapImage": "",
+  "fetchedAt": "2026-11-28T10:54:43.644Z"
+}

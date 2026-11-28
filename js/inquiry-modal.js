@@ -3,6 +3,8 @@
  * Streamlined, low-friction, high-converting booking form.
  */
 
+import { upgradeStyledSelect, syncStyledSelect } from './custom-select.js';
+
 const OFFICIAL_PHONE = '+9779851023285';
 const OFFICIAL_PHONE_DISPLAY = '+977 9851023285';
 const OFFICIAL_EMAIL = 'info@nepaluniquetreks.com';
@@ -86,8 +88,8 @@ export function getModalTemplate(trekTitle = "Everest Base Camp Trek", departure
         <div class="easy-grid-2">
           <div class="easy-field">
             <label class="easy-label" for="inq-start-date">
-              <span>Approx. Travel Date / Month</span>
-              <span class="opt">Approximate is fine</span>
+              <span>Approx. Travel Date</span>
+              <span class="opt">Optional</span>
             </label>
             <input type="text" id="inq-start-date" name="startDate" class="easy-input" placeholder="e.g. Oct 2026 or Spring 2027">
           </div>
@@ -96,13 +98,18 @@ export function getModalTemplate(trekTitle = "Everest Base Camp Trek", departure
             <label class="easy-label" for="inq-trekkers">
               <span>Number of Travellers</span>
             </label>
-            <select id="inq-trekkers" name="trekkers" class="easy-select">
-              <option value="1">1 Person (Solo)</option>
-              <option value="2" selected>2 Persons</option>
-              <option value="3-4">3–4 Persons</option>
-              <option value="5-9">5–9 Persons (Group Deal)</option>
-              <option value="10+">10+ Persons (Large Group)</option>
-            </select>
+            <div class="easy-select-wrap">
+              <select id="inq-trekkers" name="trekkers" class="easy-select">
+                <option value="1">1 Person (Solo)</option>
+                <option value="2" selected>2 Persons</option>
+                <option value="3-4">3–4 Persons</option>
+                <option value="5-9">5–9 Persons (Group Deal)</option>
+                <option value="10+">10+ Persons (Large Group)</option>
+              </select>
+              <span class="easy-select-chevron" aria-hidden="true">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
           </div>
         </div>
 
@@ -112,25 +119,30 @@ export function getModalTemplate(trekTitle = "Everest Base Camp Trek", departure
             <span>Trek / Tour Route</span>
             <span class="opt">Switch route if desired</span>
           </label>
-          <select id="inq-package" name="package" class="easy-select">
-            <option value="Everest Base Camp Trek">Everest Base Camp Trek — 14 Days</option>
-            <option value="Everest Base Camp with Cho La Pass Trek">Everest Base Camp &amp; Cho La Pass — 17 Days</option>
-            <option value="Everest Three Passes Trek">Everest Three Passes Trek — 21 Days</option>
-            <option value="Gokyo Lakes Trek">Gokyo Lakes Trek — 12 Days</option>
-            <option value="Annapurna Base Camp Trek">Annapurna Base Camp Trek — 10 Days</option>
-            <option value="Annapurna Circuit Trek">Annapurna Circuit Trek — 14 Days</option>
-            <option value="Mardi Himal Ridge Trek">Mardi Himal Ridge Trek — 8 Days</option>
-            <option value="Ghorepani Poon Hill Trek">Ghorepani Poon Hill Trek — 9 Days</option>
-            <option value="Manaslu Circuit Trek">Manaslu Circuit Trek — 14 Days</option>
-            <option value="Langtang Valley Trek">Langtang Valley Trek — 10 Days</option>
-            <option value="Upper Mustang Trek">Upper Mustang Kingdom Trek — 16 Days</option>
-            <option value="Island Peak Climbing">Island Peak Climbing (6,189m) — 16 Days</option>
-            <option value="Mera Peak Climbing">Mera Peak Climbing (6,476m) — 18 Days</option>
-            <option value="Kathmandu Valley Heritage Tour">Kathmandu Valley Heritage Tour — 4 Days</option>
-            <option value="Direct Inquiry with Dil Gurung">Direct Inquiry with Dil Gurung (Founder)</option>
-            <option value="Tailor-Made Custom Himalayan Itinerary">Tailor-Made Custom Himalayan Itinerary</option>
-            <option value="Other / Need Expert Advice">Other / Not Sure (Need Advice)</option>
-          </select>
+          <div class="easy-select-wrap">
+            <select id="inq-package" name="package" class="easy-select">
+              <option value="Everest Base Camp Trek">Everest Base Camp Trek — 15 Days</option>
+              <option value="Everest Base Camp with Cho La Pass Trek">Everest Base Camp &amp; Cho La Pass — 18 Days</option>
+              <option value="Everest Three Passes Trek">Everest Three Passes Trek — 20 Days</option>
+              <option value="Gokyo Lakes Trek">Gokyo Lakes Trek — 14 Days</option>
+              <option value="Annapurna Base Camp Trek">Annapurna Base Camp Trek — 13 Days</option>
+              <option value="Annapurna Circuit Trek">Annapurna Circuit Trek — 14 Days</option>
+              <option value="Mardi Himal Trek">Mardi Himal Trek — 10 Days</option>
+              <option value="Ghorepani Poon Hill Trek">Ghorepani Poon Hill Trek — 9 Days</option>
+              <option value="Manaslu Circuit Trek">Manaslu Circuit Trek — 15 Days</option>
+              <option value="Langtang Valley Trek">Langtang Valley Trek — 10 Days</option>
+              <option value="Upper Mustang Trek">Upper Mustang Trek — 13 Days</option>
+              <option value="Island Peak Climbing">Island Peak Climbing (6,189m) — 12 Days</option>
+              <option value="Mera Peak Climbing">Mera Peak Climbing (6,476m) — 16 Days</option>
+              <option value="Kathmandu Pokhara Tour">Kathmandu Pokhara Tour — 5 Days</option>
+              <option value="Direct Inquiry with Dil Gurung">Direct Inquiry with Dil Gurung (Founder)</option>
+              <option value="Tailor-Made Custom Himalayan Itinerary">Tailor-Made Custom Himalayan Itinerary</option>
+              <option value="Other / Need Expert Advice">Other / Not Sure (Need Advice)</option>
+            </select>
+            <span class="easy-select-chevron" aria-hidden="true">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </div>
         </div>
 
         <!-- Message / Notes -->
@@ -285,7 +297,10 @@ export function setupInquiryModal() {
         newOpt.selected = true;
         packageSelect.insertBefore(newOpt, packageSelect.firstChild);
       }
+      upgradeStyledSelect(packageSelect);
+      syncStyledSelect(packageSelect);
     }
+    upgradeStyledSelect(document.getElementById('inq-trekkers'));
 
     if (whatsappLink) {
       const waMsg = departure
@@ -578,6 +593,8 @@ export function setupInquiryModal() {
             setTimeout(() => {
               card.innerHTML = originalHTML;
               attachFormSubmit();
+              upgradeStyledSelect(document.getElementById('inq-trekkers'));
+              upgradeStyledSelect(document.getElementById('inq-package'));
             }, 300);
           });
         }
@@ -586,6 +603,8 @@ export function setupInquiryModal() {
   };
 
   attachFormSubmit();
+  upgradeStyledSelect(document.getElementById('inq-trekkers'));
+  upgradeStyledSelect(document.getElementById('inq-package'));
 
   if (typeof window !== 'undefined' && ['#inquiry-modal', '#book', '#inquire'].includes(window.location.hash)) {
     const pageH1 = document.querySelector('h1');

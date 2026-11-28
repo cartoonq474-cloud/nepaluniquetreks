@@ -1,0 +1,194 @@
+{
+  "profiles": {
+    "day-hike": {
+      "rentalNote": "Light day-hike gear available to rent or arrange through our Kathmandu office.",
+      "categories": [
+        {
+          "title": "Hiking Essentials",
+          "items": [
+            { "id": "gear-daypack", "name": "Daypack (20–30L)", "desc": "Comfortable shoulder straps and rain cover", "qty": "1" },
+            { "id": "gear-boots", "name": "Trail Shoes / Hiking Boots", "desc": "Broken-in footwear with good trail grip", "qty": "1 pair" },
+            { "id": "gear-poles", "name": "Trekking Poles", "desc": "Helpful for steep stone staircases and descents", "qty": "1 pair" },
+            { "id": "gear-bottles", "name": "Reusable Water Bottles (1.5–2L)", "desc": "Stay hydrated along valley ridges", "qty": "2" }
+          ]
+        },
+        {
+          "title": "Clothing & Sun Protection",
+          "items": [
+            { "id": "gear-base", "name": "Moisture-Wicking Base Layer", "desc": "Breathable hiking shirt for steady climbs", "qty": "1" },
+            { "id": "gear-windjacket", "name": "Light Wind/Rain Shell", "desc": "Packable layer for sudden afternoon breezes", "qty": "1" },
+            { "id": "gear-pants", "name": "Light Trekking Trousers", "desc": "Stretchable outdoor pants", "qty": "1 pair" },
+            { "id": "gear-sunhat", "name": "Sun Hat, Sunglasses & Sunscreen", "desc": "UV protection on exposed hilltops", "qty": "1 set" }
+          ]
+        },
+        {
+          "title": "Personal & Documents",
+          "items": [
+            { "id": "gear-firstaid", "name": "Basic First-Aid & Blister Plasters", "desc": "Personal medication and blister care", "qty": "1 kit" },
+            { "id": "gear-cash", "name": "Cash (NPR) & Trail Snacks", "desc": "For local teashops and park entry fees where applicable", "qty": "1" }
+          ]
+        }
+      ]
+    },
+    "teahouse-low": {
+      "rentalNote": "Don't have it? Rent sleeping bags, down jackets, or poles in Kathmandu or arrange with us.",
+      "categories": [
+        {
+          "title": "Hiking Gear",
+          "items": [
+            { "id": "gear-poles", "name": "Trekking Poles", "desc": "Supports knees on stone steps and river crossings", "qty": "1 pair" },
+            { "id": "gear-backpack", "name": "Daypack & Duffel Bag", "desc": "25–35L daypack for trail essentials plus porter duffel", "qty": "1 set" },
+            { "id": "gear-boots", "name": "Broken-In Trekking Boots", "desc": "Ankle support with Vibram or rugged lug soles", "qty": "1 pair" },
+            { "id": "gear-bottles", "name": "Reusable Water Bottles & Purification", "desc": "2L capacity plus filter/tablets for safe hydration", "qty": "2" },
+            { "id": "gear-headlamp", "name": "Headlamp (with spare batteries)", "desc": "For early sunrise viewpoint hikes and lodge corridors", "qty": "1" }
+          ]
+        },
+        {
+          "title": "Layering & Clothing",
+          "items": [
+            { "id": "gear-bases", "name": "Moisture-Wicking Base Layers", "desc": "Merino or synthetic tops and thermals for cool evenings", "qty": "3–4" },
+            { "id": "gear-fleece", "name": "Mid-Layer Fleece / Light Down", "desc": "Warm evening insulation in mountain teahouses", "qty": "1" },
+            { "id": "gear-shell", "name": "Waterproof Breathable Jacket", "desc": "Wind and rain outer protection", "qty": "1" },
+            { "id": "gear-pants", "name": "Trekking Pants & Camp Trousers", "desc": "Convertible or stretchable hiking trousers", "qty": "2 pairs" },
+            { "id": "gear-socks", "name": "Wool Trekking Socks", "desc": "Cushioned moisture-control socks plus liner pairs", "qty": "4 pairs" }
+          ]
+        },
+        {
+          "title": "Sleep, Toiletries & Documents",
+          "items": [
+            { "id": "gear-sleepbag", "name": "3-Season Sleeping Bag (-5°C / 0°C)", "desc": "Warm comfort for unheated teahouse rooms", "qty": "1" },
+            { "id": "gear-firstaid", "name": "Personal First Aid & Blister Kit", "desc": "Personal prescriptions, ORS, and blister tape", "qty": "1" },
+            { "id": "gear-docs", "name": "Passport, Photos & Insurance Copy", "desc": "Needed for national park permits and TIMS checkposts", "qty": "1 folder" }
+          ]
+        }
+      ]
+    },
+    "teahouse-high-pass": {
+      "rentalNote": "Essential Info: Down jackets and sleeping bags can be rented/arranged per package inclusions.",
+      "categories": [
+        {
+          "title": "High-Altitude Trail Gear",
+          "items": [
+            { "id": "gear-poles", "name": "Trekking Poles", "desc": "Essential stability on moraine, scree, and steep passes", "qty": "1 pair" },
+            { "id": "gear-backpack", "name": "Daypack (30–35L) + Rain Cover", "desc": "Carry water, layers, camera, and documents", "qty": "1" },
+            { "id": "gear-boots", "name": "Waterproof Trekking Boots", "desc": "Stiff-soled, broken-in ankle-high mountain boots", "qty": "1 pair" },
+            { "id": "gear-spikes", "name": "MicroSpikes / Light Crampons", "desc": "Extra traction over icy high-pass sections", "qty": "1 pair" },
+            { "id": "gear-bottles", "name": "Insulated Water Bottles / Thermos", "desc": "Prevents drinking water from freezing above 4,000m", "qty": "2" },
+            { "id": "gear-headlamp", "name": "Headlamp + Extra Batteries", "desc": "Essential for pre-dawn pass crossings and viewpoint walks", "qty": "1" }
+          ]
+        },
+        {
+          "title": "Cold-Weather Layering System",
+          "items": [
+            { "id": "gear-down", "name": "Warm Down Jacket (-15°C rated)", "desc": "Provided/arranged per package or bring personal baffle down", "qty": "1" },
+            { "id": "gear-thermals", "name": "Merino Thermal Base Top & Bottom", "desc": "200–250gsm weight for chilly high-camp nights", "qty": "2 sets" },
+            { "id": "gear-shell", "name": "Waterproof / Windproof Hard Shell", "desc": "Gore-Tex or equivalent breathable outer layer + pants", "qty": "1 set" },
+            { "id": "gear-gloves", "name": "Liner Gloves + Insulated Summit Mitts", "desc": "Dual-layer hand warmth on windy high passes", "qty": "2 pairs" },
+            { "id": "gear-headwear", "name": "Warm Beanie, Neck Gaiter & UV Glasses", "desc": "Polarized Category 3–4 sunglasses + high-SPF lip balm", "qty": "1 set" }
+          ]
+        },
+        {
+          "title": "Sleep, Health & Permits",
+          "items": [
+            { "id": "gear-sleepbag", "name": "4-Season Sleeping Bag (-15°C to -20°C)", "desc": "Sub-zero insulation for high-elevation lodges", "qty": "1" },
+            { "id": "gear-powerbank", "name": "10,000–20,000mAh Power Bank", "desc": "Keep batteries warm inside sleeping bag overnight", "qty": "1" },
+            { "id": "gear-firstaid", "name": "Altitude Medical & Water Treatment", "desc": "Aquatabs/filter, pulse oximeter, and personal altitude kit", "qty": "1 kit" }
+          ]
+        }
+      ]
+    },
+    "restricted-camping": {
+      "rentalNote": "Tents, kitchen equipment, dining crew, and porters are handled by our logistics team on restricted/remote camping routes.",
+      "categories": [
+        {
+          "title": "Expedition Duffel & Trail Hardware",
+          "items": [
+            { "id": "gear-duffel", "name": "Waterproof Duffel Bag (70–90L)", "desc": "Carried by porter/yak team between remote camps", "qty": "1" },
+            { "id": "gear-daypack", "name": "Trekking Daypack (30–40L)", "desc": "For daily trail layers, lunch, and 2L hydration", "qty": "1" },
+            { "id": "gear-boots", "name": "Rugged High-Altitude Boots + Gaiters", "desc": "Protects ankles over riverbeds, snow, and mud", "qty": "1 pair" },
+            { "id": "gear-poles", "name": "Collapsible Trekking Poles", "desc": "Crucial balance for long off-the-beaten-path stages", "qty": "1 pair" },
+            { "id": "gear-microspikes", "name": "Traction MicroSpikes & Headlamp", "desc": "For high remote passes and camp nights", "qty": "1 set" }
+          ]
+        },
+        {
+          "title": "Severe Weather Apparel",
+          "items": [
+            { "id": "gear-down", "name": "Expedition Down Parka", "desc": "Heavy baffle down for high campsites and passes", "qty": "1" },
+            { "id": "gear-shell", "name": "3-Layer Hardshell Jacket & Rain Pants", "desc": "Full protection in exposed trans-Himalayan valleys", "qty": "1 set" },
+            { "id": "gear-thermals", "name": "Heavy Merino Base Layers & Mid Fleece", "desc": "Dry sleep set dedicated strictly for tent nights", "qty": "2–3 sets" },
+            { "id": "gear-socks", "name": "Thermal Mountaineering & Liner Socks", "desc": "Extra dry pairs for multi-day remote stretches", "qty": "5 pairs" }
+          ]
+        },
+        {
+          "title": "Camping Comfort & Power",
+          "items": [
+            { "id": "gear-sleepbag", "name": "Zero/Sub-Zero Sleeping Bag (-20°C)", "desc": "Paired with insulated sleeping liner in tented camps", "qty": "1" },
+            { "id": "gear-solar", "name": "High-Capacity Power Bank / Solar Panel", "desc": "Limited grid power in Dolpo/Kanchenjunga/Rolwaling", "qty": "1" },
+            { "id": "gear-documents", "name": "Original Passport (Restricted Permit Check)", "desc": "Checked at special RAP/immigration checkpoints", "qty": "1" }
+          ]
+        }
+      ]
+    },
+    "peak-climbing": {
+      "rentalNote": "Fixed ropes, ice bars, and group climbing hardware are arranged by our Sherpa climbing crew; personal technical gear can be checked in Kathmandu.",
+      "categories": [
+        {
+          "title": "Technical Mountaineering Hardware",
+          "items": [
+            { "id": "gear-boots-peak", "name": "Double / Insulated B2–B3 Mountaineering Boots", "desc": "Stiff crampon-compatible boots for summit push", "qty": "1 pair" },
+            { "id": "gear-crampons", "name": "12-Point Steel Crampons", "desc": "Fitted to your mountaineering boots prior to High Camp", "qty": "1 pair" },
+            { "id": "gear-iceaxe", "name": "Mountaineering Ice Axe", "desc": "General walking/climbing axe (60–65cm typ.)", "qty": "1" },
+            { "id": "gear-harness", "name": "Climbing Harness, Jumar & Descender", "desc": "Ascender, Figure-8/ATC, 2 locking + 2 non-locking carabiners", "qty": "1 set" },
+            { "id": "gear-helmet", "name": "Climbing Helmet & Headlamp", "desc": "Essential for alpine starts and ice/rock pitches", "qty": "1 set" }
+          ]
+        },
+        {
+          "title": "Summit Apparel & Protection",
+          "items": [
+            { "id": "gear-down-summit", "name": "800-Fill Down Summit Jacket", "desc": "Critical warmth on exposed 6,000m+ glacier ridges", "qty": "1" },
+            { "id": "gear-gaiters", "name": "Waterproof Ankle Gaiters", "desc": "Keeps snow out of boots above Base Camp", "qty": "1 pair" },
+            { "id": "gear-gloves-peak", "name": "Liner + Softshell + Expedition Mitts", "desc": "Warm dexterity when clipping fixed ropes", "qty": "3 pairs" },
+            { "id": "gear-goggles", "name": "Category 4 Glacier Glasses & Goggles", "desc": "Protects eyes against intense snow glare and spindrift", "qty": "1 set" }
+          ]
+        },
+        {
+          "title": "High-Camp Sleep & Approach",
+          "items": [
+            { "id": "gear-sleepbag-peak", "name": "Expedition Sleeping Bag (-20°C to -25°C)", "desc": "For snowy High Camp tent nights before summit day", "qty": "1" },
+            { "id": "gear-thermos", "name": "1L Insulated Vacuum Flask", "desc": "Carries warm drinks above 5,500m without freezing", "qty": "1" },
+            { "id": "gear-approach-boots", "name": "Approach Trekking Boots & Poles", "desc": "For the multi-day trail approach to Base Camp", "qty": "1 set" }
+          ]
+        }
+      ]
+    },
+    "expedition": {
+      "rentalNote": "High-altitude Base Camp kitchens, tents, Sherpa support, oxygen/regulatory logistics included per expedition package.",
+      "categories": [
+        {
+          "title": "8,000m / 7,000m Climbing Systems",
+          "items": [
+            { "id": "gear-exp-suit", "name": "Full Down Expedition Suit (-40°C rated)", "desc": "Essential protection for high camps and summit ridge", "qty": "1" },
+            { "id": "gear-exp-boots", "name": "Triple-Layer / 8,000m High-Altitude Boots", "desc": "Warmth and full crampon rigidity above 7,000m", "qty": "1 pair" },
+            { "id": "gear-exp-hardware", "name": "Crampons, Technical Ice Axe, Harness & Jumar", "desc": "UIAA-certified alpine hardware checked at Base Camp", "qty": "1 complete kit" },
+            { "id": "gear-exp-helmet", "name": "Climbing Helmet & High-Lumen Headlamp", "desc": "Spare lithium batteries for sub-zero summit pushes", "qty": "1 set" }
+          ]
+        },
+        {
+          "title": "Base Camp to Higher Camps",
+          "items": [
+            { "id": "gear-exp-sleepbag", "name": "Expedition Sleeping Bag (-30°C to -40°C)", "desc": "Plus closed-cell foam pad & inflatable mattress", "qty": "1 set" },
+            { "id": "gear-exp-mitts", "name": "Heated / Down Expedition Mitts + Liners", "desc": "Multiple pairs to rotate damp gloves", "qty": "3–4 pairs" },
+            { "id": "gear-exp-eyewear", "name": "Dual Glacier Glasses & Storm Goggles", "desc": "UV400 Cat 4 protection", "qty": "2" }
+          ]
+        },
+        {
+          "title": "Medical & Permit Documentation",
+          "items": [
+            { "id": "gear-exp-med", "name": "Expedition Personal Med Kit & Pulse Oximeter", "desc": "High-altitude evacuation insurance covering 8,000m+", "qty": "1" },
+            { "id": "gear-exp-duffels", "name": "2 x 100L Waterproof Expedition Duffels", "desc": "Organize Base Camp vs high-camp loads", "qty": "2" }
+          ]
+        }
+      ]
+    }
+  }
+}

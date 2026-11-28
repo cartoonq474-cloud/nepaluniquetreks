@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "order": 28,
+  "batch": 3,
+  "sourceSlug": "naya-kang-peak-climb",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/naya-kang-peak-climb",
+  "targetDir": "trek/naya-kang-peak-climb",
+  "templateType": "trek",
+  "regionLabel": "Peak Climbing",
+  "sourceCategory": "Peak Climbing in Nepal",
+  "title": "Naya Kang Peak Climb",
+  "seoTitle": "Naya Kang Peak Climb -16 Days | Langtang Valley Trek | Nepal Unique Treks",
+  "metaDescription": "Naya Kang Peak Climb is full of alpine mysteries and cultural discoveries. Naya Kang Peak at 5,846m, offers Great Mountain hiking experience gaining 8",
+  "heroLead": "Ready to accumulate vertical but short on skills? Then Naya Kang Peak is the prefect option.",
+  "heroMore": "With only 5,846m to scale, you don’t need to be a descendent of legendary Sherpas or mountaineers to fulfil your mountaineering dream. Towering above the fabled Langtang Valley, Naya Kang Peak Climb is full of alpine mysteries and cultural discoveries.",
+  "durationDays": 16,
+  "durationDisplay": "16 Days",
+  "maxElevationM": 5846,
+  "facts": {
+    "duration": "16 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "5,846 m",
+    "grade": "Moderate",
+    "activity": "Trekking and Culture Tour",
+    "transportation": "Van, jeep",
+    "treks type": "Tea House and Camping",
+    "best season": "Spring (March – May) Autumn (Sep – Nov)"
+  },
+  "pricing": {
+    "primaryPriceUsd": 1795,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$1,795",
+        "priceUsd": 1795
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/nayakang.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p><strong>Ready to accumulate vertical but short on skills? Then Naya Kang Peak is the prefect option.</strong></p><p>With only 5,846m to scale, you don&rsquo;t need to be a descendent of legendary Sherpas or mountaineers to fulfil your mountaineering dream.</p><p>Towering above the fabled Langtang Valley, Naya Kang Peak Climb is full of alpine mysteries and cultural discoveries. Naya Kang Peak at 5,846m, offers Great Mountain hiking experience gaining 850m from the trailhead to the summit. It is an exposed rock climbing, a novice friendly mountain, offering all the experience of climbing without needing the expertise and knowledge of how to use the climbing gear.</p><p>Naya Kanga Peak rises west of the Ganja La (5,122m) and offers dramatic of mountains in Nepal and Tibet. LangshisaRi (6,370m), PemthangRi (6,836m), Shisapangma (8,013m), LangtangLirung (7,425m), PemthangKaproRi (6,830m) and Langtang II (6,571m) are some dominant peak seen from the summit of Naya Kang Peak.</p><p>Naya Kang Peak Climbing trail goes through dense rhododendron and oak forest and gradually leads to a mush rockier and marshy land. Hiking via GhodaTabela and KyanjinGompa, we reach TserkoRi &ndash; a good viewpoint to acclimatize and enjoy the view. Then we continue towards Naya Kang Peak. The common climbing route to Naya Kanga is via northeast face &amp; northern ridge.</p><p>The entire Naya Kang Peak trail goes through Langtang National Park which is well-known for its natural grandeur. The National Park is blessed with astounding peaks, glaciers, waterfalls and forest and within itself harbors different kinds of floral and faunal species. The region is equally blessed with cultural diversities &ndash; you will get the good glimpse of Hindus and Tibetan Buddhist culture. The faith of Buddhism is well portrayed through prayer flags, wheels, monasteries and Chortens.</p><p>The Pain: Round-trip, you have start very early and spend all day in thin air.</p><p>The Gain: It is always cool when you the view of Langtang Ranges and deep valleys from the top. </p><p>Outline Itinerary<br />Day 01: Arrival at Kathmandu (1,300m/4,264ft)</p><p>Day 02: Kathmandu valley sightseeing and trip preparation day</p><p>Day 03: Kathmandu &ndash; Dhunche (1,950m/6,435ft) &ndash; 7/8 hours&rsquo; drive/ 117km</p><p>Day 04: Dhunche &ndash; Thulo Syabru (1,900m/6,270ft) &ndash; 5/6 hours</p><p>Day 05: Thulo Syabru &ndash; Lama Hotel (2,470m/8,104ft) &ndash; 5/6 hours</p><p>Day 06: Lama Hotel &ndash; Langtang (3,430m/11,253ft) &ndash; 5 &ndash; 6 hours</p><p>Day 07: Langtang &ndash; Kyanjin Gompa (3,870m/12,697ft) &ndash; 4/5 hours</p><p>Day 08: Kyanjin Gompa: Exploration Day</p><p>Day 09: Kyanjin Gompa &ndash; Nyengang Kharka (4,430m/14,500ft) &ndash; 4/5 hours</p><p>Day 10: Nyengang Kharka &ndash; High Camp (4,960m/16,300ft) &ndash; 3/4 hours</p><p>Day 11: High Camp &ndash; Naya Khang Summit (5,846m) &ndash; High Camp: 9 hours</p><p>Day 12: High Camp &ndash; Kyanjin Gompa (3,870m/12,697ft) &ndash; 6 &ndash; 7 hours</p><p>Day 13: Kyanjin Gompa &ndash; Lama Hotel &ndash; (2,470m/8,150ft) &ndash; 7 &ndash; 8 hours</p><p>Day 14: Lama Hotel &ndash; Syabru Bensi via Sherpa Gaun (1,440m/4,750ft) &ndash; 5/6 hours</p><p>Day 15: Syabru Bensi &ndash; Kathmandu (1,300m/4,264ft) &ndash; 7 hours/ 132 km</p><p>Day 16: Final Departure</p></div></div>",
+  "overviewPlainWordCount": 489,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Kathmandu",
+      "altitudeM": 1300,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Dinner",
+      "accommodation": "Hotel",
+      "description": "Arrival at Kathmandu (1,300m/4,264ft)"
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu valley sightseeing and trip preparation",
+      "altitudeM": 1300,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel",
+      "description": "Kathmandu valley sightseeing and trip preparation day"
+    },
+    {
+      "day": 3,
+      "title": "Kathmandu – Dhunche",
+      "altitudeM": 1950,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kathmandu – Dhunche (1,950m/6,435ft) – 7/8 hours’ drive/ 117km"
+    },
+    {
+      "day": 4,
+      "title": "Dhunche – Thulo Syabru",
+      "altitudeM": 1900,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Dhunche – Thulo Syabru (1,900m/6,270ft) – 5/6 hours"
+    },
+    {
+      "day": 5,
+      "title": "Thulo Syabru – Lama Hotel",
+      "altitudeM": 2470,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Thulo Syabru – Lama Hotel (2,470m/8,104ft) – 5/6 hours"
+    },
+    {
+      "day": 6,
+      "title": "Lama Hotel – Langtang",
+      "altitudeM": 3430,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Lama Hotel – Langtang (3,430m/11,253ft) – 5 – 6 hours"
+    },
+    {
+      "day": 7,
+      "title": "Langtang – Kyanjin Gompa",
+      "altitudeM": 3870,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Langtang – Kyanjin Gompa (3,870m/12,697ft) – 4/5 hours"
+    },
+    {
+      "day": 8,
+      "title": "Kyanjin Gompa: Exploration Day",
+      "altitudeM": 3870,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kyanjin Gompa: Exploration Day"
+    },
+    {
+      "day": 9,
+      "title": "Kyanjin Gompa – Nyengang Kharka",
+      "altitudeM": 4430,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kyanjin Gompa – Nyengang Kharka (4,430m/14,500ft) – 4/5 hours"
+    },
+    {
+      "day": 10,
+      "title": "Nyengang Kharka – High Camp",
+      "altitudeM": 4960,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Nyengang Kharka – High Camp (4,960m/16,300ft) – 3/4 hours"
+    },
+    {
+      "day": 11,
+      "title": "High Camp – Naya Khang Summit",
+      "altitudeM": 4960,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Camp",
+      "description": "High Camp – Naya Khang Summit (5,846m) – High Camp: 9 hours"
+    },
+    {
+      "day": 12,
+      "title": "High Camp – Kyanjin Gompa",
+      "altitudeM": 3870,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "High Camp – Kyanjin Gompa (3,870m/12,697ft) – 6 – 7 hours"
+    },
+    {
+      "day": 13,
+      "title": "Kyanjin Gompa – Lama Hotel",
+      "altitudeM": 2470,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Kyanjin Gompa – Lama Hotel – (2,470m/8,150ft) – 7 – 8 hours"
+    },
+    {
+      "day": 14,
+      "title": "Lama Hotel – Syabru Bensi via Sherpa Gaun",
+      "altitudeM": 1440,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Lodge",
+      "description": "Lama Hotel – Syabru Bensi via Sherpa Gaun (1,440m/4,750ft) – 5/6 hours"
+    },
+    {
+      "day": 15,
+      "title": "Syabru Bensi – Kathmandu",
+      "altitudeM": 1300,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "BLD",
+      "accommodation": "Hotel",
+      "description": "Syabru Bensi – Kathmandu (1,300m/4,264ft) – 7 hours/ 132 km"
+    },
+    {
+      "day": 16,
+      "title": "Final Departure",
+      "altitudeM": null,
+      "walkingTime": null,
+      "distanceKm": null,
+      "meals": "Breakfast",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Final Departure"
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 1,795 per person",
+      "includes": [
+        "Airport Pickups and Drops by private vehicle",
+        "3-star Hotel in Kathmandu with Breakfast",
+        "Teahouse and Camp accommodation during the trek",
+        "All the meals (Breakfast, Lunch & Dinner) during the trip",
+        "All the ground transportation on private vehicle as per the itinerary",
+        "An English Speaking, experienced and professional trekking guide, climbing guide and assistant guide",
+        "Porter (2 trekkers: 1 porter)",
+        "All the staff salary including insurance, equipment, food and accommodation",
+        "All the necessary paper works, TIMS, Sagarmatha National Park Permit and Island Peak Climbing Permit",
+        "Warm sleeping bag, Trekking Map and Nepal Unique Treks printed T-ishirt",
+        "Good quality tents, kitchen and expert cook",
+        "Required mountain gears",
+        "All the governmental and local taxes",
+        "Medical Kit ( Oxygen cylinder if necessary)"
+      ],
+      "excludes": [
+        "Nepal Entry Visa Fee",
+        "International Airfare (to and from Kathmandu)",
+        "Extra night accommodation in Kathmandu due to early arrival, delay or in any circumstances",
+        "Lunch and Dinner in Kathmandu (except welcome and farewell dinner)",
+        "Travel and rescue insurance",
+        "Personal Nature Expenses – shopping, alcoholic beverages, laundry and more",
+        "Tips for guides and porters"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/naya-kang-peak-climb.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Naya Kang Peak Climb (16 Days)",
+    "weatherTitle": "Naya Kang Peak Climb Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Arrival in Kathmandu",
+        "altitudeM": 1300,
+        "altitudeFt": 4265
+      },
+      {
+        "day": "Day 2",
+        "spot": "Kathmandu valley sight..",
+        "altitudeM": 1300,
+        "altitudeFt": 4265
+      },
+      {
+        "day": "Day 3",
+        "spot": "Kathmandu",
+        "altitudeM": 1950,
+        "altitudeFt": 6398
+      },
+      {
+        "day": "Day 4",
+        "spot": "Dhunche",
+        "altitudeM": 1900,
+        "altitudeFt": 6234
+      },
+      {
+        "day": "Day 5",
+        "spot": "Thulo Syabru",
+        "altitudeM": 2470,
+        "altitudeFt": 8104
+      },
+      {
+        "day": "Day 6",
+        "spot": "Lama Hotel",
+        "altitudeM": 3430,
+        "altitudeFt": 11253
+      },
+      {
+        "day": "Day 7",
+        "spot": "Langtang",
+        "altitudeM": 3870,
+        "altitudeFt": 12697
+      },
+      {
+        "day": "Day 8",
+        "spot": "Kyanjin Gompa",
+        "altitudeM": 3870,
+        "altitudeFt": 12697
+      },
+      {
+        "day": "Day 9",
+        "spot": "Kyanjin Gompa",
+        "altitudeM": 4430,
+        "altitudeFt": 14534
+      },
+      {
+        "day": "Day 10",
+        "spot": "Nyengang Kharka",
+        "altitudeM": 4960,
+        "altitudeFt": 16273
+      },
+      {
+        "day": "Day 11",
+        "spot": "High Camp",
+        "altitudeM": 5846,
+        "altitudeFt": 19180
+      },
+      {
+        "day": "Day 12",
+        "spot": "High Camp",
+        "altitudeM": 3870,
+        "altitudeFt": 12697
+      },
+      {
+        "day": "Day 13",
+        "spot": "Kyanjin Gompa",
+        "altitudeM": 2470,
+        "altitudeFt": 8104
+      },
+      {
+        "day": "Day 14",
+        "spot": "Lama Hotel",
+        "altitudeM": 1440,
+        "altitudeFt": 4724
+      },
+      {
+        "day": "Day 15",
+        "spot": "Syabru Bensi",
+        "altitudeM": 1300,
+        "altitudeFt": 4265
+      },
+      {
+        "day": "Day 16",
+        "spot": "Final Departure",
+        "altitudeM": 1355,
+        "altitudeFt": 4446
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1300 m)",
+        "min": 6,
+        "max": 20
+      },
+      {
+        "label": "Day 2 (1300 m)",
+        "min": 6,
+        "max": 20
+      },
+      {
+        "label": "Day 3 (1950 m)",
+        "min": 1,
+        "max": 16
+      },
+      {
+        "label": "Day 4 (1900 m)",
+        "min": 2,
+        "max": 16
+      },
+      {
+        "label": "Day 5 (2470 m)",
+        "min": -2,
+        "max": 13
+      },
+      {
+        "label": "Day 6 (3430 m)",
+        "min": -8,
+        "max": 7
+      },
+      {
+        "label": "Day 7 (3870 m)",
+        "min": -11,
+        "max": 4
+      },
+      {
+        "label": "Day 8 (3870 m)",
+        "min": -11,
+        "max": 4
+      },
+      {
+        "label": "Day 9 (4430 m)",
+        "min": -15,
+        "max": 1
+      },
+      {
+        "label": "Day 10 (4960 m)",
+        "min": -18,
+        "max": -2
+      },
+      {
+        "label": "Day 11 (5846 m)",
+        "min": -24,
+        "max": -8
+      },
+      {
+        "label": "Day 12 (3870 m)",
+        "min": -11,
+        "max": 4
+      },
+      {
+        "label": "Day 13 (2470 m)",
+        "min": -2,
+        "max": 13
+      },
+      {
+        "label": "Day 14 (1440 m)",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "Day 15 (1300 m)",
+        "min": 6,
+        "max": 20
+      },
+      {
+        "label": "Day 16 (1355 m)",
+        "min": 5,
+        "max": 19
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/nayakang.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-snow-peak-clouds-16.jpg",
+    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+  ],
+  "mapImage": "uploads/naya-kang-peak-climb.jpg",
+  "fetchedAt": "2026-11-28T10:54:46.256Z"
+}

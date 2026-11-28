@@ -15,16 +15,17 @@ export const sampleTreks = [
     id: "dhaulagiri-circuit-trek",
     slug: "dhaulagiri-circuit-trek",
     title: "Dhaulagiri Circuit Trek",
-    region: "dhaulagiri",
+    region: "annapurna",
     subregion: "Myagdi & Kali Gandaki Valley",
-    durationDays: 20,
+    durationDays: 18,
     difficulty: "challenging",
     maxAltitudeM: 5360,
-    basePriceUSD: 1999,
-    summary: "Wilderness high-altitude expedition circuit crossing French Pass (5,360m) and Dhampus Pass (5,250m) with supported camping at Dhaulagiri Base Camp and Hidden Valley.",
+    basePriceUSD: 2650,
+    summary: "Wilderness high-altitude expedition circuit crossing French Pass (5,360m) and Dhampus Pass (5,250m) with supported camping at Dhaulagiri Base Camp.",
     bestSeason: ["spring", "autumn"],
     image: "uploads/dhawalagiri-base-camp-with-dhampus-peak.jpg",
-    tags: ["EXPEDITION CAMPING", "HIGH PASSES", "REMOTE WILDERNESS", "CHALLENGING"],  },
+    tags: ["EXPEDITION CAMPING", "HIGH PASSES", "REMOTE WILDERNESS", "CHALLENGING"]
+  },
   {
     id: "pikey-peak-trek",
     slug: "pikey-peak-trek",
@@ -38,35 +39,38 @@ export const sampleTreks = [
     summary: "Overland Himalayan trek via Dhap to Pikey Peak (4,065m) for sunrise views of Everest, Kanchenjunga & Makalu, visiting ancient Sherpa villages & monasteries.",
     bestSeason: ["spring", "autumn"],
     image: "images/treks/pikey-peak/pikey-peak-himalayan-sunrise-01.jpg",
-    tags: ["PANORAMA", "SHERPA CULTURE", "OVERLAND", "EASY-MODERATE"],  },
+    tags: ["PANORAMA", "SHERPA CULTURE", "OVERLAND", "EASY-MODERATE"]
+  },
   {
     id: "ebc-trek",
     slug: "everest-base-camp-trek",
     title: "Everest Base Camp Trek",
     region: "everest",
     subregion: "Solukhumbu, Everest Region",
-    durationDays: 14,
+    durationDays: 15,
     difficulty: "challenging",
     maxAltitudeM: 5545,
-    basePriceUSD: 1399,
+    basePriceUSD: 1395,
     summary: "Full teahouse trek to Everest Base Camp (5,364m) and Kala Patthar (5,545m) via Namche Bazaar & Tengboche monastery.",
     bestSeason: ["spring", "autumn"],
     image: "images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg",
-    tags: ["CLASSIC", "HIGH ALTITUDE", "TEAHOUSE"],  },
+    tags: ["CLASSIC", "HIGH ALTITUDE", "TEAHOUSE"]
+  },
   {
     id: "abc-trek",
     slug: "annapurna-base-camp-trek",
     title: "Annapurna Base Camp Trek",
     region: "annapurna",
     subregion: "Gandaki, Annapurna Region",
-    durationDays: 11,
+    durationDays: 13,
     difficulty: "moderate",
     maxAltitudeM: 4130,
-    basePriceUSD: 980,
+    basePriceUSD: 1100,
     summary: "Spectacular journey through rhododendron forests into the heart of Annapurna Sanctuary and natural Jhinu hot springs.",
     bestSeason: ["spring", "autumn", "winter"],
     image: "images/treks/annapurna-base-camp/annapurna-base-camp-annapurna-range-sunrise-03.jpg",
-    tags: ["HOT SPRINGS", "SANCTUARY", "POPULAR"],  },
+    tags: ["HOT SPRINGS", "SANCTUARY", "POPULAR"]
+  },
   {
     id: "manaslu-circuit",
     slug: "manaslu-circuit-trek",
@@ -76,75 +80,77 @@ export const sampleTreks = [
     durationDays: 15,
     difficulty: "challenging",
     maxAltitudeM: 5106,
-    basePriceUSD: 1250,
+    basePriceUSD: 1050,
     summary: "Pristine restricted circuit around Mount Manaslu (8,163m) crossing snow-covered Larke La Pass.",
     bestSeason: ["spring", "autumn"],
     image: "images/treks/manaslu-circuit/manaslu-circuit-village-prayer-flags-13.jpg",
-    tags: ["RESTRICTED AREA", "CULTURE", "REMOTE"],  },
+    tags: ["RESTRICTED AREA", "CULTURE", "REMOTE"]
+  },
   {
     id: "mardi-himal",
     slug: "mardi-himal-trek",
-    title: "Mardi Himal Ridge Trek",
+    title: "Mardi Himal Trek",
     region: "annapurna",
     subregion: "Kaski, Annapurna Region",
-    durationDays: 7,
+    durationDays: 10,
     difficulty: "moderate",
     maxAltitudeM: 4500,
-    basePriceUSD: 650,
+    basePriceUSD: 895,
     summary: "Hidden gem ridge trail offering face-to-face vistas of Mount Fishtail (Machhapuchhre) and Annapurna South.",
     bestSeason: ["spring", "autumn", "winter"],
     image: "images/treks/mardi-himal/mardi-himal-high-camp-sunrise-06.jpg",
-    tags: ["SHORT TREK", "RIDGE VIEW", "BEGINNER"],  },
+    tags: ["SHORT TREK", "RIDGE VIEW", "BEGINNER"]
+  },
   {
     id: "gokyo-lakes",
     slug: "gokyo-lakes-and-cho-la-pass",
-    title: "Gokyo Lakes & Cho La Pass Trek",
+    title: "Gokyo Cho La Pass Trek",
     region: "everest",
     subregion: "Solukhumbu, Everest Region",
-    durationDays: 16,
+    durationDays: 15,
     difficulty: "challenging",
     maxAltitudeM: 5360,
-    basePriceUSD: 1490,
+    basePriceUSD: 1500,
     summary: "Breathtaking turquoise high-altitude lakes, Ngozumpa glacier, and technical Cho La pass crossing.",
     bestSeason: ["spring", "autumn"],
     image: "images/treks/gokyo-lakes/gokyo-trek-turquoise-lake-panorama-13.jpg",
-    tags: ["TURQUOISE LAKES", "HIGH PASS", "GLACIER"],  },
+    tags: ["TURQUOISE LAKES", "HIGH PASS", "GLACIER"]
+  },
   {
     id: "langtang-gosaikunda",
     slug: "langtang-gosaikunda-trek",
     title: "Langtang Gosaikunda Trek",
     region: "langtang",
     subregion: "Rasuwa, Langtang Region",
-    durationDays: 15,
+    durationDays: 13,
     difficulty: "moderate-strenuous",
     maxAltitudeM: 4610,
-    basePriceUSD: 890,
+    basePriceUSD: 795,
     summary: "Combines the glacial valley of Langtang, sacred alpine lakes at Gosaikunda (4,380m), and scenic Laurebina Pass (4,610m).",
     bestSeason: ["spring", "autumn"],
     image: "images/treks/langtang-gosaikunda/langtang-gosaikunda-sacred-alpine-lake-panoramic-view-01.jpg",
-    tags: ["HOLY LAKES", "HIGH PASS", "TAMANG CULTURE"],  },
+    tags: ["HOLY LAKES", "HIGH PASS", "TAMANG CULTURE"]
+  },
   {
     id: "langtang-valley",
     slug: "langtang-valley-trek",
     title: "Langtang Valley Trek",
     region: "langtang",
     subregion: "Rasuwa, Langtang Region",
-    durationDays: 9,
+    durationDays: 10,
     difficulty: "moderate",
     maxAltitudeM: 3870,
-    basePriceUSD: 750,
+    basePriceUSD: 295,
     summary: "Valley of glaciers close to Kathmandu featuring rich Tamang heritage, yak cheese factories, and Kyanjin Gompa.",
     bestSeason: ["spring", "autumn"],
     image: "images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg",
-    tags: ["TAMANG CULTURE", "VALLEY", "SCENIC"],  }
+    tags: ["TAMANG CULTURE", "VALLEY", "SCENIC"]
+  }
 ];
 
 export function initTrekFinder(containerId, treks = sampleTreks) {
   const container = document.getElementById(containerId);
   if (!container) return;
-
-
-
 
   const renderCards = (filtered) => {
     if (filtered.length === 0) {
@@ -183,7 +189,7 @@ export function initTrekFinder(containerId, treks = sampleTreks) {
         <!-- Clean Uncluttered Card Body -->
         <div class="exotic-card-content">
           <div>
-            <h3 class="exotic-card-title">${t.title}</h3>
+            <h3 class="exotic-card-title"><a href="trek/${t.slug}/" style="color:inherit;text-decoration:none;">${t.title}</a></h3>
             <div class="exotic-card-subregion">${t.subregion || t.region.toUpperCase() + ' REGION'}</div>
           </div>
 
@@ -191,7 +197,7 @@ export function initTrekFinder(containerId, treks = sampleTreks) {
           <div class="exotic-card-footer">
             <div class="price-group">
               <span class="price-label">Starting From</span>
-              <strong class="price-amount">$${t.basePriceUSD}</strong>
+              <strong class="price-amount">$${t.basePriceUSD.toLocaleString()}</strong>
             </div>
             <button class="btn-inquire-orange open-inquiry-btn" data-trek-title="${t.title}" onclick="document.getElementById('inquiry-modal').classList.add('active'); document.body.style.overflow='hidden';">
               Inquire Now

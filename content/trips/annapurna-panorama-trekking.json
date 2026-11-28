@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "order": 72,
+  "batch": 8,
+  "sourceSlug": "annapurna-panorama-trekking",
+  "sourceUrl": "https://www.nepaluniquetreks.com/trip/annapurna-panorama-trekking",
+  "targetDir": "trek/annapurna-panorama-trekking",
+  "templateType": "trek",
+  "regionLabel": "Nepal Foothills",
+  "sourceCategory": "Short & Easy Trekking Routes in Nepal",
+  "title": "Annapurna Panorama Trekking",
+  "seoTitle": "Annapurna Panorama Trek | Poon Hill Sunrise Trek Nepal",
+  "metaDescription": "Enjoy the Annapurna Panorama Trek — a short, easy trek to Poon Hill with stunning Himalayan views, perfect for families, beginners & nature lovers i",
+  "heroLead": "Annapurna Panorama Trekking, also known as the Annapurna Panorama Trek or Annapurna View Trek, is one of the best short treks in Nepal, perfect for families, beginners, or anyone looking for a peaceful Himalayan experience without going too high in altitude. This easy Annapurna trek offers jaw-dropping mountain views, diverse culture, and a memorable sunrise experience from Poon Hill, one of the most popular viewpoints in Nepal.",
+  "heroMore": "The Ghorepani Poon Hill Trek is the highlight of this route, where trekkers can witness the golden sunrise over the Annapurna and Dhaulagiri ranges. The trail passes through rhododendron forests, traditional Gurung and Magar villages, and terraced farmlands.",
+  "durationDays": 4,
+  "durationDisplay": "4 Days",
+  "maxElevationM": 3210,
+  "facts": {
+    "duration": "4 Days",
+    "accommodation": "Hotel, Lodge & Tea House",
+    "max elevation": "3210 m",
+    "grade": "Jan–Mayu, Sep–Dec",
+    "activity": "Trekking",
+    "transportation": "Flight & Private Car",
+    "treks type": "Tea House",
+    "best season": "Jan–May, Sep–Dec"
+  },
+  "pricing": {
+    "primaryPriceUsd": 495,
+    "priceOnRequest": false,
+    "priceSource": "live-page",
+    "luxuryPriceUsd": null,
+    "packages": [
+      {
+        "name": "Regular",
+        "tagline": "Most Popular Choice",
+        "priceText": "US$495",
+        "priceUsd": 495
+      }
+    ],
+    "groupTiers": []
+  },
+  "galleryUrls": [
+    "https://www.nepaluniquetreks.com/public/uploads/annapurnapanorama.jpg"
+  ],
+  "highlights": [],
+  "overviewHtml": "<div> <div><p>Annapurna Panorama Trekking, also known as the Annapurna Panorama Trek or Annapurna View Trek, is one of the best short treks in Nepal, perfect for families, beginners, or anyone looking for a peaceful Himalayan experience without going too high in altitude. This easy Annapurna trek offers jaw-dropping mountain views, diverse culture, and a memorable sunrise experience from Poon Hill, one of the most popular viewpoints in Nepal.</p><p>The Ghorepani Poon Hill Trek is the highlight of this route, where trekkers can witness the golden sunrise over the Annapurna and Dhaulagiri ranges. The trail passes through rhododendron forests, traditional Gurung and Magar villages, and terraced farmlands. With a maximum elevation of just over 3,210 meters at Poon Hill, the Annapurna Panorama Trek is ideal for those looking for a short Annapurna trek that doesn&#39;t require previous trekking experience.</p><p>This Annapurna short hike typically takes 4&ndash;6 days, making it a great option for travelers with limited time. It is also a top choice for family trekking in Nepal, offering moderate walking days, comfortable teahouses, and rich cultural encounters along the way. Whether you&#39;re trekking with kids or seeking a budget Annapurna trek, this route fits perfectly.</p><p>Trekking in Annapurna for beginners becomes truly rewarding on this trail, with panoramic Himalayan views, warm hospitality, and a well-maintained path. The Annapurna Sunrise Trek leaves unforgettable impressions with every step, especially during spring when the rhododendrons are in full bloom.</p><p>Book your Annapurna Panorama Trekking adventure today and enjoy a scenic, short, and unforgettable journey through one of Nepal&rsquo;s most beautiful regions.</p><h2><strong>Accommodation and Food on Annapurna Panorama Trek</strong></h2><p>During the Annapurna Panorama Trek, accommodation is mainly in locally run teahouses and guesthouses. These are comfortable and clean, offering twin-sharing rooms with basic facilities like warm blankets, pillows, and sometimes hot showers (at an extra cost). While the rooms are simple, the warm hospitality of the local Gurung and Magar families makes the stay memorable.</p><p>Food is served at the teahouses, with a wide variety of meals available. The menu usually includes traditional Nepali dishes like dal bhat (rice, lentils, and vegetables), as well as international options such as pasta, noodles, momo (dumplings), pancakes, soups, and eggs. Hot drinks like tea, coffee, and ginger lemon honey are commonly available. All meals are freshly prepared, hygienic, and vegetarian-friendly.</p><h2><strong>Best Time to Do the Annapurna Panorama Trek</strong></h2><p>The best time to trek Annapurna Panorama is during the spring (March to May) and autumn (September to November) seasons. These months offer the clearest mountain views, stable weather, and blooming rhododendron forests in spring. Autumn is ideal for crisp air, dry trails, and excellent visibility of the Annapurna and Dhaulagiri ranges.</p><p>While the trek can be done year-round, winter (December to February) brings colder temperatures and occasional snow, while summer/monsoon (June to August) can cause slippery trails and leech problems due to rainfall.</p><h2><strong>How difficult is the Annapurna Panorama Trek?</strong></h2><p>The Annapurna Panorama Trek is considered easy to moderate in difficulty. It&rsquo;s ideal for beginners, families with children, and travelers who want a short yet rewarding Himalayan trek. Daily walking hours range from 4 to 6 hours with some uphill sections, especially while hiking to Poon Hill (3,210m).</p><p>No prior trekking experience or technical skills are required, making it one of the best short treks in Nepal for all fitness levels. With proper pacing, rest, and guidance, almost anyone can complete this trek comfortably.</p></div></div>",
+  "overviewPlainWordCount": 565,
+  "itinerarySource": "live-itinerary",
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Pokhara to Ghandruk Village 1950m, 3 hrs drive",
+      "altitudeM": 1949,
+      "walkingTime": "3 hrs",
+      "distanceKm": null,
+      "meals": "Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "After breakfast in Pokhara Hotel. meet with a local porter and trek guide who will help you to Explore the Annapurna Panorama trekking. We believe that you are preparing well for the trek. either consult with your trek guide or the agency that organizes your trip. Three hours drive from Pokhara to Ghandruk village. Then you have to cross Nayapul and drive to Birethati where you must enter your trekking permits. Another 2-hour drive through the local village passing the spring river and agricultural field. Arrive in Ghandruk village, check in at a guesthouse, and enjoy warm, fresh food. In the early afternoon look around Ghandruk village. visiting the monastery, Museum, Ghandruk Old Village, and the beautiful sunset of Mt Machhapuchhre (Fishtail). Overnight sleep at Ghandruk village."
+    },
+    {
+      "day": 2,
+      "title": "Ghandruk to Tadapani 2610m, 4 hrs Trek",
+      "altitudeM": 2630,
+      "walkingTime": "4 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Early in the morning, you will encounter a beautiful mountain view with a stunning sunrise. After having breakfast in the guesthouse you will start the trek. Today you will climb a minimum of 600 m and trek through Bhaise Kharka trek under the rainforest lovely hiking. After lunch, you explore around there and spend quality time having tea and coffee with a beautiful Annapurna South view. Overnight sleep at Tadapani."
+    },
+    {
+      "day": 3,
+      "title": "Tadapani to Ghorepani 2875 m, 6 hrs",
+      "altitudeM": 2875,
+      "walkingTime": "6 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch and Dinner",
+      "accommodation": "Guesthouse",
+      "description": "Trek into the forest across the spring river. Today's trek might be difficult because most of the time you have to climb (Hike uphill). Today you will have lunch in Deurali which is only one stop before arrived Ghorepani. After Deurali, the scenery will be changed and hiking trails will be easy. before arriving Ghorepani's mesmerizing mountain view welcomes you. Check in the guesthouse and take a rest while having tea or coffee. Walk around there in the village and enjoy with sunshet view with the Mountain view. Overnight stay at Ghorepani."
+    },
+    {
+      "day": 4,
+      "title": "Poon Hill, Trek to Ulleri and drive to Pokhara. 810, 6 hrs",
+      "altitudeM": 810,
+      "walkingTime": "6 hrs",
+      "distanceKm": null,
+      "meals": "Breakfast, Lunch",
+      "accommodation": "Hotel, Lodge & Tea House",
+      "description": "Wake up at 4:30 am, and take your day bag with drinking water, a camera, gloves, and warm clothes. All must be 1 hrs hike and a 300 m climb up from the guesthouse. When you arrive in Poonhill it will be a surprised and dramatic Annapurna Himalayan view. Stuning the sunrise makes it more colorful and makes it more romantic for the tourist. Spend time and take a photo for your memorable Holiday. After sunshine trek back to the guesthouse and pack your bags to go Pokhara. The last day's streak leads to Rhododendron and rain forest. After three hours you will have arrived in Ulleri village from where you take a jeep drive to Pokhara. It takes 3 hours from Ulleri to Pokhara. Your 4-day trek has ended in Pokhara. The Trek guide will drop you in Your Hotel. Say, thank you to the trekking staff and share your happiness. They will be appreciated for your tips. It is mandatory and they are expected. make yourself a Happy amount with Thanks."
+    }
+  ],
+  "packagesCost": [
+    {
+      "key": "standard_package",
+      "title": "Regular Package",
+      "priceText": "USD 495 per person",
+      "includes": [
+        "Pokhara to Ghandruk by private jeep",
+        "Annapurna Conservation and TIMS Permits",
+        "Experience English-speaking Local Guide",
+        "Local Porters to carry duffel bags",
+        "Breakfast, Lunch, and Dinner during the trek",
+        "Seasonal fresh fruits after dinner, Cup of Tea Coffee",
+        "Guide and porters Trekking insurance,",
+        "Food, accommodation, and Transportation for staff"
+      ],
+      "excludes": [
+        "International Flight",
+        "Travel Insurance",
+        "Accommodation on city",
+        "extra food, alcohol, canned juice, Laundry and internet",
+        "Tips for Porter and Guide mandatory"
+      ]
+    }
+  ],
+  "liveAvailability": [],
+  "usefulInfoHtml": "",
+  "liveMapImageUrl": "https://www.nepaluniquetreks.com/uploads/mapannapurna-trekking-map-6.jpg",
+  "liveFaqs": [],
+  "chartSeries": {
+    "name": "Annapurna Panorama Trekking (4 Days)",
+    "weatherTitle": "Annapurna Panorama Trekking Seasonal Averages",
+    "points": [
+      {
+        "day": "Day 1",
+        "spot": "Pokhara to Ghandruk Vi..",
+        "altitudeM": 1949,
+        "altitudeFt": 6394
+      },
+      {
+        "day": "Day 2",
+        "spot": "Ghandruk to Tadapani 2..",
+        "altitudeM": 2630,
+        "altitudeFt": 8629
+      },
+      {
+        "day": "Day 3",
+        "spot": "Tadapani to Ghorepani ..",
+        "altitudeM": 3210,
+        "altitudeFt": 10531
+      },
+      {
+        "day": "Day 4",
+        "spot": "Poon Hill, Trek to Ull..",
+        "altitudeM": 810,
+        "altitudeFt": 2657
+      }
+    ],
+    "weatherPoints": [
+      {
+        "label": "Day 1 (1949 m)",
+        "min": 1,
+        "max": 16
+      },
+      {
+        "label": "Day 2 (2630 m)",
+        "min": -3,
+        "max": 12
+      },
+      {
+        "label": "Day 3 (3210 m)",
+        "min": -7,
+        "max": 8
+      },
+      {
+        "label": "Day 4 (810 m)",
+        "min": 9,
+        "max": 23
+      }
+    ]
+  },
+  "galleryImages": [
+    "uploads/annapurnapanorama.jpg",
+    "images/treks/ghorepani-poon-hill/poon-hill-sunrise.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-morning-light-24.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-14.jpg",
+    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-32.jpg"
+  ],
+  "mapImage": "uploads/mapannapurna-trekking-map-6.jpg",
+  "fetchedAt": "2026-11-28T10:59:11.049Z"
+}

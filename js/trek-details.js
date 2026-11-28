@@ -12,7 +12,7 @@ function setupSubNavScrollSpy() {
 
   const headerHeight = 80;
   const subNavHeight = 58;
-  const offset = headerHeight + subNavHeight + 15; // Offset compensation for sticky navigation bars
+  const offset = headerHeight + subNavHeight + 32; // Offset compensation for sticky navigation bars + subnav
 
   // Smooth scroll to section on button click
   subNavButtons.forEach(btn => {
@@ -1032,6 +1032,26 @@ function setupFaqSection() {
   const currentCategoryTitle = document.getElementById('faq-current-category-title');
   const expandAllBtn = document.getElementById('faq-expand-all-btn');
 
+  // Accordion Item Toggle (must always bind even when FAQs use single-category layout)
+  document.querySelectorAll('.faq-item-question, .faq-question').forEach(q => {
+    q.setAttribute('role', 'button');
+    q.setAttribute('tabindex', '0');
+    const item = q.closest('.faq-item');
+    q.setAttribute('aria-expanded', item && item.classList.contains('active') ? 'true' : 'false');
+    const toggle = () => {
+      if (!item) return;
+      const isNowActive = item.classList.toggle('active');
+      q.setAttribute('aria-expanded', isNowActive ? 'true' : 'false');
+    };
+    q.addEventListener('click', toggle);
+    q.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
+    });
+  });
+
   if (!categoryBtns.length) return;
 
   // Category Tab Switcher
@@ -1065,16 +1085,6 @@ function setupFaqSection() {
     });
   });
 
-  // Accordion Item Toggle
-  document.querySelectorAll('.faq-item-question, .faq-question').forEach(q => {
-    q.addEventListener('click', () => {
-      const item = q.closest('.faq-item');
-      if (item) {
-        item.classList.toggle('active');
-      }
-    });
-  });
-
   // Expand All / Collapse All Button
   if (expandAllBtn) {
     expandAllBtn.addEventListener('click', () => {
@@ -1096,6 +1106,57 @@ function setupFaqSection() {
       expandAllBtn.textContent = isExpanded ? 'Expand All' : 'Collapse All';
     });
   }
+}
+
+function setupPackageCostTabs() {
+  const tabBtns = document.querySelectorAll('.pkg-cost-tab-btn');
+  const panels = document.querySelectorAll('.pkg-cost-panel');
+  if (!tabBtns.length || !panels.length) return;
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.getAttribute('data-pkg-tab');
+      tabBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      panels.forEach(p => {
+        p.classList.toggle('active', p.getAttribute('data-pkg-panel') === target);
+      });
+    });
+  });
+}
+
+function setupGalleryLightboxFallback() {
+  const triggerBtn = document.querySelector('.trek-gallery-see-all-btn');
+  const galleryImgs = Array.from(document.querySelectorAll('.trek-gallery-collage img'));
+  if (!triggerBtn || !galleryImgs.length || document.getElementById('media-modal')) return;
+
+  const modal = document.createElement('div');
+  modal.id = 'trip-gallery-lightbox';
+  modal.className = 'modal-overlay';
+  modal.innerHTML = `
+    <div class="modal-card" style="max-width: 820px; width: 92vw; padding: 20px;">
+      <button type="button" class="modal-close" aria-label="Close Gallery">&times;</button>
+      <h3 style="margin: 0 0 14px 0; font-size: 1.25rem; color: #1B2921;">Trip Photo Gallery</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; max-height: 70vh; overflow-y: auto;">
+        ${galleryImgs.map(img => `<img src="${img.getAttribute('src')}" alt="${img.getAttribute('alt') || ''}" style="width: 100%; height: 180px; object-fit: cover; border-radius: 10px;">`).join('')}
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const close = () => {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  };
+  triggerBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  });
+  modal.querySelector('.modal-close').addEventListener('click', close);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) close();
+  });
 }
 
 // Initialise everything on page load
@@ -1120,6 +1181,8 @@ function initTrekDetails() {
   safeRun(() => setupDatesAndAvailability(), 'setupDatesAndAvailability');
   safeRun(() => setupHimalayanReviews(), 'setupHimalayanReviews');
   safeRun(() => setupFaqSection(), 'setupFaqSection');
+  safeRun(() => setupPackageCostTabs(), 'setupPackageCostTabs');
+  safeRun(() => setupGalleryLightboxFallback(), 'setupGalleryLightboxFallback');
 }
 
 if (document.readyState === 'loading') {

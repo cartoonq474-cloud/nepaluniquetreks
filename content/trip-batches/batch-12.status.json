@@ -1,0 +1,52 @@
+{
+  "batch": 12,
+  "verifiedAt": "2026-11-28T12:27:53.390Z",
+  "count": 9,
+  "packages": [
+    {
+      "order": 111,
+      "sourceSlug": "everest-base-camp-trek-with-heli-return",
+      "targetHtmlPath": "trek/everest-base-camp-trek-with-heli-return/index.html"
+    },
+    {
+      "order": 112,
+      "sourceSlug": "annapurna-circuit-with-tilicho-lake-trek",
+      "targetHtmlPath": "trek/annapurna-circuit-trek-with-tilicho-lake/index.html"
+    },
+    {
+      "order": 113,
+      "sourceSlug": "everest-base-camp-cho-la-pass-gokyo-trek",
+      "targetHtmlPath": "trek/everest-base-camp-with-cho-la-pass-trek/index.html"
+    },
+    {
+      "order": 114,
+      "sourceSlug": "vesak-day-buddha-jayanti-in-lumbini-nepal",
+      "targetHtmlPath": "tour/vesak-day-buddha-jayanti-in-lumbini-nepal/index.html"
+    },
+    {
+      "order": 115,
+      "sourceSlug": "langtang-valley-ganjala-pass-helambu-trek",
+      "targetHtmlPath": "trek/langtang-valley-ganjala-pass-helambu-trek/index.html"
+    },
+    {
+      "order": 116,
+      "sourceSlug": "everest-base-camp-with-island-peak-climbing",
+      "targetHtmlPath": "trek/everest-base-camp-with-island-peak-climbing/index.html"
+    },
+    {
+      "order": 117,
+      "sourceSlug": "everest-base-camp-with-lobuche-peak-climbing",
+      "targetHtmlPath": "trek/everest-base-camp-with-lobuche-peak-climbing/index.html"
+    },
+    {
+      "order": 118,
+      "sourceSlug": "christmas-new-year-holidays-package-in-nepal",
+      "targetHtmlPath": "tour/christmas-new-year-holidays-package-in-nepal/index.html"
+    },
+    {
+      "order": 119,
+      "sourceSlug": "mani-rimdu-festival-with-everest-base-camp-trek",
+      "targetHtmlPath": "trek/mani-rimdu-festival-with-everest-base-camp-trek/index.html"
+    }
+  ]
+}
