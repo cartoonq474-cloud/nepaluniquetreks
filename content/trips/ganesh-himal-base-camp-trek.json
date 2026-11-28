@@ -447,12 +447,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Ganesh Himal Base Camp Trek.jpg",
-    "images/treks/langtang-valley/langtang-trek-hiker-mountain-view-03.jpg",
-    "images/treks/langtang-valley/langtang-trek-hiker-rocky-viewpoint-06.jpg",
-    "images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg",
-    "images/treks/langtang-valley/langtang-trek-trekkers-mountain-view-01.jpg"
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-base-camp-trek.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-base-camp-trek-fikuri-hill-trek-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-singla-pass-trek-1.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-base-camp-trek-ruby-valley-trek-2-05.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-ruby-valley-trek-ruby-valley-trek-1.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-view-trek.jpg"
   ],
-  "mapImage": "uploads/ganesh-himal-base-camp-trek.jpg",
+  "mapImage": "images/packages/maps/ganesh-himal-base-camp-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:09.765Z"
 }

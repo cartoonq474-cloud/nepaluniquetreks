@@ -582,17 +582,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Island-Peak-Climbing.jpg",
-    "uploads/IMG_1760.JPG",
-    "uploads/IMG_1738.JPG",
-    "uploads/IMG_8860.JPG",
-    "uploads/IMG_9185.JPG",
-    "uploads/IMG_8932.JPG",
-    "uploads/IMG_9870-1.JPG",
-    "uploads/island peak.jpg",
-    "uploads/IMG_4999.JPG",
-    "uploads/IMG_4925.JPG"
+    "images/packages/treks/peak-climbing/everest-base-camp-with-island-peak-climbing-07.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-island-peak-climbing-08.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-island-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-island-peak-climbing-02.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-island-peak-climbing-03.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-island-peak-climbing-04.jpg"
   ],
-  "mapImage": "uploads/everest-base-camp-with-island-peak-climbing.jpg",
+  "mapImage": "images/packages/maps/everest-base-camp-with-island-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:43.251Z"
 }

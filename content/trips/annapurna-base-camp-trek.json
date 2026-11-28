@@ -478,15 +478,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/2e543658843203de12bc5342161129aa.jpeg",
-    "uploads/IMG_5531.JPG",
-    "uploads/IMG_5582.JPG",
-    "uploads/IMG_7318.JPG",
-    "uploads/IMG_1552.jpg",
-    "uploads/IMG_1550.jpg",
-    "uploads/IMG_1616.jpg",
-    "uploads/IMG_1587.jpg"
+    "images/packages/treks/annapurna/annapurna-base-camp-trek-04.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-trek-06.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-trek-07.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-trek-08.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-trek-02.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-trek-03.jpg"
   ],
-  "mapImage": "uploads/annapurna-base-camp-trek-13-days.jpg",
+  "mapImage": "images/packages/maps/annapurna-base-camp-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:11.006Z"
 }

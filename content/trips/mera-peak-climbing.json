@@ -500,21 +500,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/GPTempDownload 3.jpg",
-    "uploads/IMG_8041.jpg",
-    "uploads/IMG_8053.jpg",
-    "uploads/Mera Peak Climbing.jpg",
-    "uploads/att.mUS5gWMNj9xos03InV8hzI8tULCw.jpg",
-    "uploads/IMG_8026.jpg",
-    "uploads/IMG_8022.jpg",
-    "uploads/IMG_8017.jpg",
-    "uploads/IMG_8027.jpg",
-    "uploads/IMG_2293.jpg",
-    "uploads/IMG_2631.jpg",
-    "uploads/IMG_2639 (1).jpg",
-    "uploads/9e9e71b5-eac9-4384-8599-fffa478c.jpg",
-    "uploads/IMG_8054.jpg"
+    "images/packages/treks/peak-climbing/mera-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-02.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-04.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-05.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-06.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-07.jpg"
   ],
-  "mapImage": "uploads/mera-peak-climbing.jpg",
+  "mapImage": "images/packages/maps/mera-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:40.163Z"
 }

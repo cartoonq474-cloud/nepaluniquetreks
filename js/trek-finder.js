@@ -23,7 +23,7 @@ export const sampleTreks = [
     basePriceUSD: 2650,
     summary: "Wilderness high-altitude expedition circuit crossing French Pass (5,360m) and Dhampus Pass (5,250m) with supported camping at Dhaulagiri Base Camp.",
     bestSeason: ["spring", "autumn"],
-    image: "uploads/dhawalagiri-base-camp-with-dhampus-peak.jpg",
+    image: "images/packages/treks/annapurna/dhaulagiri-base-camp-trek-18-days.jpg",
     tags: ["EXPEDITION CAMPING", "HIGH PASSES", "REMOTE WILDERNESS", "CHALLENGING"]
   },
   {

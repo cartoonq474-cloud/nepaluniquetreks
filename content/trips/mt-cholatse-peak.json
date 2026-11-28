@@ -519,13 +519,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/mt-cholatse-peak-climbing.jpg",
-    "uploads/cholatse-peak-climb.jpg",
-    "uploads/mt-cholatse.jpg",
-    "uploads/cholatse-peak-climbing.jpg",
-    "uploads/cholatse-peak-2026.jpg",
-    "uploads/cholatse-peak.jpg",
-    "uploads/cholatse-peak-climbing-in-nepal.jpg"
+    "images/packages/treks/peak-climbing/mt-cholatse-peak-cholatse-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/mt-cholatse-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/mt-cholatse-peak-cholatse-peak-2026.jpg",
+    "images/packages/treks/peak-climbing/mt-cholatse-peak-cholatse-peak-climb.jpg",
+    "images/packages/treks/peak-climbing/mt-cholatse-peak.jpg",
+    "images/packages/treks/peak-climbing/mt-cholatse-peak-cholatse-peak-climbing-in-nepal.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:30.359Z"

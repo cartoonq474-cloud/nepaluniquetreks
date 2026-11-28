@@ -418,13 +418,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/rolwaling-trek-1.jpg",
-    "uploads/rolwaling-trekking.jpg",
-    "uploads/tsho-rolpa-lake.jpg",
-    "uploads/rolwaling-trek-nepal.jpg",
-    "uploads/rolwaling-valley-trek.jpg",
-    "uploads/rolwaling-vally-trek-nepal.jpg",
-    "uploads/tsho-rolpa-lake-trek.jpg"
+    "images/packages/treks/dolpo-and-remote/rolwaling-trek-1.jpg",
+    "images/packages/treks/dolpo-and-remote/rolwaling-trek-nepal.jpg",
+    "images/packages/treks/dolpo-and-remote/rolwaling-trekking.jpg",
+    "images/packages/treks/dolpo-and-remote/rolwaling-trek-tsho-rolpa-lake.jpg",
+    "images/packages/treks/dolpo-and-remote/rolwaling-trek-tsho-rolpa-lake-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/rolwaling-trek-kanchenjunga-trek-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:28.479Z"

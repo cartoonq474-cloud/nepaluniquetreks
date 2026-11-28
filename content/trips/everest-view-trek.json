@@ -328,17 +328,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/WhatsApp Image 2024-07-01 at 12.27.17_fa5075eb.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.13_6f373f99-1.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.10_5b590629-1.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.12_9c215c43-1.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.13_2a5e3bc5-1.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.27.15_2ea95fc2.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.13_b8288122.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.13_95b2dfe5.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.13_a2cd6f15.jpg",
-    "uploads/WhatsApp Image 2024-07-01 at 12.24.13_b0a2d3f4.jpg"
+    "images/packages/treks/everest/everest-view-trek.jpg",
+    "images/packages/treks/everest/everest-view-trek-02.jpg",
+    "images/packages/treks/everest/everest-view-trek-03.jpg",
+    "images/packages/treks/everest/everest-view-trek-04.jpg",
+    "images/packages/treks/everest/everest-view-trek-05.jpg",
+    "images/packages/treks/everest/everest-view-trek-mera-peak-climbing-03-07.jpg"
   ],
-  "mapImage": "uploads/everest-view-trek.jpg",
+  "mapImage": "images/packages/maps/everest-view-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:37.264Z"
 }

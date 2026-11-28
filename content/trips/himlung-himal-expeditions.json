@@ -541,11 +541,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/Himlung Himal Expp.jpg",
-    "uploads/Himlung Exp.jpg",
-    "uploads/Himlung.jpg",
-    "uploads/Himlung ex.jpg",
-    "uploads/Himlung Himal.jpg"
+    "images/packages/treks/peak-climbing/himlung-himal-expeditions.jpg",
+    "images/packages/treks/peak-climbing/himlung-himal-expeditions-02.jpg",
+    "images/packages/treks/peak-climbing/himlung-himal-expeditions-himlung-ex-03.jpg",
+    "images/packages/treks/peak-climbing/himlung-himal-expeditions-himlung-exp-04.jpg",
+    "images/packages/treks/peak-climbing/himlung-himal-expp.jpg",
+    "images/packages/treks/peak-climbing/himlung-himal-expeditions-manaslu-exppp-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:59:04.070Z"

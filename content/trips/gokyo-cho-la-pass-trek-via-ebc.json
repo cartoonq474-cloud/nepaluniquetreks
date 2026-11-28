@@ -467,12 +467,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Gokyo Chola Pass Trek via EBC.jpg",
+    "images/packages/treks/everest/gokyo-cho-la-pass-trek-via-ebc-gokyo-chola-pass-trek-via-ebc.jpg",
+    "images/packages/treks/everest/gokyo-cho-la-pass-trek-via-ebc-everest-base-camp-helicopter-tour-with-03.jpg",
+    "images/packages/treks/everest/gokyo-cho-la-pass-trek-via-ebc-everest-base-camp-trek-04.jpg",
+    "images/packages/treks/everest/gokyo-cho-la-pass-trek-via-ebc-trail-4.jpg",
     "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-trail-view-12.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg"
   ],
-  "mapImage": "uploads/gokyo-chola-pass-everest-base-camp-trek-2.jpg",
+  "mapImage": "images/packages/maps/gokyo-cho-la-pass-trek-via-ebc-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:24.477Z"
 }

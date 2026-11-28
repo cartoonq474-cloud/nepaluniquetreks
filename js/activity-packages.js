@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     climbing: [
       {
-        image: "uploads/island.jpg",
+        image: "images/packages/treks/peak-climbing/island-peak-climbing.jpg",
         duration: "12 DAYS",
         tags: ["GLACIER", "SUMMIT", "TECHNICAL"],
         name: "Island Peak Climbing (6,189m)",
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: "48"
       },
       {
-        image: "uploads/lobuche-east-peak-summit-6119m.jpg",
+        image: "images/packages/treks/peak-climbing/lobuche-peak-climbing.jpg",
         duration: "19 DAYS",
         tags: ["EVEREST REGION", "ICE CLIMB", "ALPINE"],
         name: "Lobuche Peak Climbing (6,119m)",
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     tours: [
       {
-        image: "uploads/kathmandu-durbar-squire.jpg",
+        image: "images/packages/tours/kathmandu-pokhara-tour.jpg",
         duration: "5 DAYS",
         tags: ["HERITAGE", "TEMPLE", "EASY"],
         name: "Kathmandu Pokhara Tour",
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: "124"
       },
       {
-        image: "uploads/nepal-chitwan-jungle-safari.jpg",
+        image: "images/packages/tours/safari-holiday.jpg",
         duration: "7 DAYS",
         tags: ["SAFARI", "WILDLIFE", "NATURE"],
         name: "Chitwan Jungle Safari Holiday",
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: "82"
       },
       {
-        image: "uploads/kathmandu-pokhara-lumbini-tours.jpg",
+        image: "images/packages/tours/buddhist-pilgrimage-tour-in-nepal.jpg",
         duration: "9 DAYS",
         tags: ["PILGRIMAGE", "HERITAGE", "CULTURE"],
         name: "Buddhist Pilgrimage Tour Of Nepal",
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     hikes: [
       {
-        image: "uploads/nagarkot.JPG",
+        image: "images/packages/treks/dolpo-and-remote/chisapani-nagarkot-hike.jpg",
         duration: "3 DAYS",
         tags: ["SUNRISE", "VALLEY VIEW", "SHORT HIKE"],
         name: "Chisapani Nagarkot Hike",
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: "91"
       },
       {
-        image: "uploads/namobudha-hiking.jpg",
+        image: "images/packages/treks/dolpo-and-remote/chisapani-nagarkot-hike-namobuddha-hiking-namobudha-hiking-06.jpg",
         duration: "6 DAYS",
         tags: ["MONASTERY", "RIDGE WALK", "HERITAGE"],
         name: "Namobuddha Hiking Tour",
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: "53"
       },
       {
-        image: "uploads/shivapuri-hiking.jpg",
+        image: "images/packages/treks/dolpo-and-remote/chisapani-nagarkot-hike-sivapuri-hiking-shivapuri-hiking-07.jpg",
         duration: "1 DAY",
         tags: ["NATIONAL PARK", "DAY HIKE", "FOREST"],
         name: "Sivapuri Hiking Day Trip",
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     heli: [
       {
-        image: "uploads/everest-base-camp-trek-with-heli-return.jpg",
+        image: "images/packages/tours/everest-base-camp-helicopter-tour.jpg",
         duration: "1 DAY",
         tags: ["HELI TOUR", "EVEREST", "LUXURY"],
         name: "Everest Base Camp Helicopter Tour",
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: "88"
       },
       {
-        image: "images/treks/everest-base-camp/everest-base-camp-trekking-group-mountain-panorama-11.jpg",
+        image: "images/banners/hero-everest-tea-house-trek.jpg",
         duration: "1 DAY",
         tags: ["BREAKFAST", "EVEREST VIEW", "EXPRESS"],
         name: "Everest Helicopter Tour with Breakfast",
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviews: "72"
       },
       {
-        image: "uploads/everest-base-camp-trek-with-heli-return-1.jpg",
+        image: "images/packages/tours/everest-base-camp-helicopter-tour-02.jpg",
         duration: "12 DAYS",
         tags: ["TREK + HELI", "COMBO", "PREMIUM"],
         name: "EBC Trek with Heli Return",

@@ -458,13 +458,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/view-from-renjo-la-pass-with-pra.jpg",
-    "uploads/gokyo-trekking-b.jpg",
-    "uploads/img-4431.jpg",
-    "uploads/img-5580.jpg",
-    "uploads/img-4397.jpg",
-    "uploads/img-20171019-083317.jpg"
+    "images/packages/treks/everest/gokyo-renjo-la-pass-trek-15-days-view-from-renjo-la-pass-with-pra.jpg",
+    "images/packages/treks/everest/gokyo-renjo-la-pass-trek-15-days.jpg",
+    "images/packages/treks/everest/gokyo-renjo-la-pass-trek-15-days-02.jpg",
+    "images/packages/treks/everest/gokyo-renjo-la-pass-trek-15-days-03.jpg",
+    "images/packages/treks/everest/gokyo-renjo-la-pass-trek-15-days-04.jpg",
+    "images/packages/treks/everest/gokyo-renjo-la-pass-trek-15-days-mera-peak-climbing-03-07.jpg"
   ],
-  "mapImage": "uploads/gokyo-renjo-la-pass-trek-15-days.jpg",
+  "mapImage": "images/packages/maps/gokyo-renjo-la-pass-trek-15-days-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:25.425Z"
 }

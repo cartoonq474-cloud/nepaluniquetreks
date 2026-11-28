@@ -323,12 +323,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/annapurna base camp short trek.jpg",
-    "uploads/97778c81-9a5e-4903-857a-e98fe09d5b6d.jpg",
-    "uploads/IMG_5574.JPG",
-    "uploads/f62e3bc0f170d34401a5e85a4bec15c8.jpeg",
-    "uploads/Short Annapurna Base Camp Trek .JPG"
+    "images/packages/treks/annapurna/annapurna-base-camp-short-trek-short-annapurna-base-camp-trek.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-short-trek-02.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-short-trek-03.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-short-trek-04.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-short-trek-annapurna-sunrise-view-tour-sarangkot-view-06.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-short-trek-nar-phu-trek-nepal-07.jpg"
   ],
-  "mapImage": "uploads/annapurna-base-camp-short-trek.jpg",
+  "mapImage": "images/packages/maps/annapurna-base-camp-short-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:25.521Z"
 }

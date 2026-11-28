@@ -542,12 +542,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Ganesh Himal Rupinala Trek.JPG",
-    "images/treks/manaslu-circuit/manaslu-circuit-larkya-la-pass-mountain-panorama-1.jpg",
-    "images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-04.jpg",
-    "images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-closeup-05.jpg",
-    "images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-clouds-11.jpg"
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-rupina-la-trek-tsum-valley-trek-08.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-rupina-la-trek-manaslu-circuit-trek-gurung-heritage-trekking-trails-02.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-rupina-la-trek-manaslu-circuit-trek-02-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-rupina-la-trek-manaslu-exppp-04.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-rupina-la-trek-manaslu-circuit-treks-05.jpg",
+    "images/packages/treks/langtang-and-ganesh/ganesh-himal-rupina-la-trek-manaslu-circuit-trek-with-tsum-valley-manasulutrek-06.jpg"
   ],
-  "mapImage": "uploads/nepal-unique-treks-logo.jpg",
+  "mapImage": "images/packages/maps/ganesh-himal-rupina-la-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:10.208Z"
 }

@@ -376,15 +376,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/ba43c690-d39c-455b-b041-99d5bec2fb3c.jfif",
-    "uploads/Jomsome Muktinath Trek.jpg",
-    "uploads/Marpha .jpg",
-    "uploads/Tatopani.jpg",
-    "uploads/Muktinath.jpg",
-    "uploads/IMG_7402.JPG",
-    "uploads/eadec320-176a-46ea-99f3-dee28472e013.jfif",
-    "uploads/Jomsome Muktinath.jpg"
+    "images/packages/treks/annapurna/jomsom-muktinath-trek.jpg",
+    "images/packages/treks/annapurna/jomsom-muktinath-trek-02.jpg",
+    "images/packages/treks/annapurna/jomsom-muktinath-trek-04.jpg",
+    "images/packages/treks/annapurna/jomsom-muktinath-trek-tatopani.jpg",
+    "images/packages/treks/annapurna/jomsom-muktinath-trek-03.jpg",
+    "images/packages/treks/annapurna/jomsom-muktinath-trek-jomsome-muktinath.jpg"
   ],
-  "mapImage": "uploads/jomsom-muktinath-trek.jpg",
+  "mapImage": "images/packages/maps/jomsom-muktinath-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:00.387Z"
 }

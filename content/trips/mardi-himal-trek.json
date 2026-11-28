@@ -365,15 +365,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/EVEREST EXPEDITION 2025 SPRING SESSION (1366 x 768 px) (1366 x 900 px) (1366 x 1000 px) (1366 x 768 px) (1366 x 768 px)-3.jpg",
-    "uploads/mardi1.jpg",
-    "uploads/mardi2.jpg",
-    "uploads/mardi3.jpg",
-    "uploads/mardi4.jpg",
-    "uploads/mardi5.jpg",
-    "uploads/mardi6.jpg",
-    "uploads/mardi8.jpg"
+    "images/packages/treks/annapurna/mardi-himal-trek-everest-expedition-2025-spring-session-1366-x-900-px-13.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-mardi2.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-mardi1.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-mardi3.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-mardi5.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-mardi6.jpg"
   ],
-  "mapImage": "uploads/mardi-himal-trek-1.jpg",
+  "mapImage": "images/packages/maps/mardi-himal-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:33.072Z"
 }

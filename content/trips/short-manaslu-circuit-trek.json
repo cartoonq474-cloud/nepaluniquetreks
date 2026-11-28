@@ -376,12 +376,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Short Manaslu Circuit Trek .jpg",
-    "uploads/Manaslu 1.jpg",
-    "uploads/Manaslu 2.jpg",
-    "uploads/Manaslu 3.jpg",
-    "uploads/Short Manaslu Circuit Treks .jpg"
+    "images/packages/treks/manaslu/short-manaslu-circuit-trek-manaslu-3.jpg",
+    "images/packages/treks/manaslu/short-manaslu-circuit-treks.jpg",
+    "images/packages/treks/manaslu/short-manaslu-circuit-trek-manaslu-1.jpg",
+    "images/packages/treks/manaslu/short-manaslu-circuit-trek-manaslu-2.jpg",
+    "images/packages/treks/manaslu/short-manaslu-circuit-trek.jpg",
+    "images/packages/treks/manaslu/short-manaslu-circuit-trek-tsum-valley-trek-08-07.jpg"
   ],
-  "mapImage": "uploads/short-manaslu-circuit-trek.jpg",
+  "mapImage": "images/packages/maps/short-manaslu-circuit-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:08.231Z"
 }

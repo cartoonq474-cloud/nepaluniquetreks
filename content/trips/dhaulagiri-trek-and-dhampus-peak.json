@@ -500,13 +500,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/dhawalagiri-base-camp-with-dhampus-peak.jpg",
-    "uploads/dhawalagiri-base-camp.jpg",
-    "uploads/dhawalagiri-base-camp-trekking.jpg",
-    "uploads/dhampus-peak.jpg",
-    "uploads/dhampus-peak-climbing.jpg",
-    "uploads/dhampush-peak-climbing.jpg"
+    "images/packages/treks/peak-climbing/dhaulagiri-trek-and-dhampus-peak.jpg",
+    "images/packages/treks/peak-climbing/dhaulagiri-trek-and-dhampus-peak-dhampush-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/dhaulagiri-trek-and-dhampus-peak-dhawalagiri-base-camp-with-dhampus-peak.jpg",
+    "images/packages/treks/peak-climbing/dhaulagiri-trek-and-dhampus-peak-dhawalagiri-base-camp.jpg",
+    "images/packages/treks/peak-climbing/dhaulagiri-trek-and-dhampus-peak-dhawalagiri-base-camp-trekking.jpg",
+    "images/packages/treks/peak-climbing/dhaulagiri-trek-and-dhampus-peak-dhampus-peak-climbing.jpg"
   ],
-  "mapImage": "uploads/dhaulagiri-trek-and-dhampus-peak.jpg",
+  "mapImage": "images/packages/maps/dhaulagiri-trek-and-dhampus-peak-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:28.585Z"
 }

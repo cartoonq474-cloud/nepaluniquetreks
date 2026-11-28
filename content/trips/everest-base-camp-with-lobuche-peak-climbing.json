@@ -539,14 +539,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/lobuche-peak-climber-approaching-summit.jpg",
-    "uploads/IMG_1905.JPG",
-    "uploads/IMG_1782.JPG",
-    "uploads/IMG_8800.JPG",
-    "uploads/IMG_8882.JPG",
-    "uploads/IMG_9870.JPG",
-    "uploads/DSCN0427.JPG"
+    "images/packages/treks/peak-climbing/everest-base-camp-with-lobuche-peak-climbing-lobuche-peak-climber-approa.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-lobuche-peak-climbing-dscn0427.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-lobuche-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-lobuche-peak-climbing-02.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-lobuche-peak-climbing-03.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-helicopter-tour-with.jpg"
   ],
-  "mapImage": "uploads/lobuche-peak-climbing-map.jpg",
+  "mapImage": "images/packages/maps/everest-base-camp-with-lobuche-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:43.748Z"
 }

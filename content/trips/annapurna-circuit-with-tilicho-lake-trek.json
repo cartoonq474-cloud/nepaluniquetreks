@@ -515,12 +515,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Annapurna Circuit with Tilicho Lake Trek.jpg",
-    "images/treks/annapurna-base-camp/abc-hero.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-annapurna-range-sunrise-03.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-mountain-sunrise-04.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-snow-covered-mountain-valley-10.jpg"
+    "images/packages/treks/everest/annapurna-circuit-with-tilicho-lake-trek.jpg",
+    "images/packages/treks/everest/annapurna-circuit-with-tilicho-lake-trek-annapurna-sunrise-view-tour-sarangkot-view-03.jpg",
+    "images/packages/treks/everest/annapurna-circuit-with-tilicho-lake-trek-nar-phu-trek-nepal-04.jpg",
+    "images/packages/treks/everest/annapurna-circuit-with-tilicho-lake-trek-kathmandu-pokhara-sunrise-tour-nagarkot-05.jpg",
+    "images/packages/treks/everest/annapurna-circuit-with-tilicho-lake-trek-annapurna-base-camp-trek-06.jpg",
+    "images/packages/treks/everest/annapurna-circuit-with-tilicho-lake-trek-family-tours-in-nepal-07.jpg"
   ],
-  "mapImage": "uploads/annapurna-circuit-with-tilicho-lake-trek.jpg",
+  "mapImage": "images/packages/maps/annapurna-circuit-with-tilicho-lake-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:37.886Z"
 }

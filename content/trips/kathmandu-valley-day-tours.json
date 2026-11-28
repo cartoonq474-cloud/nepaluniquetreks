@@ -133,11 +133,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/Bouddhanath.jpg",
-    "uploads/pasupatinath-temple.jpg",
-    "uploads/durbar-squire-in-kathmandu.jpg",
-    "uploads/swayambhunath-temple.jpg",
-    "uploads/kathmandu-durbar-squire.jpg"
+    "images/packages/tours/kathmandu-valley-day-tours-swayambhunath-temple.jpg",
+    "images/packages/tours/kathmandu-valley-day-tours-bouddhanath.jpg",
+    "images/packages/tours/kathmandu-valley-day-tours-durbar-squire-in-kathmandu.jpg",
+    "images/packages/tours/kathmandu-valley-day-tours-pasupatinath-temple.jpg",
+    "images/packages/tours/kathmandu-valley-day-tours-kathmandu-durbar-squire-06.jpg",
+    "images/packages/tours/kathmandu-valley-nagarkot-tour.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:59:05.920Z"

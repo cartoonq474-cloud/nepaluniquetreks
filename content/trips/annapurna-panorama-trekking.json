@@ -171,12 +171,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/annapurnapanorama.jpg",
-    "images/treks/ghorepani-poon-hill/poon-hill-sunrise.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-morning-light-24.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-14.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-32.jpg"
+    "images/packages/treks/annapurna/annapurna-panorama-trekking-annapurnapanorama.jpg",
+    "images/packages/treks/annapurna/annapurna-panorama-trekking-chisapani-nagarkot-hike-03.jpg",
+    "images/packages/treks/annapurna/annapurna-panorama-trekking-ghale-gaun-village-tour-ghalegau-04.jpg",
+    "images/packages/treks/annapurna/annapurna-panorama-trekking-timal-trek-06-05.jpg",
+    "images/packages/treks/annapurna/annapurna-panorama-trekking-namobuddha-hiking-namobudha-hiking-06.jpg",
+    "images/packages/treks/annapurna/annapurna-panorama-trekking-sivapuri-hiking-shivapuri-hiking-07.jpg"
   ],
-  "mapImage": "uploads/mapannapurna-trekking-map-6.jpg",
+  "mapImage": "images/packages/maps/annapurna-panorama-trekking-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:11.049Z"
 }

@@ -218,11 +218,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/namobudha-hiking.jpg",
-    "images/treks/ghorepani-poon-hill/poon-hill-sunrise.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-morning-light-24.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-14.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-32.jpg"
+    "images/packages/treks/dolpo-and-remote/namobuddha-hiking-namobudha-hiking.jpg",
+    "images/packages/treks/dolpo-and-remote/namobuddha-hiking-chisapani-nagarkot-hike-03.jpg",
+    "images/packages/treks/dolpo-and-remote/namobuddha-hiking-ghorepani-ghandruk-trekking-04.jpg",
+    "images/packages/treks/dolpo-and-remote/namobuddha-hiking-ghale-gaun-village-tour-ghalegau-05.jpg",
+    "images/packages/treks/dolpo-and-remote/namobuddha-hiking-timal-trek-06-06.jpg",
+    "images/packages/treks/dolpo-and-remote/namobuddha-hiking-sivapuri-hiking-shivapuri-hiking-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:37.643Z"

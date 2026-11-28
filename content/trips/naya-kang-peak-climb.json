@@ -431,12 +431,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/nayakang.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-snow-peak-clouds-16.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+    "images/packages/treks/peak-climbing/naya-kang-peak-climb-nayakang.jpg",
+    "images/packages/treks/peak-climbing/naya-kang-peak-climb-mera-peak-climbing-03-03.jpg",
+    "images/packages/treks/peak-climbing/naya-kang-peak-climb-everest-high-pass-with-island-peak-18-04.jpg",
+    "images/packages/treks/peak-climbing/naya-kang-peak-climb-everest-base-camp-with-island-peak-climbing-09-05.jpg",
+    "images/packages/treks/peak-climbing/naya-kang-peak-climb-lobuche-east-peak-summit-6119m-06.jpg",
+    "images/packages/treks/peak-climbing/naya-kang-peak-climb-mardi-himal-peak-climbing-07.jpg"
   ],
-  "mapImage": "uploads/naya-kang-peak-climb.jpg",
+  "mapImage": "images/packages/maps/naya-kang-peak-climb-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:46.256Z"
 }

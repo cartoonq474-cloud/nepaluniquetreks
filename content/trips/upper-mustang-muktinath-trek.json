@@ -453,14 +453,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/UPPER MUSTANG.JPG",
-    "uploads/DSC02158.JPG",
-    "uploads/DSC00951-1.JPG",
-    "uploads/DSC01034.JPG",
-    "uploads/DSC02055.JPG",
-    "uploads/DSC00931.JPG",
-    "uploads/DSC02063.JPG"
+    "images/packages/treks/mustang/upper-mustang-muktinath-trek-dsc02158.jpg",
+    "images/packages/treks/mustang/upper-mustang-muktinath-trek-dsc00931.jpg",
+    "images/packages/treks/mustang/upper-mustang-muktinath-trek-dsc01034.jpg",
+    "images/packages/treks/mustang/upper-mustang-muktinath-trek-dsc02055.jpg",
+    "images/packages/treks/mustang/upper-mustang-muktinath-trek-dsc02063.jpg",
+    "images/packages/treks/mustang/upper-mustang-muktinath-trek.jpg"
   ],
-  "mapImage": "uploads/upper-mustang-muktinath-trek.jpg",
+  "mapImage": "images/packages/maps/upper-mustang-muktinath-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:18.504Z"
 }

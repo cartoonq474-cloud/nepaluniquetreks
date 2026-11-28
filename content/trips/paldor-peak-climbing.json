@@ -404,12 +404,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/paldor peak climbing.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-snow-peak-clouds-16.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+    "images/packages/treks/peak-climbing/paldor-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/paldor-peak-climbing-mera-peak-climbing-03-03.jpg",
+    "images/packages/treks/peak-climbing/paldor-peak-climbing-everest-high-pass-with-island-peak-18-04.jpg",
+    "images/packages/treks/peak-climbing/paldor-peak-climbing-everest-base-camp-with-island-peak-climbing-09-05.jpg",
+    "images/packages/treks/peak-climbing/paldor-peak-climbing-lobuche-east-peak-summit-6119m-06.jpg",
+    "images/packages/treks/peak-climbing/paldor-peak-climbing-mardi-himal-peak-climbing-07.jpg"
   ],
-  "mapImage": "uploads/paldor-peak-climbing.jpg",
+  "mapImage": "images/packages/maps/paldor-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:45.289Z"
 }

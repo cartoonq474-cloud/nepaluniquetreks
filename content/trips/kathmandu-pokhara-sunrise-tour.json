@@ -229,11 +229,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/nagarkot.JPG",
-    "uploads/kathmandu-durbar-squire.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg",
-    "uploads/nepal-chitwan-jungle-safari.jpg"
+    "images/packages/tours/kathmandu-pokhara-sunrise-tour-nagarkot.jpg",
+    "images/packages/tours/kathmandu-pokhara-sunrise-tour-annapurna-sunrise-view-tour-sarangkot-view-03.jpg",
+    "images/packages/tours/kathmandu-pokhara-sunrise-tour-nar-phu-trek-nepal-04.jpg",
+    "images/packages/tours/kathmandu-pokhara-sunrise-tour-annapurna-base-camp-trek-05.jpg",
+    "images/packages/tours/kathmandu-pokhara-sunrise-tour-family-tours-in-nepal-06.jpg",
+    "images/packages/tours/kathmandu-pokhara-sunrise-tour-mardi-himal-peak-climbing-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T11:00:22.711Z"

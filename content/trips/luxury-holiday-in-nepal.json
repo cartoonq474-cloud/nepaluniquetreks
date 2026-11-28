@@ -239,11 +239,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/luxury holiday in nepal.jpg",
-    "uploads/kathmandu-durbar-squire.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg",
-    "uploads/nagarkot.JPG"
+    "images/packages/tours/luxury-holiday-in-nepal.jpg",
+    "images/packages/tours/luxury-holiday-in-nepal-kathmandu-valley-nagarkot-tour-03.jpg",
+    "images/packages/tours/luxury-holiday-in-nepal-kathmandu-pokhara-tour-04.jpg",
+    "images/packages/tours/luxury-holiday-in-nepal-kathmandu-lumbini-tours-lumbini-1-05.jpg",
+    "images/packages/tours/luxury-holiday-in-nepal-nepal-tour-06.jpg",
+    "images/packages/tours/luxury-holiday-in-nepal-kathmandu-pokhara-lumbini-tours-13-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:56:07.996Z"

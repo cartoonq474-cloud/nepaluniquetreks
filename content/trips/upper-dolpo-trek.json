@@ -616,11 +616,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/upper-dolpo-treks.jpg",
-    "images/treks/pikey-peak/pikey-peak-everest-range-panorama-08.jpg",
-    "images/treks/pikey-peak/pikey-peak-himalayan-sunrise-01.jpg",
-    "images/treks/pikey-peak/pikey-peak-jhapre-stupa-village-03.jpg",
-    "images/treks/pikey-peak/pikey-peak-ridge-trail-view-05.jpg"
+    "images/packages/treks/dolpo-and-remote/upper-dolpo-treks.jpg",
+    "images/packages/treks/dolpo-and-remote/upper-dolpo-trek-kanchenjunga-trek-03.jpg",
+    "images/packages/treks/dolpo-and-remote/upper-dolpo-trek-rolwaling-trek-1-04.jpg",
+    "images/packages/treks/dolpo-and-remote/upper-dolpo-trek-lower-dolpo-trek-nepal-05.jpg",
+    "images/packages/treks/dolpo-and-remote/upper-dolpo-trek-rara-lake-trek-06-06.jpg",
+    "images/packages/treks/dolpo-and-remote/upper-dolpo-trek-gorilla-trekking-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:30.756Z"

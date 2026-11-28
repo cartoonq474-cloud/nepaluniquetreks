@@ -274,20 +274,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Ghorepani Ghandruk Trekking.jpg",
-    "uploads/IMG_3810.JPG",
-    "uploads/GHOREPANI TREK-2.jpg",
-    "uploads/IMG_1728.JPG",
-    "uploads/IMG_4427.JPG",
-    "uploads/IMG_4521.JPG",
-    "uploads/IMG_7376.JPG",
-    "uploads/IMG_1724.JPG",
-    "uploads/IMG_6402.JPG",
-    "uploads/IMG_1785.JPG",
-    "uploads/DSCN4178.JPG",
-    "uploads/IMG_1755.JPG",
-    "uploads/IMG_5517.JPG"
+    "images/packages/treks/annapurna/ghorepani-ghandruk-trekking.jpg",
+    "images/packages/treks/annapurna/ghorepani-ghandruk-trek-09.jpg",
+    "images/packages/treks/annapurna/ghorepani-ghandruk-trek-10.jpg",
+    "images/packages/treks/annapurna/ghorepani-ghandruk-trek-03.jpg",
+    "images/packages/treks/annapurna/ghorepani-ghandruk-trek.jpg",
+    "images/packages/treks/annapurna/ghorepani-ghandruk-trek-02.jpg"
   ],
-  "mapImage": "uploads/nepal-unique-treks-logo.jpg",
+  "mapImage": "images/packages/maps/ghorepani-ghandruk-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:09.959Z"
 }

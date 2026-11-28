@@ -172,11 +172,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/Ghalegau.JPG",
-    "uploads/kathmandu-durbar-squire.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg",
-    "uploads/nagarkot.JPG"
+    "images/packages/tours/ghale-gaun-village-tour-ghalegau.jpg",
+    "images/packages/tours/ghale-gaun-village-tour-chisapani-nagarkot-hike-03.jpg",
+    "images/packages/tours/ghale-gaun-village-tour-ghorepani-ghandruk-trekking-04.jpg",
+    "images/packages/tours/ghale-gaun-village-tour-timal-trek-06-05.jpg",
+    "images/packages/tours/ghale-gaun-village-tour-namobuddha-hiking-namobudha-hiking-06.jpg",
+    "images/packages/tours/ghale-gaun-village-tour-sivapuri-hiking-shivapuri-hiking-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:56:08.464Z"

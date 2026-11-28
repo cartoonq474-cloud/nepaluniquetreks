@@ -237,11 +237,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/sirubari-village-homestay.jpg",
-    "uploads/kathmandu-durbar-squire.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg",
-    "uploads/nagarkot.JPG"
+    "images/packages/tours/sirubari-village-tour-chisapani-nagarkot-hike.jpg",
+    "images/packages/tours/sirubari-village-tour-ghorepani-ghandruk-trekking-02.jpg",
+    "images/packages/tours/sirubari-village-tour-ghale-gaun-village-tour-ghalegau-03.jpg",
+    "images/packages/tours/sirubari-village-tour-timal-trek-06-04.jpg",
+    "images/packages/tours/sirubari-village-tour-namobuddha-hiking-namobudha-hiking-05.jpg",
+    "images/packages/tours/sirubari-village-tour-sivapuri-hiking-shivapuri-hiking-06.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:55:57.958Z"

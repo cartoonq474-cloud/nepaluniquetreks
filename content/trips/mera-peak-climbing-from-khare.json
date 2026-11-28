@@ -204,11 +204,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/mera-peak.jpg",
-    "uploads/mera-peak-climbing.jpeg",
-    "uploads/mera-peak-expedition.jpeg",
-    "uploads/mera-peak-climbing-from-kathmand.jpg",
-    "uploads/mera-peak-from-high-camp.jpeg"
+    "images/packages/treks/peak-climbing/mera-peak-climbing-from-khare.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-from-khare-02.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-from-khare-mera-peak-expedition-04.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-from-khare-mera-peak-from-high-camp-05.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-from-kathmand.jpg",
+    "images/packages/treks/peak-climbing/mera-peak-climbing-from-khare-trail-6.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:59:18.915Z"

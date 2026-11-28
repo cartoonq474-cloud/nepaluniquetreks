@@ -177,11 +177,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/lumbini-1.jpg",
-    "uploads/kathmandu-durbar-squire.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg",
-    "uploads/nagarkot.JPG"
+    "images/packages/tours/kathmandu-lumbini-tours-lumbini-1.jpg",
+    "images/packages/tours/kathmandu-lumbini-tours-kathmandu-valley-nagarkot-tour-03.jpg",
+    "images/packages/tours/kathmandu-lumbini-tours-kathmandu-pokhara-tour-04.jpg",
+    "images/packages/tours/kathmandu-lumbini-tours-kathmandu-pokhara-chitwan-lumbini-tour-architecture-05.jpg",
+    "images/packages/tours/kathmandu-lumbini-tours-nepal-tour-06.jpg",
+    "images/packages/tours/kathmandu-lumbini-tours-kathmandu-pokhara-lumbini-tours-13-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:56:07.572Z"

@@ -295,12 +295,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/ruby valley trek-2.jpg",
-    "uploads/ruby valley trek 4-1.jpg",
-    "uploads/ruby valley trek 2-1.jpg",
-    "uploads/ruby valley trek 3-1.jpg",
-    "uploads/ruby valley trek 1-1.jpg"
+    "images/packages/treks/langtang-and-ganesh/ruby-valley-trekking-fikuri-hill-trek.jpg",
+    "images/packages/treks/langtang-and-ganesh/ruby-valley-trekking-ganesh-himal-singla-pass-trek-1-02.jpg",
+    "images/packages/treks/langtang-and-ganesh/ruby-valley-trekking-ganesh-himal-base-camp-trek-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/ruby-valley-trek-2.jpg",
+    "images/packages/treks/langtang-and-ganesh/ruby-valley-trek-1-1.jpg",
+    "images/packages/treks/langtang-and-ganesh/ruby-valley-trek-2-1.jpg"
   ],
-  "mapImage": "uploads/ruby-valley-trekking.jpg",
+  "mapImage": "images/packages/maps/ruby-valley-trekking-route-map.jpg",
   "fetchedAt": "2026-11-28T10:55:55.435Z"
 }

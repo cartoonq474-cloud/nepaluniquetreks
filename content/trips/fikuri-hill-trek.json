@@ -306,12 +306,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/fikuri hill trek (1).jpg",
-    "images/treks/langtang-valley/langtang-trek-hiker-mountain-view-03.jpg",
-    "images/treks/langtang-valley/langtang-trek-hiker-rocky-viewpoint-06.jpg",
-    "images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg",
-    "images/treks/langtang-valley/langtang-trek-trekkers-mountain-view-01.jpg"
+    "images/packages/treks/langtang-and-ganesh/fikuri-hill-trek.jpg",
+    "images/packages/treks/langtang-and-ganesh/fikuri-hill-trek-ganesh-himal-singla-pass-trek-1-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/fikuri-hill-trek-ganesh-himal-base-camp-trek-04.jpg",
+    "images/packages/treks/langtang-and-ganesh/fikuri-hill-trek-ruby-valley-trek-2-05.jpg",
+    "images/packages/treks/langtang-and-ganesh/fikuri-hill-trek-ganesh-himal-ruby-valley-trek-ruby-valley-trek-1-06.jpg",
+    "images/packages/treks/langtang-and-ganesh/fikuri-hill-trek-ganesh-himal-view-trek-07.jpg"
   ],
-  "mapImage": "uploads/nepal-unique-treks-logo.jpg",
+  "mapImage": "images/packages/maps/fikuri-hill-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:29.884Z"
 }

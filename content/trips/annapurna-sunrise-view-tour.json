@@ -275,12 +275,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/sarangkot-view.jpg",
-    "uploads/IMG_6806.JPG",
-    "uploads/IMG_6829.JPG",
-    "uploads/IMG_6816.JPG",
-    "uploads/IMG_6826.JPG",
-    "uploads/IMG_6810.JPG"
+    "images/packages/tours/annapurna-sunrise-view-tour-sarangkot-view.jpg",
+    "images/packages/tours/annapurna-sunrise-view-tour-05.jpg",
+    "images/packages/tours/annapurna-sunrise-view-tour.jpg",
+    "images/packages/tours/annapurna-sunrise-view-tour-02.jpg",
+    "images/packages/tours/annapurna-sunrise-view-tour-03.jpg",
+    "images/packages/tours/annapurna-sunrise-view-tour-04.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:59:08.763Z"

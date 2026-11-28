@@ -537,21 +537,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/IMG_20170406_110500.jpg",
-    "uploads/IMG_4514.JPG",
-    "uploads/IMG_4445.JPG",
-    "uploads/IMG_4431-1.JPG",
-    "uploads/IMG_4410.JPG",
-    "uploads/IMG_4395.JPG",
-    "uploads/IMG_4537.JPG",
-    "uploads/IMG_4607.JPG",
-    "uploads/IMG_6073.JPG",
-    "uploads/IMG_6080.JPG",
-    "uploads/IMG_4616.JPG",
-    "uploads/IMG_4691.JPG",
-    "uploads/IMG_6084.JPG",
-    "uploads/IMG_4706.JPG"
+    "images/packages/treks/everest/everest-base-camp-trek-by-road.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-by-road-02.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-by-road-03.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-by-road-04.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-by-road-05.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-by-road-06.jpg"
   ],
-  "mapImage": "uploads/nepal-unique-treks-logo.jpg",
+  "mapImage": "images/packages/maps/everest-base-camp-trek-by-road-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:26.460Z"
 }

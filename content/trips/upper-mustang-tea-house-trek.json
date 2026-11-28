@@ -540,12 +540,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/upper-mustang-teahouse-trekking.jpg",
-    "uploads/upper-mustang-teahouse-trek.jpg",
-    "uploads/upper-mustang-kagbeni-village.jpg",
-    "uploads/upper-mustang-in-summer-seasson.jpg",
-    "uploads/upper-mustang-trekking.jpg"
+    "images/packages/treks/mustang/upper-mustang-teahouse-trekking.jpg",
+    "images/packages/treks/mustang/upper-mustang-overland-jeep-tour-04.jpg",
+    "images/packages/treks/mustang/upper-mustang-teahouse-trek.jpg",
+    "images/packages/treks/mustang/upper-mustang-tea-house-trek-mustang-damodar-kunda-trek-05.jpg",
+    "images/packages/treks/mustang/upper-mustang-trekking.jpg",
+    "images/packages/treks/mustang/upper-mustang-kagbeni-village.jpg"
   ],
-  "mapImage": "uploads/upper-mustang-overland-jeep-tour-2.jpg",
+  "mapImage": "images/packages/maps/upper-mustang-tea-house-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:17.564Z"
 }

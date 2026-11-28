@@ -466,21 +466,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/langtang-gosaikunda-lake-trek.jpg",
-    "uploads/IMG_3276.JPG",
-    "uploads/IMG_3094.JPG",
-    "uploads/IMG_3992.JPG",
-    "uploads/IMG_3692.JPG",
-    "uploads/IMG_3987.JPG",
-    "uploads/IMG_3743-1.JPG",
-    "uploads/IMG_3632.JPG",
-    "uploads/IMG_3627-3.JPG",
-    "uploads/IMG_3733.JPG",
-    "uploads/IMG_3701.JPG",
-    "uploads/IMG_3574.JPG",
-    "uploads/IMG_3481.JPG",
-    "uploads/DSC_8708.JPG"
+    "images/packages/treks/langtang-and-ganesh/langtang-gosaikunda-lake-trek-13.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-gosaikunda-lake-trek.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-gosaikunda-lake-trek-02.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-gosaikunda-lake-trek-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-gosaikunda-lake-trek-04.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-gosaikunda-lake-trek-05.jpg"
   ],
-  "mapImage": "uploads/langtang-gosaikunda-lake-trek-1.jpg",
+  "mapImage": "images/packages/maps/langtang-gosaikunda-lake-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:21.974Z"
 }

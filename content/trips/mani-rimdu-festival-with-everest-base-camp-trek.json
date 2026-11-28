@@ -543,14 +543,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/mani-rimdu-festivel.jpg",
-    "uploads/img-8859.jpg",
-    "uploads/monk-in-tengbuche.jpg",
-    "uploads/img-6026.jpg",
-    "uploads/img-5895.jpg",
-    "uploads/everest-base-camp.jpg",
-    "uploads/tengbuche-monastery.jpg"
+    "images/packages/treks/everest/mani-rimdu-festival-with-everest-base-camp-trek-monk-in-tengbuche.jpg",
+    "images/packages/treks/everest/mani-rimdu-festival-with-everest-base-camp-trek-tengbuche-monastery.jpg",
+    "images/packages/treks/everest/mani-rimdu-festival-with-everest-base-camp-trek.jpg",
+    "images/packages/treks/everest/mani-rimdu-festival-with-everest-base-camp-trek-02.jpg",
+    "images/packages/treks/everest/mani-rimdu-festival-with-everest-base-camp-trek-03.jpg",
+    "images/packages/treks/everest/mani-rimdu-festival-with-everest-base-camp-trek-04.jpg"
   ],
-  "mapImage": "uploads/mani-rimdu-festival-with-everest-base-camp-trek.jpg",
+  "mapImage": "images/packages/maps/mani-rimdu-festival-with-everest-base-camp-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:45.672Z"
 }

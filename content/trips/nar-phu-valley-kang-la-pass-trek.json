@@ -493,18 +493,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/nar-phu-valley-kang-la-pass-trekking.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.32_d3fcad86.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.13_4339c990.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.20_eebe1884.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.31_1a547ecc.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.23_c1911f1a.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.37_5d18c728.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.36_e8b55f84.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.27_953791cc.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.33_ee748c82.jpg",
-    "uploads/WhatsApp Image 2025-10-07 at 14.24.25_e7654943.jpg"
+    "images/packages/treks/annapurna/nar-phu-valley-kang-la-pass-trekking.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-kang-la-pass-trek.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-kang-la-pass-trek-02.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-kang-la-pass-trek-03.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-kang-la-pass-trek-04.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-kang-la-pass-trek-05.jpg"
   ],
-  "mapImage": "uploads/nar-phu-valley-kang-la-pass-trek.jpg",
+  "mapImage": "images/packages/maps/nar-phu-valley-kang-la-pass-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:26.444Z"
 }

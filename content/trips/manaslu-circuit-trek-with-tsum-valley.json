@@ -503,12 +503,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/manasulutrek.jpg",
-    "images/treks/manaslu-circuit/manaslu-circuit-larkya-la-pass-mountain-panorama-1.jpg",
-    "images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-04.jpg",
-    "images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-closeup-05.jpg",
-    "images/treks/manaslu-circuit/manaslu-circuit-mountain-sunrise-clouds-11.jpg"
+    "images/packages/treks/manaslu/manaslu-circuit-trek-with-tsum-valley-manasulutrek.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-with-tsum-valley-tsum-valley-trek-08-03.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-gurung-heritage-trekking-trails.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-02.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-with-tsum-valley-manaslu-exppp-06.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-treks.jpg"
   ],
-  "mapImage": "uploads/manaslu-circuit-trek-with-tsum-valley.jpg",
+  "mapImage": "images/packages/maps/manaslu-circuit-trek-with-tsum-valley-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:31.572Z"
 }

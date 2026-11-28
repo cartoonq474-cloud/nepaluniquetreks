@@ -304,16 +304,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Pach Pokhari Trek.jpg",
-    "uploads/689767806_1577747520683671_6967046383087503072_n.jpg",
-    "uploads/Panch Pokhari.jpg",
-    "uploads/519404542_1409585740256069_33001.jpg",
-    "uploads/486819164_9272893172758968_3540423795858308713_n.jpg",
-    "uploads/658992381_1382162803940248_7569971179610830349_n.jpg",
-    "uploads/552563184_18289530493280021_636434375850485238_n.jpg",
-    "uploads/552920379_18478806292072821_1594478409742678618_n.jfif",
-    "uploads/658635301_1382162767273585_7980511587115591783_n.jpg"
+    "images/packages/treks/dolpo-and-remote/panch-pokhari-trek-02.jpg",
+    "images/packages/treks/dolpo-and-remote/panch-pokhari-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/panch-pokhari-trek-06.jpg",
+    "images/packages/treks/dolpo-and-remote/panch-pokhari-trek-08.jpg",
+    "images/packages/treks/dolpo-and-remote/panch-pokhari-trek-pach-pokhari-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/panch-pokhari-trek-05.jpg"
   ],
-  "mapImage": "uploads/nepal-unique-treks-logo.jpg",
+  "mapImage": "images/packages/maps/panch-pokhari-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:38.568Z"
 }

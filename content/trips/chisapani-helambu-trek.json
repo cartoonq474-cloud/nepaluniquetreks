@@ -245,12 +245,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Chisapani Helambu Trek.jpg",
-    "images/treks/ghorepani-poon-hill/poon-hill-sunrise.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-morning-light-24.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-14.jpg",
-    "images/treks/mardi-himal/mardi-himal-annapurna-range-sunrise-32.jpg"
+    "images/packages/treks/langtang-and-ganesh/chisapani-helambu-trek.jpg",
+    "images/packages/treks/langtang-and-ganesh/chisapani-helambu-trek-1.jpg",
+    "images/packages/treks/langtang-and-ganesh/chisapani-helambu-trek-chisapani-nagarkot-hike-04.jpg",
+    "images/packages/treks/langtang-and-ganesh/chisapani-helambu-trek-ghale-gaun-village-tour-ghalegau-05.jpg",
+    "images/packages/treks/langtang-and-ganesh/chisapani-helambu-trek-timal-trek-06-06.jpg",
+    "images/packages/treks/langtang-and-ganesh/chisapani-helambu-trek-namobuddha-hiking-namobudha-hiking-07.jpg"
   ],
-  "mapImage": "uploads/nepal-unique-treks-logo.jpg",
+  "mapImage": "images/packages/maps/chisapani-helambu-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:05.820Z"
 }

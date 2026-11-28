@@ -664,18 +664,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Everest Base Camp Trek.jpg",
-    "uploads/22ebc.jpg",
-    "uploads/21ebc.jpg",
-    "uploads/8ebc.jpg",
-    "uploads/7ebc.jpg",
-    "uploads/6ebc.jpg",
-    "uploads/4ebc.jpg",
-    "uploads/3ebc.jpg",
-    "uploads/2ebc.jpg",
-    "uploads/18ebc.jpg",
-    "uploads/12ebc.jpg"
+    "images/packages/treks/everest/everest-base-camp-trek-12ebc.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-18ebc.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-21ebc.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-22ebc.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-2ebc.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-3ebc.jpg"
   ],
-  "mapImage": "uploads/everest-base-camp-trek-15-days.jpg",
+  "mapImage": "images/packages/maps/everest-base-camp-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:39:46.090Z"
 }

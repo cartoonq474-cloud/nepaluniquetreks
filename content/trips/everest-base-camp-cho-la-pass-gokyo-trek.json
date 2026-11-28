@@ -588,17 +588,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Everest Base Camp with Chola Pass Gokyo .jpg",
-    "uploads/IMG_8411-EDIT.jpg",
-    "uploads/ab189974-f897-4c66-b19a-08ce307acc93.jfif",
-    "uploads/cef0097e-02b9-45ba-b67b-f78e643cdceb.jfif",
-    "uploads/3d26e077-88b6-4d25-a266-e6433f848aee.jfif",
-    "uploads/7f83a320-1a9f-42b2-b77e-bd5bf973b5b3.jfif",
-    "uploads/IMG_5291.JPG",
-    "uploads/IMG_20171018_111416.jpg",
-    "uploads/IMG_5607.JPG",
-    "uploads/IMG_6764.JPG"
+    "images/packages/treks/everest/everest-base-camp-cho-la-pass-gokyo-trek.jpg",
+    "images/packages/treks/everest/everest-base-camp-cho-la-pass-gokyo-trek-02.jpg",
+    "images/packages/treks/everest/everest-base-camp-cho-la-pass-gokyo-trek-03.jpg",
+    "images/packages/treks/everest/everest-base-camp-cho-la-pass-gokyo-trek-04.jpg",
+    "images/packages/treks/everest/everest-base-camp-cho-la-pass-gokyo-trek-08.jpg",
+    "images/packages/treks/everest/everest-base-camp-cho-la-pass-gokyo-trek-09.jpg"
   ],
-  "mapImage": "uploads/everest-base-camp-cho-la-pass-gokyo-trek.jpg",
+  "mapImage": "images/packages/maps/everest-base-camp-cho-la-pass-gokyo-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:40.686Z"
 }

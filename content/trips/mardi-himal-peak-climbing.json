@@ -436,12 +436,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Mardi Himal Peak Climbing.jpg",
-    "images/treks/annapurna-base-camp/abc-hero.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-annapurna-range-sunrise-03.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-mountain-sunrise-04.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-snow-covered-mountain-valley-10.jpg"
+    "images/packages/treks/peak-climbing/mardi-himal-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/mardi-himal-peak-climbing-annapurna-sunrise-view-tour-sarangkot-view-03.jpg",
+    "images/packages/treks/peak-climbing/mardi-himal-peak-climbing-nar-phu-trek-nepal-04.jpg",
+    "images/packages/treks/peak-climbing/mardi-himal-peak-climbing-kathmandu-pokhara-sunrise-tour-nagarkot-05.jpg",
+    "images/packages/treks/peak-climbing/mardi-himal-peak-climbing-annapurna-base-camp-trek-06.jpg",
+    "images/packages/treks/peak-climbing/mardi-himal-peak-climbing-family-tours-in-nepal-07.jpg"
   ],
-  "mapImage": "uploads/mardi-himal-peak-climbing.jpg",
+  "mapImage": "images/packages/maps/mardi-himal-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:15.498Z"
 }

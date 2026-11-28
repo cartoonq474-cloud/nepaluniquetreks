@@ -556,11 +556,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/lower-dolpo-trek-nepal.jpg",
-    "uploads/juphal-airport.jpg",
-    "uploads/lower-dolpo.jpg",
-    "uploads/000-1.jpg",
-    "uploads/media-fd4bbb61-1748329669.jpg"
+    "images/packages/treks/dolpo-and-remote/lower-dolpo-trek-nepal.jpg",
+    "images/packages/treks/dolpo-and-remote/lower-dolpo-trek-media-fd4bbb61.jpg",
+    "images/packages/treks/dolpo-and-remote/lower-dolpo-trek-02.jpg",
+    "images/packages/treks/dolpo-and-remote/lower-dolpo-trek-juphal-airport.jpg",
+    "images/packages/treks/dolpo-and-remote/lower-dolpo-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/lower-dolpo-trek-kanchenjunga-trek-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:33.856Z"

@@ -404,16 +404,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/IMG_8018.jpg",
-    "uploads/IMG_7822.jpg",
-    "uploads/IMG_3743.JPG",
-    "uploads/IMG_3507-1.JPG",
-    "uploads/IMG_3834-2.JPG",
-    "uploads/IMG_3859.JPG",
-    "uploads/IMG_4022.JPG",
-    "uploads/IMG_3682.JPG",
-    "uploads/IMG_3621.JPG"
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-treks.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-treks-04.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-treks-02.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-treks-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-treks-05.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-treks-06.jpg"
   ],
-  "mapImage": "uploads/langtang-valley-trek.jpg",
+  "mapImage": "images/packages/maps/langtang-valley-treks-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:02.554Z"
 }

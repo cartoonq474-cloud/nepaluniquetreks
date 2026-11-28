@@ -409,18 +409,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/upper-mustang-tiji-festivel-trek.jpg",
-    "uploads/DSC02059.JPG",
-    "uploads/DSC01194.JPG",
-    "uploads/DSC01164.JPG",
-    "uploads/DSC01894.JPG",
-    "uploads/DSC00951.JPG",
-    "uploads/DSC01230.JPG",
-    "uploads/DSC00997.JPG",
-    "uploads/DSC01518.JPG",
-    "uploads/DSC01082.JPG",
-    "uploads/DSC01504.JPG"
+    "images/packages/treks/mustang/mustang-tiji-festival-trek-upper-mustang-tiji-festivel-trek.jpg",
+    "images/packages/treks/mustang/mustang-tiji-festival-trek-dsc00951.jpg",
+    "images/packages/treks/mustang/mustang-tiji-festival-trek-dsc00997.jpg",
+    "images/packages/treks/mustang/mustang-tiji-festival-trek-dsc01164.jpg",
+    "images/packages/treks/mustang/mustang-tiji-festival-trek-dsc01194.jpg",
+    "images/packages/treks/mustang/mustang-tiji-festival-trek-dsc01230.jpg"
   ],
-  "mapImage": "uploads/upper-mustang-tiji-festival-trek.jpg",
+  "mapImage": "images/packages/maps/mustang-tiji-festival-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:05.537Z"
 }

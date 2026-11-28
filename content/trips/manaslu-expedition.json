@@ -619,14 +619,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/MANASLU EXPPP.jpg",
-    "uploads/MANASLU EXPP.jpg",
-    "uploads/manasluexppp.jpg",
-    "uploads/MANASLU-7.jpg",
-    "uploads/MANASLU EXP.jpg",
-    "uploads/manaslu expppp.jpg",
-    "uploads/MANASLU EXPPPPP.jpg",
-    "uploads/IMG_5740.JPG"
+    "images/packages/treks/peak-climbing/manaslu-expedition-02.jpg",
+    "images/packages/treks/peak-climbing/manaslu-expedition-manasluexppp.jpg",
+    "images/packages/treks/peak-climbing/manaslu-expedition.jpg",
+    "images/packages/treks/peak-climbing/manaslu-expedition-tsum-valley-trek-08-04.jpg",
+    "images/packages/treks/peak-climbing/manaslu-expedition-manaslu-circuit-trek-gurung-heritage-trekking-trails-05.jpg",
+    "images/packages/treks/peak-climbing/manaslu-expedition-manaslu-7-06.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:39.067Z"

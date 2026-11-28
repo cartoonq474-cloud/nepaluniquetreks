@@ -459,22 +459,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/everest-base-camp-trek-with-heli-return.jpg",
-    "uploads/IMG_8044-1.JPG",
-    "uploads/IMG_6194-2.JPG",
-    "uploads/IMG_5238-1.JPG",
-    "uploads/IMG_5263-1.JPG",
-    "uploads/IMG_5404-1.JPG",
-    "uploads/IMG_E1505-1.JPG",
-    "uploads/IMG_E1206-4.JPG",
-    "uploads/IMG_8681-4.JPG",
-    "uploads/IMG_1990-1.JPG",
-    "uploads/IMG_1445-1.JPG",
-    "uploads/IMG_1562-1.JPG",
-    "uploads/IMG_1372-1.JPG",
-    "uploads/IMG_1340-1.JPG",
-    "uploads/IMG_1737-1.JPG"
+    "images/packages/treks/everest/everest-base-camp-trek-with-heli-return-08.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-with-heli-return-09.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-with-heli-return-10.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-with-heli-return-12.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-with-heli-return-14.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek-with-heli-return-13.jpg"
   ],
-  "mapImage": "uploads/everest-base-camp-trek-with-heli-return-1.jpg",
+  "mapImage": "images/packages/maps/everest-base-camp-trek-with-heli-return-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:36.777Z"
 }

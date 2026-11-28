@@ -381,14 +381,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/nar-phu-trek-nepal.jpg",
-    "uploads/KONGMLA.jpg",
-    "uploads/KONGMALA.jpg",
-    "uploads/KONG MA LAA.jpg",
-    "uploads/KANG LA PASS.jpg",
-    "uploads/nar-phu-village-of-manang.jpg",
-    "uploads/nar-phu-village-nepal.jpg"
+    "images/packages/treks/annapurna/nar-phu-valley-trek-kang-la-pass.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-trek-kong-ma-laa.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-trek-kongmala.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-trek-kongmla.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-trek-nar-phu-village-nepal-05.jpg",
+    "images/packages/treks/annapurna/nar-phu-valley-trek-nar-phu-village-of-manang-06.jpg"
   ],
-  "mapImage": "uploads/nar-phu-valley-trek-11-days.jpg",
+  "mapImage": "images/packages/maps/nar-phu-valley-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:42.255Z"
 }

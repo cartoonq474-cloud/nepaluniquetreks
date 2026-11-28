@@ -595,13 +595,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/lobuche-east-peak-summit-6119m.jpg",
-    "uploads/1745471357348-274831718393160356-3907654721879145806-bac0a70a2669c2dd1657202e369cdc02.jpg",
-    "uploads/lobuche-east-peak-summit-at-6119-meters.jpg",
-    "uploads/img-8173.jpg",
-    "uploads/lobuche-peak-summit-route.jpg",
-    "uploads/dscn0336.jpg"
+    "images/packages/treks/peak-climbing/lobuche-peak-climbing-dscn0336.jpg",
+    "images/packages/treks/peak-climbing/lobuche-peak-climbing-02.jpg",
+    "images/packages/treks/peak-climbing/lobuche-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/lobuche-peak-climbing-mera-peak-climbing-03-04.jpg",
+    "images/packages/treks/peak-climbing/lobuche-peak-climbing-everest-base-camp-helicopter-tour-with-05.jpg",
+    "images/packages/treks/peak-climbing/lobuche-peak-climbing-everest-high-pass-with-island-peak-18-06.jpg"
   ],
-  "mapImage": "uploads/lobuche-peak-climbing-map.jpg",
+  "mapImage": "images/packages/maps/lobuche-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:01.552Z"
 }

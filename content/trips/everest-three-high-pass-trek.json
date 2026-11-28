@@ -647,28 +647,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/IMG_4495.JPG",
-    "uploads/IMG_5336.JPG",
-    "uploads/IMG_5426.JPG",
-    "uploads/IMG_4397.JPG",
-    "uploads/IMG_4526.JPG",
-    "uploads/IMG_4500.JPG",
-    "uploads/IMG_5552.JPG",
-    "uploads/IMG_4628.JPG",
-    "uploads/IMG_5456.JPG",
-    "uploads/IMG_4431.JPG",
-    "uploads/IMG_4649.JPG",
-    "uploads/IMG_4458.JPG",
-    "uploads/IMG_5496.JPG",
-    "uploads/IMG_5548.JPG",
-    "uploads/IMG_4467.JPG",
-    "uploads/IMG_4701.JPG",
-    "uploads/IMG_4746.JPG",
-    "uploads/IMG_4757.JPG",
-    "uploads/IMG_4856.JPG",
-    "uploads/IMG_4879.JPG",
-    "uploads/IMG_4949.JPG"
+    "images/packages/treks/everest/everest-three-high-pass-trek.jpg",
+    "images/packages/treks/everest/everest-three-high-pass-trek-02.jpg",
+    "images/packages/treks/everest/everest-three-high-pass-trek-03.jpg",
+    "images/packages/treks/everest/everest-three-high-pass-trek-04.jpg",
+    "images/packages/treks/everest/everest-three-high-pass-trek-05.jpg",
+    "images/packages/treks/everest/everest-three-high-pass-trek-06.jpg"
   ],
-  "mapImage": "uploads/everest-three-high-pass-trek-20-days.jpg",
+  "mapImage": "images/packages/maps/everest-three-high-pass-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:13.541Z"
 }

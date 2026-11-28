@@ -362,12 +362,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/upper-mustang-overland-jeep-tour.jpg",
-    "uploads/upper-mustang-overland-jeep-tour-1.jpg",
-    "uploads/574052609_2732227493647084_1956033532898978123_n.jpg",
-    "uploads/487170669_2529278353942000_6126277048476314438_n.jpg",
-    "uploads/487165410_2527688127434356_6029436778403077220_n.jpg",
-    "uploads/Upper Mustang Overland Jeep Tour.jpg"
+    "images/packages/tours/upper-mustang-overland-jeep-tour.jpg",
+    "images/packages/tours/upper-mustang-overland-jeep-tour-02.jpg",
+    "images/packages/tours/upper-mustang-overland-jeep-tour-04.jpg",
+    "images/packages/tours/upper-mustang-overland-jeep-tour-03.jpg",
+    "images/packages/tours/upper-mustang-overland-jeep-tour-1.jpg",
+    "images/packages/tours/upper-mustang-overland-jeep-tour-05.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T11:00:23.963Z"

@@ -167,12 +167,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Mardi Himal trek from Pokhara.jpg",
-    "images/treks/annapurna-base-camp/abc-hero.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-annapurna-range-sunrise-03.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-mountain-sunrise-04.jpg",
-    "images/treks/annapurna-base-camp/annapurna-base-camp-snow-covered-mountain-valley-10.jpg"
+    "images/packages/treks/annapurna/mardi-himal-trek-from-pokhara.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-from-pokhara-andrew-simon.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-from-pokhara-annapurna-sunrise-view-tour-sarangkot-view-04.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-from-pokhara-nar-phu-trek-nepal-05.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-from-pokhara-kathmandu-pokhara-sunrise-tour-nagarkot-06.jpg",
+    "images/packages/treks/annapurna/mardi-himal-trek-from-pokhara-annapurna-base-camp-trek-07.jpg"
   ],
-  "mapImage": "uploads/mardi-himal-trek-from-pokhara.jpg",
+  "mapImage": "images/packages/maps/mardi-himal-trek-from-pokhara-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:22.930Z"
 }

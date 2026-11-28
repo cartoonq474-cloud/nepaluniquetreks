@@ -152,16 +152,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/IMG_20161016_132118 (1).jpg",
-    "uploads/IMG_8664.JPG",
-    "uploads/IMG_8681-1.JPG",
-    "uploads/IMG_9094.JPG",
-    "uploads/IMG_7806.jpg",
-    "uploads/IMG_20161018_110222-1.jpg",
-    "uploads/IMG_20161016_132052.jpg",
-    "uploads/IMG_9121.JPG",
-    "uploads/IMG_1239.JPG",
-    "uploads/IMG_6891.JPG"
+    "images/packages/tours/everest-heli-tour-with-breakfast-03.jpg",
+    "images/packages/tours/everest-heli-tour-with-breakfast-02.jpg",
+    "images/packages/tours/everest-heli-tour-with-breakfast-04.jpg",
+    "images/packages/tours/everest-heli-tour-with-breakfast-05.jpg",
+    "images/packages/tours/everest-heli-tour-with-breakfast-06.jpg",
+    "images/packages/tours/everest-heli-tour-with-breakfast-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T11:00:24.395Z"

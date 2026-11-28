@@ -510,16 +510,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/thorong-la-pass-trek.jpg",
-    "uploads/way-to-go-manag.jpg",
-    "uploads/way-to-go-thorong-la-pass.jpg",
-    "uploads/way-to-go-thorong-la-pass-from-high-camp.jpg",
-    "uploads/trek-to-thorong-la-pass.jpg",
-    "uploads/thorong-la-pass.jpg",
-    "uploads/annapurna-circuit-with-thorong-la-pass.jpg",
-    "uploads/nar-phu-valley-trek-nepal.jpg",
-    "uploads/muktinath-temple.jpg",
-    "uploads/narphu-valley-with-thorong-la-pass-trek.jpg"
+    "images/packages/treks/annapurna/thorong-la-pass-trek-annapurna-circuit-with-thorong-la-pass.jpg",
+    "images/packages/treks/annapurna/thorong-la-pass-trek-nar-phu-valley-trek-nepal.jpg",
+    "images/packages/treks/annapurna/thorong-la-pass-trek-trek-to-thorong-la-pass.jpg",
+    "images/packages/treks/annapurna/thorong-la-pass-trek-way-to-go-thorong-la-pass-from-high-camp.jpg",
+    "images/packages/treks/annapurna/thorong-la-pass-trek-way-to-go-thorong-la-pass.jpg",
+    "images/packages/treks/annapurna/thorong-la-pass-trek-muktinath-temple.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:44.129Z"

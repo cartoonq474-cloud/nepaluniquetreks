@@ -497,18 +497,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/IMG_8835.JPG",
-    "uploads/IMG_8911.JPG",
-    "uploads/IMG_8173.JPG",
-    "uploads/IMG_8599.JPG",
-    "uploads/IMG_8273.JPG",
-    "uploads/IMG_8314.JPG",
-    "uploads/IMG_8481.JPG",
-    "uploads/IMG_9007.JPG",
-    "uploads/IMG_9083.JPG",
-    "uploads/IMG_8835-1.JPG",
-    "uploads/IMG_8802.JPG"
+    "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek.jpg",
+    "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-02.jpg",
+    "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-03.jpg",
+    "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-04.jpg",
+    "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-05.jpg",
+    "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-06.jpg"
   ],
-  "mapImage": "uploads/ama-dablam-base-camp-trek.jpg",
+  "mapImage": "images/packages/maps/ama-dablam-base-camp-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:14.512Z"
 }

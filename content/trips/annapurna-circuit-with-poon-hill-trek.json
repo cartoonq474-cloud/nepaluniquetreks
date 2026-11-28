@@ -417,20 +417,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/DSCN3292-1.jpg",
-    "uploads/DSCN3171.JPG",
-    "uploads/DSCN3170.JPG",
-    "uploads/DSCN3301.JPG",
-    "uploads/DSCN3482.JPG",
-    "uploads/DSCN3523.JPG",
-    "uploads/DSCN3573.JPG",
-    "uploads/DSCN3613.JPG",
-    "uploads/DSCN3970.JPG",
-    "uploads/DSCN3676.JPG",
-    "uploads/DSCN3827.JPG",
-    "uploads/DSCN3938.JPG",
-    "uploads/IMG_1082.JPG"
+    "images/packages/treks/annapurna/annapurna-circuit-with-poon-hill-trek-dscn3170.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-with-poon-hill-trek-dscn3171.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-with-poon-hill-trek-dscn3292-1.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-with-poon-hill-trek-dscn3301.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-with-poon-hill-trek.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-with-poon-hill-trek-dscn3482.jpg"
   ],
-  "mapImage": "uploads/annapurna-circuit-with-poon-hill-trek-1.jpg",
+  "mapImage": "images/packages/maps/annapurna-circuit-with-poon-hill-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:32.665Z"
 }

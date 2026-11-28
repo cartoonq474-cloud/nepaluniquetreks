@@ -358,12 +358,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/island.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-snow-peak-clouds-16.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+    "images/packages/treks/peak-climbing/island-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/island-peak-climbing-mera-peak-climbing-03-03.jpg",
+    "images/packages/treks/peak-climbing/everest-high-pass-with-island-peak-18.jpg",
+    "images/packages/treks/peak-climbing/everest-base-camp-with-island-peak-climbing-09.jpg",
+    "images/packages/treks/peak-climbing/island-peak-climbing-lobuche-east-peak-summit-6119m-06.jpg",
+    "images/packages/treks/peak-climbing/island-peak-climbing-mardi-himal-peak-climbing-07.jpg"
   ],
-  "mapImage": "uploads/island-peak-climbing-2.jpg",
+  "mapImage": "images/packages/maps/island-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T10:39:45.568Z"
 }

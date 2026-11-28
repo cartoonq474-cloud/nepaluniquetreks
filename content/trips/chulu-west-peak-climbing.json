@@ -611,14 +611,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/chulu-peak-climbing.jpg",
-    "uploads/EVEREST EXPEDITION 2025 SPRING SESSION (1366 x 768 px) (1366 x 900 px) (1366 x 1000 px) (1366 x 768 px) (1366 x 768 px).jpg",
-    "uploads/Chulu West.jpg3.jpg",
-    "uploads/Chulu West.jpg",
-    "uploads/Chulu West.jpg4.jpg",
-    "uploads/Chulu West.jpg1.jpg",
-    "uploads/Chulu West.jpg2.jpg"
+    "images/packages/treks/peak-climbing/chulu-west-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/chulu-west-peak-climbing-everest-expedition-2025-spring-session-1366-x-9.jpg",
+    "images/packages/treks/peak-climbing/chulu-west-peak-climbing-pisang-peak-climbing-1-03.jpg",
+    "images/packages/treks/peak-climbing/chulu-west-peak-climbing-chulu-west-jpg1-04.jpg",
+    "images/packages/treks/peak-climbing/chulu-west-peak-climbing-chulu-west-jpg2-05.jpg",
+    "images/packages/treks/peak-climbing/chulu-west-peak-climbing-chulu-west-jpg3-06.jpg"
   ],
-  "mapImage": "uploads/chulu-west-peak-climbing.jpg",
+  "mapImage": "images/packages/maps/chulu-west-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:12.506Z"
 }

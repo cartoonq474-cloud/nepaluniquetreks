@@ -408,15 +408,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Tsum Valley Trek.jpg",
-    "uploads/697203014_3297752917066038_8750513559030241513_n.jpg",
-    "uploads/693488633_2034669257413416_2890622581725716382_n.jpg",
-    "uploads/693645641_2034669300746745_4118645784822488616_n.jpg",
-    "uploads/696270920_3297752997066030_4797214742253782867_n.jpg",
-    "uploads/687967325_1646781217289255_8162308725037766920_n.jpg",
-    "uploads/689189131_18583395802028132_8554240495980528276_n.jpg",
-    "uploads/691532742_18583395859028132_5828924810691086549_n.jpg"
+    "images/packages/treks/manaslu/tsum-valley-trek-04.jpg",
+    "images/packages/treks/manaslu/tsum-valley-trek-05.jpg",
+    "images/packages/treks/manaslu/tsum-valley-trek-06.jpg",
+    "images/packages/treks/manaslu/tsum-valley-trek-07.jpg",
+    "images/packages/treks/manaslu/tsum-valley-trek-08.jpg",
+    "images/packages/treks/manaslu/tsum-valley-trek.jpg"
   ],
-  "mapImage": "uploads/tsum-valley-trek.jpg",
+  "mapImage": "images/packages/maps/tsum-valley-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:31.710Z"
 }

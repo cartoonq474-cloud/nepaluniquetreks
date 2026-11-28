@@ -255,11 +255,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/ghandruk.jpg",
-    "uploads/kathmandu-durbar-squire.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg",
-    "uploads/nagarkot.JPG"
+    "images/packages/tours/kathmandu-pokhara-ghandruk-tour.jpg",
+    "images/packages/tours/kathmandu-pokhara-ghandruk-tour-kathmandu-valley-nagarkot-tour-03.jpg",
+    "images/packages/tours/kathmandu-pokhara-tour.jpg",
+    "images/packages/tours/kathmandu-pokhara-ghandruk-tour-kathmandu-lumbini-tours-lumbini-1-05.jpg",
+    "images/packages/tours/kathmandu-pokhara-chitwan-lumbini-tour-architecture.jpg",
+    "images/packages/tours/kathmandu-pokhara-ghandruk-tour-nepal-tour-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T11:00:23.529Z"

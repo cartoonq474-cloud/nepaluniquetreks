@@ -458,16 +458,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Annapurna Circuit Trek.jpg",
-    "uploads/IMG_1083.JPG",
-    "uploads/IMG_6421-1.JPG",
-    "uploads/DSCN3328-1.JPG",
-    "uploads/IMG_1566.JPG",
-    "uploads/DSC00782-EDIT.jpg",
-    "uploads/DSCN3611.JPG",
-    "uploads/IMG_1207.JPG",
-    "uploads/DSCN3683.JPG"
+    "images/packages/treks/annapurna/annapurna-circuit-trek-03.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-trek-dsc00782-edit.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-trek-04.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-trek.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-trek-dscn3328-1.jpg",
+    "images/packages/treks/annapurna/annapurna-circuit-trek-02.jpg"
   ],
-  "mapImage": "uploads/annapurna-circuit-trek.jpg",
+  "mapImage": "images/packages/maps/annapurna-circuit-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:04.394Z"
 }

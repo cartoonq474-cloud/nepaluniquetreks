@@ -419,13 +419,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/christmas-new-year-holidays-package-in-nepal.jpg",
-    "uploads/nepal-chitwan-jungle-safari.jpg",
-    "uploads/christmas-nepal-lumbini.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/new-year-celebration-nepal.jpg",
-    "uploads/christmas-nepal-poonhill.jpg"
+    "images/packages/tours/christmas-new-year-holidays-package-in-nepal-pokhara-himalayan-view-wint.jpg",
+    "images/packages/tours/christmas-new-year-holidays-package-in-nepal.jpg",
+    "images/packages/tours/christmas-new-year-holidays-package-in-nepal-nepal-chitwan-jungle-safari.jpg",
+    "images/packages/tours/christmas-new-year-holidays-package-in-nepal-new-year-celebration-nepal.jpg",
+    "images/packages/tours/christmas-nepal-poonhill.jpg",
+    "images/packages/tours/christmas-new-year-holidays-package-in-nepal-annapurna-sunrise-view-tour-sarangkot-view-07.jpg"
   ],
-  "mapImage": "uploads/mapannapurna-trekking-map-9.jpg",
+  "mapImage": "images/packages/maps/christmas-new-year-holidays-package-in-nepal-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:44.587Z"
 }

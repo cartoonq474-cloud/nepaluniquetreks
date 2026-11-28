@@ -586,28 +586,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Untitled (1366 x 768 px).jpg",
-    "uploads/Island-Peak-Climbing-1.jpg",
-    "uploads/IMG_4924.JPG",
-    "uploads/IMG_5279.JPG",
-    "uploads/IMG_4885.JPG",
-    "uploads/IMG_5082.JPG",
-    "uploads/IMG_4965.JPG",
-    "uploads/IMG_4943.JPG",
-    "uploads/IMG_5367.JPG",
-    "uploads/IMG_5408.JPG",
-    "uploads/IMG_5767-1.JPG",
-    "uploads/IMG_5585-1.JPG",
-    "uploads/IMG_5780.JPG",
-    "uploads/P1090001.JPG",
-    "uploads/IMG_5701-1.JPG",
-    "uploads/DSCN0447.JPG",
-    "uploads/IMG_4774.JPG",
-    "uploads/IMG_4871.JPG",
-    "uploads/IMG_5632.JPG",
-    "uploads/IMG_5606.JPG",
-    "uploads/IMG_5003.JPG"
+    "images/packages/treks/peak-climbing/everest-high-pass-with-island-peak-island-peak-climbing-1.jpg",
+    "images/packages/treks/peak-climbing/everest-high-pass-with-island-peak-13.jpg",
+    "images/packages/treks/peak-climbing/everest-high-pass-with-island-peak-dscn0447.jpg",
+    "images/packages/treks/peak-climbing/everest-high-pass-with-island-peak.jpg",
+    "images/packages/treks/peak-climbing/everest-high-pass-with-island-peak-02.jpg",
+    "images/packages/treks/peak-climbing/everest-high-pass-with-island-peak-03.jpg"
   ],
-  "mapImage": "uploads/everest-high-pass-with-island-peak.jpg",
+  "mapImage": "images/packages/maps/everest-high-pass-with-island-peak-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:30.483Z"
 }

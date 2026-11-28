@@ -460,12 +460,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/everest base camp luxury treks.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-high-mountain-sunrise-13.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-cairn-view-18.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-trail-view-12.jpg",
-    "images/treks/everest-base-camp/everest-base-camp-mountain-valley-landscape-06.jpg"
+    "images/packages/treks/everest/everest-base-camp-luxury-treks.jpg",
+    "images/packages/treks/everest/everest-base-camp-luxury-trek-mera-peak-climbing-03-03.jpg",
+    "images/packages/treks/everest/everest-base-camp-helicopter-tour-with.jpg",
+    "images/packages/treks/everest/everest-base-camp-luxury-trek-everest-high-pass-with-island-peak-18-05.jpg",
+    "images/packages/treks/everest/everest-base-camp-trek.jpg",
+    "images/packages/treks/everest/everest-base-camp-with-island-peak-climbing-09.jpg"
   ],
-  "mapImage": "uploads/everest-base-camp-luxury-trek.jpg",
+  "mapImage": "images/packages/maps/everest-base-camp-luxury-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:19.989Z"
 }

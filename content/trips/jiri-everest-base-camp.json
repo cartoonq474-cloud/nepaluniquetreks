@@ -528,14 +528,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Jiri to Everest Base Camp Trek.jpg",
-    "uploads/004e7fcd-970b-4017-9312-fc91fed078a5.jpg",
-    "uploads/IMG_1966.JPG",
-    "uploads/IMG_1912.JPG",
-    "uploads/IMG_1905-1.JPG",
-    "uploads/IMG_1984.JPG",
-    "uploads/IMG_1698.JPG"
+    "images/packages/treks/everest/jiri-everest-base-camp.jpg",
+    "images/packages/treks/everest/jiri-everest-base-camp-02.jpg",
+    "images/packages/treks/everest/jiri-everest-base-camp-03.jpg",
+    "images/packages/treks/everest/jiri-everest-base-camp-04.jpg",
+    "images/packages/treks/everest/jiri-everest-base-camp-05.jpg",
+    "images/packages/treks/everest/jiri-everest-base-camp-06.jpg"
   ],
-  "mapImage": "uploads/jiri-to-everest-base-camp-trek.jpg",
+  "mapImage": "images/packages/maps/jiri-everest-base-camp-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:05.388Z"
 }

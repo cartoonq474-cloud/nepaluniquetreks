@@ -619,12 +619,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/000.jpg",
-    "uploads/EVEREST EXPEDITION 2025 SPRING SESSION (1366 x 768 px) (1366 x 900 px) (1366 x 1000 px) (1366 x 768 px) (1366 x 768 px) (2).jpg",
-    "uploads/EVEREST EXPEDITION 2025 SPRING SESSION (1366 x 768 px) (1366 x 900 px) (1366 x 1000 px) (1366 x 768 px) (1366 x 768 px) (1)-1.jpg",
-    "uploads/Chulu west peak climbing.jpg",
-    "uploads/EVEREST EXPEDITION 2025 SPRING SESSION (1366 x 768 px) (1366 x 900 px) (1366 x 1000 px) (1366 x 768 px) (1366 x 768 px).jpg"
+    "images/packages/treks/peak-climbing/chulu-far-east-peak-climbing.jpg",
+    "images/packages/treks/peak-climbing/chulu-far-east-peak-climbing-everest-expedition-2025-spring-session-1366.jpg",
+    "images/packages/treks/peak-climbing/chulu-far-east-peak-climbing-chulu-west-peak-climbing-02-05.jpg",
+    "images/packages/treks/peak-climbing/chulu-far-east-peak-climbing-chulu-west-peak-climbing-everest-expedition-2025-spring-session-1366-x-9-06.jpg",
+    "images/packages/treks/peak-climbing/chulu-far-east-peak-climbing-trail-5.jpg",
+    "images/packages/treks/peak-climbing/chulu-far-east-peak-climbing-trail-6.jpg"
   ],
-  "mapImage": "uploads/chulu-far-east-peak-climbing.jpg",
+  "mapImage": "images/packages/maps/chulu-far-east-peak-climbing-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:16.450Z"
 }

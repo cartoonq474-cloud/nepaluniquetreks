@@ -363,14 +363,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/ghorepani.jpg",
-    "uploads/IMG_20161001_062121.jpg",
-    "uploads/IMG_6339.JPG",
-    "uploads/IMG_5585.JPG",
-    "uploads/IMG_1755-1.JPG",
-    "uploads/IMG_6322.JPG",
-    "uploads/IMG_5586.JPG"
+    "images/packages/treks/annapurna/ghorepani-poon-hill-trek-05.jpg",
+    "images/packages/treks/annapurna/ghorepani-poon-hill-trek.jpg",
+    "images/packages/treks/annapurna/ghorepani-poon-hill-trek-02.jpg",
+    "images/packages/treks/annapurna/ghorepani-poon-hill-trek-03.jpg",
+    "images/packages/treks/annapurna/ghorepani-poon-hill-trek-04.jpg",
+    "images/packages/treks/annapurna/ghorepani-poon-hill-trek-06.jpg"
   ],
-  "mapImage": "uploads/ghorepani-poon-hill-trek.jpg",
+  "mapImage": "images/packages/maps/ghorepani-poon-hill-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:56:13.481Z"
 }

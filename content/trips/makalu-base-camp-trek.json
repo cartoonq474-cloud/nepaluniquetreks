@@ -565,11 +565,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/makalu-base-camp-trek.jpg",
-    "uploads/makalu-trekking-nepal.jpg",
-    "uploads/makalu-base-camp-trekking.jpg",
-    "uploads/makalu-trekking.jpg",
-    "uploads/makalu-trekking-routs.jpg"
+    "images/packages/treks/dolpo-and-remote/makalu-base-camp-trekking.jpg",
+    "images/packages/treks/dolpo-and-remote/makalu-base-camp-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/makalu-base-camp-trek-kanchenjunga-trek-04.jpg",
+    "images/packages/treks/dolpo-and-remote/makalu-base-camp-trek-makalu-trekking-nepal-05.jpg",
+    "images/packages/treks/dolpo-and-remote/makalu-base-camp-trek-rolwaling-trek-1-06.jpg",
+    "images/packages/treks/dolpo-and-remote/makalu-base-camp-trek-makalu-trekking-routs-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:56:02.957Z"

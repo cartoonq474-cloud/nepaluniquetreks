@@ -239,11 +239,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/safari-holiday.jpg",
-    "uploads/nepal-chitwan-jungle-safari.jpg",
-    "uploads/chitwan-national-park-12-XL.jpg",
-    "uploads/bardiya-national-park-tour.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg"
+    "images/packages/tours/safari-holiday.jpg",
+    "images/packages/tours/safari-holiday-kathmandu-valley-nagarkot-tour-03.jpg",
+    "images/packages/tours/safari-holiday-kathmandu-pokhara-tour-04.jpg",
+    "images/packages/tours/safari-holiday-kathmandu-lumbini-tours-lumbini-1-05.jpg",
+    "images/packages/tours/safari-holiday-nepal-tour-06.jpg",
+    "images/packages/tours/safari-holiday-kathmandu-pokhara-lumbini-tours-13-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:39:45.154Z"

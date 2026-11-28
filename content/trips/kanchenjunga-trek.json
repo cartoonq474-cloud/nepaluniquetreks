@@ -621,11 +621,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/kanchenjunga-trek.jpg",
-    "uploads/k-b-c-trek.jpg",
-    "uploads/kanchanjungha-base-camp-trek.jpg",
-    "uploads/kanchenjunga-base-camp-trek-nepal.jpg",
-    "uploads/kanchenjunga-base-camp.jpg"
+    "images/packages/treks/dolpo-and-remote/kanchenjunga-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/kanchenjunga-trek-kanchanjungha-base-camp-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/kanchenjunga-trek-k-b-c-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/kanchenjunga-trek-rolwaling-trek-1-05.jpg",
+    "images/packages/treks/dolpo-and-remote/kanchenjunga-base-camp.jpg",
+    "images/packages/treks/dolpo-and-remote/kanchenjunga-trek-lower-dolpo-trek-nepal-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:34.313Z"

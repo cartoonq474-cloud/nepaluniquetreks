@@ -303,13 +303,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Tamang Heritage Trail Trek.jpg",
-    "uploads/497468706_984392323906362_4262626556741244653_n.jpg",
-    "uploads/657391909_10232342848182430_5715780842064945953_n.jpg",
-    "uploads/Tamang Heritage Trails Trek.jpg",
-    "uploads/669655815_10162718591892467_8769053433882148110_n.jpg",
-    "uploads/654782829_10232342854022576_2745407826518687558_n.jpg"
+    "images/packages/treks/langtang-and-ganesh/tamang-heritage-trail-trek-02.jpg",
+    "images/packages/treks/langtang-and-ganesh/tamang-heritage-trail-trek-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/tamang-heritage-trail-trek-04.jpg",
+    "images/packages/treks/langtang-and-ganesh/tamang-heritage-trail-trek.jpg",
+    "images/packages/treks/langtang-and-ganesh/tamang-heritage-trail-trek-05.jpg",
+    "images/packages/treks/langtang-and-ganesh/tamang-heritage-trails-trek.jpg"
   ],
-  "mapImage": "uploads/tamang-heritage-trek.jpg",
+  "mapImage": "images/packages/maps/tamang-heritage-trail-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:07.229Z"
 }

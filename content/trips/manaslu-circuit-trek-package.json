@@ -386,12 +386,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Manaslu Circuit Treks.jpg",
-    "uploads/Manaslu Trek.jpg",
-    "uploads/Manaslu Circuit Trekking.jpg",
-    "uploads/Manaslu Circuit Trek-2.jpg",
-    "uploads/Manaslu Circuit Trekkings.jpg"
+    "images/packages/treks/manaslu/manaslu-circuit-trek-package-tsum-valley-trek-08.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-2.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-gurung-heritage-trekking-trails.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-02.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trekking.jpg",
+    "images/packages/treks/manaslu/manaslu-circuit-trek-package-manaslu-exppp-06.jpg"
   ],
-  "mapImage": "uploads/manaslu-circuit-trek-14-days.jpg",
+  "mapImage": "images/packages/maps/manaslu-circuit-trek-package-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:14.471Z"
 }

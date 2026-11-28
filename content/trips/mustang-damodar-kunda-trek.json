@@ -594,11 +594,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/damodar-kunda-trek.jpg",
-    "images/treks/upper-mustang/upper-mustang-chhoser-sky-caves-03.jpg",
-    "images/treks/upper-mustang/upper-mustang-drakmar-red-cliffs-02.jpg",
-    "images/treks/upper-mustang/upper-mustang-kagbeni-gateway-04.jpg",
-    "images/treks/upper-mustang/upper-mustang-lo-manthang-walled-city-01.jpg"
+    "images/packages/treks/mustang/mustang-damodar-kunda-trek.jpg",
+    "images/packages/treks/mustang/mustang-damodar-kunda-trek-upper-mustang-teahouse-trekking-03.jpg",
+    "images/packages/treks/mustang/mustang-damodar-kunda-trek-upper-mustang-overland-jeep-tour-04-04.jpg",
+    "images/packages/treks/mustang/mustang-damodar-kunda-trek-mustang-tiji-festival-trek-upper-mustang-tiji-festivel-trek-05.jpg",
+    "images/packages/treks/mustang/mustang-damodar-kunda-trek-upper-mustang-muktinath-trek-06.jpg",
+    "images/packages/treks/mustang/mustang-damodar-kunda-trek-upper-mustang-trek-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:59:06.294Z"

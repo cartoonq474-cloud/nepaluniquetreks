@@ -491,11 +491,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/basantapur.jpg",
-    "uploads/kathmandu-durbar-squire.jpg",
-    "uploads/pokhara-himalayan-view-winter.jpg",
-    "uploads/kathmandu pokhara lumbini tour.jpg",
-    "uploads/nagarkot.JPG"
+    "images/packages/tours/nepal-tours-package-basantapur.jpg",
+    "images/packages/tours/nepal-tours-package-kathmandu-valley-nagarkot-tour-03.jpg",
+    "images/packages/tours/nepal-tours-package-kathmandu-pokhara-tour-04.jpg",
+    "images/packages/tours/nepal-tours-package-kathmandu-lumbini-tours-lumbini-1-05.jpg",
+    "images/packages/tours/nepal-tours-package-nepal-tour-06.jpg",
+    "images/packages/tours/nepal-tours-package-kathmandu-pokhara-lumbini-tours-13-07.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:54:43.644Z"

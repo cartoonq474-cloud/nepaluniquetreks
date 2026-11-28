@@ -1,0 +1,728 @@
+{
+  "generatedAt": "2026-11-28T16:56:44.935Z",
+  "promotedAssetsCount": 804,
+  "tripsUpdated": 115,
+  "routeMapsWired": 70,
+  "totalSourceMB": 205.91,
+  "totalOptimizedMB": 114.03,
+  "savingsPercent": 44.6,
+  "samplesLargestSaved": [
+    {
+      "destRel": "images/blog-live/nepal-trekking-seasons-hd.jpg",
+      "srcBytes": 9499541,
+      "outBytes": 232122,
+      "mode": "ffmpeg",
+      "savedKB": 9050
+    },
+    {
+      "destRel": "images/about/legal-industry-commerce.jpg",
+      "srcBytes": 3537210,
+      "outBytes": 289353,
+      "mode": "ffmpeg",
+      "savedKB": 3172
+    },
+    {
+      "destRel": "images/packages/treks/annapurna/annapurna-base-camp-trek-04.jpg",
+      "srcBytes": 3309765,
+      "outBytes": 110906,
+      "mode": "ffmpeg",
+      "savedKB": 3124
+    },
+    {
+      "destRel": "images/about/legal-company-registration.jpg",
+      "srcBytes": 3053126,
+      "outBytes": 362803,
+      "mode": "ffmpeg",
+      "savedKB": 2627
+    },
+    {
+      "destRel": "images/about/legal-gtean-certificate.jpg",
+      "srcBytes": 3027792,
+      "outBytes": 470760,
+      "mode": "ffmpeg",
+      "savedKB": 2497
+    },
+    {
+      "destRel": "images/about/legal-tripadvisor-award.jpg",
+      "srcBytes": 2332453,
+      "outBytes": 113689,
+      "mode": "ffmpeg",
+      "savedKB": 2167
+    },
+    {
+      "destRel": "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek.jpg",
+      "srcBytes": 1971128,
+      "outBytes": 342849,
+      "mode": "ffmpeg",
+      "savedKB": 1590
+    },
+    {
+      "destRel": "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-05.jpg",
+      "srcBytes": 1845575,
+      "outBytes": 322174,
+      "mode": "ffmpeg",
+      "savedKB": 1488
+    },
+    {
+      "destRel": "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-02.jpg",
+      "srcBytes": 1665599,
+      "outBytes": 282313,
+      "mode": "ffmpeg",
+      "savedKB": 1351
+    },
+    {
+      "destRel": "images/about/legal-community-appreciation.jpg",
+      "srcBytes": 1459155,
+      "outBytes": 201983,
+      "mode": "ffmpeg",
+      "savedKB": 1228
+    },
+    {
+      "destRel": "images/about/legal-guide-license.jpg",
+      "srcBytes": 1332045,
+      "outBytes": 169546,
+      "mode": "ffmpeg",
+      "savedKB": 1135
+    },
+    {
+      "destRel": "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-03.jpg",
+      "srcBytes": 1349198,
+      "outBytes": 272955,
+      "mode": "ffmpeg",
+      "savedKB": 1051
+    },
+    {
+      "destRel": "images/packages/treks/peak-climbing/ama-dablam-base-camp-trek-06.jpg",
+      "srcBytes": 1066784,
+      "outBytes": 209090,
+      "mode": "ffmpeg",
+      "savedKB": 838
+    },
+    {
+      "destRel": "images/packages/treks/langtang-and-ganesh/langtang-gosaikunda-lake-trek-13.jpg",
+      "srcBytes": 1035641,
+      "outBytes": 182091,
+      "mode": "ffmpeg",
+      "savedKB": 834
+    },
+    {
+      "destRel": "images/packages/treks/manaslu/tsum-valley-trek-08.jpg",
+      "srcBytes": 956366,
+      "outBytes": 269553,
+      "mode": "ffmpeg",
+      "savedKB": 671
+    },
+    {
+      "destRel": "images/packages/treks/peak-climbing/manaslu-expedition-tsum-valley-trek-08-04.jpg",
+      "srcBytes": 956366,
+      "outBytes": 269553,
+      "mode": "ffmpeg",
+      "savedKB": 671
+    },
+    {
+      "destRel": "images/packages/treks/manaslu/short-manaslu-circuit-trek-tsum-valley-trek-08-07.jpg",
+      "srcBytes": 956366,
+      "outBytes": 269553,
+      "mode": "ffmpeg",
+      "savedKB": 671
+    },
+    {
+      "destRel": "images/packages/treks/langtang-and-ganesh/ganesh-himal-rupina-la-trek-tsum-valley-trek-08.jpg",
+      "srcBytes": 956366,
+      "outBytes": 269553,
+      "mode": "ffmpeg",
+      "savedKB": 671
+    },
+    {
+      "destRel": "images/packages/treks/manaslu/manaslu-circuit-trek-package-tsum-valley-trek-08.jpg",
+      "srcBytes": 956366,
+      "outBytes": 269553,
+      "mode": "ffmpeg",
+      "savedKB": 671
+    },
+    {
+      "destRel": "images/packages/treks/manaslu/manaslu-circuit-trek-with-tsum-valley-tsum-valley-trek-08-03.jpg",
+      "srcBytes": 956366,
+      "outBytes": 269553,
+      "mode": "ffmpeg",
+      "savedKB": 671
+    }
+  ],
+  "tripStats": [
+    {
+      "slug": "timal-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "rolwaling-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "safari-holiday",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "rara-lake-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "sivapuri-hiking",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "fikuri-hill-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/fikuri-hill-trek-route-map.jpg"
+    },
+    {
+      "slug": "mt-cholatse-peak",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "upper-dolpo-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "tsum-valley-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/tsum-valley-trek-route-map.jpg"
+    },
+    {
+      "slug": "mardi-himal-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/mardi-himal-trek-route-map.jpg"
+    },
+    {
+      "slug": "gorilla-trekking",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "lower-dolpo-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "kanchenjunga-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "everest-mini-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-mini-trek-route-map.jpg"
+    },
+    {
+      "slug": "gokyo-valley-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/gokyo-valley-trek-route-map.jpg"
+    },
+    {
+      "slug": "everest-view-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-view-trek-route-map.jpg"
+    },
+    {
+      "slug": "namobuddha-hiking",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "panch-pokhari-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/panch-pokhari-trek-route-map.jpg"
+    },
+    {
+      "slug": "manaslu-expedition",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "mera-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/mera-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "upper-mustang-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/upper-mustang-trek-route-map.jpg"
+    },
+    {
+      "slug": "nar-phu-valley-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/nar-phu-valley-trek-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-mini-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-mini-trek-route-map.jpg"
+    },
+    {
+      "slug": "nepal-tours-package",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "thorong-la-pass-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "island-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/island-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "paldor-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/paldor-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "naya-kang-peak-climb",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/naya-kang-peak-climb-route-map.jpg"
+    },
+    {
+      "slug": "manaslu-circuit-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/manaslu-circuit-trek-route-map.jpg"
+    },
+    {
+      "slug": "family-tour-in-nepal",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "ruby-valley-trekking",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ruby-valley-trekking-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-royal-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-royal-trek-route-map.jpg"
+    },
+    {
+      "slug": "pisang-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/pisang-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "langtang-valley-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "sirubari-village-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "nepal-experience-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "jomsom-muktinath-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/jomsom-muktinath-trek-route-map.jpg"
+    },
+    {
+      "slug": "lobuche-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/lobuche-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "langtang-valley-treks",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/langtang-valley-treks-route-map.jpg"
+    },
+    {
+      "slug": "makalu-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "annapurna-circuit-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-circuit-trek-route-map.jpg"
+    },
+    {
+      "slug": "jiri-everest-base-camp",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/jiri-everest-base-camp-route-map.jpg"
+    },
+    {
+      "slug": "chisapani-helambu-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/chisapani-helambu-trek-route-map.jpg"
+    },
+    {
+      "slug": "ganesh-himal-view-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ganesh-himal-view-trek-route-map.jpg"
+    },
+    {
+      "slug": "kathmandu-pokhara-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "everest-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-trek-route-map.jpg"
+    },
+    {
+      "slug": "honeymoon-tour-in-nepal",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "kathmandu-lumbini-tours",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "luxury-holiday-in-nepal",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "ghale-gaun-village-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "chisapani-nagarkot-hike",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "ghorepani-ghandruk-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ghorepani-ghandruk-trek-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-base-camp-trek-route-map.jpg"
+    },
+    {
+      "slug": "chulu-west-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/chulu-west-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "ghorepani-poon-hill-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ghorepani-poon-hill-trek-route-map.jpg"
+    },
+    {
+      "slug": "ama-dablam-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ama-dablam-base-camp-trek-route-map.jpg"
+    },
+    {
+      "slug": "mardi-himal-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/mardi-himal-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "dhaulagiri-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "himlung-himal-expeditions",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "bardiya-national-park-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "mustang-tiji-festival-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/mustang-tiji-festival-trek-route-map.jpg"
+    },
+    {
+      "slug": "kathmandu-valley-day-tours",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "mustang-damodar-kunda-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "tamang-heritage-trail-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/tamang-heritage-trail-trek-route-map.jpg"
+    },
+    {
+      "slug": "short-manaslu-circuit-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/short-manaslu-circuit-trek-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-sunrise-view-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "ganesh-himal-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ganesh-himal-base-camp-trek-route-map.jpg"
+    },
+    {
+      "slug": "ganesh-himal-rupina-la-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ganesh-himal-rupina-la-trek-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-panorama-trekking",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-panorama-trekking-route-map.jpg"
+    },
+    {
+      "slug": "everest-expedition-in-nepal",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "everest-sherpa-village-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-sherpa-village-trek-route-map.jpg"
+    },
+    {
+      "slug": "everest-three-high-pass-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-three-high-pass-trek-route-map.jpg"
+    },
+    {
+      "slug": "manaslu-circuit-trek-package",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/manaslu-circuit-trek-package-route-map.jpg"
+    },
+    {
+      "slug": "chulu-far-east-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/chulu-far-east-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "upper-mustang-tea-house-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/upper-mustang-tea-house-trek-route-map.jpg"
+    },
+    {
+      "slug": "upper-mustang-muktinath-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/upper-mustang-muktinath-trek-route-map.jpg"
+    },
+    {
+      "slug": "mera-peak-climbing-from-khare",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "everest-base-camp-luxury-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-luxury-trek-route-map.jpg"
+    },
+    {
+      "slug": "ganesh-himal-singla-pass-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ganesh-himal-singla-pass-trek-route-map.jpg"
+    },
+    {
+      "slug": "langtang-gosaikunda-lake-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/langtang-gosaikunda-lake-trek-route-map.jpg"
+    },
+    {
+      "slug": "mardi-himal-trek-from-pokhara",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/mardi-himal-trek-from-pokhara-route-map.jpg"
+    },
+    {
+      "slug": "ganesh-himal-ruby-valley-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/ganesh-himal-ruby-valley-trek-route-map.jpg"
+    },
+    {
+      "slug": "gokyo-cho-la-pass-trek-via-ebc",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/gokyo-cho-la-pass-trek-via-ebc-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-base-camp-short-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-base-camp-short-trek-route-map.jpg"
+    },
+    {
+      "slug": "luxury-ghorepani-ghandruk-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/luxury-ghorepani-ghandruk-trek-route-map.jpg"
+    },
+    {
+      "slug": "everest-base-camp-trek-by-road",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-trek-by-road-route-map.jpg"
+    },
+    {
+      "slug": "gurung-heritage-trekking-trail",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "kathmandu-valley-nagarkot-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "kathmandu-pokhara-sunrise-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "kathmandu-pokhara-lumbini-tours",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "kathmandu-pokhara-ghandruk-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "upper-mustang-overland-jeep-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "everest-heli-tour-with-breakfast",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "gokyo-renjo-la-pass-trek-15-days",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/gokyo-renjo-la-pass-trek-15-days-route-map.jpg"
+    },
+    {
+      "slug": "nar-phu-valley-kang-la-pass-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/nar-phu-valley-kang-la-pass-trek-route-map.jpg"
+    },
+    {
+      "slug": "everest-base-camp-tea-house-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-tea-house-trek-route-map.jpg"
+    },
+    {
+      "slug": "dhaulagiri-trek-and-dhampus-peak",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/dhaulagiri-trek-and-dhampus-peak-route-map.jpg"
+    },
+    {
+      "slug": "everest-base-camp-helicopter-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "buddhist-pilgrimage-tour-of-nepal",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "everest-high-pass-with-island-peak",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-high-pass-with-island-peak-route-map.jpg"
+    },
+    {
+      "slug": "manaslu-circuit-trek-with-tsum-valley",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/manaslu-circuit-trek-with-tsum-valley-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-circuit-with-poon-hill-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-circuit-with-poon-hill-trek-route-map.jpg"
+    },
+    {
+      "slug": "kathmandu-pokhara-chitwan-lumbini-tour",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "nepal-cultural-tour-with-poon-hill-trek",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "annapurna-base-camp-with-poon-hill-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-base-camp-with-poon-hill-trek-route-map.jpg"
+    },
+    {
+      "slug": "gokyo-chola-pass-everest-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/gokyo-chola-pass-everest-base-camp-trek-route-map.jpg"
+    },
+    {
+      "slug": "everest-base-camp-trek-with-heli-return",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-trek-with-heli-return-route-map.jpg"
+    },
+    {
+      "slug": "annapurna-circuit-with-tilicho-lake-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/annapurna-circuit-with-tilicho-lake-trek-route-map.jpg"
+    },
+    {
+      "slug": "everest-base-camp-cho-la-pass-gokyo-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-cho-la-pass-gokyo-trek-route-map.jpg"
+    },
+    {
+      "slug": "vesak-day-buddha-jayanti-in-lumbini-nepal",
+      "galleryCount": 6,
+      "mapImage": null
+    },
+    {
+      "slug": "langtang-valley-ganjala-pass-helambu-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/langtang-valley-ganjala-pass-helambu-trek-route-map.jpg"
+    },
+    {
+      "slug": "everest-base-camp-with-island-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-with-island-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "everest-base-camp-with-lobuche-peak-climbing",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/everest-base-camp-with-lobuche-peak-climbing-route-map.jpg"
+    },
+    {
+      "slug": "christmas-new-year-holidays-package-in-nepal",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/christmas-new-year-holidays-package-in-nepal-route-map.jpg"
+    },
+    {
+      "slug": "mani-rimdu-festival-with-everest-base-camp-trek",
+      "galleryCount": 6,
+      "mapImage": "images/packages/maps/mani-rimdu-festival-with-everest-base-camp-trek-route-map.jpg"
+    }
+  ]
+}

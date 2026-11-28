@@ -370,12 +370,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/timal trek.JPG",
-    "uploads/IMG_4444.JPG",
-    "uploads/IMG_4466.JPG",
-    "uploads/IMG_4479.JPG",
-    "uploads/IMG_4488.JPG",
-    "uploads/IMG_4503.JPG"
+    "images/packages/treks/dolpo-and-remote/timal-trek.jpg",
+    "images/packages/treks/dolpo-and-remote/timal-trek-02.jpg",
+    "images/packages/treks/dolpo-and-remote/timal-trek-03.jpg",
+    "images/packages/treks/dolpo-and-remote/timal-trek-04.jpg",
+    "images/packages/treks/dolpo-and-remote/timal-trek-05.jpg",
+    "images/packages/treks/dolpo-and-remote/timal-trek-06.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T10:39:44.739Z"

@@ -216,13 +216,12 @@
     ]
   },
   "galleryImages": [
-    "uploads/IMG_20161018_110222-2.jpg",
-    "uploads/IMG_3882.JPG",
-    "uploads/IMG_20161016_132149.jpg",
-    "uploads/IMG_20161018_110305-1.jpg",
-    "uploads/IMG_20161016_132052-1.jpg",
-    "uploads/IMG_9118.JPG",
-    "uploads/IMG_8681-2.JPG"
+    "images/packages/tours/everest-base-camp-helicopter-tour-with.jpg",
+    "images/packages/tours/everest-base-camp-helicopter-tour.jpg",
+    "images/packages/tours/everest-base-camp-helicopter-tour-02.jpg",
+    "images/packages/tours/everest-base-camp-helicopter-tour-03.jpg",
+    "images/packages/tours/everest-base-camp-helicopter-tour-04.jpg",
+    "images/packages/tours/everest-base-camp-helicopter-tour-05.jpg"
   ],
   "mapImage": "",
   "fetchedAt": "2026-11-28T11:00:28.981Z"

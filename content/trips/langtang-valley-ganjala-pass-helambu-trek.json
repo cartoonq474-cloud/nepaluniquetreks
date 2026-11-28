@@ -385,12 +385,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/ganjala-pass-trek.jpg",
-    "images/treks/langtang-valley/langtang-trek-hiker-mountain-view-03.jpg",
-    "images/treks/langtang-valley/langtang-trek-hiker-rocky-viewpoint-06.jpg",
-    "images/treks/langtang-valley/langtang-trek-snowy-mountain-landscape-05.jpg",
-    "images/treks/langtang-valley/langtang-trek-trekkers-mountain-view-01.jpg"
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-ganjala-pass-helambu-trek-ganjala-pass-trek.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-ganjala-pass-helambu-trek-fikuri-hill-trek-03.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-ganjala-pass-helambu-trek-ganesh-himal-singla-pass-trek-1-04.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-ganjala-pass-helambu-trek-ganesh-himal-base-camp-trek-05.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-ganjala-pass-helambu-trek-ruby-valley-trek-2-06.jpg",
+    "images/packages/treks/langtang-and-ganesh/langtang-valley-ganjala-pass-helambu-trek-ganesh-himal-ruby-valley-trek-ruby-valley-trek-1-07.jpg"
   ],
-  "mapImage": "uploads/langtang-valley-ganjala-pass-helambu-trek.jpg",
+  "mapImage": "images/packages/maps/langtang-valley-ganjala-pass-helambu-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:42.173Z"
 }

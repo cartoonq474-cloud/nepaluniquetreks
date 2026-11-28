@@ -403,19 +403,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/annapurna base camp with poon hill .jpg",
-    "uploads/IMG_1097.JPG",
-    "uploads/IMG_1393.jpg",
-    "uploads/IMG_1058.JPG",
-    "uploads/45042911_723994041294929_7269300833596997632_n.jpg",
-    "uploads/45170203_1881933878593353_659372364353503232_n.jpg",
-    "uploads/IMG_4199.JPG",
-    "uploads/IMG_1549.jpg",
-    "uploads/IMG_1548.jpg",
-    "uploads/IMG_1021.JPG",
-    "uploads/IMG_0985.JPG",
-    "uploads/45228025_734110963619312_7540320360965603328_n.jpg"
+    "images/packages/treks/annapurna/annapurna-base-camp-with-poon-hill-trek-04.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-with-poon-hill-trek-trang-hong-ali.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-with-poon-hill-trek-12.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-with-poon-hill-trek.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-with-poon-hill-trek-03.jpg",
+    "images/packages/treks/annapurna/annapurna-base-camp-with-poon-hill-trek-09.jpg"
   ],
-  "mapImage": "uploads/annapurna-circuit-with-poon-hill-trek.jpg",
+  "mapImage": "images/packages/maps/annapurna-base-camp-with-poon-hill-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T11:00:34.530Z"
 }

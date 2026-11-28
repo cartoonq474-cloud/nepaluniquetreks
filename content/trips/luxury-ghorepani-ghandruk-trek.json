@@ -435,15 +435,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/luxury-ghorepani-ghandruk-trek.jpg",
-    "uploads/luxury-poonhill-trek.jpg",
-    "uploads/ghorepani-ghandruk-trek.jpg",
-    "uploads/ghorepani-poonhill-trek.jpg",
-    "uploads/poonhill-trekking.jpg",
-    "uploads/ghorepani-ghandruk-trekking.jpg",
-    "uploads/poonhill-trek.jpg",
-    "uploads/poonhill-viewpoint.jpg"
+    "images/packages/treks/annapurna/luxury-ghorepani-ghandruk-trek-poonhill-trek.jpg",
+    "images/packages/treks/annapurna/luxury-ghorepani-ghandruk-trek-ghorepani-ghandruk-trekking.jpg",
+    "images/packages/treks/annapurna/luxury-ghorepani-ghandruk-trek-ghorepani-poonhill-trek.jpg",
+    "images/packages/treks/annapurna/luxury-ghorepani-ghandruk-trek-02.jpg",
+    "images/packages/treks/annapurna/luxury-ghorepani-ghandruk-trek-poonhill-trekking.jpg",
+    "images/packages/treks/annapurna/luxury-ghorepani-ghandruk-trek-poonhill-viewpoint.jpg"
   ],
-  "mapImage": "uploads/ghorepani-poon-hill-trek.jpg",
+  "mapImage": "images/packages/maps/luxury-ghorepani-ghandruk-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:59:25.974Z"
 }

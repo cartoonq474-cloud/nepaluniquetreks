@@ -470,15 +470,13 @@
     ]
   },
   "galleryImages": [
-    "uploads/Upper Mustang Trek.JPG",
-    "uploads/DSC00752.JPG",
-    "uploads/DSC02059-1.JPG",
-    "uploads/DSC01807-1.JPG",
-    "uploads/DSC02098.JPG",
-    "uploads/DSC02124.JPG",
-    "uploads/DSC00912.JPG",
-    "uploads/DSC01447.JPG"
+    "images/packages/treks/mustang/upper-mustang-trek-dsc00752.jpg",
+    "images/packages/treks/mustang/upper-mustang-trek-dsc01447.jpg",
+    "images/packages/treks/mustang/upper-mustang-trek-dsc01807-1.jpg",
+    "images/packages/treks/mustang/upper-mustang-trek-dsc02098.jpg",
+    "images/packages/treks/mustang/upper-mustang-trek-dsc02124.jpg",
+    "images/packages/treks/mustang/upper-mustang-trek.jpg"
   ],
-  "mapImage": "uploads/upper-mustang-trek.jpg",
+  "mapImage": "images/packages/maps/upper-mustang-trek-route-map.jpg",
   "fetchedAt": "2026-11-28T10:54:41.236Z"
 }
