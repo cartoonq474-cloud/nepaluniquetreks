@@ -1679,218 +1679,383 @@ body.mobile-nav-lock .main-header.header-scrolled {
   }
 }
 
-/* ==================== Himalayan Trekking Experience Gallery & CSR ==================== */
-.csr-impact-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  max-width: 960px;
-  margin: 0 auto 28px auto;
-  width: 100%;
+/* ==================== Our Commitment to Nepal (CSR Split Showcase) ==================== */
+.csr-showcase-section {
+  padding: clamp(56px, 6vw, 88px) 0;
+  background: var(--color-white);
 }
 
-.csr-impact-card {
-  background: #FFFFFF;
+.csr-showcase-card {
+  background:
+    radial-gradient(circle at 8% 12%, rgba(34, 132, 95, 0.06), transparent 44%),
+    radial-gradient(circle at 92% 88%, rgba(31, 107, 147, 0.05), transparent 48%),
+    var(--color-glacier-bg);
   border: 1px solid #DDE6DF;
-  border-radius: 14px;
-  padding: 14px 18px;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  box-shadow: 0 4px 14px rgba(27, 41, 33, 0.04);
-  text-align: left;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.csr-impact-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(27, 41, 33, 0.08);
-}
-
-@media (max-width: 820px) {
-  .csr-impact-row {
-    grid-template-columns: 1fr;
-    max-width: 400px;
-  }
-}
-
-.trekking-gallery-section {
-  padding: 85px 0 90px 0;
-  background-color: #F3F8F5;
-  border-top: 1px solid #DDE6DF;
-  overflow: hidden;
-}
-
-.trekking-gallery-container {
-  overflow-x: auto;
-  padding: 10px 40px 30px 40px;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  cursor: grab;
-  user-select: none;
-  /* Prevent text highlighting during drag */
-}
-
-.trekking-gallery-container.dragging {
-  scroll-behavior: auto;
-  cursor: grabbing;
-}
-
-.trekking-gallery-track {
-  display: flex;
-  gap: 24px;
-  width: max-content;
-}
-
-/* Base Gallery Card Styling */
-.gallery-card {
-  position: relative;
   border-radius: 24px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-  cursor: pointer;
-  box-shadow: 0 10px 30px rgba(27, 41, 33, 0.06);
+  padding: clamp(28px, 4vw, 52px);
+  box-shadow: 0 14px 36px rgba(23, 60, 50, 0.06);
 }
 
-.gallery-card-image {
-  position: absolute;
-  z-index: 0;
+.csr-showcase-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+  gap: clamp(28px, 4vw, 54px);
+  align-items: center;
+}
+
+/* Left Column: 5-Photo Asymmetric Bento Mosaic */
+.csr-mosaic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  height: clamp(460px, 40vw, 540px);
+}
+
+.csr-mosaic-col {
+  display: grid;
+  gap: 12px;
+  min-height: 0;
+  height: 100%;
+}
+
+.csr-mosaic-col--left {
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.csr-mosaic-col--right {
+  grid-template-rows: minmax(0, 0.72fr) minmax(0, 1.66fr) minmax(0, 0.78fr);
+}
+
+.csr-mosaic-tile {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1.5px solid rgba(233, 165, 68, 0.62);
+  background: #E2EDE6;
+  box-shadow: 0 6px 18px rgba(16, 39, 31, 0.08);
+  min-height: 0;
+}
+
+.csr-mosaic-tile img {
   width: 100%;
   height: 100%;
-  inset: 0;
   object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  display: block;
+  transition: transform 0.55s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.gallery-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 45px rgba(27, 41, 33, 0.15);
+.csr-mosaic-tile:hover img {
+  transform: scale(1.045);
 }
 
-.gallery-card:hover .gallery-card-image {
-  transform: scale(1.04);
-}
-
-/* Card dimensions matching collage style */
-.gallery-card.card-tall {
-  width: 320px;
-  height: 480px;
-  flex-shrink: 0;
-}
-
-.gallery-card.card-wide {
-  width: 560px;
-  height: 480px;
-  flex-shrink: 0;
-}
-
-.gallery-stacked-col {
+/* Right Column: Editorial Content */
+.csr-content-col {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 380px;
-  height: 480px;
-  flex-shrink: 0;
+  align-items: flex-start;
+  text-align: left;
+  min-width: 0;
 }
 
-.gallery-card.card-stacked-item {
-  height: calc(50% - 10px);
+.csr-eyebrow {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  color: var(--color-brand-green);
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.csr-title {
+  margin: 0 0 18px 0;
+  color: var(--color-primary-navy);
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.2vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.csr-desc {
+  margin: 0 0 15px 0;
+  color: var(--color-neutral-800);
+  font-size: 1.01rem;
+  line-height: 1.68;
+  max-width: 58ch;
+}
+
+.csr-desc strong {
+  color: var(--color-primary-dark);
+}
+
+.csr-desc:last-of-type {
+  margin-bottom: 26px;
+}
+
+/* 3 Impact Pillar Cards */
+.csr-impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
   width: 100%;
+  margin-bottom: 28px;
 }
 
-/* Overlay & Content styling */
-.gallery-card-overlay {
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(27, 41, 33, 0) 35%, rgba(27, 41, 33, 0.88) 100%);
-  padding: 24px 22px;
+.csr-impact-item {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: #FFFFFF;
-  transition: background 0.35s ease;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 14px;
+  border-radius: 14px;
+  background: var(--color-white);
+  border: 1px solid #DDE6DF;
+  box-shadow: 0 4px 14px rgba(23, 60, 50, 0.05);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+  min-width: 0;
 }
 
-.gallery-card:hover .gallery-card-overlay {
-  background: linear-gradient(180deg, rgba(27, 41, 33, 0.12) 20%, rgba(27, 41, 33, 0.93) 100%);
+.csr-impact-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(34, 132, 95, 0.35);
+  box-shadow: 0 10px 22px rgba(23, 60, 50, 0.09);
 }
 
-.gallery-card-badge {
-  align-self: flex-start;
-  padding: 6px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 999px;
-  background: rgba(14, 39, 34, 0.76);
-  color: #FFFFFF;
+.csr-impact-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.csr-impact-item--green .csr-impact-icon {
+  background: var(--color-brand-green-soft);
+  color: var(--color-brand-green);
+}
+
+.csr-impact-item--blue .csr-impact-icon {
+  background: var(--color-alpine-blue-soft);
+  color: var(--color-alpine-blue);
+}
+
+.csr-impact-item--amber .csr-impact-icon {
+  background: var(--color-sunrise-soft);
+  color: #C9892F;
+}
+
+.csr-impact-text {
+  min-width: 0;
+}
+
+.csr-impact-label {
+  display: block;
+  font-family: var(--font-heading);
   font-size: 0.68rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  margin-bottom: 6px;
-  backdrop-filter: blur(6px);
+  line-height: 1.2;
 }
 
-.gallery-card-title {
-  font-size: 1.25rem;
+.csr-impact-item--green .csr-impact-label {
+  color: var(--color-brand-green);
+}
+
+.csr-impact-item--blue .csr-impact-label {
+  color: var(--color-alpine-blue);
+}
+
+.csr-impact-item--amber .csr-impact-label {
+  color: #B4771F;
+}
+
+.csr-impact-title {
+  display: block;
+  margin-top: 3px;
+  color: var(--color-primary-dark);
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
   font-weight: 700;
-  color: #FFFFFF;
-  margin: 0 0 6px 0;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  line-height: 1.32;
 }
 
-.gallery-card-desc {
-  font-size: 0.86rem;
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 1.45;
-  margin: 0;
-  max-height: 0;
-  opacity: 0;
-  transform: translateY(12px);
-  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
-  overflow: hidden;
+/* Primary CSR CTA Button */
+.csr-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 13px 26px;
+  border: none;
+  border-radius: 10px;
+  background: var(--color-brand-green);
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-size: 0.96rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(34, 132, 95, 0.24);
+  transition: background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.gallery-card:hover .gallery-card-desc {
-  max-height: 80px;
-  opacity: 1;
+.csr-cta-btn:hover {
+  background: var(--color-brand-green-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(34, 132, 95, 0.32);
+}
+
+.csr-cta-btn:active {
   transform: translateY(0);
-  margin-top: 4px;
 }
 
-@media (hover: none), (max-width: 768px) {
-  .gallery-card .gallery-card-overlay {
-    background: linear-gradient(180deg, rgba(27, 41, 33, 0.08) 20%, rgba(27, 41, 33, 0.92) 100%);
+.csr-cta-btn:focus-visible {
+  outline: 3px solid var(--color-sunrise-orange);
+  outline-offset: 3px;
+}
+
+@media (hover: none) {
+  .csr-mosaic-tile:hover img,
+  .csr-impact-item:hover,
+  .csr-cta-btn:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 1120px) {
+  .csr-showcase-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
 
-  .gallery-card .gallery-card-desc {
-    max-height: 96px;
-    opacity: 1;
-    transform: translateY(0);
-    margin-top: 4px;
+  .csr-content-col {
+    display: contents;
+  }
+
+  .csr-eyebrow {
+    order: 1;
+    align-self: flex-start;
+  }
+
+  .csr-title {
+    order: 2;
+    align-self: flex-start;
+  }
+
+  .csr-desc {
+    order: 3;
+    max-width: 100%;
+  }
+
+  .csr-desc:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .csr-mosaic-grid {
+    order: 4;
+    max-width: 680px;
+    width: 100%;
+    height: clamp(410px, 60vw, 500px);
+    margin: 22px auto 24px;
+  }
+
+  .csr-impact-grid {
+    order: 5;
+    margin-bottom: 24px;
+  }
+
+  .csr-cta-btn {
+    order: 6;
+    align-self: flex-start;
   }
 }
 
-/* Custom Scrollbar */
-.trekking-gallery-container::-webkit-scrollbar {
-  height: 8px;
+@media (max-width: 900px) {
+  .csr-impact-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 }
 
-.trekking-gallery-container::-webkit-scrollbar-track {
-  background: #DDE6DF;
-  border-radius: 9999px;
+@media (max-width: 640px) {
+  .csr-showcase-section {
+    padding: 40px 0;
+  }
+
+  .csr-showcase-section .container {
+    width: calc(100% - 24px);
+  }
+
+  .csr-showcase-card {
+    padding: 24px 16px;
+    border-radius: 20px;
+  }
+
+  .csr-eyebrow {
+    font-size: 0.72rem;
+    margin-bottom: 8px;
+  }
+
+  .csr-title {
+    font-size: clamp(1.75rem, 7vw, 2.2rem);
+    margin-bottom: 14px;
+  }
+
+  .csr-desc {
+    font-size: 0.95rem;
+    line-height: 1.62;
+    margin-bottom: 12px;
+  }
+
+  .csr-mosaic-grid {
+    height: clamp(370px, 102vw, 440px);
+    gap: 8px;
+    margin: 18px auto 20px;
+  }
+
+  .csr-mosaic-col {
+    gap: 8px;
+  }
+
+  .csr-mosaic-col--right {
+    grid-template-rows: minmax(0, 0.85fr) minmax(0, 1.42fr) minmax(0, 0.88fr);
+  }
+
+  .csr-mosaic-tile {
+    border-radius: 10px;
+  }
+
+  .csr-impact-grid {
+    margin-bottom: 20px;
+  }
+
+  .csr-impact-item {
+    padding: 13px 14px;
+  }
+
+  .csr-cta-btn {
+    width: 100%;
+  }
 }
 
-.trekking-gallery-container::-webkit-scrollbar-thumb {
-  background: #22845F;
-  border-radius: 9999px;
-  border: 2px solid #DDE6DF;
-}
+@media (max-width: 375px) {
+  .csr-showcase-card {
+    padding: 20px 12px;
+    border-radius: 16px;
+  }
 
-.trekking-gallery-container::-webkit-scrollbar-thumb:hover {
-  background: #176B4B;
+  .csr-mosaic-grid {
+    height: 350px;
+    gap: 6px;
+  }
+
+  .csr-mosaic-col {
+    gap: 6px;
+  }
 }
 
 /* Modal Overlay */
