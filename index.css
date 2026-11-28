@@ -31954,3 +31954,288 @@ select.capsule-select-dropdown::-ms-expand {
     gap: 12px;
   }
 }
+
+/* ==========================================================================
+   Home: Our History in Service Excellence Carousel
+   ========================================================================== */
+.excellence-awards-section {
+  background: var(--color-glacier-bg);
+  padding: clamp(40px, 4.5vw, 58px) 0;
+  border-bottom: 1px solid #E2EAE5;
+}
+
+.excellence-awards-header {
+  text-align: center;
+  margin-bottom: clamp(22px, 2.5vw, 30px);
+}
+
+.excellence-awards-title {
+  margin: 0;
+  color: #0B2545;
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  font-weight: 800;
+  line-height: 1.22;
+  letter-spacing: -0.015em;
+}
+
+.excellence-carousel-shell {
+  position: relative;
+  max-width: 1180px;
+  margin: 0 auto;
+  min-width: 0;
+}
+
+.excellence-carousel-viewport {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 4px 4px 10px;
+  border-radius: 16px;
+}
+
+.excellence-carousel-viewport:focus-visible {
+  outline: 3px solid var(--color-sunrise-orange);
+  outline-offset: 4px;
+}
+
+.excellence-carousel-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.excellence-carousel-track {
+  display: flex;
+  gap: 18px;
+}
+
+.excellence-card {
+  flex: 0 0 calc((100% - 72px) / 5);
+  aspect-ratio: 1 / 1;
+  min-width: 0;
+  background: var(--color-white);
+  border: 1px solid #DDE6DF;
+  border-radius: 14px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+  box-shadow: 0 2px 6px rgba(16, 39, 31, 0.03), 0 8px 20px rgba(16, 39, 31, 0.05);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  text-decoration: none;
+}
+
+.excellence-card:hover {
+  transform: translateY(-2px);
+  border-color: #C7D6CD;
+  box-shadow: 0 8px 22px rgba(16, 39, 31, 0.09);
+}
+
+.excellence-card:focus-visible {
+  outline: 3px solid var(--color-sunrise-orange);
+  outline-offset: 3px;
+}
+
+.excellence-card img {
+  width: 100%;
+  height: 100%;
+  max-width: 158px;
+  max-height: 158px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Desktop Floating Circular Arrows */
+.excellence-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #D5E0D9;
+  background: rgba(255, 255, 255, 0.96);
+  color: #0B2545;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(16, 39, 31, 0.08);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.excellence-arrow--prev {
+  left: -20px;
+}
+
+.excellence-arrow--next {
+  right: -20px;
+}
+
+.excellence-arrow:hover:not(:disabled) {
+  background: #0B2545;
+  border-color: #0B2545;
+  color: var(--color-white);
+}
+
+.excellence-arrow:focus-visible {
+  outline: 3px solid var(--color-sunrise-orange);
+  outline-offset: 2px;
+}
+
+.excellence-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Mobile & Tablet Bottom Navigation Bar */
+.excellence-mobile-controls {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.excellence-mobile-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #D5E0D9;
+  background: var(--color-white);
+  color: #0B2545;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(16, 39, 31, 0.06);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.excellence-mobile-btn:hover:not(:disabled) {
+  background: #0B2545;
+  border-color: #0B2545;
+  color: var(--color-white);
+}
+
+.excellence-mobile-btn:disabled {
+  opacity: 0.32;
+  cursor: default;
+  pointer-events: none;
+}
+
+.excellence-dots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.excellence-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: #C7D3CB;
+  cursor: pointer;
+  transition: width 0.25s ease, background-color 0.25s ease;
+}
+
+.excellence-dot.is-active {
+  width: 24px;
+  background: var(--color-brand-green);
+}
+
+@media (hover: none) {
+  .excellence-card:hover {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .excellence-carousel-viewport {
+    scroll-behavior: auto;
+  }
+}
+
+@media (max-width: 1279px) {
+  .excellence-arrow--prev {
+    left: 6px;
+  }
+
+  .excellence-arrow--next {
+    right: 6px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .excellence-carousel-track {
+    gap: 16px;
+  }
+
+  .excellence-card {
+    flex: 0 0 calc((100% - 48px) / 4);
+    padding: 18px;
+  }
+}
+
+@media (max-width: 860px) {
+  .excellence-carousel-track {
+    gap: 14px;
+  }
+
+  .excellence-card {
+    flex: 0 0 calc((100% - 28px) / 3);
+    padding: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .excellence-arrow {
+    display: none;
+  }
+
+  .excellence-mobile-controls {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .excellence-awards-section {
+    padding: 36px 0 40px;
+  }
+
+  .excellence-awards-section .container {
+    width: calc(100% - 24px);
+  }
+
+  .excellence-awards-header {
+    margin-bottom: 20px;
+  }
+
+  .excellence-carousel-track {
+    gap: 12px;
+  }
+
+  .excellence-card {
+    flex: 0 0 calc((100% - 24px) / 2.18);
+    padding: 14px;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .excellence-carousel-track {
+    gap: 10px;
+  }
+
+  .excellence-card {
+    flex: 0 0 calc((100% - 18px) / 2.08);
+    padding: 12px;
+    border-radius: 12px;
+  }
+}
