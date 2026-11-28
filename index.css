@@ -734,35 +734,6 @@ textarea {
   flex-shrink: 0;
 }
 
-.header-desktop-wa-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: #F0FDF4;
-  border: 1px solid #BBF7D0;
-  color: #15803D;
-  font-size: 0.82rem;
-  font-weight: 700;
-  padding: 8px 14px;
-  border-radius: 999px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  white-space: nowrap;
-}
-
-.header-desktop-wa-pill:hover {
-  background: #25D366;
-  border-color: #25D366;
-  color: #FFFFFF;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
-}
-
-.header-desktop-wa-pill svg {
-  flex-shrink: 0;
-}
-
 .header-book-trek-btn {
   display: inline-flex;
   align-items: center;
@@ -1073,7 +1044,7 @@ body.mobile-nav-lock .main-header.header-scrolled {
     overflow: visible;
   }
 
-  /* Show mobile header action group (WhatsApp + Book + Toggle) */
+  /* Show mobile header action group (Book + Toggle) */
   .mobile-header-actions {
     display: inline-flex;
     align-items: center;
@@ -1083,37 +1054,8 @@ body.mobile-nav-lock .main-header.header-scrolled {
   }
 
   /* When drawer is open, keep header ultra clean: show only Logo + X close button */
-  body.mobile-nav-lock .mobile-header-wa-btn,
   body.mobile-nav-lock .mobile-header-book-btn {
     display: none !important;
-  }
-
-  .mobile-header-wa-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    min-height: 40px;
-    background: #25D366;
-    color: #FFFFFF;
-    font-size: 0.78rem;
-    font-weight: 700;
-    padding: 6px 12px;
-    border-radius: 50px;
-    text-decoration: none;
-    box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
-    transition: transform 0.15s ease, background 0.15s ease;
-    flex-shrink: 0;
-  }
-
-  .mobile-header-wa-btn:hover,
-  .mobile-header-wa-btn:active {
-    background: #1EB954;
-    transform: translateY(-1px);
-    color: #FFFFFF;
-  }
-
-  .mobile-header-wa-btn svg {
-    flex-shrink: 0;
   }
 
   .mobile-header-book-btn {
@@ -1532,12 +1474,6 @@ body.mobile-nav-lock .main-header.header-scrolled {
     gap: 6px;
   }
 
-  .mobile-header-wa-btn {
-    min-height: 40px;
-    padding: 6px 11px;
-    font-size: 0.76rem;
-  }
-
   .mobile-header-book-btn {
     min-height: 40px;
     padding: 6px 12px;
@@ -1557,19 +1493,6 @@ body.mobile-nav-lock .main-header.header-scrolled {
 
 /* Extra Small Phones (<= 360px) */
 @media (max-width: 360px) {
-  .mobile-header-wa-label {
-    display: none;
-  }
-
-  .mobile-header-wa-btn {
-    width: 40px;
-    height: 40px;
-    min-height: 40px;
-    padding: 0;
-    justify-content: center;
-    border-radius: 50%;
-  }
-
   .mobile-header-book-btn {
     min-height: 40px;
     padding: 6px 12px;
